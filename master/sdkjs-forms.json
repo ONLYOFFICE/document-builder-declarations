@@ -1,0 +1,1293 @@
+[
+  {
+    "comment": "/**\n\t * Base class\n\t * @global\n\t * @class\n\t * @name Api\n\t */",
+    "meta": {
+      "lineno": 48,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs-forms/contents/apiBuilder.js?ref=aead3839376687931089099c835be561ad0bb3ac"
+    },
+    "description": "Base class",
+    "scope": "global",
+    "kind": "class",
+    "name": "Api",
+    "longname": "Api"
+  },
+  {
+    "comment": "/**\n\t * Common form properties.\n\t * @typedef {Object} FormPrBase\n\t * @property {string} key - Form key.\n\t * @property {string} tip - Form tip text.\n\t * @property {boolean} required - Specifies if the form is required or not.\n\t * @property {string} placeholder - Form placeholder text.\n\t */",
+    "meta": {
+      "lineno": 56,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs-forms/contents/apiBuilder.js?ref=aead3839376687931089099c835be561ad0bb3ac"
+    },
+    "description": "Common form properties.",
+    "kind": "typedef",
+    "name": "FormPrBase",
+    "type": {
+      "names": [
+        "Object"
+      ],
+      "parsedType": {
+        "type": "NameExpression",
+        "name": "Object"
+      }
+    },
+    "properties": [
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "Form key.",
+        "name": "key"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "Form tip text.",
+        "name": "tip"
+      },
+      {
+        "type": {
+          "names": [
+            "boolean"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "boolean"
+          }
+        },
+        "description": "Specifies if the form is required or not.",
+        "name": "required"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "Form placeholder text.",
+        "name": "placeholder"
+      }
+    ],
+    "longname": "FormPrBase",
+    "scope": "global"
+  },
+  {
+    "comment": "/**\n\t * Specific text field properties.\n\t * @typedef {Object} TextFormPrBase\n\t * @property {boolean} comb - Specifies if the text field should be a comb of characters with the same cell width. The maximum number of characters must be set to a positive value.\n\t * @property {number} maxCharacters - The maximum number of characters in the text field.\n\t * @property {number} cellWidth - The cell width for each character measured in millimeters. If this parameter is not specified or equal to 0 or less, then the width will be set automatically.\n\t * @property {boolean} multiLine - Specifies if the current fixed size text field is multiline or not.\n\t * @property {boolean} autoFit - Specifies if the text field content should be autofit, i.e. whether the font size adjusts to the size of the fixed size form.\n\t */",
+    "meta": {
+      "lineno": 65,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs-forms/contents/apiBuilder.js?ref=aead3839376687931089099c835be561ad0bb3ac"
+    },
+    "description": "Specific text field properties.",
+    "kind": "typedef",
+    "name": "TextFormPrBase",
+    "type": {
+      "names": [
+        "Object"
+      ],
+      "parsedType": {
+        "type": "NameExpression",
+        "name": "Object"
+      }
+    },
+    "properties": [
+      {
+        "type": {
+          "names": [
+            "boolean"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "boolean"
+          }
+        },
+        "description": "Specifies if the text field should be a comb of characters with the same cell width. The maximum number of characters must be set to a positive value.",
+        "name": "comb"
+      },
+      {
+        "type": {
+          "names": [
+            "number"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "number"
+          }
+        },
+        "description": "The maximum number of characters in the text field.",
+        "name": "maxCharacters"
+      },
+      {
+        "type": {
+          "names": [
+            "number"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "number"
+          }
+        },
+        "description": "The cell width for each character measured in millimeters. If this parameter is not specified or equal to 0 or less, then the width will be set automatically.",
+        "name": "cellWidth"
+      },
+      {
+        "type": {
+          "names": [
+            "boolean"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "boolean"
+          }
+        },
+        "description": "Specifies if the current fixed size text field is multiline or not.",
+        "name": "multiLine"
+      },
+      {
+        "type": {
+          "names": [
+            "boolean"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "boolean"
+          }
+        },
+        "description": "Specifies if the text field content should be autofit, i.e. whether the font size adjusts to the size of the fixed size form.",
+        "name": "autoFit"
+      }
+    ],
+    "longname": "TextFormPrBase",
+    "scope": "global"
+  },
+  {
+    "comment": "/**\n\t * Text field properties.\n\t * @typedef {FormPrBase | TextFormPrBase} TextFormPr\n\t */",
+    "meta": {
+      "lineno": 75,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs-forms/contents/apiBuilder.js?ref=aead3839376687931089099c835be561ad0bb3ac"
+    },
+    "description": "Text field properties.",
+    "kind": "typedef",
+    "name": "TextFormPr",
+    "type": {
+      "names": [
+        "FormPrBase",
+        "TextFormPrBase"
+      ],
+      "parsedType": {
+        "type": "TypeUnion",
+        "elements": [
+          {
+            "type": "NameExpression",
+            "name": "FormPrBase"
+          },
+          {
+            "type": "NameExpression",
+            "name": "TextFormPrBase"
+          }
+        ]
+      }
+    },
+    "longname": "TextFormPr",
+    "scope": "global"
+  },
+  {
+    "comment": "/**\n\t * Form insertion specific properties.\n\t * @typedef {Object} FormInsertPr\n\t * @property {boolean} [placeholderFromSelection=false] - Specifies if the currently selected text should be saved as a placeholder of the inserted form.\n\t * @property {boolean} [keepSelectedTextInForm=true] - Specifies if the currently selected text should be saved as the content of the inserted form.\n\t */",
+    "meta": {
+      "lineno": 80,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs-forms/contents/apiBuilder.js?ref=aead3839376687931089099c835be561ad0bb3ac"
+    },
+    "description": "Form insertion specific properties.",
+    "kind": "typedef",
+    "name": "FormInsertPr",
+    "type": {
+      "names": [
+        "Object"
+      ],
+      "parsedType": {
+        "type": "NameExpression",
+        "name": "Object"
+      }
+    },
+    "properties": [
+      {
+        "type": {
+          "names": [
+            "boolean"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "boolean"
+          }
+        },
+        "optional": true,
+        "defaultvalue": false,
+        "description": "Specifies if the currently selected text should be saved as a placeholder of the inserted form.",
+        "name": "placeholderFromSelection"
+      },
+      {
+        "type": {
+          "names": [
+            "boolean"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "boolean"
+          }
+        },
+        "optional": true,
+        "defaultvalue": true,
+        "description": "Specifies if the currently selected text should be saved as the content of the inserted form.",
+        "name": "keepSelectedTextInForm"
+      }
+    ],
+    "longname": "FormInsertPr",
+    "scope": "global"
+  },
+  {
+    "comment": "/**\n\t * Properties for inserting a text field.\n\t * @typedef {FormPrBase | TextFormPrBase | FormInsertPr} TextFormInsertPr\n\t */",
+    "meta": {
+      "lineno": 87,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs-forms/contents/apiBuilder.js?ref=aead3839376687931089099c835be561ad0bb3ac"
+    },
+    "description": "Properties for inserting a text field.",
+    "kind": "typedef",
+    "name": "TextFormInsertPr",
+    "type": {
+      "names": [
+        "FormPrBase",
+        "TextFormPrBase",
+        "FormInsertPr"
+      ],
+      "parsedType": {
+        "type": "TypeUnion",
+        "elements": [
+          {
+            "type": "NameExpression",
+            "name": "FormPrBase"
+          },
+          {
+            "type": "NameExpression",
+            "name": "TextFormPrBase"
+          },
+          {
+            "type": "NameExpression",
+            "name": "FormInsertPr"
+          }
+        ]
+      }
+    },
+    "longname": "TextFormInsertPr",
+    "scope": "global"
+  },
+  {
+    "comment": "/**\n\t * Specific checkbox / radio button properties.\n\t * @typedef {Object} CheckBoxFormPrBase\n\t * @property {boolean} radio - Specifies if the current checkbox is a radio button. In this case, the key parameter is considered as an identifier for the group of radio buttons.\n\t */",
+    "meta": {
+      "lineno": 93,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs-forms/contents/apiBuilder.js?ref=aead3839376687931089099c835be561ad0bb3ac"
+    },
+    "description": "Specific checkbox / radio button properties.",
+    "kind": "typedef",
+    "name": "CheckBoxFormPrBase",
+    "type": {
+      "names": [
+        "Object"
+      ],
+      "parsedType": {
+        "type": "NameExpression",
+        "name": "Object"
+      }
+    },
+    "properties": [
+      {
+        "type": {
+          "names": [
+            "boolean"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "boolean"
+          }
+        },
+        "description": "Specifies if the current checkbox is a radio button. In this case, the key parameter is considered as an identifier for the group of radio buttons.",
+        "name": "radio"
+      }
+    ],
+    "longname": "CheckBoxFormPrBase",
+    "scope": "global"
+  },
+  {
+    "comment": "/**\n\t * Checkbox / radio button properties.\n\t * @typedef {FormPrBase | CheckBoxFormPrBase} CheckBoxFormPr\n\t */",
+    "meta": {
+      "lineno": 99,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs-forms/contents/apiBuilder.js?ref=aead3839376687931089099c835be561ad0bb3ac"
+    },
+    "description": "Checkbox / radio button properties.",
+    "kind": "typedef",
+    "name": "CheckBoxFormPr",
+    "type": {
+      "names": [
+        "FormPrBase",
+        "CheckBoxFormPrBase"
+      ],
+      "parsedType": {
+        "type": "TypeUnion",
+        "elements": [
+          {
+            "type": "NameExpression",
+            "name": "FormPrBase"
+          },
+          {
+            "type": "NameExpression",
+            "name": "CheckBoxFormPrBase"
+          }
+        ]
+      }
+    },
+    "longname": "CheckBoxFormPr",
+    "scope": "global"
+  },
+  {
+    "comment": "/**\n\t * Specific combo box / dropdown list properties.\n\t * @typedef {Object} ComboBoxFormPrBase\n\t * @property {boolean} editable - Specifies if the combo box text can be edited.\n\t * @property {boolean} autoFit - Specifies if the combo box form content should be autofit, i.e. whether the font size adjusts to the size of the fixed size form.\n\t * @property {Array.<string | Array.<string>>} items - The combo box items.\n     * This array consists of strings or arrays of two strings where the first string is the displayed value and the second one is its meaning.\n     * If the array consists of single strings, then the displayed value and its meaning are the same.\n     * Example: [\"First\", [\"Second\", \"2\"], [\"Third\", \"3\"], \"Fourth\"].\n\n\t */",
+    "meta": {
+      "lineno": 104,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs-forms/contents/apiBuilder.js?ref=aead3839376687931089099c835be561ad0bb3ac"
+    },
+    "description": "Specific combo box / dropdown list properties.",
+    "kind": "typedef",
+    "name": "ComboBoxFormPrBase",
+    "type": {
+      "names": [
+        "Object"
+      ],
+      "parsedType": {
+        "type": "NameExpression",
+        "name": "Object"
+      }
+    },
+    "properties": [
+      {
+        "type": {
+          "names": [
+            "boolean"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "boolean"
+          }
+        },
+        "description": "Specifies if the combo box text can be edited.",
+        "name": "editable"
+      },
+      {
+        "type": {
+          "names": [
+            "boolean"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "boolean"
+          }
+        },
+        "description": "Specifies if the combo box form content should be autofit, i.e. whether the font size adjusts to the size of the fixed size form.",
+        "name": "autoFit"
+      },
+      {
+        "type": {
+          "names": [
+            "Array.<(string|Array.<string>)>"
+          ],
+          "parsedType": {
+            "type": "TypeApplication",
+            "expression": {
+              "type": "NameExpression",
+              "name": "Array"
+            },
+            "applications": [
+              {
+                "type": "TypeUnion",
+                "elements": [
+                  {
+                    "type": "NameExpression",
+                    "name": "string"
+                  },
+                  {
+                    "type": "TypeApplication",
+                    "expression": {
+                      "type": "NameExpression",
+                      "name": "Array"
+                    },
+                    "applications": [
+                      {
+                        "type": "NameExpression",
+                        "name": "string"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "description": "The combo box items.\nThis array consists of strings or arrays of two strings where the first string is the displayed value and the second one is its meaning.\nIf the array consists of single strings, then the displayed value and its meaning are the same.\nExample: [\"First\", [\"Second\", \"2\"], [\"Third\", \"3\"], \"Fourth\"].",
+        "name": "items"
+      }
+    ],
+    "longname": "ComboBoxFormPrBase",
+    "scope": "global"
+  },
+  {
+    "comment": "/**\n\t * Combo box / dropdown list properties.\n\t * @typedef {FormPrBase | ComboBoxFormPrBase} ComboBoxFormPr\n\t */",
+    "meta": {
+      "lineno": 116,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs-forms/contents/apiBuilder.js?ref=aead3839376687931089099c835be561ad0bb3ac"
+    },
+    "description": "Combo box / dropdown list properties.",
+    "kind": "typedef",
+    "name": "ComboBoxFormPr",
+    "type": {
+      "names": [
+        "FormPrBase",
+        "ComboBoxFormPrBase"
+      ],
+      "parsedType": {
+        "type": "TypeUnion",
+        "elements": [
+          {
+            "type": "NameExpression",
+            "name": "FormPrBase"
+          },
+          {
+            "type": "NameExpression",
+            "name": "ComboBoxFormPrBase"
+          }
+        ]
+      }
+    },
+    "longname": "ComboBoxFormPr",
+    "scope": "global"
+  },
+  {
+    "comment": "/**\n\t * The condition to scale an image in the picture form.\n\t * @typedef {\"always\" | \"never\" | \"tooBig\" | \"tooSmall\"} ScaleFlag\n\t */",
+    "meta": {
+      "lineno": 121,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs-forms/contents/apiBuilder.js?ref=aead3839376687931089099c835be561ad0bb3ac"
+    },
+    "description": "The condition to scale an image in the picture form.",
+    "kind": "typedef",
+    "name": "ScaleFlag",
+    "type": {
+      "names": [
+        "\"always\"",
+        "\"never\"",
+        "\"tooBig\"",
+        "\"tooSmall\""
+      ],
+      "parsedType": {
+        "type": "TypeUnion",
+        "elements": [
+          {
+            "type": "NameExpression",
+            "name": "\"always\""
+          },
+          {
+            "type": "NameExpression",
+            "name": "\"never\""
+          },
+          {
+            "type": "NameExpression",
+            "name": "\"tooBig\""
+          },
+          {
+            "type": "NameExpression",
+            "name": "\"tooSmall\""
+          }
+        ]
+      }
+    },
+    "longname": "ScaleFlag",
+    "scope": "global"
+  },
+  {
+    "comment": "/**\n\t * Value from 0 to 100.\n\t * @typedef {number} percentage\n\t */",
+    "meta": {
+      "lineno": 126,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs-forms/contents/apiBuilder.js?ref=aead3839376687931089099c835be561ad0bb3ac"
+    },
+    "description": "Value from 0 to 100.",
+    "kind": "typedef",
+    "name": "percentage",
+    "type": {
+      "names": [
+        "number"
+      ],
+      "parsedType": {
+        "type": "NameExpression",
+        "name": "number"
+      }
+    },
+    "longname": "percentage",
+    "scope": "global"
+  },
+  {
+    "comment": "/**\n\t * Specific picture form properties.\n\t * @typedef {Object} PictureFormPrBase\n\t * @property {ScaleFlag} scaleFlag - The condition to scale an image in the picture form: \"always\", \"never\", \"tooBig\" or \"tooSmall\".\n\t * @property {boolean} lockAspectRatio - Specifies if the aspect ratio of the picture form is locked or not.\n\t * @property {boolean} respectBorders - Specifies if the form border width is respected or not when scaling the image.\n\t * @property {percentage} shiftX - Horizontal picture position inside the picture form measured in percent:\n\t * * <b>0</b> - the picture is placed on the left;\n\t * * <b>50</b> - the picture is placed in the center;\n\t * * <b>100</b> - the picture is placed on the right.\n\t * @property {percentage} shiftY - Vertical picture position inside the picture form measured in percent:\n\t * * <b>0</b> - the picture is placed on top;\n\t * * <b>50</b> - the picture is placed in the center;\n\t * * <b>100</b> - the picture is placed on the bottom.\n\t */",
+    "meta": {
+      "lineno": 131,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs-forms/contents/apiBuilder.js?ref=aead3839376687931089099c835be561ad0bb3ac"
+    },
+    "description": "Specific picture form properties.",
+    "kind": "typedef",
+    "name": "PictureFormPrBase",
+    "type": {
+      "names": [
+        "Object"
+      ],
+      "parsedType": {
+        "type": "NameExpression",
+        "name": "Object"
+      }
+    },
+    "properties": [
+      {
+        "type": {
+          "names": [
+            "ScaleFlag"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "ScaleFlag"
+          }
+        },
+        "description": "The condition to scale an image in the picture form: \"always\", \"never\", \"tooBig\" or \"tooSmall\".",
+        "name": "scaleFlag"
+      },
+      {
+        "type": {
+          "names": [
+            "boolean"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "boolean"
+          }
+        },
+        "description": "Specifies if the aspect ratio of the picture form is locked or not.",
+        "name": "lockAspectRatio"
+      },
+      {
+        "type": {
+          "names": [
+            "boolean"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "boolean"
+          }
+        },
+        "description": "Specifies if the form border width is respected or not when scaling the image.",
+        "name": "respectBorders"
+      },
+      {
+        "type": {
+          "names": [
+            "percentage"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "percentage"
+          }
+        },
+        "description": "Horizontal picture position inside the picture form measured in percent:\n* <b>0</b> - the picture is placed on the left;\n* <b>50</b> - the picture is placed in the center;\n* <b>100</b> - the picture is placed on the right.",
+        "name": "shiftX"
+      },
+      {
+        "type": {
+          "names": [
+            "percentage"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "percentage"
+          }
+        },
+        "description": "Vertical picture position inside the picture form measured in percent:\n* <b>0</b> - the picture is placed on top;\n* <b>50</b> - the picture is placed in the center;\n* <b>100</b> - the picture is placed on the bottom.",
+        "name": "shiftY"
+      }
+    ],
+    "longname": "PictureFormPrBase",
+    "scope": "global"
+  },
+  {
+    "comment": "/**\n\t * Picture form properties.\n\t * @typedef {FormPrBase | PictureFormPrBase} PictureFormPr\n\t */",
+    "meta": {
+      "lineno": 147,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs-forms/contents/apiBuilder.js?ref=aead3839376687931089099c835be561ad0bb3ac"
+    },
+    "description": "Picture form properties.",
+    "kind": "typedef",
+    "name": "PictureFormPr",
+    "type": {
+      "names": [
+        "FormPrBase",
+        "PictureFormPrBase"
+      ],
+      "parsedType": {
+        "type": "TypeUnion",
+        "elements": [
+          {
+            "type": "NameExpression",
+            "name": "FormPrBase"
+          },
+          {
+            "type": "NameExpression",
+            "name": "PictureFormPrBase"
+          }
+        ]
+      }
+    },
+    "longname": "PictureFormPr",
+    "scope": "global"
+  },
+  {
+    "comment": "/**\n\t * Creates a text field with the specified text field properties.\n\t * @memberof Api\n\t * @param {TextFormPr} oFormPr - Text field properties.\n\t * @returns {ApiTextForm}\n\t */",
+    "meta": {
+      "range": [
+        6890,
+        7117
+      ],
+      "lineno": 158,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs-forms/contents/apiBuilder.js?ref=aead3839376687931089099c835be561ad0bb3ac"
+    },
+    "description": "Creates a text field with the specified text field properties.",
+    "memberof": "Api",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "TextFormPr"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "TextFormPr"
+          }
+        },
+        "description": "Text field properties.",
+        "name": "oFormPr"
+      }
+    ],
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "ApiTextForm"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "ApiTextForm"
+          }
+        }
+      }
+    ],
+    "name": "CreateTextForm",
+    "longname": "Api#CreateTextForm",
+    "kind": "function",
+    "scope": "instance"
+  },
+  {
+    "comment": "/**\n\t * Creates a checkbox / radio button with the specified checkbox / radio button properties.\n\t * @memberof Api\n\t * @param {CheckBoxFormPr} oFormPr - Checkbox / radio button properties.\n\t * @returns {ApiCheckBoxForm}\n\t */",
+    "meta": {
+      "range": [
+        7346,
+        9341
+      ],
+      "lineno": 174,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs-forms/contents/apiBuilder.js?ref=aead3839376687931089099c835be561ad0bb3ac"
+    },
+    "description": "Creates a checkbox / radio button with the specified checkbox / radio button properties.",
+    "memberof": "Api",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "CheckBoxFormPr"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "CheckBoxFormPr"
+          }
+        },
+        "description": "Checkbox / radio button properties.",
+        "name": "oFormPr"
+      }
+    ],
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "ApiCheckBoxForm"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "ApiCheckBoxForm"
+          }
+        }
+      }
+    ],
+    "name": "CreateCheckBoxForm",
+    "longname": "Api#CreateCheckBoxForm",
+    "kind": "function",
+    "scope": "instance"
+  },
+  {
+    "comment": "/**\n\t * Creates a combo box / dropdown list with the specified combo box / dropdown list properties.\n\t * @memberof Api\n\t * @param {ComboBoxFormPr} oFormPr - Combo box / dropdown list properties.\n\t * @returns {ApiComboBoxForm}\n\t */",
+    "meta": {
+      "range": [
+        9576,
+        10886
+      ],
+      "lineno": 244,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs-forms/contents/apiBuilder.js?ref=aead3839376687931089099c835be561ad0bb3ac"
+    },
+    "description": "Creates a combo box / dropdown list with the specified combo box / dropdown list properties.",
+    "memberof": "Api",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "ComboBoxFormPr"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "ComboBoxFormPr"
+          }
+        },
+        "description": "Combo box / dropdown list properties.",
+        "name": "oFormPr"
+      }
+    ],
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "ApiComboBoxForm"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "ApiComboBoxForm"
+          }
+        }
+      }
+    ],
+    "name": "CreateComboBoxForm",
+    "longname": "Api#CreateComboBoxForm",
+    "kind": "function",
+    "scope": "instance"
+  },
+  {
+    "comment": "/**\n\t * Creates a picture form with the specified picture form properties.\n\t * @memberof Api\n\t * @param {PictureFormPr} oFormPr - Picture form properties.\n\t * @returns {ApiPictureForm}\n\t */",
+    "meta": {
+      "range": [
+        11080,
+        12319
+      ],
+      "lineno": 309,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs-forms/contents/apiBuilder.js?ref=aead3839376687931089099c835be561ad0bb3ac"
+    },
+    "description": "Creates a picture form with the specified picture form properties.",
+    "memberof": "Api",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "PictureFormPr"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "PictureFormPr"
+          }
+        },
+        "description": "Picture form properties.",
+        "name": "oFormPr"
+      }
+    ],
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "ApiPictureForm"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "ApiPictureForm"
+          }
+        }
+      }
+    ],
+    "name": "CreatePictureForm",
+    "longname": "Api#CreatePictureForm",
+    "kind": "function",
+    "scope": "instance"
+  },
+  {
+    "comment": "/**\n\t * Inserts a text box with the specified text box properties over the selected text.\n\t * @memberof ApiDocument\n\t * @param {TextFormInsertPr} oFormPr - Properties for inserting a text field.\n\t * @returns {ApiTextForm}\n\t */",
+    "meta": {
+      "range": [
+        12550,
+        13345
+      ],
+      "lineno": 348,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs-forms/contents/apiBuilder.js?ref=aead3839376687931089099c835be561ad0bb3ac"
+    },
+    "description": "Inserts a text box with the specified text box properties over the selected text.",
+    "memberof": "ApiDocument",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "TextFormInsertPr"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "TextFormInsertPr"
+          }
+        },
+        "description": "Properties for inserting a text field.",
+        "name": "oFormPr"
+      }
+    ],
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "ApiTextForm"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "ApiTextForm"
+          }
+        }
+      }
+    ],
+    "name": "InsertTextForm",
+    "longname": "ApiDocument#InsertTextForm",
+    "kind": "function",
+    "scope": "instance"
+  },
+  {
+    "comment": "/**\n     * @typedef {Object} ContentControl\n\t * Content control object.\n     * @property {string} Tag - A tag assigned to the content control. The same tag can be assigned to several content controls so that it is possible to make reference to them in your code.\n     * @property {string} Id - A unique identifier of the content control. It can be used to search for a certain content control and make reference to it in the code.\n     * @property {ContentControlLock} Lock - A value that defines if it is possible to delete and/or edit the content control or not: 0 - only deleting, 1 - no deleting or editing, 2 - only editing, 3 - full access.\n     * @property {string} InternalId - A unique internal identifier of the content control. It is used for all operations with content controls.\n     */",
+    "meta": {
+      "lineno": 37,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs-forms/contents/apiPlugins.js?ref=aead3839376687931089099c835be561ad0bb3ac"
+    },
+    "kind": "typedef",
+    "name": "ContentControl",
+    "type": {
+      "names": [
+        "Object"
+      ],
+      "parsedType": {
+        "type": "NameExpression",
+        "name": "Object"
+      }
+    },
+    "description": "Content control object.",
+    "properties": [
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "A tag assigned to the content control. The same tag can be assigned to several content controls so that it is possible to make reference to them in your code.",
+        "name": "Tag"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "A unique identifier of the content control. It can be used to search for a certain content control and make reference to it in the code.",
+        "name": "Id"
+      },
+      {
+        "type": {
+          "names": [
+            "ContentControlLock"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "ContentControlLock"
+          }
+        },
+        "description": "A value that defines if it is possible to delete and/or edit the content control or not: 0 - only deleting, 1 - no deleting or editing, 2 - only editing, 3 - full access.",
+        "name": "Lock"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "A unique internal identifier of the content control. It is used for all operations with content controls.",
+        "name": "InternalId"
+      }
+    ],
+    "longname": "ContentControl",
+    "scope": "global"
+  },
+  {
+    "comment": "/**\n     * @typedef {(0 | 1 | 2 | 3)} ContentControlLock\n     * A value that defines if it is possible to delete and/or edit the content control or not:\n\t * * **0** - only deleting\n\t * * **1** - disable deleting or editing\n\t * * **2** - only editing\n\t * * **3** - full access\n     */",
+    "meta": {
+      "lineno": 46,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs-forms/contents/apiPlugins.js?ref=aead3839376687931089099c835be561ad0bb3ac"
+    },
+    "kind": "typedef",
+    "name": "ContentControlLock",
+    "type": {
+      "names": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "parsedType": {
+        "type": "TypeUnion",
+        "elements": [
+          {
+            "type": "NameExpression",
+            "name": "0"
+          },
+          {
+            "type": "NameExpression",
+            "name": "1"
+          },
+          {
+            "type": "NameExpression",
+            "name": "2"
+          },
+          {
+            "type": "NameExpression",
+            "name": "3"
+          }
+        ]
+      }
+    },
+    "description": "A value that defines if it is possible to delete and/or edit the content control or not:\n* **0** - only deleting\n* **1** - disable deleting or editing\n* **2** - only editing\n* **3** - full access",
+    "longname": "ContentControlLock",
+    "scope": "global"
+  },
+  {
+    "comment": "/**\n\t * Returns information about all the forms that have been added to the document.\n\t * @memberof Api\n\t * @typeofeditors [\"CDE\"]\n\t * @alias GetAllForms\n\t * @returns {ContentControl[]} - An array with all the forms from the document.\n\t * @example\n\t * window.Asc.plugin.executeMethod(\"GetAllForms\");\n\t */",
+    "meta": {
+      "range": [
+        2981,
+        3400
+      ],
+      "lineno": 64,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs-forms/contents/apiPlugins.js?ref=aead3839376687931089099c835be561ad0bb3ac"
+    },
+    "description": "Returns information about all the forms that have been added to the document.",
+    "memberof": "Api",
+    "tags": [
+      {
+        "originalTitle": "typeofeditors",
+        "title": "typeofeditors",
+        "text": "[\"CDE\"]",
+        "value": "[\"CDE\"]"
+      }
+    ],
+    "alias": "GetAllForms",
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "Array.<ContentControl>"
+          ],
+          "parsedType": {
+            "type": "TypeApplication",
+            "expression": {
+              "type": "NameExpression",
+              "name": "Array"
+            },
+            "applications": [
+              {
+                "name": "ContentControl",
+                "type": "NameExpression"
+              }
+            ]
+          }
+        },
+        "description": "- An array with all the forms from the document."
+      }
+    ],
+    "examples": [
+      "window.Asc.plugin.executeMethod(\"GetAllForms\");"
+    ],
+    "name": "GetAllForms",
+    "longname": "GetAllForms",
+    "kind": "function"
+  },
+  {
+    "comment": "/**\n\t * Returns information about all the forms that have been added to the document with specified tag.\n\t * @memberof Api\n\t * @typeofeditors [\"CDE\"]\n\t * @alias GetFormsByTag\n\t * @param {string} tag - The form tag.\n\t * @returns {ContentControl[]} - An array with all the forms from the document with the specified tag.\n\t * @example\n\t * window.Asc.plugin.executeMethod(\"GetFormsByTag\");\n\t */",
+    "meta": {
+      "range": [
+        3795,
+        4293
+      ],
+      "lineno": 88,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs-forms/contents/apiPlugins.js?ref=aead3839376687931089099c835be561ad0bb3ac"
+    },
+    "description": "Returns information about all the forms that have been added to the document with specified tag.",
+    "memberof": "Api",
+    "tags": [
+      {
+        "originalTitle": "typeofeditors",
+        "title": "typeofeditors",
+        "text": "[\"CDE\"]",
+        "value": "[\"CDE\"]"
+      }
+    ],
+    "alias": "GetFormsByTag",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "The form tag.",
+        "name": "tag"
+      }
+    ],
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "Array.<ContentControl>"
+          ],
+          "parsedType": {
+            "type": "TypeApplication",
+            "expression": {
+              "type": "NameExpression",
+              "name": "Array"
+            },
+            "applications": [
+              {
+                "name": "ContentControl",
+                "type": "NameExpression"
+              }
+            ]
+          }
+        },
+        "description": "- An array with all the forms from the document with the specified tag."
+      }
+    ],
+    "examples": [
+      "window.Asc.plugin.executeMethod(\"GetFormsByTag\");"
+    ],
+    "name": "GetFormsByTag",
+    "longname": "GetFormsByTag",
+    "kind": "function"
+  },
+  {
+    "comment": "/**\n\t * Sets a value to the specified form.\n\t * @memberof Api\n\t * @typeofeditors [\"CDE\"]\n\t * @alias SetFormValue\n\t * @param {string} internalId - A unique internal identifier of the form.\n\t * @param {string | boolean} value - Form value to be set. Its type depends on the form type.\n\t * @example\n\t * window.Asc.plugin.executeMethod(\"SetFormValue\");\n\t */",
+    "meta": {
+      "range": [
+        4651,
+        4796
+      ],
+      "lineno": 115,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs-forms/contents/apiPlugins.js?ref=aead3839376687931089099c835be561ad0bb3ac"
+    },
+    "description": "Sets a value to the specified form.",
+    "memberof": "Api",
+    "tags": [
+      {
+        "originalTitle": "typeofeditors",
+        "title": "typeofeditors",
+        "text": "[\"CDE\"]",
+        "value": "[\"CDE\"]"
+      }
+    ],
+    "alias": "SetFormValue",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "A unique internal identifier of the form.",
+        "name": "internalId"
+      },
+      {
+        "type": {
+          "names": [
+            "string",
+            "boolean"
+          ],
+          "parsedType": {
+            "type": "TypeUnion",
+            "elements": [
+              {
+                "type": "NameExpression",
+                "name": "string"
+              },
+              {
+                "type": "NameExpression",
+                "name": "boolean"
+              }
+            ]
+          }
+        },
+        "description": "Form value to be set. Its type depends on the form type.",
+        "name": "value"
+      }
+    ],
+    "examples": [
+      "window.Asc.plugin.executeMethod(\"SetFormValue\");"
+    ],
+    "name": "SetFormValue",
+    "longname": "SetFormValue",
+    "kind": "function"
+  },
+  {
+    "comment": "/**\n\t * Returns a value of the specified form.\n\t * @memberof Api\n\t * @typeofeditors [\"CDE\"]\n\t * @alias GetFormValue\n\t * @param {string} internalId - A unique internal identifier of the form.\n\t * @returns {null | string | boolean} The form value in the string or boolean format depending on the form type. The null value means that the form is filled with a placeholder.\n\t * @example\n\t * window.Asc.plugin.executeMethod(\"GetFormValue\");\n\t *\n\t */",
+    "meta": {
+      "range": [
+        5245,
+        6132
+      ],
+      "lineno": 130,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs-forms/contents/apiPlugins.js?ref=aead3839376687931089099c835be561ad0bb3ac"
+    },
+    "description": "Returns a value of the specified form.",
+    "memberof": "Api",
+    "tags": [
+      {
+        "originalTitle": "typeofeditors",
+        "title": "typeofeditors",
+        "text": "[\"CDE\"]",
+        "value": "[\"CDE\"]"
+      }
+    ],
+    "alias": "GetFormValue",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "A unique internal identifier of the form.",
+        "name": "internalId"
+      }
+    ],
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "null",
+            "string",
+            "boolean"
+          ],
+          "parsedType": {
+            "type": "TypeUnion",
+            "elements": [
+              {
+                "type": "NullLiteral"
+              },
+              {
+                "type": "NameExpression",
+                "name": "string"
+              },
+              {
+                "type": "NameExpression",
+                "name": "boolean"
+              }
+            ]
+          }
+        },
+        "description": "The form value in the string or boolean format depending on the form type. The null value means that the form is filled with a placeholder."
+      }
+    ],
+    "examples": [
+      "window.Asc.plugin.executeMethod(\"GetFormValue\");"
+    ],
+    "name": "GetFormValue",
+    "longname": "GetFormValue",
+    "kind": "function"
+  },
+  {
+    "kind": "package",
+    "longname": "package:undefined",
+    "files": [
+      "https://api.github.com/repos/onlyoffice/sdkjs-forms/contents/apiBuilder.js?ref=aead3839376687931089099c835be561ad0bb3ac",
+      "https://api.github.com/repos/onlyoffice/sdkjs-forms/contents/apiPlugins.js?ref=aead3839376687931089099c835be561ad0bb3ac"
+    ]
+  }
+]
