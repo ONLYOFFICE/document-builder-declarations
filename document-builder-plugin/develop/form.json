@@ -1,0 +1,346 @@
+[
+  {
+    "comment": "/**\n     * @typedef {Object} ContentControl\n\t * Content control object.\n     * @property {string} Tag - A tag assigned to the content control. The same tag can be assigned to several content controls so that it is possible to make reference to them in your code.\n     * @property {string} Id - A unique identifier of the content control. It can be used to search for a certain content control and make reference to it in the code.\n     * @property {ContentControlLock} Lock - A value that defines if it is possible to delete and/or edit the content control or not: 0 - only deleting, 1 - no deleting or editing, 2 - only editing, 3 - full access.\n     * @property {string} InternalId - A unique internal identifier of the content control. It is used for all operations with content controls.\n     */",
+    "meta": {
+      "lineno": 37,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs-forms/contents/apiPlugins.js?ref=f5156538c157c2a9d1aa4a1423bb2a81cdb07a00"
+    },
+    "kind": "typedef",
+    "name": "ContentControl",
+    "type": {
+      "names": [
+        "Object"
+      ],
+      "parsedType": {
+        "type": "NameExpression",
+        "name": "Object"
+      }
+    },
+    "description": "Content control object.",
+    "properties": [
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "A tag assigned to the content control. The same tag can be assigned to several content controls so that it is possible to make reference to them in your code.",
+        "name": "Tag"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "A unique identifier of the content control. It can be used to search for a certain content control and make reference to it in the code.",
+        "name": "Id"
+      },
+      {
+        "type": {
+          "names": [
+            "ContentControlLock"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "ContentControlLock"
+          }
+        },
+        "description": "A value that defines if it is possible to delete and/or edit the content control or not: 0 - only deleting, 1 - no deleting or editing, 2 - only editing, 3 - full access.",
+        "name": "Lock"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "A unique internal identifier of the content control. It is used for all operations with content controls.",
+        "name": "InternalId"
+      }
+    ],
+    "longname": "ContentControl",
+    "scope": "global"
+  },
+  {
+    "comment": "/**\n     * @typedef {(0 | 1 | 2 | 3)} ContentControlLock\n     * A value that defines if it is possible to delete and/or edit the content control or not:\n\t * * **0** - only deleting\n\t * * **1** - disable deleting or editing\n\t * * **2** - only editing\n\t * * **3** - full access\n     */",
+    "meta": {
+      "lineno": 46,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs-forms/contents/apiPlugins.js?ref=f5156538c157c2a9d1aa4a1423bb2a81cdb07a00"
+    },
+    "kind": "typedef",
+    "name": "ContentControlLock",
+    "type": {
+      "names": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "parsedType": {
+        "type": "TypeUnion",
+        "elements": [
+          {
+            "type": "NameExpression",
+            "name": "0"
+          },
+          {
+            "type": "NameExpression",
+            "name": "1"
+          },
+          {
+            "type": "NameExpression",
+            "name": "2"
+          },
+          {
+            "type": "NameExpression",
+            "name": "3"
+          }
+        ]
+      }
+    },
+    "description": "A value that defines if it is possible to delete and/or edit the content control or not:\n* **0** - only deleting\n* **1** - disable deleting or editing\n* **2** - only editing\n* **3** - full access",
+    "longname": "ContentControlLock",
+    "scope": "global"
+  },
+  {
+    "comment": "/**\n\t * Returns information about all the forms that have been added to the document.\n\t * @memberof Api\n\t * @alias GetAllForms\n\t * @returns {ContentControl[]} - An array with all the forms from the document.\n\t * @example\n\t * window.Asc.plugin.executeMethod(\"GetAllForms\");\n\t */",
+    "meta": {
+      "range": [
+        2979,
+        3398
+      ],
+      "lineno": 64,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs-forms/contents/apiPlugins.js?ref=f5156538c157c2a9d1aa4a1423bb2a81cdb07a00"
+    },
+    "description": "Returns information about all the forms that have been added to the document.",
+    "memberof": "Api",
+    "alias": "GetAllForms",
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "Array.<ContentControl>"
+          ],
+          "parsedType": {
+            "type": "TypeApplication",
+            "expression": {
+              "type": "NameExpression",
+              "name": "Array"
+            },
+            "applications": [
+              {
+                "name": "ContentControl",
+                "type": "NameExpression"
+              }
+            ]
+          }
+        },
+        "description": "- An array with all the forms from the document."
+      }
+    ],
+    "examples": [
+      "window.Asc.plugin.executeMethod(\"GetAllForms\");"
+    ],
+    "name": "GetAllForms",
+    "longname": "GetAllForms",
+    "kind": "function"
+  },
+  {
+    "comment": "/**\n\t * Returns information about all the forms that have been added to the document with specified tag.\n\t * @memberof Api\n\t * @alias GetFormsByTag\n\t * @param {string} tag - The form tag.\n\t * @returns {ContentControl[]} - An array with all the forms from the document with the specified tag.\n\t * @example\n\t * window.Asc.plugin.executeMethod(\"GetFormsByTag\");\n\t */",
+    "meta": {
+      "range": [
+        3793,
+        4291
+      ],
+      "lineno": 88,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs-forms/contents/apiPlugins.js?ref=f5156538c157c2a9d1aa4a1423bb2a81cdb07a00"
+    },
+    "description": "Returns information about all the forms that have been added to the document with specified tag.",
+    "memberof": "Api",
+    "alias": "GetFormsByTag",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "The form tag.",
+        "name": "tag"
+      }
+    ],
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "Array.<ContentControl>"
+          ],
+          "parsedType": {
+            "type": "TypeApplication",
+            "expression": {
+              "type": "NameExpression",
+              "name": "Array"
+            },
+            "applications": [
+              {
+                "name": "ContentControl",
+                "type": "NameExpression"
+              }
+            ]
+          }
+        },
+        "description": "- An array with all the forms from the document with the specified tag."
+      }
+    ],
+    "examples": [
+      "window.Asc.plugin.executeMethod(\"GetFormsByTag\");"
+    ],
+    "name": "GetFormsByTag",
+    "longname": "GetFormsByTag",
+    "kind": "function"
+  },
+  {
+    "comment": "/**\n\t * Sets a value to the specified form.\n\t * @memberof Api\n\t * @alias SetFormValue\n\t * @param {string} internalId - A unique internal identifier of the form.\n\t * @param {string | boolean} value - Form value to be set. Its type depends on the form type.\n\t * @example\n\t * window.Asc.plugin.executeMethod(\"SetFormValue\");\n\t */",
+    "meta": {
+      "range": [
+        4649,
+        4794
+      ],
+      "lineno": 115,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs-forms/contents/apiPlugins.js?ref=f5156538c157c2a9d1aa4a1423bb2a81cdb07a00"
+    },
+    "description": "Sets a value to the specified form.",
+    "memberof": "Api",
+    "alias": "SetFormValue",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "A unique internal identifier of the form.",
+        "name": "internalId"
+      },
+      {
+        "type": {
+          "names": [
+            "string",
+            "boolean"
+          ],
+          "parsedType": {
+            "type": "TypeUnion",
+            "elements": [
+              {
+                "type": "NameExpression",
+                "name": "string"
+              },
+              {
+                "type": "NameExpression",
+                "name": "boolean"
+              }
+            ]
+          }
+        },
+        "description": "Form value to be set. Its type depends on the form type.",
+        "name": "value"
+      }
+    ],
+    "examples": [
+      "window.Asc.plugin.executeMethod(\"SetFormValue\");"
+    ],
+    "name": "SetFormValue",
+    "longname": "SetFormValue",
+    "kind": "function"
+  },
+  {
+    "comment": "/**\n\t * Returns a value of the specified form.\n\t * @memberof Api\n\t * @alias GetFormValue\n\t * @param {string} internalId - A unique internal identifier of the form.\n\t * @returns {null | string | boolean} The form value in the string or boolean format depending on the form type. The null value means that the form is filled with a placeholder.\n\t * @example\n\t * window.Asc.plugin.executeMethod(\"GetFormValue\");\n\t *\n\t */",
+    "meta": {
+      "range": [
+        5243,
+        6130
+      ],
+      "lineno": 130,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs-forms/contents/apiPlugins.js?ref=f5156538c157c2a9d1aa4a1423bb2a81cdb07a00"
+    },
+    "description": "Returns a value of the specified form.",
+    "memberof": "Api",
+    "alias": "GetFormValue",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "A unique internal identifier of the form.",
+        "name": "internalId"
+      }
+    ],
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "null",
+            "string",
+            "boolean"
+          ],
+          "parsedType": {
+            "type": "TypeUnion",
+            "elements": [
+              {
+                "type": "NullLiteral"
+              },
+              {
+                "type": "NameExpression",
+                "name": "string"
+              },
+              {
+                "type": "NameExpression",
+                "name": "boolean"
+              }
+            ]
+          }
+        },
+        "description": "The form value in the string or boolean format depending on the form type. The null value means that the form is filled with a placeholder."
+      }
+    ],
+    "examples": [
+      "window.Asc.plugin.executeMethod(\"GetFormValue\");"
+    ],
+    "name": "GetFormValue",
+    "longname": "GetFormValue",
+    "kind": "function"
+  }
+]

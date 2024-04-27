@@ -1,0 +1,3268 @@
+[
+  {
+    "comment": "/**\n\t * Base class.\n\t * @global\n\t * @class\n\t * @name Api\n\t */",
+    "meta": {
+      "lineno": 36,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/cell/api_plugins.js?ref=d62dbcaed18b79f86f4e78d36aa781538bc4c501"
+    },
+    "description": "Base class.",
+    "scope": "global",
+    "kind": "class",
+    "name": "Api",
+    "longname": "Api"
+  },
+  {
+    "comment": "/**\n\t * @typedef {Object} CommentData\n\t * The comment data.\n\t * @property {string} UserName - The comment author.\n\t * @property {string} QuoteText - The quote comment text.\n\t * @property {string} Text - The comment text.\n\t * @property {string} Time - The time when the comment was posted (in milliseconds).\n\t * @property {boolean} Solved - Specifies if the comment is resolved (**true**) or not (**false**).\n\t * @property {CommentData[]} Replies - An array containing the comment replies represented as the *CommentData* object.\n\t */",
+    "meta": {
+      "lineno": 45,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/cell/api_plugins.js?ref=d62dbcaed18b79f86f4e78d36aa781538bc4c501"
+    },
+    "kind": "typedef",
+    "name": "CommentData",
+    "type": {
+      "names": [
+        "Object"
+      ],
+      "parsedType": {
+        "type": "NameExpression",
+        "name": "Object"
+      }
+    },
+    "description": "The comment data.",
+    "properties": [
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "The comment author.",
+        "name": "UserName"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "The quote comment text.",
+        "name": "QuoteText"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "The comment text.",
+        "name": "Text"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "The time when the comment was posted (in milliseconds).",
+        "name": "Time"
+      },
+      {
+        "type": {
+          "names": [
+            "boolean"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "boolean"
+          }
+        },
+        "description": "Specifies if the comment is resolved (**true**) or not (**false**).",
+        "name": "Solved"
+      },
+      {
+        "type": {
+          "names": [
+            "Array.<CommentData>"
+          ],
+          "parsedType": {
+            "type": "TypeApplication",
+            "expression": {
+              "type": "NameExpression",
+              "name": "Array"
+            },
+            "applications": [
+              {
+                "name": "CommentData",
+                "type": "NameExpression"
+              }
+            ]
+          }
+        },
+        "description": "An array containing the comment replies represented as the *CommentData* object.",
+        "name": "Replies"
+      }
+    ],
+    "longname": "CommentData",
+    "scope": "global"
+  },
+  {
+    "comment": "/**\n\t * Adds a comment to the workbook.\n\t * @memberof Api\n\t * @alias AddComment\n\t * @param {CommentData}  oCommentData - An object which contains the comment data.\n\t * @return {string | null} - The comment ID in the string format or null if the comment cannot be added.\n\t * @since 7.3.0\n\t */",
+    "meta": {
+      "range": [
+        2563,
+        2849
+      ],
+      "lineno": 65,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/cell/api_plugins.js?ref=d62dbcaed18b79f86f4e78d36aa781538bc4c501"
+    },
+    "description": "Adds a comment to the workbook.",
+    "memberof": "Api",
+    "alias": "AddComment",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "CommentData"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "CommentData"
+          }
+        },
+        "description": "An object which contains the comment data.",
+        "name": "oCommentData"
+      }
+    ],
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "string",
+            "null"
+          ],
+          "parsedType": {
+            "type": "TypeUnion",
+            "elements": [
+              {
+                "type": "NameExpression",
+                "name": "string"
+              },
+              {
+                "type": "NullLiteral"
+              }
+            ]
+          }
+        },
+        "description": "- The comment ID in the string format or null if the comment cannot be added."
+      }
+    ],
+    "since": "7.3.0",
+    "name": "AddComment",
+    "longname": "AddComment",
+    "kind": "function"
+  },
+  {
+    "comment": "/**\n\t * Changes the specified comment.\n\t * @memberof Api\n\t * @alias ChangeComment\n\t * @param {string} sId - The comment ID.\n\t * @param {CommentData} oCommentData - An object which contains the new comment data.\n\t * @return {boolean}\n\t * @since 7.3.0\n\t */",
+    "meta": {
+      "range": [
+        3136,
+        3481
+      ],
+      "lineno": 90,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/cell/api_plugins.js?ref=d62dbcaed18b79f86f4e78d36aa781538bc4c501"
+    },
+    "description": "Changes the specified comment.",
+    "memberof": "Api",
+    "alias": "ChangeComment",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "The comment ID.",
+        "name": "sId"
+      },
+      {
+        "type": {
+          "names": [
+            "CommentData"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "CommentData"
+          }
+        },
+        "description": "An object which contains the new comment data.",
+        "name": "oCommentData"
+      }
+    ],
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "boolean"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "boolean"
+          }
+        }
+      }
+    ],
+    "since": "7.3.0",
+    "name": "ChangeComment",
+    "longname": "ChangeComment",
+    "kind": "function"
+  },
+  {
+    "comment": "/**\n\t * Removes the specified comments.\n\t * @param {string[]} arrIds - An array which contains the IDs of the specified comments.\n\t * @memberof Api\n\t * @alias RemoveComments\n\t * @since 7.3.0\n\t */",
+    "meta": {
+      "range": [
+        3709,
+        3897
+      ],
+      "lineno": 112,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/cell/api_plugins.js?ref=d62dbcaed18b79f86f4e78d36aa781538bc4c501"
+    },
+    "description": "Removes the specified comments.",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "Array.<string>"
+          ],
+          "parsedType": {
+            "type": "TypeApplication",
+            "expression": {
+              "type": "NameExpression",
+              "name": "Array"
+            },
+            "applications": [
+              {
+                "name": "string",
+                "type": "NameExpression"
+              }
+            ]
+          }
+        },
+        "description": "An array which contains the IDs of the specified comments.",
+        "name": "arrIds"
+      }
+    ],
+    "memberof": "Api",
+    "alias": "RemoveComments",
+    "since": "7.3.0",
+    "name": "RemoveComments",
+    "longname": "RemoveComments",
+    "kind": "function"
+  },
+  {
+    "comment": "/**\n     * Returns the editor version.\n     * @memberof Api\n     * @alias GetVersion\n     * @returns {string} - The editor version.\n     */",
+    "meta": {
+      "range": [
+        8313,
+        8396
+      ],
+      "lineno": 169,
+      "columnno": 4,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=d62dbcaed18b79f86f4e78d36aa781538bc4c501"
+    },
+    "description": "Returns the editor version.",
+    "memberof": "Api",
+    "alias": "GetVersion",
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "- The editor version."
+      }
+    ],
+    "name": "GetVersion",
+    "longname": "GetVersion",
+    "kind": "function"
+  },
+  {
+    "comment": "/**\n     * Adds an OLE object to the current document position.\n     * @memberof Api\n\t * @alias AddOleObject\n\t * @this Api\n     * @param {Object} data - The OLE object properties.\n     * @param {string} data.data - OLE object data (internal format).\n     * @param {string} data.imgSrc - A link to the image (its visual representation) stored in the OLE object and used by the plugin.\n     * @param {string} data.guid - An identifier of the plugin which can edit the current OLE object and must be of the *asc.{UUID}* type.\n     * @param {number} data.width - The OLE object width measured in millimeters.\n     * @param {number} data.height - The OLE object height measured in millimeters.\n     * @param {number} data.widthPix - The OLE object image width in pixels.\n     * @param {number} data.heightPix - The OLE object image height in pixels.\n    */",
+    "meta": {
+      "range": [
+        9303,
+        9402
+      ],
+      "lineno": 186,
+      "columnno": 4,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=d62dbcaed18b79f86f4e78d36aa781538bc4c501"
+    },
+    "description": "Adds an OLE object to the current document position.",
+    "memberof": "Api",
+    "alias": "AddOleObject",
+    "this": "Api",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "Object"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "Object"
+          }
+        },
+        "description": "The OLE object properties.",
+        "name": "data"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "OLE object data (internal format).",
+        "name": "data.data"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "A link to the image (its visual representation) stored in the OLE object and used by the plugin.",
+        "name": "data.imgSrc"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "An identifier of the plugin which can edit the current OLE object and must be of the *asc.{UUID}* type.",
+        "name": "data.guid"
+      },
+      {
+        "type": {
+          "names": [
+            "number"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "number"
+          }
+        },
+        "description": "The OLE object width measured in millimeters.",
+        "name": "data.width"
+      },
+      {
+        "type": {
+          "names": [
+            "number"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "number"
+          }
+        },
+        "description": "The OLE object height measured in millimeters.",
+        "name": "data.height"
+      },
+      {
+        "type": {
+          "names": [
+            "number"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "number"
+          }
+        },
+        "description": "The OLE object image width in pixels.",
+        "name": "data.widthPix"
+      },
+      {
+        "type": {
+          "names": [
+            "number"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "number"
+          }
+        },
+        "description": "The OLE object image height in pixels.",
+        "name": "data.heightPix"
+      }
+    ],
+    "name": "AddOleObject",
+    "longname": "AddOleObject",
+    "kind": "function"
+  },
+  {
+    "comment": "/**\n     * Edits an OLE object in the document.\n     * @memberof Api\n     * @alias EditOleObject\n     * @param {Object} data - The OLE object properties.\n     * @param {string} data.data - OLE object data (internal format).\n     * @param {string} data.imgSrc - A link to the image (its visual representation) stored in the OLE object and used by the plugin.\n     * @param {string} data.objectId - The OLE object identifier.\n     * @param {number} data.width - The OLE object width measured in millimeters.\n     * @param {number} data.height - The OLE object height measured in millimeters.\n     * @param {number} data.widthPix - The OLE object image width in pixels.\n     * @param {number} data.heightPix - The OLE object image height in pixels.\n     */",
+    "meta": {
+      "range": [
+        10211,
+        10312
+      ],
+      "lineno": 202,
+      "columnno": 4,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=d62dbcaed18b79f86f4e78d36aa781538bc4c501"
+    },
+    "description": "Edits an OLE object in the document.",
+    "memberof": "Api",
+    "alias": "EditOleObject",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "Object"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "Object"
+          }
+        },
+        "description": "The OLE object properties.",
+        "name": "data"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "OLE object data (internal format).",
+        "name": "data.data"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "A link to the image (its visual representation) stored in the OLE object and used by the plugin.",
+        "name": "data.imgSrc"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "The OLE object identifier.",
+        "name": "data.objectId"
+      },
+      {
+        "type": {
+          "names": [
+            "number"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "number"
+          }
+        },
+        "description": "The OLE object width measured in millimeters.",
+        "name": "data.width"
+      },
+      {
+        "type": {
+          "names": [
+            "number"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "number"
+          }
+        },
+        "description": "The OLE object height measured in millimeters.",
+        "name": "data.height"
+      },
+      {
+        "type": {
+          "names": [
+            "number"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "number"
+          }
+        },
+        "description": "The OLE object image width in pixels.",
+        "name": "data.widthPix"
+      },
+      {
+        "type": {
+          "names": [
+            "number"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "number"
+          }
+        },
+        "description": "The OLE object image height in pixels.",
+        "name": "data.heightPix"
+      }
+    ],
+    "name": "EditOleObject",
+    "longname": "EditOleObject",
+    "kind": "function"
+  },
+  {
+    "comment": "/**\n     * Returns the fonts list.\n     * @memberof Api\n     * @alias GetFontList\n     * @returns {FontInfo[]} - An array of the FontInfo objects containing the data about the used fonts.\n     */",
+    "meta": {
+      "range": [
+        13178,
+        13320
+      ],
+      "lineno": 239,
+      "columnno": 4,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=d62dbcaed18b79f86f4e78d36aa781538bc4c501"
+    },
+    "description": "Returns the fonts list.",
+    "memberof": "Api",
+    "alias": "GetFontList",
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "Array.<FontInfo>"
+          ],
+          "parsedType": {
+            "type": "TypeApplication",
+            "expression": {
+              "type": "NameExpression",
+              "name": "Array"
+            },
+            "applications": [
+              {
+                "name": "FontInfo",
+                "type": "NameExpression"
+              }
+            ]
+          }
+        },
+        "description": "- An array of the FontInfo objects containing the data about the used fonts."
+      }
+    ],
+    "name": "GetFontList",
+    "longname": "GetFontList",
+    "kind": "function"
+  },
+  {
+    "comment": "/**\n     * Inserts text into the document.\n     * @memberof Api\n     * @alias InputText\n\t * @param {string} text - A string value that specifies the text to be inserted into the document.\n\t * @param {string} textReplace - A string value that specifies the text to be replaced with a new text.\n     */",
+    "meta": {
+      "range": [
+        13676,
+        14103
+      ],
+      "lineno": 252,
+      "columnno": 4,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=d62dbcaed18b79f86f4e78d36aa781538bc4c501"
+    },
+    "description": "Inserts text into the document.",
+    "memberof": "Api",
+    "alias": "InputText",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "A string value that specifies the text to be inserted into the document.",
+        "name": "text"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "A string value that specifies the text to be replaced with a new text.",
+        "name": "textReplace"
+      }
+    ],
+    "name": "InputText",
+    "longname": "InputText",
+    "kind": "function"
+  },
+  {
+    "comment": "/**\n\t * Pastes text in the HTML format into the document.\n\t * @memberof Api\n\t * @alias PasteHtml\n\t * @param {string} htmlText - A string value that specifies the text in the *HTML* format to be pasted into the document.\n\t */",
+    "meta": {
+      "range": [
+        14374,
+        16543
+      ],
+      "lineno": 274,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=d62dbcaed18b79f86f4e78d36aa781538bc4c501"
+    },
+    "description": "Pastes text in the HTML format into the document.",
+    "memberof": "Api",
+    "alias": "PasteHtml",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "A string value that specifies the text in the *HTML* format to be pasted into the document.",
+        "name": "htmlText"
+      }
+    ],
+    "name": "PasteHtml",
+    "longname": "PasteHtml",
+    "kind": "function"
+  },
+  {
+    "comment": "/**\n     * Pastes text into the document.\n     * @memberof Api\n     * @alias PasteText\n     * @param {string} text - A string value that specifies the text to be pasted into the document.\n     */",
+    "meta": {
+      "range": [
+        16794,
+        17004
+      ],
+      "lineno": 347,
+      "columnno": 4,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=d62dbcaed18b79f86f4e78d36aa781538bc4c501"
+    },
+    "description": "Pastes text into the document.",
+    "memberof": "Api",
+    "alias": "PasteText",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "A string value that specifies the text to be pasted into the document.",
+        "name": "text"
+      }
+    ],
+    "name": "PasteText",
+    "longname": "PasteText",
+    "kind": "function"
+  },
+  {
+    "comment": "/**\n     * Returns the document macros.\n     * @memberof Api\n     * @alias GetMacros\n     * @returns {Macros} - The Macros object containing the data about all the macros from the document\n     */",
+    "meta": {
+      "range": [
+        17566,
+        17667
+      ],
+      "lineno": 369,
+      "columnno": 4,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=d62dbcaed18b79f86f4e78d36aa781538bc4c501"
+    },
+    "description": "Returns the document macros.",
+    "memberof": "Api",
+    "alias": "GetMacros",
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "Macros"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "Macros"
+          }
+        },
+        "description": "- The Macros object containing the data about all the macros from the document"
+      }
+    ],
+    "name": "GetMacros",
+    "longname": "GetMacros",
+    "kind": "function"
+  },
+  {
+    "comment": "/**\n     * Sets macros to the document.\n     * @memberof Api\n     * @alias SetMacros\n     * @param {Macros} data - The *Macros* object containing the data about all the macros from the document.\n     */",
+    "meta": {
+      "range": [
+        17925,
+        18034
+      ],
+      "lineno": 381,
+      "columnno": 4,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=d62dbcaed18b79f86f4e78d36aa781538bc4c501"
+    },
+    "description": "Sets macros to the document.",
+    "memberof": "Api",
+    "alias": "SetMacros",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "Macros"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "Macros"
+          }
+        },
+        "description": "The *Macros* object containing the data about all the macros from the document.",
+        "name": "data"
+      }
+    ],
+    "name": "SetMacros",
+    "longname": "SetMacros",
+    "kind": "function"
+  },
+  {
+    "comment": "/**\n\t * Returns all VBA macros from the document.\n\t * @memberof Api\n\t * @alias GetVBAMacros\n\t * @returns {string | null} VBA xml macros.\n\t * @since 7.3.0\n\t */",
+    "meta": {
+      "range": [
+        18239,
+        18360
+      ],
+      "lineno": 394,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=d62dbcaed18b79f86f4e78d36aa781538bc4c501"
+    },
+    "description": "Returns all VBA macros from the document.",
+    "memberof": "Api",
+    "alias": "GetVBAMacros",
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "string",
+            "null"
+          ],
+          "parsedType": {
+            "type": "TypeUnion",
+            "elements": [
+              {
+                "type": "NameExpression",
+                "name": "string"
+              },
+              {
+                "type": "NullLiteral"
+              }
+            ]
+          }
+        },
+        "description": "VBA xml macros."
+      }
+    ],
+    "since": "7.3.0",
+    "name": "GetVBAMacros",
+    "longname": "GetVBAMacros",
+    "kind": "function"
+  },
+  {
+    "comment": "/**\n     * Specifies the start action for long operations.\n     * @memberof Api\n     * @alias StartAction\n     * @param {number} type - A value which defines an action type which can take <b>0</b> if this is an *Information* action or <b>1</b> if this is a *BlockInteraction* action.\n\t * @param {string} description - A string value that specifies the description text for the start action of the operation.\n     */",
+    "meta": {
+      "range": [
+        18831,
+        19062
+      ],
+      "lineno": 407,
+      "columnno": 4,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=d62dbcaed18b79f86f4e78d36aa781538bc4c501"
+    },
+    "description": "Specifies the start action for long operations.",
+    "memberof": "Api",
+    "alias": "StartAction",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "number"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "number"
+          }
+        },
+        "description": "A value which defines an action type which can take <b>0</b> if this is an *Information* action or <b>1</b> if this is a *BlockInteraction* action.",
+        "name": "type"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "A string value that specifies the description text for the start action of the operation.",
+        "name": "description"
+      }
+    ],
+    "name": "StartAction",
+    "longname": "StartAction",
+    "kind": "function"
+  },
+  {
+    "comment": "/**\n     * Specifies the end action for long operations.\n     * @memberof Api\n     * @alias EndAction\n     * @param {number} type - A value which defines an action type which can take <b>\"Block\"</b> if this is the *BlockInteraction* action or <b>\"Information</b> if this is the *Information* action.\n     * @param {string} description - A string value that specifies the description text for the operation end action.\n\t * @param {string} status - The error status code. If no error occurs, then an empty string is passed.\n     */",
+    "meta": {
+      "range": [
+        19647,
+        21344
+      ],
+      "lineno": 421,
+      "columnno": 4,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=d62dbcaed18b79f86f4e78d36aa781538bc4c501"
+    },
+    "description": "Specifies the end action for long operations.",
+    "memberof": "Api",
+    "alias": "EndAction",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "number"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "number"
+          }
+        },
+        "description": "A value which defines an action type which can take <b>\"Block\"</b> if this is the *BlockInteraction* action or <b>\"Information</b> if this is the *Information* action.",
+        "name": "type"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "A string value that specifies the description text for the operation end action.",
+        "name": "description"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "The error status code. If no error occurs, then an empty string is passed.",
+        "name": "status"
+      }
+    ],
+    "name": "EndAction",
+    "longname": "EndAction",
+    "kind": "function"
+  },
+  {
+    "comment": "/**\n     * Encrypts the document.\n     * @memberof Api\n     * @alias OnEncryption\n     * @param {object} obj - The encryption properties.\n     * @param {string} obj.type - The type of encrypting operation:\n     * * <b>generatePassword</b> - generates a password for the document,\n     * * <b>getPasswordByFile</b> - sends the password when opening the document,\n     * * <b>encryptData</b> - encrypts changes when co-editing,\n     * * <b>decryptData</b> - decrypts changes when co-editing.\n     * @param {string} obj.password - A string value specifying the password to access the document.\n     * @param {string} obj.data - Encrypted/decrypted changes.\n     * @param {boolean} obj.check - Checks if the encryption/decryption operation is successful or not (used only for *encryptData* or *decryptData* types).\n     * @param {string} obj.docinfo - An unencrypted part of the encrypted file.\n     * @param {string} obj.hash - A string value specifying a file hash (*sha256* by default).\n     * @param {string} obj.error - A string value specifying an error that occurs (the \"\" value means that the operation is successful).\n     */",
+    "meta": {
+      "range": [
+        22530,
+        24816
+      ],
+      "lineno": 484,
+      "columnno": 4,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=d62dbcaed18b79f86f4e78d36aa781538bc4c501"
+    },
+    "description": "Encrypts the document.",
+    "memberof": "Api",
+    "alias": "OnEncryption",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "object"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "object"
+          }
+        },
+        "description": "The encryption properties.",
+        "name": "obj"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "The type of encrypting operation:\n* <b>generatePassword</b> - generates a password for the document,\n* <b>getPasswordByFile</b> - sends the password when opening the document,\n* <b>encryptData</b> - encrypts changes when co-editing,\n* <b>decryptData</b> - decrypts changes when co-editing.",
+        "name": "obj.type"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "A string value specifying the password to access the document.",
+        "name": "obj.password"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "Encrypted/decrypted changes.",
+        "name": "obj.data"
+      },
+      {
+        "type": {
+          "names": [
+            "boolean"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "boolean"
+          }
+        },
+        "description": "Checks if the encryption/decryption operation is successful or not (used only for *encryptData* or *decryptData* types).",
+        "name": "obj.check"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "An unencrypted part of the encrypted file.",
+        "name": "obj.docinfo"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "A string value specifying a file hash (*sha256* by default).",
+        "name": "obj.hash"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "A string value specifying an error that occurs (the \"\" value means that the operation is successful).",
+        "name": "obj.error"
+      }
+    ],
+    "name": "OnEncryption",
+    "longname": "OnEncryption",
+    "kind": "function"
+  },
+  {
+    "comment": "/**\n     * Sets the properties to the document.\n     * @memberof Api\n     * @alias SetProperties\n     * @param {object} obj - The document properties.\n\t * @param {?boolean} obj.copyoutenabled - Disables copying from the editor if it is set to **false**.\n\t * @param {?boolean} obj.hideContentControlTrack - Disables tracking the content control if it is set to **true**.\n\t * @param {?string} obj.watermark_on_draw - A string value for {@link global#watermark_on_draw watermark properties} in JSON format.\n     * @param {?boolean} obj.disableAutostartMacros - Sets a flag that specifies that macros are started automatically when the editor opens.\n     * @param {?string} obj.fillForms - Sets rules in JSON format for filling document {@link global#fillForms forms} by tags.\n     */",
+    "meta": {
+      "range": [
+        28922,
+        34767
+      ],
+      "lineno": 594,
+      "columnno": 4,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=d62dbcaed18b79f86f4e78d36aa781538bc4c501"
+    },
+    "description": "Sets the properties to the document.",
+    "memberof": "Api",
+    "alias": "SetProperties",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "object"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "object"
+          }
+        },
+        "description": "The document properties.",
+        "name": "obj"
+      },
+      {
+        "type": {
+          "names": [
+            "boolean"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "boolean",
+            "nullable": true
+          }
+        },
+        "nullable": true,
+        "description": "Disables copying from the editor if it is set to **false**.",
+        "name": "obj.copyoutenabled"
+      },
+      {
+        "type": {
+          "names": [
+            "boolean"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "boolean",
+            "nullable": true
+          }
+        },
+        "nullable": true,
+        "description": "Disables tracking the content control if it is set to **true**.",
+        "name": "obj.hideContentControlTrack"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string",
+            "nullable": true
+          }
+        },
+        "nullable": true,
+        "description": "A string value for {@link global#watermark_on_draw watermark properties} in JSON format.",
+        "name": "obj.watermark_on_draw"
+      },
+      {
+        "type": {
+          "names": [
+            "boolean"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "boolean",
+            "nullable": true
+          }
+        },
+        "nullable": true,
+        "description": "Sets a flag that specifies that macros are started automatically when the editor opens.",
+        "name": "obj.disableAutostartMacros"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string",
+            "nullable": true
+          }
+        },
+        "nullable": true,
+        "description": "Sets rules in JSON format for filling document {@link global#fillForms forms} by tags.",
+        "name": "obj.fillForms"
+      }
+    ],
+    "name": "SetProperties",
+    "longname": "SetProperties",
+    "kind": "function"
+  },
+  {
+    "comment": "/**\n     * Shows the input helper.\n     * @memberof Api\n     * @alias ShowInputHelper\n     * @param {string} guid - A string value which specifies a plugin identifier which must be of the *asc.{UUID}* type.\n     * @param {number} w - A number which specifies the window width measured in millimeters.\n     * @param {number} h - A number which specifies the window height measured in millimeters.\n     * @param {boolean} isKeyboardTake - Defines if the keyboard is caught (**true**) or not (**alse**).\n     */",
+    "meta": {
+      "range": [
+        35331,
+        37488
+      ],
+      "lineno": 806,
+      "columnno": 4,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=d62dbcaed18b79f86f4e78d36aa781538bc4c501"
+    },
+    "description": "Shows the input helper.",
+    "memberof": "Api",
+    "alias": "ShowInputHelper",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "A string value which specifies a plugin identifier which must be of the *asc.{UUID}* type.",
+        "name": "guid"
+      },
+      {
+        "type": {
+          "names": [
+            "number"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "number"
+          }
+        },
+        "description": "A number which specifies the window width measured in millimeters.",
+        "name": "w"
+      },
+      {
+        "type": {
+          "names": [
+            "number"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "number"
+          }
+        },
+        "description": "A number which specifies the window height measured in millimeters.",
+        "name": "h"
+      },
+      {
+        "type": {
+          "names": [
+            "boolean"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "boolean"
+          }
+        },
+        "description": "Defines if the keyboard is caught (**true**) or not (**alse**).",
+        "name": "isKeyboardTake"
+      }
+    ],
+    "name": "ShowInputHelper",
+    "longname": "ShowInputHelper",
+    "kind": "function"
+  },
+  {
+    "comment": "/**\n     * Unshows the input helper.\n     * @memberof Api\n     * @alias UnShowInputHelper\n     * @param {string} guid - A string value which specifies a plugin identifier which must be of the *asc.{UUID}* type.\n     * @param {string} isclear - Defines if the input context will be cleared (**true**) or not (**false**).\n     */",
+    "meta": {
+      "range": [
+        37871,
+        38936
+      ],
+      "lineno": 891,
+      "columnno": 4,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=d62dbcaed18b79f86f4e78d36aa781538bc4c501"
+    },
+    "description": "Unshows the input helper.",
+    "memberof": "Api",
+    "alias": "UnShowInputHelper",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "A string value which specifies a plugin identifier which must be of the *asc.{UUID}* type.",
+        "name": "guid"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "Defines if the input context will be cleared (**true**) or not (**false**).",
+        "name": "isclear"
+      }
+    ],
+    "name": "UnShowInputHelper",
+    "longname": "UnShowInputHelper",
+    "kind": "function"
+  },
+  {
+    "comment": "/**\n     * Sends a message to the co-authoring chat.\n     * @memberof Api\n     * @alias CoAuthoringChatSendMessage\n     * @param {string} sText - Message text.\n     */",
+    "meta": {
+      "range": [
+        39158,
+        39299
+      ],
+      "lineno": 932,
+      "columnno": 4,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=d62dbcaed18b79f86f4e78d36aa781538bc4c501"
+    },
+    "description": "Sends a message to the co-authoring chat.",
+    "memberof": "Api",
+    "alias": "CoAuthoringChatSendMessage",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "Message text.",
+        "name": "sText"
+      }
+    ],
+    "name": "CoAuthoringChatSendMessage",
+    "longname": "CoAuthoringChatSendMessage",
+    "kind": "function"
+  },
+  {
+    "comment": "/**\n\t * Returns the type of the current selection.\n\t * @memberof Api\n\t * @alias GetSelectionType\n\t * @returns {SelectionType} - The selection type.\n\t */",
+    "meta": {
+      "range": [
+        39650,
+        41955
+      ],
+      "lineno": 949,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=d62dbcaed18b79f86f4e78d36aa781538bc4c501"
+    },
+    "description": "Returns the type of the current selection.",
+    "memberof": "Api",
+    "alias": "GetSelectionType",
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "SelectionType"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "SelectionType"
+          }
+        },
+        "description": "- The selection type."
+      }
+    ],
+    "name": "GetSelectionType",
+    "longname": "GetSelectionType",
+    "kind": "function"
+  },
+  {
+    "comment": "/**\n     * Returns the selected text from the document.\n     * @memberof Api\n     * @alias GetSelectedText\n     * @param {object} prop - The resulting string display properties.\n     * @param {boolean} prop.NewLine - Defines if the resulting string will include line boundaries or not (they will be replaced with '\\r').\n     * @param {boolean} prop.NewLineParagraph - Defines if the resulting string will include paragraph line boundaries or not.\n     * @param {boolean} prop.Numbering - Defines if the resulting string will include numbering or not.\n     * @param {boolean} prop.Math - Defines if the resulting string will include mathematical expressions or not.\n     * @param {string} prop.TableCellSeparator - Defines how the table cell separator will be specified in the resulting string.\n     * @param {string} prop.TableRowSeparator - Defines how the table row separator will be specified in the resulting string.\n     * @param {string} prop.ParaSeparator - Defines how the paragraph separator will be specified in the resulting string.\n     * @param {string} prop.TabSymbol - Defines how the tab will be specified in the resulting string.\n     * @param {string} prop.NewLineSeparator - Defines how the line separator will be specified in the resulting string (this property has the priority over *NewLine*).\n\t * @return {string} - Selected text.\n     * @since 7.1.0\n     * @example\n     * window.Asc.plugin.executeMethod(\"GetSelectedText\", [{NewLine:true, NewLineParagraph:true, Numbering:true}])\n     */",
+    "meta": {
+      "range": [
+        44916,
+        46027
+      ],
+      "lineno": 1072,
+      "columnno": 4,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=d62dbcaed18b79f86f4e78d36aa781538bc4c501"
+    },
+    "description": "Returns the selected text from the document.",
+    "memberof": "Api",
+    "alias": "GetSelectedText",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "object"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "object"
+          }
+        },
+        "description": "The resulting string display properties.",
+        "name": "prop"
+      },
+      {
+        "type": {
+          "names": [
+            "boolean"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "boolean"
+          }
+        },
+        "description": "Defines if the resulting string will include line boundaries or not (they will be replaced with '\\r').",
+        "name": "prop.NewLine"
+      },
+      {
+        "type": {
+          "names": [
+            "boolean"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "boolean"
+          }
+        },
+        "description": "Defines if the resulting string will include paragraph line boundaries or not.",
+        "name": "prop.NewLineParagraph"
+      },
+      {
+        "type": {
+          "names": [
+            "boolean"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "boolean"
+          }
+        },
+        "description": "Defines if the resulting string will include numbering or not.",
+        "name": "prop.Numbering"
+      },
+      {
+        "type": {
+          "names": [
+            "boolean"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "boolean"
+          }
+        },
+        "description": "Defines if the resulting string will include mathematical expressions or not.",
+        "name": "prop.Math"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "Defines how the table cell separator will be specified in the resulting string.",
+        "name": "prop.TableCellSeparator"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "Defines how the table row separator will be specified in the resulting string.",
+        "name": "prop.TableRowSeparator"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "Defines how the paragraph separator will be specified in the resulting string.",
+        "name": "prop.ParaSeparator"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "Defines how the tab will be specified in the resulting string.",
+        "name": "prop.TabSymbol"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "Defines how the line separator will be specified in the resulting string (this property has the priority over *NewLine*).",
+        "name": "prop.NewLineSeparator"
+      }
+    ],
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "- Selected text."
+      }
+    ],
+    "since": "7.1.0",
+    "examples": [
+      "window.Asc.plugin.executeMethod(\"GetSelectedText\", [{NewLine:true, NewLineParagraph:true, Numbering:true}])"
+    ],
+    "name": "GetSelectedText",
+    "longname": "GetSelectedText",
+    "kind": "function"
+  },
+  {
+    "comment": "/**\n     * Replaces each paragraph (or text in cell) in the select with the corresponding text from an array of strings.\n     * @memberof Api\n     * @alias ReplaceTextSmart\n     * @param {Array} arrString - An array of replacement strings.\n     * @param {string} [sParaTab=\" \"] - A character which is used to specify the tab in the source text.\n     * @param {string} [sParaNewLine=\" \"] - A character which is used to specify the line break character in the source text.\n     * @returns {boolean} - Always returns true.\n     * @since 7.1.0\n     */",
+    "meta": {
+      "range": [
+        46629,
+        47620
+      ],
+      "lineno": 1113,
+      "columnno": 4,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=d62dbcaed18b79f86f4e78d36aa781538bc4c501"
+    },
+    "description": "Replaces each paragraph (or text in cell) in the select with the corresponding text from an array of strings.",
+    "memberof": "Api",
+    "alias": "ReplaceTextSmart",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "Array"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "Array"
+          }
+        },
+        "description": "An array of replacement strings.",
+        "name": "arrString"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "optional": true,
+        "defaultvalue": "\" \"",
+        "description": "A character which is used to specify the tab in the source text.",
+        "name": "sParaTab"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "optional": true,
+        "defaultvalue": "\" \"",
+        "description": "A character which is used to specify the line break character in the source text.",
+        "name": "sParaNewLine"
+      }
+    ],
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "boolean"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "boolean"
+          }
+        },
+        "description": "- Always returns true."
+      }
+    ],
+    "since": "7.1.0",
+    "name": "ReplaceTextSmart",
+    "longname": "ReplaceTextSmart",
+    "kind": "function"
+  },
+  {
+    "comment": "/**\n     * Returns the current file to download in the specified format.\n     * @memberof Api\n     * @alias GetFileToDownload\n     * @param {string} [format=\" \"] - A format in which you need to download a file.\n     * @returns {string} - URL to download the file in the specified format or error.\n     * @since 7.2.0\n     */",
+    "meta": {
+      "range": [
+        47993,
+        48682
+      ],
+      "lineno": 1155,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=d62dbcaed18b79f86f4e78d36aa781538bc4c501"
+    },
+    "description": "Returns the current file to download in the specified format.",
+    "memberof": "Api",
+    "alias": "GetFileToDownload",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "optional": true,
+        "defaultvalue": "\" \"",
+        "description": "A format in which you need to download a file.",
+        "name": "format"
+      }
+    ],
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "- URL to download the file in the specified format or error."
+      }
+    ],
+    "since": "7.2.0",
+    "name": "GetFileToDownload",
+    "longname": "GetFileToDownload",
+    "kind": "function"
+  },
+  {
+    "comment": "/**\n     * Returns the image data from the first of the selected drawings. If there are no drawings selected, the method returns a white rectangle.\n     * @memberof Api\n     * @alias GetImageDataFromSelection\n     * @returns {?ImageData} - The ImageData object containig the information about the base64 encoded png image.\n     * @since 7.2.0\n     */",
+    "meta": {
+      "range": [
+        49707,
+        49824
+      ],
+      "lineno": 1193,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=d62dbcaed18b79f86f4e78d36aa781538bc4c501"
+    },
+    "description": "Returns the image data from the first of the selected drawings. If there are no drawings selected, the method returns a white rectangle.",
+    "memberof": "Api",
+    "alias": "GetImageDataFromSelection",
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "ImageData"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "ImageData",
+            "nullable": true
+          }
+        },
+        "nullable": true,
+        "description": "- The ImageData object containig the information about the base64 encoded png image."
+      }
+    ],
+    "since": "7.2.0",
+    "name": "GetImageDataFromSelection",
+    "longname": "GetImageDataFromSelection",
+    "kind": "function"
+  },
+  {
+    "comment": "/**\n     * Replaces the first selected drawing with the image specified in the parameters.\n     * If there are no drawings selected, the method inserts the image at the current position.\n     * @memberof Api\n     * @alias PutImageDataToSelection\n     * @param {ImageData} oImageData - The information about the base64 encoded *png* image.\n     * @since 7.2.0\n     */",
+    "meta": {
+      "range": [
+        50239,
+        50946
+      ],
+      "lineno": 1206,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=d62dbcaed18b79f86f4e78d36aa781538bc4c501"
+    },
+    "description": "Replaces the first selected drawing with the image specified in the parameters.\nIf there are no drawings selected, the method inserts the image at the current position.",
+    "memberof": "Api",
+    "alias": "PutImageDataToSelection",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "ImageData"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "ImageData"
+          }
+        },
+        "description": "The information about the base64 encoded *png* image.",
+        "name": "oImageData"
+      }
+    ],
+    "since": "7.2.0",
+    "name": "PutImageDataToSelection",
+    "longname": "PutImageDataToSelection",
+    "kind": "function"
+  },
+  {
+    "comment": "/**\n    * Returns all the installed plugins.\n     * @memberof Api\n     * @alias GetInstalledPlugins\n     * @returns {PluginData[]} - An array of all the installed plugins.\n     * @since 7.2.0\n     */",
+    "meta": {
+      "range": [
+        55772,
+        58423
+      ],
+      "lineno": 1389,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=d62dbcaed18b79f86f4e78d36aa781538bc4c501"
+    },
+    "description": "Returns all the installed plugins.",
+    "memberof": "Api",
+    "alias": "GetInstalledPlugins",
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "Array.<PluginData>"
+          ],
+          "parsedType": {
+            "type": "TypeApplication",
+            "expression": {
+              "type": "NameExpression",
+              "name": "Array"
+            },
+            "applications": [
+              {
+                "name": "PluginData",
+                "type": "NameExpression"
+              }
+            ]
+          }
+        },
+        "description": "- An array of all the installed plugins."
+      }
+    ],
+    "since": "7.2.0",
+    "name": "GetInstalledPlugins",
+    "longname": "GetInstalledPlugins",
+    "kind": "function"
+  },
+  {
+    "comment": "/**\n    * Removes a plugin with the specified GUID.\n     * @memberof Api\n     * @param {string} guid - The plugin identifier. It must be of the *asc.{UUID}* type.\n\t * @param {string} backup - The plugin backup. This parameter is used when working with the desktop editors.\n     * @alias RemovePlugin\n     * @returns {object} - An object with the result information.\n     * @since 7.2.0\n     */",
+    "meta": {
+      "range": [
+        58865,
+        60837
+      ],
+      "lineno": 1480,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=d62dbcaed18b79f86f4e78d36aa781538bc4c501"
+    },
+    "description": "Removes a plugin with the specified GUID.",
+    "memberof": "Api",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "The plugin identifier. It must be of the *asc.{UUID}* type.",
+        "name": "guid"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "The plugin backup. This parameter is used when working with the desktop editors.",
+        "name": "backup"
+      }
+    ],
+    "alias": "RemovePlugin",
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "object"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "object"
+          }
+        },
+        "description": "- An object with the result information."
+      }
+    ],
+    "since": "7.2.0",
+    "name": "RemovePlugin",
+    "longname": "RemovePlugin",
+    "kind": "function"
+  },
+  {
+    "comment": "/**\n    * Installs a plugin by the URL to the plugin config.\n     * @memberof Api\n     * @param {object} [config] - The plugin config for installing.\n     * @alias InstallPlugin\n     * @returns {object} - An object with the result information.\n     * @since 7.2.0\n     */",
+    "meta": {
+      "range": [
+        61157,
+        61270
+      ],
+      "lineno": 1541,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=d62dbcaed18b79f86f4e78d36aa781538bc4c501"
+    },
+    "description": "Installs a plugin by the URL to the plugin config.",
+    "memberof": "Api",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "object"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "object"
+          }
+        },
+        "optional": true,
+        "description": "The plugin config for installing.",
+        "name": "config"
+      }
+    ],
+    "alias": "InstallPlugin",
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "object"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "object"
+          }
+        },
+        "description": "- An object with the result information."
+      }
+    ],
+    "since": "7.2.0",
+    "name": "InstallPlugin",
+    "longname": "InstallPlugin",
+    "kind": "function"
+  },
+  {
+    "comment": "/**\n    * Updates a plugin by the URL to the plugin config.\n     * @memberof Api\n     * @param {object} [config] - The plugin config for updating.\n     * @alias UpdatePlugin\n     * @returns {object} - An object with the result information.\n     * @since 7.3.0\n     */",
+    "meta": {
+      "range": [
+        61586,
+        61696
+      ],
+      "lineno": 1554,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=d62dbcaed18b79f86f4e78d36aa781538bc4c501"
+    },
+    "description": "Updates a plugin by the URL to the plugin config.",
+    "memberof": "Api",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "object"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "object"
+          }
+        },
+        "optional": true,
+        "description": "The plugin config for updating.",
+        "name": "config"
+      }
+    ],
+    "alias": "UpdatePlugin",
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "object"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "object"
+          }
+        },
+        "description": "- An object with the result information."
+      }
+    ],
+    "since": "7.3.0",
+    "name": "UpdatePlugin",
+    "longname": "UpdatePlugin",
+    "kind": "function"
+  },
+  {
+    "comment": "/**\n\t * Installs a plugin by the URL to the plugin config.\n\t * @memberof Api\n\t * @param {string} configUrl - The URL to the plugin *config.json* for installing.\n\t * @alias InstallDeveloperPlugin\n\t * @returns {boolean} - Returns true if the plugin is installed.\n\t * @since 7.4.0\n\t */",
+    "meta": {
+      "range": [
+        62025,
+        62463
+      ],
+      "lineno": 1568,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=d62dbcaed18b79f86f4e78d36aa781538bc4c501"
+    },
+    "description": "Installs a plugin by the URL to the plugin config.",
+    "memberof": "Api",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "The URL to the plugin *config.json* for installing.",
+        "name": "configUrl"
+      }
+    ],
+    "alias": "InstallDeveloperPlugin",
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "boolean"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "boolean"
+          }
+        },
+        "description": "- Returns true if the plugin is installed."
+      }
+    ],
+    "since": "7.4.0",
+    "name": "InstallDeveloperPlugin",
+    "longname": "InstallDeveloperPlugin",
+    "kind": "function"
+  },
+  {
+    "comment": "/**\n\t* Shows or hides buttons in the header.\n\t * @memberof Api\n\t * @param {string} id - The button ID.\n\t * @param {boolean} bShow - The flag specifies whether the button is shown (**true**) or hidden (**false**).\n\t * @param {string} align - The parameter indicates whether the button will be displayed on the right side of the window or on the left. The default value is \"left\".\n\t * @alias ShowButton \n\t * @since 7.2.0\n\t */",
+    "meta": {
+      "range": [
+        62933,
+        63157
+      ],
+      "lineno": 1599,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=d62dbcaed18b79f86f4e78d36aa781538bc4c501"
+    },
+    "description": "Shows or hides buttons in the header.",
+    "memberof": "Api",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "The button ID.",
+        "name": "id"
+      },
+      {
+        "type": {
+          "names": [
+            "boolean"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "boolean"
+          }
+        },
+        "description": "The flag specifies whether the button is shown (**true**) or hidden (**false**).",
+        "name": "bShow"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "The parameter indicates whether the button will be displayed on the right side of the window or on the left. The default value is \"left\".",
+        "name": "align"
+      }
+    ],
+    "alias": "ShowButton",
+    "since": "7.2.0",
+    "name": "ShowButton",
+    "longname": "ShowButton",
+    "kind": "function"
+  },
+  {
+    "comment": "/**\n\t * Implements the external drag&drop emulation.\n\t * @memberof Api\n\t * @param {object} obj The drag&drop emulation properties.\n     * @param {string} obj.type - The drag&drop event type:\n     * * <b>onbeforedrop</b> - an event that is fired when the selected text or element is dragged;\n     * * <b>ondrop</b> - an event that is fired when the selected text or element is dropped on a valid drop target.\n     * @param {number} obj.x - The horizontal coordinate (in pixels) at which the mouse was clicked, relative to the left edge of the entire document.\n     * @param {number} obj.y - The vertical coordinate (in pixels) at which the mouse was clicked, relative to the top edge of the entire document.\n     * @param {string} obj.html - The dragged HTML element.\n     * @param {string} obj.text - The dragged text.\n\t * @alias OnDropEvent\n\t * @since 7.3.0\n\t */",
+    "meta": {
+      "range": [
+        64742,
+        65256
+      ],
+      "lineno": 1647,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=d62dbcaed18b79f86f4e78d36aa781538bc4c501"
+    },
+    "description": "Implements the external drag&drop emulation.",
+    "memberof": "Api",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "object"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "object"
+          }
+        },
+        "description": "The drag&drop emulation properties.",
+        "name": "obj"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "The drag&drop event type:\n* <b>onbeforedrop</b> - an event that is fired when the selected text or element is dragged;\n* <b>ondrop</b> - an event that is fired when the selected text or element is dropped on a valid drop target.",
+        "name": "obj.type"
+      },
+      {
+        "type": {
+          "names": [
+            "number"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "number"
+          }
+        },
+        "description": "The horizontal coordinate (in pixels) at which the mouse was clicked, relative to the left edge of the entire document.",
+        "name": "obj.x"
+      },
+      {
+        "type": {
+          "names": [
+            "number"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "number"
+          }
+        },
+        "description": "The vertical coordinate (in pixels) at which the mouse was clicked, relative to the top edge of the entire document.",
+        "name": "obj.y"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "The dragged HTML element.",
+        "name": "obj.html"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "The dragged text.",
+        "name": "obj.text"
+      }
+    ],
+    "alias": "OnDropEvent",
+    "since": "7.3.0",
+    "name": "OnDropEvent",
+    "longname": "OnDropEvent",
+    "kind": "function"
+  },
+  {
+    "comment": "/**\n\t * Adds an item to the context menu.\n\t * @memberof Api\n\t * @alias AddContextMenuItem\n\t * @param {ContextMenuItem[]} items - An array containing the context menu items for the current item.\n\t * @since 7.4.0\n\t */",
+    "meta": {
+      "range": [
+        67024,
+        67278
+      ],
+      "lineno": 1734,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=d62dbcaed18b79f86f4e78d36aa781538bc4c501"
+    },
+    "description": "Adds an item to the context menu.",
+    "memberof": "Api",
+    "alias": "AddContextMenuItem",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "Array.<ContextMenuItem>"
+          ],
+          "parsedType": {
+            "type": "TypeApplication",
+            "expression": {
+              "type": "NameExpression",
+              "name": "Array"
+            },
+            "applications": [
+              {
+                "name": "ContextMenuItem",
+                "type": "NameExpression"
+              }
+            ]
+          }
+        },
+        "description": "An array containing the context menu items for the current item.",
+        "name": "items"
+      }
+    ],
+    "since": "7.4.0",
+    "name": "AddContextMenuItem",
+    "longname": "AddContextMenuItem",
+    "kind": "function"
+  },
+  {
+    "comment": "/**\n\t * Updates an item in the context menu with the specified items.\n\t * @memberof Api\n\t * @alias UpdateContextMenuItem\n\t * @param {ContextMenuItem[]} items - An array containing the context menu items for the current item.\n\t * @since 7.4.0\n\t */",
+    "meta": {
+      "range": [
+        67571,
+        67833
+      ],
+      "lineno": 1749,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=d62dbcaed18b79f86f4e78d36aa781538bc4c501"
+    },
+    "description": "Updates an item in the context menu with the specified items.",
+    "memberof": "Api",
+    "alias": "UpdateContextMenuItem",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "Array.<ContextMenuItem>"
+          ],
+          "parsedType": {
+            "type": "TypeApplication",
+            "expression": {
+              "type": "NameExpression",
+              "name": "Array"
+            },
+            "applications": [
+              {
+                "name": "ContextMenuItem",
+                "type": "NameExpression"
+              }
+            ]
+          }
+        },
+        "description": "An array containing the context menu items for the current item.",
+        "name": "items"
+      }
+    ],
+    "since": "7.4.0",
+    "name": "UpdateContextMenuItem",
+    "longname": "UpdateContextMenuItem",
+    "kind": "function"
+  },
+  {
+    "comment": "/**\n\t * Shows the plugin modal window.\n\t * @memberof Api\n\t * @param {string} frameId - The frame ID.\n\t * @param {variation} variation - The plugin variation.\n\t * @alias ShowWindow \n\t * @since 7.4.0\n\t */",
+    "meta": {
+      "range": [
+        68082,
+        68290
+      ],
+      "lineno": 1765,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=d62dbcaed18b79f86f4e78d36aa781538bc4c501"
+    },
+    "description": "Shows the plugin modal window.",
+    "memberof": "Api",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "The frame ID.",
+        "name": "frameId"
+      },
+      {
+        "type": {
+          "names": [
+            "variation"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "variation"
+          }
+        },
+        "description": "The plugin variation.",
+        "name": "variation"
+      }
+    ],
+    "alias": "ShowWindow",
+    "since": "7.4.0",
+    "name": "ShowWindow",
+    "longname": "ShowWindow",
+    "kind": "function"
+  },
+  {
+    "comment": "/**\n\t * Closes the plugin modal window.\n\t * @memberof Api\n\t * @param {string} frameId - The frame ID.\n\t * @alias CloseWindow\n\t * @since 7.4.0\n\t */",
+    "meta": {
+      "range": [
+        68483,
+        68604
+      ],
+      "lineno": 1779,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=d62dbcaed18b79f86f4e78d36aa781538bc4c501"
+    },
+    "description": "Closes the plugin modal window.",
+    "memberof": "Api",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "The frame ID.",
+        "name": "frameId"
+      }
+    ],
+    "alias": "CloseWindow",
+    "since": "7.4.0",
+    "name": "CloseWindow",
+    "longname": "CloseWindow",
+    "kind": "function"
+  },
+  {
+    "comment": "/**\n\t * Sends a message to the plugin modal window.\n\t * @memberof Api\n\t * @param {string} windowID - The frame ID.\n\t * @param {string} name - The event name.\n\t * @param {object} data - The event data.\n\t * @alias SendToWindow\n\t * @since 7.4.0\n\t */",
+    "meta": {
+      "range": [
+        68897,
+        69044
+      ],
+      "lineno": 1794,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=d62dbcaed18b79f86f4e78d36aa781538bc4c501"
+    },
+    "description": "Sends a message to the plugin modal window.",
+    "memberof": "Api",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "The frame ID.",
+        "name": "windowID"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "The event name.",
+        "name": "name"
+      },
+      {
+        "type": {
+          "names": [
+            "object"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "object"
+          }
+        },
+        "description": "The event data.",
+        "name": "data"
+      }
+    ],
+    "alias": "SendToWindow",
+    "since": "7.4.0",
+    "name": "SendToWindow",
+    "longname": "SendToWindow",
+    "kind": "function"
+  },
+  {
+    "comment": "/**\n\t * Resizes the plugin modal window.\n\t * @memberof Api\n\t * @param {string} frameId - The frame ID.\n\t * @param {number} size - The frame size.\n\t * @param {number} minSize - The frame minimum size.\n\t * @param {number} maxSize - The frame maximum size.\n\t * @alias ResizeWindow\n\t * @since 7.4.0\n\t */",
+    "meta": {
+      "range": [
+        69390,
+        69694
+      ],
+      "lineno": 1810,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=d62dbcaed18b79f86f4e78d36aa781538bc4c501"
+    },
+    "description": "Resizes the plugin modal window.",
+    "memberof": "Api",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "The frame ID.",
+        "name": "frameId"
+      },
+      {
+        "type": {
+          "names": [
+            "number"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "number"
+          }
+        },
+        "description": "The frame size.",
+        "name": "size"
+      },
+      {
+        "type": {
+          "names": [
+            "number"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "number"
+          }
+        },
+        "description": "The frame minimum size.",
+        "name": "minSize"
+      },
+      {
+        "type": {
+          "names": [
+            "number"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "number"
+          }
+        },
+        "description": "The frame maximum size.",
+        "name": "maxSize"
+      }
+    ],
+    "alias": "ResizeWindow",
+    "since": "7.4.0",
+    "name": "ResizeWindow",
+    "longname": "ResizeWindow",
+    "kind": "function"
+  },
+  {
+    "comment": "/**\n\t * Sends an event to the plugin when the mouse button is released inside the plugin iframe.\n\t * @memberof Api\n\t * @param {string} frameId - The frame ID.\n\t * @param {number} x - The X coordinate.\n\t * @param {number} y - The Y coordinate.\n\t * @alias MouseUpWindow\n\t * @since 7.4.0\n\t */",
+    "meta": {
+      "range": [
+        70030,
+        70167
+      ],
+      "lineno": 1828,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=d62dbcaed18b79f86f4e78d36aa781538bc4c501"
+    },
+    "description": "Sends an event to the plugin when the mouse button is released inside the plugin iframe.",
+    "memberof": "Api",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "The frame ID.",
+        "name": "frameId"
+      },
+      {
+        "type": {
+          "names": [
+            "number"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "number"
+          }
+        },
+        "description": "The X coordinate.",
+        "name": "x"
+      },
+      {
+        "type": {
+          "names": [
+            "number"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "number"
+          }
+        },
+        "description": "The Y coordinate.",
+        "name": "y"
+      }
+    ],
+    "alias": "MouseUpWindow",
+    "since": "7.4.0",
+    "name": "MouseUpWindow",
+    "longname": "MouseUpWindow",
+    "kind": "function"
+  },
+  {
+    "comment": "/**\n\t * Sends an event to the plugin when the mouse button is moved inside the plugin iframe.\n\t * @memberof Api\n\t * @param {string} frameId - The frame ID.\n \t * @param {number} x - The X coordinate.\n\t * @param {number} y - The Y coordinate.\n\t * @alias MouseMoveWindow\n\t * @since 7.4.0\n\t */",
+    "meta": {
+      "range": [
+        70503,
+        70644
+      ],
+      "lineno": 1843,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=d62dbcaed18b79f86f4e78d36aa781538bc4c501"
+    },
+    "description": "Sends an event to the plugin when the mouse button is moved inside the plugin iframe.",
+    "memberof": "Api",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "The frame ID.",
+        "name": "frameId"
+      },
+      {
+        "type": {
+          "names": [
+            "number"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "number"
+          }
+        },
+        "description": "The X coordinate.",
+        "name": "x"
+      },
+      {
+        "type": {
+          "names": [
+            "number"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "number"
+          }
+        },
+        "description": "The Y coordinate.",
+        "name": "y"
+      }
+    ],
+    "alias": "MouseMoveWindow",
+    "since": "7.4.0",
+    "name": "MouseMoveWindow",
+    "longname": "MouseMoveWindow",
+    "kind": "function"
+  },
+  {
+    "comment": "/**\n     * Base class\n     * @global\n     * @class\n     * @name Api\n     */",
+    "meta": {
+      "lineno": 153,
+      "columnno": 4,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=d62dbcaed18b79f86f4e78d36aa781538bc4c501"
+    },
+    "description": "Base class",
+    "scope": "global",
+    "kind": "class",
+    "name": "Api",
+    "longname": "Api"
+  },
+  {
+    "comment": "/**\n\t * An object containing the font information.\n     * @typedef {Object} FontInfo\n     * @property {string} m_wsFontName The font name.\n     * @property {string} m_wsFontPath The path to the file with the current font.\n\t * @property {number} m_lIndex The font number in the file if there is more than one font in the file.\n\t * @property {boolean} m_bBold Specifies if the font characters are bold or not.\n\t * @property {boolean} m_bItalic Specifies if the font characters are italic or not.\n\t * @property {boolean} m_bIsFixed Specifies if the current font is monospaced or not.\n\t * @property {Array.<number>} m_aPanose The PANOSE Typeface Classification Number, a compact 10-byte description of the font critical visual characteristics, such as contrast, weight, and serif style.\n\t * @property {number} m_ulUnicodeRange1 The Unicode range encompassed by the font file (Bits 0-31).\n\t * @property {number} m_ulUnicodeRange2 The Unicode range encompassed by the font file (Bits 32-63).\n\t * @property {number} m_ulUnicodeRange3 The Unicode range encompassed by the font file (Bits 64-95).\n\t * @property {number} m_ulUnicodeRange4 The Unicode range encompassed by the font file (Bits 96-127).\n\t * @property {number} m_ulCodePageRange1 The code pages encompassed by the font file (Bits 0-31).\n\t * @property {number} m_ulCodePageRange2 The code pages encompassed by the font file (Bits 32-63).\n\t * @property {number} m_usWeigth The visual weight (stroke blackness or thickness) of the font characters (1-1000).\n\t * @property {number} m_usWidth The relative change from the normal aspect ratio (width to height ratio).\n\t * @property {number} m_sFamilyClass The font family class which values are assigned by IBM to each font family.\n\t * @property {number} m_eFontFormat The specific file type(s) used to store font data: <b>0</b> - *.fon, <b>1</b> - *.ttf, <b>2</b> - *.ttf, *.otf (CFF), <b>3</b> - unknown font format.\n\t * @property {number} m_shAvgCharWidth The arithmetic average of the escapement (width) of all non-zero width glyphs in the font.\n\t * @property {number} m_shAscent The height above the baseline for a clipping region.\n\t * @property {number} m_shDescent The vertical extent below the baseline for a clipping region.\n\t * @property {number} m_shLineGap The typographic line gap for the current font.\n\t * @property {number} m_shXHeight The distance between the baseline and the approximate height of non-ascending lowercase letters measured in FUnits.\n\t * @property {number} m_shCapHeight The distance between the baseline and the approximate height of uppercase letters measured in FUnits.\n     */",
+    "meta": {
+      "lineno": 204,
+      "columnno": 4,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=d62dbcaed18b79f86f4e78d36aa781538bc4c501"
+    },
+    "description": "An object containing the font information.",
+    "kind": "typedef",
+    "name": "FontInfo",
+    "type": {
+      "names": [
+        "Object"
+      ],
+      "parsedType": {
+        "type": "NameExpression",
+        "name": "Object"
+      }
+    },
+    "properties": [
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "The font name.",
+        "name": "m_wsFontName"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "The path to the file with the current font.",
+        "name": "m_wsFontPath"
+      },
+      {
+        "type": {
+          "names": [
+            "number"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "number"
+          }
+        },
+        "description": "The font number in the file if there is more than one font in the file.",
+        "name": "m_lIndex"
+      },
+      {
+        "type": {
+          "names": [
+            "boolean"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "boolean"
+          }
+        },
+        "description": "Specifies if the font characters are bold or not.",
+        "name": "m_bBold"
+      },
+      {
+        "type": {
+          "names": [
+            "boolean"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "boolean"
+          }
+        },
+        "description": "Specifies if the font characters are italic or not.",
+        "name": "m_bItalic"
+      },
+      {
+        "type": {
+          "names": [
+            "boolean"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "boolean"
+          }
+        },
+        "description": "Specifies if the current font is monospaced or not.",
+        "name": "m_bIsFixed"
+      },
+      {
+        "type": {
+          "names": [
+            "Array.<number>"
+          ],
+          "parsedType": {
+            "type": "TypeApplication",
+            "expression": {
+              "type": "NameExpression",
+              "name": "Array"
+            },
+            "applications": [
+              {
+                "type": "NameExpression",
+                "name": "number"
+              }
+            ]
+          }
+        },
+        "description": "The PANOSE Typeface Classification Number, a compact 10-byte description of the font critical visual characteristics, such as contrast, weight, and serif style.",
+        "name": "m_aPanose"
+      },
+      {
+        "type": {
+          "names": [
+            "number"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "number"
+          }
+        },
+        "description": "The Unicode range encompassed by the font file (Bits 0-31).",
+        "name": "m_ulUnicodeRange1"
+      },
+      {
+        "type": {
+          "names": [
+            "number"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "number"
+          }
+        },
+        "description": "The Unicode range encompassed by the font file (Bits 32-63).",
+        "name": "m_ulUnicodeRange2"
+      },
+      {
+        "type": {
+          "names": [
+            "number"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "number"
+          }
+        },
+        "description": "The Unicode range encompassed by the font file (Bits 64-95).",
+        "name": "m_ulUnicodeRange3"
+      },
+      {
+        "type": {
+          "names": [
+            "number"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "number"
+          }
+        },
+        "description": "The Unicode range encompassed by the font file (Bits 96-127).",
+        "name": "m_ulUnicodeRange4"
+      },
+      {
+        "type": {
+          "names": [
+            "number"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "number"
+          }
+        },
+        "description": "The code pages encompassed by the font file (Bits 0-31).",
+        "name": "m_ulCodePageRange1"
+      },
+      {
+        "type": {
+          "names": [
+            "number"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "number"
+          }
+        },
+        "description": "The code pages encompassed by the font file (Bits 32-63).",
+        "name": "m_ulCodePageRange2"
+      },
+      {
+        "type": {
+          "names": [
+            "number"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "number"
+          }
+        },
+        "description": "The visual weight (stroke blackness or thickness) of the font characters (1-1000).",
+        "name": "m_usWeigth"
+      },
+      {
+        "type": {
+          "names": [
+            "number"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "number"
+          }
+        },
+        "description": "The relative change from the normal aspect ratio (width to height ratio).",
+        "name": "m_usWidth"
+      },
+      {
+        "type": {
+          "names": [
+            "number"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "number"
+          }
+        },
+        "description": "The font family class which values are assigned by IBM to each font family.",
+        "name": "m_sFamilyClass"
+      },
+      {
+        "type": {
+          "names": [
+            "number"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "number"
+          }
+        },
+        "description": "The specific file type(s) used to store font data: <b>0</b> - *.fon, <b>1</b> - *.ttf, <b>2</b> - *.ttf, *.otf (CFF), <b>3</b> - unknown font format.",
+        "name": "m_eFontFormat"
+      },
+      {
+        "type": {
+          "names": [
+            "number"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "number"
+          }
+        },
+        "description": "The arithmetic average of the escapement (width) of all non-zero width glyphs in the font.",
+        "name": "m_shAvgCharWidth"
+      },
+      {
+        "type": {
+          "names": [
+            "number"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "number"
+          }
+        },
+        "description": "The height above the baseline for a clipping region.",
+        "name": "m_shAscent"
+      },
+      {
+        "type": {
+          "names": [
+            "number"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "number"
+          }
+        },
+        "description": "The vertical extent below the baseline for a clipping region.",
+        "name": "m_shDescent"
+      },
+      {
+        "type": {
+          "names": [
+            "number"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "number"
+          }
+        },
+        "description": "The typographic line gap for the current font.",
+        "name": "m_shLineGap"
+      },
+      {
+        "type": {
+          "names": [
+            "number"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "number"
+          }
+        },
+        "description": "The distance between the baseline and the approximate height of non-ascending lowercase letters measured in FUnits.",
+        "name": "m_shXHeight"
+      },
+      {
+        "type": {
+          "names": [
+            "number"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "number"
+          }
+        },
+        "description": "The distance between the baseline and the approximate height of uppercase letters measured in FUnits.",
+        "name": "m_shCapHeight"
+      }
+    ],
+    "longname": "FontInfo",
+    "scope": "global"
+  },
+  {
+    "comment": "/**\n     * An object containing the data about all the macros from the document.\n     * @typedef {Object} Macros\n     * @property {Array.<string>} macrosArray - An array of macros codes (*[{\"name\": \"Macros1\", \"value\": \"{macrosCode}\"}]*).\n     * @property {number} current - A current macro index.\n     */",
+    "meta": {
+      "lineno": 355,
+      "columnno": 4,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=d62dbcaed18b79f86f4e78d36aa781538bc4c501"
+    },
+    "description": "An object containing the data about all the macros from the document.",
+    "kind": "typedef",
+    "name": "Macros",
+    "type": {
+      "names": [
+        "Object"
+      ],
+      "parsedType": {
+        "type": "NameExpression",
+        "name": "Object"
+      }
+    },
+    "properties": [
+      {
+        "type": {
+          "names": [
+            "Array.<string>"
+          ],
+          "parsedType": {
+            "type": "TypeApplication",
+            "expression": {
+              "type": "NameExpression",
+              "name": "Array"
+            },
+            "applications": [
+              {
+                "type": "NameExpression",
+                "name": "string"
+              }
+            ]
+          }
+        },
+        "description": "An array of macros codes (*[{\"name\": \"Macros1\", \"value\": \"{macrosCode}\"}]*).",
+        "name": "macrosArray"
+      },
+      {
+        "type": {
+          "names": [
+            "number"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "number"
+          }
+        },
+        "description": "A current macro index.",
+        "name": "current"
+      }
+    ],
+    "longname": "Macros",
+    "scope": "global"
+  },
+  {
+    "comment": "/**\n\t * The current selection type (\"none\", \"text\", \"drawing\", or \"slide\").\n\t * @typedef {(\"none\" | \"text\" | \"drawing\" | \"slide\")} SelectionType\n\t */",
+    "meta": {
+      "lineno": 937,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=d62dbcaed18b79f86f4e78d36aa781538bc4c501"
+    },
+    "description": "The current selection type (\"none\", \"text\", \"drawing\", or \"slide\").",
+    "kind": "typedef",
+    "name": "SelectionType",
+    "type": {
+      "names": [
+        "\"none\"",
+        "\"text\"",
+        "\"drawing\"",
+        "\"slide\""
+      ],
+      "parsedType": {
+        "type": "TypeUnion",
+        "elements": [
+          {
+            "type": "NameExpression",
+            "name": "\"none\""
+          },
+          {
+            "type": "NameExpression",
+            "name": "\"text\""
+          },
+          {
+            "type": "NameExpression",
+            "name": "\"drawing\""
+          },
+          {
+            "type": "NameExpression",
+            "name": "\"slide\""
+          }
+        ]
+      }
+    },
+    "longname": "SelectionType",
+    "scope": "global"
+  },
+  {
+    "comment": "/**\n     * An object containing the information about the base64 encoded *png* image.\n     * @typedef {Object} ImageData\n     * @property {string} src The image source in the base64 format.\n     * @property {number} width The image width in pixels.\n     * @property {number} height The image height in pixels.\n     * @property {?ReplaceImageMode} replaceMode Specifies how to adjust the image object in case of replacing the selected image.\n     */",
+    "meta": {
+      "lineno": 1176,
+      "columnno": 4,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=d62dbcaed18b79f86f4e78d36aa781538bc4c501"
+    },
+    "description": "An object containing the information about the base64 encoded *png* image.",
+    "kind": "typedef",
+    "name": "ImageData",
+    "type": {
+      "names": [
+        "Object"
+      ],
+      "parsedType": {
+        "type": "NameExpression",
+        "name": "Object"
+      }
+    },
+    "properties": [
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "The image source in the base64 format.",
+        "name": "src"
+      },
+      {
+        "type": {
+          "names": [
+            "number"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "number"
+          }
+        },
+        "description": "The image width in pixels.",
+        "name": "width"
+      },
+      {
+        "type": {
+          "names": [
+            "number"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "number"
+          }
+        },
+        "description": "The image height in pixels.",
+        "name": "height"
+      },
+      {
+        "type": {
+          "names": [
+            "ReplaceImageMode"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "ReplaceImageMode",
+            "nullable": true
+          }
+        },
+        "nullable": true,
+        "description": "Specifies how to adjust the image object in case of replacing the selected image.",
+        "name": "replaceMode"
+      }
+    ],
+    "longname": "ImageData",
+    "scope": "global"
+  },
+  {
+    "comment": "/**\n\t * Specifies how to adjust the image object in case of replacing the selected image.\n\t * @typedef {(\"fill\" | \"fit\" | \"original\" | \"stretch\")} ReplaceImageMode\n\t */",
+    "meta": {
+      "lineno": 1171,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=d62dbcaed18b79f86f4e78d36aa781538bc4c501"
+    },
+    "description": "Specifies how to adjust the image object in case of replacing the selected image.",
+    "kind": "typedef",
+    "name": "ReplaceImageMode",
+    "type": {
+      "names": [
+        "\"fill\"",
+        "\"fit\"",
+        "\"original\"",
+        "\"stretch\""
+      ],
+      "parsedType": {
+        "type": "TypeUnion",
+        "elements": [
+          {
+            "type": "NameExpression",
+            "name": "\"fill\""
+          },
+          {
+            "type": "NameExpression",
+            "name": "\"fit\""
+          },
+          {
+            "type": "NameExpression",
+            "name": "\"original\""
+          },
+          {
+            "type": "NameExpression",
+            "name": "\"stretch\""
+          }
+        ]
+      }
+    },
+    "longname": "ReplaceImageMode",
+    "scope": "global"
+  },
+  {
+    "comment": "/**\n\t * The plugin object.\n     * @typedef {Object} PluginData\n     * @property {string} url The URL to plugin config.\n     * @property {string} guid The plugin identifier. It must be of the *asc.{UUID}* type.\n\t * @property {boolean} canRemoved Specifies if the plugin can be removed (**true**) or not (**false**).\n     * @property {object} obj The {@link /plugin/config config} of the installed plugin. The version is taken from the config and compared with the current one to check for updates.\n     */",
+    "meta": {
+      "lineno": 1372,
+      "columnno": 4,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=d62dbcaed18b79f86f4e78d36aa781538bc4c501"
+    },
+    "description": "The plugin object.",
+    "kind": "typedef",
+    "name": "PluginData",
+    "type": {
+      "names": [
+        "Object"
+      ],
+      "parsedType": {
+        "type": "NameExpression",
+        "name": "Object"
+      }
+    },
+    "properties": [
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "The URL to plugin config.",
+        "name": "url"
+      },
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "The plugin identifier. It must be of the *asc.{UUID}* type.",
+        "name": "guid"
+      },
+      {
+        "type": {
+          "names": [
+            "boolean"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "boolean"
+          }
+        },
+        "description": "Specifies if the plugin can be removed (**true**) or not (**false**).",
+        "name": "canRemoved"
+      },
+      {
+        "type": {
+          "names": [
+            "object"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "object"
+          }
+        },
+        "description": "The {@link /plugin/config config} of the installed plugin. The version is taken from the config and compared with the current one to check for updates.",
+        "name": "obj"
+      }
+    ],
+    "longname": "PluginData",
+    "scope": "global"
+  },
+  {
+    "comment": "/**\n\t * @typedef {Object} ContextMenuItem\n\t * The context menu item.\n\t * @property {string} id - The item ID.\n\t * @property {localeTranslate} text - The item text.\n\t * @property {boolean} [disabled] - Specifies if the current item is disabled or not.\n\t * @property {ContextMenuItem[]} items - An array containing the context menu items for the current item.\n\t */",
+    "meta": {
+      "lineno": 1717,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=d62dbcaed18b79f86f4e78d36aa781538bc4c501"
+    },
+    "kind": "typedef",
+    "name": "ContextMenuItem",
+    "type": {
+      "names": [
+        "Object"
+      ],
+      "parsedType": {
+        "type": "NameExpression",
+        "name": "Object"
+      }
+    },
+    "description": "The context menu item.",
+    "properties": [
+      {
+        "type": {
+          "names": [
+            "string"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "string"
+          }
+        },
+        "description": "The item ID.",
+        "name": "id"
+      },
+      {
+        "type": {
+          "names": [
+            "localeTranslate"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "localeTranslate"
+          }
+        },
+        "description": "The item text.",
+        "name": "text"
+      },
+      {
+        "type": {
+          "names": [
+            "boolean"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "boolean"
+          }
+        },
+        "optional": true,
+        "description": "Specifies if the current item is disabled or not.",
+        "name": "disabled"
+      },
+      {
+        "type": {
+          "names": [
+            "Array.<ContextMenuItem>"
+          ],
+          "parsedType": {
+            "type": "TypeApplication",
+            "expression": {
+              "type": "NameExpression",
+              "name": "Array"
+            },
+            "applications": [
+              {
+                "name": "ContextMenuItem",
+                "type": "NameExpression"
+              }
+            ]
+          }
+        },
+        "description": "An array containing the context menu items for the current item.",
+        "name": "items"
+      }
+    ],
+    "longname": "ContextMenuItem",
+    "scope": "global"
+  }
+]
