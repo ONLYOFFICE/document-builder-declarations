@@ -16029,8 +16029,8 @@
     "comment": "/**\n\t * Creates a new smaller text block to be inserted to the current paragraph or table.\n\t * @memberof Api\n\t * @returns {ApiRun}\n\t */",
     "meta": {
       "range": [
-        137352,
-        137441
+        137353,
+        137442
       ],
       "lineno": 4222,
       "columnno": 1,
@@ -16060,8 +16060,8 @@
     "comment": "/**\n\t * Creates an RGB color setting the appropriate values for the red, green and blue color components.\n\t * @memberof Api\n\t * @param {byte} r - Red color component value.\n\t * @param {byte} g - Green color component value.\n\t * @param {byte} b - Blue color component value.\n\t * @returns {ApiRGBColor}\n\t */",
     "meta": {
       "range": [
-        143989,
-        144078
+        143990,
+        144079
       ],
       "lineno": 4372,
       "columnno": 1,
@@ -16132,8 +16132,8 @@
     "comment": "/**\n\t * Creates a complex color scheme selecting from one of the available schemes.\n\t * @memberof Api\n\t * @param {SchemeColorId} sSchemeColorId - The color scheme identifier.\n\t * @returns {ApiSchemeColor}\n\t */",
     "meta": {
       "range": [
-        144334,
-        144443
+        144335,
+        144444
       ],
       "lineno": 4384,
       "columnno": 1,
@@ -16178,8 +16178,8 @@
     "comment": "/**\n\t * Creates a color selecting it from one of the available color presets.\n\t * @memberof Api\n\t * @param {PresetColor} sPresetColor - A preset selected from the list of the available color preset names.\n\t * @returns {ApiPresetColor};\n\t * */",
     "meta": {
       "range": [
-        144732,
-        144837
+        144733,
+        144838
       ],
       "lineno": 4396,
       "columnno": 1,
@@ -16225,8 +16225,8 @@
     "comment": "/**\n\t * Creates a solid fill to apply to the object using a selected solid color as the object background.\n\t * @memberof Api\n\t * @param {ApiUniColor} oUniColor - The color used for the element fill.\n\t * @returns {ApiFill}\n\t * */",
     "meta": {
       "range": [
-        145112,
-        145250
+        145113,
+        145251
       ],
       "lineno": 4408,
       "columnno": 1,
@@ -16271,8 +16271,8 @@
     "comment": "/**\n\t * Creates a linear gradient fill to apply to the object using the selected linear gradient as the object background.\n\t * @memberof Api\n\t * @param {Array} aGradientStop - The array of gradient color stops measured in 1000th of percent.\n\t * @param {PositiveFixedAngle} Angle - The angle measured in 60000th of a degree that will define the gradient direction.\n\t * @returns {ApiFill}\n\t */",
     "meta": {
       "range": [
-        145688,
-        145849
+        145689,
+        145850
       ],
       "lineno": 4421,
       "columnno": 1,
@@ -16330,8 +16330,8 @@
     "comment": "/**\n\t * Creates a radial gradient fill to apply to the object using the selected radial gradient as the object background.\n\t * @memberof Api\n\t * @param {Array} aGradientStop - The array of gradient color stops measured in 1000th of percent.\n\t * @returns {ApiFill}\n\t */",
     "meta": {
       "range": [
-        146165,
-        146312
+        146166,
+        146313
       ],
       "lineno": 4434,
       "columnno": 1,
@@ -16376,8 +16376,8 @@
     "comment": "/**\n\t * Creates a pattern fill to apply to the object using the selected pattern as the object background.\n\t * @memberof Api\n\t * @param {PatternType} sPatternType - The pattern type used for the fill selected from one of the available pattern types.\n\t * @param {ApiUniColor} BgColor - The background color used for the pattern creation.\n\t * @param {ApiUniColor} FgColor - The foreground color used for the pattern creation.\n\t * @returns {ApiFill}\n\t */",
     "meta": {
       "range": [
-        146809,
-        146980
+        146810,
+        146981
       ],
       "lineno": 4447,
       "columnno": 1,
@@ -16448,8 +16448,8 @@
     "comment": "/**\n\t * Creates a blip fill to apply to the object using the selected image as the object background.\n\t * @memberof Api\n\t * @param {string} sImageUrl - The path to the image used for the blip fill (currently only internet URL or Base64 encoded images are supported).\n\t * @param {BlipFillType} sBlipFillType - The type of the fill used for the blip fill (tile or stretch).\n\t * @returns {ApiFill}\n\t * */",
     "meta": {
       "range": [
-        147428,
-        147581
+        147429,
+        147582
       ],
       "lineno": 4460,
       "columnno": 1,
@@ -16507,8 +16507,8 @@
     "comment": "/**\n\t * Creates no fill and removes the fill from the element.\n\t * @memberof Api\n\t * @returns {ApiFill}\n\t * */",
     "meta": {
       "range": [
-        147738,
-        147838
+        147739,
+        147839
       ],
       "lineno": 4471,
       "columnno": 1,
@@ -16538,8 +16538,8 @@
     "comment": "/**\n\t * Creates a stroke adding shadows to the element.\n\t * @memberof Api\n\t * @param {EMU} nWidth - The width of the shadow measured in English measure units.\n\t * @param {ApiFill} oFill - The fill type used to create the shadow.\n\t * @returns {ApiStroke}\n\t * */",
     "meta": {
       "range": [
-        148145,
-        148272
+        148146,
+        148273
       ],
       "lineno": 4484,
       "columnno": 1,
@@ -16597,8 +16597,8 @@
     "comment": "/**\n\t * Creates a gradient stop used for different types of gradients.\n\t * @memberof Api\n\t * @param {ApiUniColor} oUniColor - The color used for the gradient stop.\n\t * @param {PositivePercentage} nPos - The position of the gradient stop measured in 1000th of percent.\n\t * @returns {ApiGradientStop}\n\t * */",
     "meta": {
       "range": [
-        148624,
-        148737
+        148625,
+        148738
       ],
       "lineno": 4497,
       "columnno": 1,
@@ -16656,8 +16656,8 @@
     "comment": "/**\n\t * Creates a bullet for a paragraph with the character or symbol specified with the sSymbol parameter.\n\t * @memberof Api\n\t * @param {string} sSymbol - The character or symbol which will be used to create the bullet for the paragraph.\n\t * @returns {ApiBullet}\n\t * */",
     "meta": {
       "range": [
-        149047,
-        149465
+        149048,
+        149466
       ],
       "lineno": 4509,
       "columnno": 1,
@@ -16702,8 +16702,8 @@
     "comment": "/**\n\t * Creates a bullet for a paragraph with the numbering character or symbol specified with the sType parameter.\n\t * @memberof Api\n\t * @param {BulletType} sType - The numbering type the paragraphs will be numbered with.\n\t * @param {number} nStartAt - The number the first numbered paragraph will start with.\n\t * @returns {ApiBullet}\n\t * */",
     "meta": {
       "range": [
-        149848,
-        151045
+        149849,
+        151046
       ],
       "lineno": 4531,
       "columnno": 1,
@@ -16761,8 +16761,8 @@
     "comment": "/**\n\t * Returns a type of the ApiDocumentContent class. \n\t * @memberof ApiDocumentContent\n\t * @returns {\"documentContent\"}\n\t */",
     "meta": {
       "range": [
-        171123,
-        171211
+        171124,
+        171212
       ],
       "lineno": 5150,
       "columnno": 1,
@@ -16792,8 +16792,8 @@
     "comment": "/**\n\t * Returns a number of elements in the current document.\n\t * @memberof ApiDocumentContent\n\t * @returns {number}\n\t */",
     "meta": {
       "range": [
-        171378,
-        171481
+        171379,
+        171482
       ],
       "lineno": 5160,
       "columnno": 1,
@@ -16823,8 +16823,8 @@
     "comment": "/**\n\t * Returns an element by its position in the document.\n\t * @memberof ApiDocumentContent\n\t * @param {number} nPos - The element position that will be taken from the document.\n\t * @returns {?DocumentElement}\n\t */",
     "meta": {
       "range": [
-        171742,
-        172197
+        171743,
+        172198
       ],
       "lineno": 5171,
       "columnno": 1,
@@ -16871,8 +16871,8 @@
     "comment": "/**\n\t * Adds a paragraph or a table or a blockLvl content control using its position in the document content.\n\t * @memberof ApiDocumentContent\n\t * @param {number} nPos - The position where the current element will be added.\n\t * @param {DocumentElement} oElement - The document element which will be added at the current position.\n\t */",
     "meta": {
       "range": [
-        172577,
-        172909
+        172578,
+        172910
       ],
       "lineno": 5193,
       "columnno": 1,
@@ -16917,8 +16917,8 @@
     "comment": "/**\n\t * Pushes a paragraph or a table to actually add it to the document.\n\t * @memberof ApiDocumentContent\n\t * @param {DocumentElement} oElement - The element type which will be pushed to the document.\n\t * @returns {boolean} - returns false if oElement is unsupported.\n\t */",
     "meta": {
       "range": [
-        173228,
-        173606
+        173229,
+        173607
       ],
       "lineno": 5210,
       "columnno": 1,
@@ -16964,8 +16964,8 @@
     "comment": "/**\n\t * Removes all the elements from the current document or from the current document element.\n\t * <note>When all elements are removed, a new empty paragraph is automatically created. If you want to add\n\t * content to this paragraph, use the {@link ApiDocumentContent#GetElement} method.</note>\n\t * @memberof ApiDocumentContent\n\t */",
     "meta": {
       "range": [
-        173986,
-        174131
+        173987,
+        174132
       ],
       "lineno": 5231,
       "columnno": 1,
@@ -16982,8 +16982,8 @@
     "comment": "/**\n\t * Removes an element using the position specified.\n\t * @memberof ApiDocumentContent\n\t * @param {number} nPos - The element number (position) in the document or inside other element.\n\t */",
     "meta": {
       "range": [
-        174369,
-        174553
+        174370,
+        174554
       ],
       "lineno": 5241,
       "columnno": 1,
@@ -17015,8 +17015,8 @@
     "comment": "/**\n\t * Returns a type of the ApiParagraph class.\n\t * @memberof ApiParagraph\n\t * @returns {\"paragraph\"}\n\t */",
     "meta": {
       "range": [
-        237653,
-        237729
+        237654,
+        237730
       ],
       "lineno": 7274,
       "columnno": 1,
@@ -17047,8 +17047,8 @@
     "comment": "/**\n\t * Adds some text to the current paragraph.\n\t * @memberof ApiParagraph\n\t * @param {string} [sText=\"\"] - The text that we want to insert into the current document element.\n\t * @returns {ApiRun}\n\t */",
     "meta": {
       "range": [
-        237977,
-        238248
+        237978,
+        238249
       ],
       "lineno": 7285,
       "columnno": 1,
@@ -17095,8 +17095,8 @@
     "comment": "/**\n\t * Adds a line break to the current position and starts the next element from a new line.\n\t * @memberof ApiParagraph\n\t * @returns {ApiRun}\n\t */",
     "meta": {
       "range": [
-        238855,
-        239109
+        238856,
+        239110
       ],
       "lineno": 7316,
       "columnno": 1,
@@ -17126,8 +17126,8 @@
     "comment": "/**\n\t * Returns the paragraph properties.\n\t * @memberof ApiParagraph\n\t * @returns {ApiParaPr}\n\t */",
     "meta": {
       "range": [
-        240904,
-        241011
+        240905,
+        241012
       ],
       "lineno": 7380,
       "columnno": 1,
@@ -17157,8 +17157,8 @@
     "comment": "/**\n\t * Returns a number of elements in the current paragraph.\n\t * @memberof ApiParagraph\n\t * @returns {number}\n\t */",
     "meta": {
       "range": [
-        242310,
-        242431
+        242311,
+        242432
       ],
       "lineno": 7424,
       "columnno": 1,
@@ -17188,8 +17188,8 @@
     "comment": "/**\n\t * Returns a paragraph element using the position specified.\n\t * @memberof ApiParagraph\n\t * @param {number} nPos - The position where the element which content we want to get must be located.\n\t * @returns {?ParagraphContent}\n\t */",
     "meta": {
       "range": [
-        242711,
-        242936
+        242712,
+        242937
       ],
       "lineno": 7436,
       "columnno": 1,
@@ -17236,8 +17236,8 @@
     "comment": "/**\n\t * Removes an element using the position specified.\n\t * <note>If the element you remove is the last paragraph element (i.e. all the elements are removed from the paragraph),\n     * a new empty run is automatically created. If you want to add\n\t * content to this run, use the {@link ApiParagraph#GetElement} method.</note>\n\t * @memberof ApiParagraph\n\t * @param {number} nPos - The element position which we want to remove from the paragraph.\n\t */",
     "meta": {
       "range": [
-        243432,
-        243644
+        243433,
+        243645
       ],
       "lineno": 7453,
       "columnno": 1,
@@ -17269,8 +17269,8 @@
     "comment": "/**\n\t * Removes all the elements from the current paragraph.\n\t * <note>When all the elements are removed from the paragraph, a new empty run is automatically created. If you want to add\n\t * content to this run, use the {@link ApiParagraph#GetElement} method.</note>\n\t * @memberof ApiParagraph\n\t */",
     "meta": {
       "range": [
-        243987,
-        244206
+        243988,
+        244207
       ],
       "lineno": 7468,
       "columnno": 1,
@@ -17287,8 +17287,8 @@
     "comment": "/**\n\t * Deletes the current paragraph.\n\t * @memberof ApiParagraph\n\t * @returns {boolean} - returns false if paragraph haven't parent.\n\t */",
     "meta": {
       "range": [
-        244390,
-        244694
+        244391,
+        244695
       ],
       "lineno": 7482,
       "columnno": 1,
@@ -17319,8 +17319,8 @@
     "comment": "/**\n\t * Returns the next paragraph.\n\t * @memberof ApiParagraph\n\t * @returns {ApiParagraph | null} - returns null if paragraph is last.\n\t */",
     "meta": {
       "range": [
-        244879,
-        245080
+        244880,
+        245081
       ],
       "lineno": 7503,
       "columnno": 1,
@@ -17360,8 +17360,8 @@
     "comment": "/**\n\t * Returns the previous paragraph.\n\t * @memberof ApiParagraph\n\t * @returns {ApiParagraph} - returns null if paragraph is first.\n\t */",
     "meta": {
       "range": [
-        245263,
-        245468
+        245264,
+        245469
       ],
       "lineno": 7517,
       "columnno": 1,
@@ -17392,8 +17392,8 @@
     "comment": "/**\n\t * Creates a paragraph copy. Ingnore comments, footnote references, complex fields.\n\t * @memberof ApiParagraph\n\t * @returns {ApiParagraph}\n\t */",
     "meta": {
       "range": [
-        245662,
-        245967
+        245663,
+        245968
       ],
       "lineno": 7531,
       "columnno": 1,
@@ -17423,8 +17423,8 @@
     "comment": "/**\n\t * Adds an element to the current paragraph.\n\t * @memberof ApiParagraph\n\t * @param {ParagraphContent} oElement - The document element which will be added at the current position. Returns false if the\n\t * oElement type is not supported by a paragraph.\n\t * @param {number} [nPos] - The position where the current element will be added. If this value is not\n\t * specified, then the element will be added at the end of the current paragraph.\n\t * @returns {boolean} Returns <code>false</code> if the type of <code>oElement</code> is not supported by paragraph\n\t * content.\n\t */",
     "meta": {
       "range": [
-        246590,
-        247086
+        246591,
+        247087
       ],
       "lineno": 7553,
       "columnno": 1,
@@ -17484,8 +17484,8 @@
     "comment": "/**\n\t * Adds a tab stop to the current paragraph.\n\t * @memberof ApiParagraph\n\t * @returns {ApiRun}\n\t */",
     "meta": {
       "range": [
-        247235,
-        247467
+        247236,
+        247468
       ],
       "lineno": 7580,
       "columnno": 1,
@@ -17515,8 +17515,8 @@
     "comment": "/**\n\t * Specifies a highlighting color which is applied as a background to the contents of the current paragraph.\n\t * @memberof ApiParagraph\n\t * @param {highlightColor} sColor - Available highlight color.\n\t * @returns {ApiParagraph} this\n\t */",
     "meta": {
       "range": [
-        258652,
-        259631
+        258653,
+        259632
       ],
       "lineno": 7948,
       "columnno": 1,
@@ -17562,8 +17562,8 @@
     "comment": "/**\n\t * Returns a type of the ApiRun class.\n\t * @memberof ApiRun\n\t * @returns {\"run\"}\n\t */",
     "meta": {
       "range": [
-        297308,
-        297372
+        297309,
+        297373
       ],
       "lineno": 9125,
       "columnno": 1,
@@ -17594,8 +17594,8 @@
     "comment": "/**\n\t * Returns the text properties of the current run.\n\t * @memberof ApiRun\n\t * @returns {ApiTextPr}\n\t */",
     "meta": {
       "range": [
-        297524,
-        297612
+        297525,
+        297613
       ],
       "lineno": 9135,
       "columnno": 1,
@@ -17625,8 +17625,8 @@
     "comment": "/**\n\t * Clears the content from the current run.\n\t * @memberof ApiRun\n\t */",
     "meta": {
       "range": [
-        297732,
-        297839
+        297733,
+        297840
       ],
       "lineno": 9144,
       "columnno": 1,
@@ -17643,8 +17643,8 @@
     "comment": "/**\n\t * Removes all the elements from the current run.\n\t * @memberof ApiRun\n\t */",
     "meta": {
       "range": [
-        297965,
-        298077
+        297966,
+        298078
       ],
       "lineno": 9153,
       "columnno": 1,
@@ -17661,8 +17661,8 @@
     "comment": "/**\n\t * Deletes the current run.\n\t * @memberof ApiRun\n\t */",
     "meta": {
       "range": [
-        298181,
-        298451
+        298182,
+        298452
       ],
       "lineno": 9162,
       "columnno": 1,
@@ -17679,8 +17679,8 @@
     "comment": "/**\n\t * Adds some text to the current run.\n\t * @memberof ApiRun\n\t * @param {string} sText - The text which will be added to the current run.\n\t */",
     "meta": {
       "range": [
-        298642,
-        298760
+        298643,
+        298761
       ],
       "lineno": 9181,
       "columnno": 1,
@@ -17712,8 +17712,8 @@
     "comment": "/**\n\t * Adds a line break to the current run position and starts the next element from a new line.\n\t * @memberof ApiRun\n\t */",
     "meta": {
       "range": [
-        299200,
-        299342
+        299201,
+        299343
       ],
       "lineno": 9202,
       "columnno": 1,
@@ -17730,8 +17730,8 @@
     "comment": "/**\n\t * Adds a tab stop to the current run.\n\t * @memberof ApiRun\n\t */",
     "meta": {
       "range": [
-        299763,
-        299883
+        299764,
+        299884
       ],
       "lineno": 9220,
       "columnno": 1,
@@ -17748,8 +17748,8 @@
     "comment": "/**\n\t * Creates a copy of the current run.\n\t * @memberof ApiRun\n\t * @returns {ApiRun}\n\t */",
     "meta": {
       "range": [
-        303661,
-        303902
+        303662,
+        303903
       ],
       "lineno": 9352,
       "columnno": 1,
@@ -17779,8 +17779,8 @@
     "comment": "/**\n\t * Sets the text properties to the current run.\n\t * @memberof ApiRun\n\t * @param {ApiTextPr} oTextPr - The text properties that will be set to the current run.\n\t * @return {ApiTextPr}  \n\t */",
     "meta": {
       "range": [
-        306741,
-        306924
+        306742,
+        306925
       ],
       "lineno": 9444,
       "columnno": 1,
@@ -17825,8 +17825,8 @@
     "comment": "/**\n\t * Sets the bold property to the text character.\n\t * @memberof ApiRun\n\t * @param {boolean} isBold - Specifies that the contents of the current run are displayed bold.\n\t * @returns {ApiTextPr}\n\t */",
     "meta": {
       "range": [
-        307171,
-        307302
+        307172,
+        307303
       ],
       "lineno": 9459,
       "columnno": 1,
@@ -17872,8 +17872,8 @@
     "comment": "/**\n\t * Specifies that any lowercase characters in the current text run are formatted for display only as their capital letter character equivalents.\n\t * @memberof ApiRun\n\t * @param {boolean} isCaps - Specifies that the contents of the current run are displayed capitalized.\n\t * @returns {ApiTextPr}\n\t */",
     "meta": {
       "range": [
-        307652,
-        307783
+        307653,
+        307784
       ],
       "lineno": 9473,
       "columnno": 1,
@@ -17919,8 +17919,8 @@
     "comment": "/**\n\t * Sets the text color for the current text run in the RGB format.\n\t * @memberof ApiRun\n\t * @param {byte} r - Red color component value.\n\t * @param {byte} g - Green color component value.\n\t * @param {byte} b - Blue color component value.\n\t * @param {boolean} [isAuto=false] - If this parameter is set to \"true\", then r,g,b parameters will be ignored.\n\t * @returns {ApiTextPr}\n\t */",
     "meta": {
       "range": [
-        308214,
-        308365
+        308215,
+        308366
       ],
       "lineno": 9490,
       "columnno": 1,
@@ -18007,8 +18007,8 @@
     "comment": "/**\n\t * Specifies that the contents of the current run are displayed with two horizontal lines through each character displayed on the line.\n\t * @memberof ApiRun\n\t * @param {boolean} isDoubleStrikeout - Specifies that the contents of the current run are displayed double struck through.\n\t * @returns {ApiTextPr}\n\t */",
     "meta": {
       "range": [
-        308727,
-        308902
+        308728,
+        308903
       ],
       "lineno": 9504,
       "columnno": 1,
@@ -18054,8 +18054,8 @@
     "comment": "/**\n\t * Sets the text color to the current text run.\n\t * @memberof ApiRun\n\t * @param {ApiFill} oApiFill - The color or pattern used to fill the text color.\n\t * @returns {ApiTextPr}\n\t */",
     "meta": {
       "range": [
-        309126,
-        309261
+        309127,
+        309262
       ],
       "lineno": 9518,
       "columnno": 1,
@@ -18101,8 +18101,8 @@
     "comment": "/**\n\t * Sets all 4 font slots with the specified font family.\n\t * @memberof ApiRun\n\t * @param {string} sFontFamily - The font family or families used for the current text run.\n\t * @returns {ApiTextPr}\n\t */",
     "meta": {
       "range": [
-        309512,
-        309665
+        309513,
+        309666
       ],
       "lineno": 9532,
       "columnno": 1,
@@ -18148,8 +18148,8 @@
     "comment": "/**\n\t * Returns all font names from all elements inside the current run.\n\t * @memberof ApiRun\n\t * @returns {string[]} - The font names used for the current run.\n\t */",
     "meta": {
       "range": [
-        309876,
-        310151
+        309877,
+        310152
       ],
       "lineno": 9545,
       "columnno": 1,
@@ -18189,8 +18189,8 @@
     "comment": "/**\n\t * Sets the font size to the characters of the current text run.\n\t * @memberof ApiRun\n\t * @param {hps} nSize - The text size value measured in half-points (1/144 of an inch).\n\t * @returns {ApiTextPr}\n\t */",
     "meta": {
       "range": [
-        310406,
-        310543
+        310407,
+        310544
       ],
       "lineno": 9564,
       "columnno": 1,
@@ -18236,8 +18236,8 @@
     "comment": "/**\n\t * Specifies a highlighting color which is applied as a background to the contents of the current run.\n\t * @memberof ApiRun\n\t * @param {highlightColor} sColor - Available highlight color.\n\t * @returns {ApiTextPr}\n\t */",
     "meta": {
       "range": [
-        310811,
-        310952
+        310812,
+        310953
       ],
       "lineno": 9578,
       "columnno": 1,
@@ -18283,8 +18283,8 @@
     "comment": "/**\n\t * Sets the italic property to the text character.\n\t * @memberof ApiRun\n\t * @param {boolean} isItalic - Specifies that the contents of the current run are displayed italicized.\n\t * @returns {ApiTextPr}\n\t */",
     "meta": {
       "range": [
-        311209,
-        311348
+        311210,
+        311349
       ],
       "lineno": 9592,
       "columnno": 1,
@@ -18330,8 +18330,8 @@
     "comment": "/**\n\t * Specifies the languages which will be used to check spelling and grammar (if requested) when processing\n\t * the contents of this text run.\n\t * @memberof ApiRun\n\t * @param {string} sLangId - The possible value for this parameter is a language identifier as defined by\n\t * RFC 4646/BCP 47. Example: \"en-CA\".\n\t * @returns {ApiTextPr}\n\t */",
     "meta": {
       "range": [
-        311737,
-        311878
+        311738,
+        311879
       ],
       "lineno": 9608,
       "columnno": 1,
@@ -18377,8 +18377,8 @@
     "comment": "/**\n\t * Specifies an amount by which text is raised or lowered for this run in relation to the default\n\t * baseline of the surrounding non-positioned text.\n\t * @memberof ApiRun\n\t * @param {hps} nPosition - Specifies a positive (raised text) or negative (lowered text)\n\t * measurement in half-points (1/144 of an inch).\n\t * @returns {ApiTextPr}\n\t */",
     "meta": {
       "range": [
-        312272,
-        312417
+        312273,
+        312418
       ],
       "lineno": 9624,
       "columnno": 1,
@@ -18424,8 +18424,8 @@
     "comment": "/**\n\t * Specifies the shading applied to the contents of the current text run.\n\t * @memberof ApiRun\n\t * @param {ShdType} sType - The shading type applied to the contents of the current text run.\n\t * @param {byte} r - Red color component value.\n\t * @param {byte} g - Green color component value.\n\t * @param {byte} b - Blue color component value.\n\t * @returns {ApiTextPr}\n\t */",
     "meta": {
       "range": [
-        312837,
-        312982
+        312838,
+        312983
       ],
       "lineno": 9641,
       "columnno": 1,
@@ -18510,8 +18510,8 @@
     "comment": "/**\n\t * Specifies that all the small letter characters in this text run are formatted for display only as their capital\n\t * letter character equivalents which are two points smaller than the actual font size specified for this text.\n\t * @memberof ApiRun\n\t * @param {boolean} isSmallCaps - Specifies if the contents of the current run are displayed capitalized two points smaller or not.\n\t * @returns {ApiTextPr}\n\t */",
     "meta": {
       "range": [
-        313444,
-        313595
+        313445,
+        313596
       ],
       "lineno": 9656,
       "columnno": 1,
@@ -18557,8 +18557,8 @@
     "comment": "/**\n\t * Sets the text spacing measured in twentieths of a point.\n\t * @memberof ApiRun\n\t * @param {twips} nSpacing - The value of the text spacing measured in twentieths of a point (1/1440 of an inch).\n\t * @returns {ApiTextPr}\n\t */",
     "meta": {
       "range": [
-        313871,
-        314012
+        313872,
+        314013
       ],
       "lineno": 9670,
       "columnno": 1,
@@ -18604,8 +18604,8 @@
     "comment": "/**\n\t * Specifies that the contents of the current run are displayed with a single horizontal line through the center of the line.\n\t * @memberof ApiRun\n\t * @param {boolean} isStrikeout - Specifies that the contents of the current run are displayed struck through.\n\t * @returns {ApiTextPr}\n\t */",
     "meta": {
       "range": [
-        314351,
-        314502
+        314352,
+        314503
       ],
       "lineno": 9684,
       "columnno": 1,
@@ -18651,8 +18651,8 @@
     "comment": "/**\n\t * Sets a style to the current run.\n\t * @memberof ApiRun\n\t * @param {ApiStyle} oStyle - The style which must be applied to the text run.\n\t * @returns {ApiTextPr}\n\t */",
     "meta": {
       "range": [
-        314719,
-        314852
+        314720,
+        314853
       ],
       "lineno": 9698,
       "columnno": 1,
@@ -18698,8 +18698,8 @@
     "comment": "/**\n\t * Specifies that the contents of the current run are displayed along with a line appearing directly below the character\n\t * (less than all the spacing above and below the characters on the line).\n\t * @memberof ApiRun\n\t * @param {boolean} isUnderline - Specifies that the contents of the current run are displayed underlined.\n\t * @returns {ApiTextPr}\n\t */",
     "meta": {
       "range": [
-        315258,
-        315409
+        315259,
+        315410
       ],
       "lineno": 9713,
       "columnno": 1,
@@ -18745,8 +18745,8 @@
     "comment": "/**\n\t * Specifies the alignment which will be applied to the contents of the current run in relation to the default appearance of the text run:\n\t * * <b>\"baseline\"</b> - the characters in the current text run will be aligned by the default text baseline.\n\t * * <b>\"subscript\"</b> - the characters in the current text run will be aligned below the default text baseline.\n\t * * <b>\"superscript\"</b> - the characters in the current text run will be aligned above the default text baseline.\n\t * @memberof ApiRun\n\t * @param {(\"baseline\" | \"subscript\" | \"superscript\")} sType - The vertical alignment type applied to the text contents.\n\t * @returns {ApiTextPr}\n\t */",
     "meta": {
       "range": [
-        316114,
-        316253
+        316115,
+        316254
       ],
       "lineno": 9730,
       "columnno": 1,
@@ -18807,8 +18807,8 @@
     "comment": "/**\n\t * Adds a paragraph or a table or a blockLvl content control using its position in the cell.\n\t * @memberof ApiTable\n\t * @param {ApiTableCell} oCell - The cell where the specified element will be added.\n\t * @param {number} nPos - The position in the cell where the specified element will be added.\n\t * @param {DocumentElement} oElement - The document element which will be added at the current position.\n\t */",
     "meta": {
       "range": [
-        343352,
-        343866
+        343353,
+        343867
       ],
       "lineno": 10500,
       "columnno": 1,
@@ -18866,8 +18866,8 @@
     "comment": "/**\n\t * Creates a copy of the current table.\n\t * @memberof ApiTable\n\t * @returns {ApiTable}\n\t */",
     "meta": {
       "range": [
-        345295,
-        345458
+        345296,
+        345459
       ],
       "lineno": 10569,
       "columnno": 1,
@@ -18897,8 +18897,8 @@
     "comment": "/**\n\t * Selects the current table.\n\t * @memberof ApiTable\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        345582,
-        346284
+        345583,
+        346285
       ],
       "lineno": 10580,
       "columnno": 1,
@@ -18928,8 +18928,8 @@
     "comment": "/**\n\t * Returns a type of the ApiTextPr class.\n\t * @memberof ApiTextPr\n\t * @returns {\"textPr\"}\n\t */",
     "meta": {
       "range": [
-        391345,
-        391415
+        391346,
+        391416
       ],
       "lineno": 12108,
       "columnno": 1,
@@ -18959,8 +18959,8 @@
     "comment": "/**\n\t * Sets the bold property to the text character.\n\t * @memberof ApiTextPr\n\t * @param {boolean} isBold - Specifies that the contents of the run are displayed bold.\n\t * @return {ApiTextPr} - this text properties.\n\t */",
     "meta": {
       "range": [
-        392276,
-        392399
+        392277,
+        392400
       ],
       "lineno": 12137,
       "columnno": 1,
@@ -19006,8 +19006,8 @@
     "comment": "/**\n\t * Sets the italic property to the text character.\n\t * @memberof ApiTextPr\n\t * @param {boolean} isItalic - Specifies that the contents of the current run are displayed italicized.\n\t * @return {ApiTextPr} - this text properties.\n\t */",
     "meta": {
       "range": [
-        392682,
-        392813
+        392683,
+        392814
       ],
       "lineno": 12150,
       "columnno": 1,
@@ -19053,8 +19053,8 @@
     "comment": "/**\n\t * Specifies that the contents of the run are displayed with a single horizontal line through the center of the line.\n\t * @memberof ApiTextPr\n\t * @param {boolean} isStrikeout - Specifies that the contents of the current run are displayed struck through.\n\t * @return {ApiTextPr} - this text properties.\n\t */",
     "meta": {
       "range": [
-        393170,
-        393313
+        393171,
+        393314
       ],
       "lineno": 12163,
       "columnno": 1,
@@ -19100,8 +19100,8 @@
     "comment": "/**\n\t * Specifies that the contents of the run are displayed along with a line appearing directly below the character\n\t * (less than all the spacing above and below the characters on the line).\n\t * @memberof ApiTextPr\n\t * @param {boolean} isUnderline - Specifies that the contents of the current run are displayed underlined.\n\t * @return {ApiTextPr} - this text properties.\n\t */",
     "meta": {
       "range": [
-        393737,
-        393880
+        393738,
+        393881
       ],
       "lineno": 12177,
       "columnno": 1,
@@ -19147,8 +19147,8 @@
     "comment": "/**\n\t * Sets all 4 font slots with the specified font family.\n\t * @memberof ApiTextPr\n\t * @param {string} sFontFamily - The font family or families used for the current text run.\n\t * @return {ApiTextPr} - this text properties.\n\t */",
     "meta": {
       "range": [
-        394157,
-        394308
+        394158,
+        394309
       ],
       "lineno": 12190,
       "columnno": 1,
@@ -19194,8 +19194,8 @@
     "comment": "/**\n\t * Sets the font size to the characters of the current text run.\n\t * @memberof ApiTextPr\n\t * @param {hps} nSize - The text size value measured in half-points (1/144 of an inch).\n\t * @return {ApiTextPr} - this text properties.\n\t */",
     "meta": {
       "range": [
-        394589,
-        394734
+        394590,
+        394735
       ],
       "lineno": 12203,
       "columnno": 1,
@@ -19241,8 +19241,8 @@
     "comment": "/**\n\t * Specifies the alignment which will be applied to the contents of the run in relation to the default appearance of the run text:\n\t * * <b>\"baseline\"</b> - the characters in the current text run will be aligned by the default text baseline.\n\t * * <b>\"subscript\"</b> - the characters in the current text run will be aligned below the default text baseline.\n\t * * <b>\"superscript\"</b> - the characters in the current text run will be aligned above the default text baseline.\n\t * @memberof ApiTextPr\n\t * @param {(\"baseline\" | \"subscript\" | \"superscript\")} sType - The vertical alignment type applied to the text contents.\n\t * @return {ApiTextPr} - this text properties.\n\t */",
     "meta": {
       "range": [
-        396060,
-        396432
+        396061,
+        396433
       ],
       "lineno": 12235,
       "columnno": 1,
@@ -19303,8 +19303,8 @@
     "comment": "/**\n\t * Specifies a highlighting color which is added to the text properties and applied as a background to the contents of the current run/range/paragraph.\n\t * @memberof ApiTextPr\n\t * @param {highlightColor} sColor - Available highlight color.\n\t * @returns {ApiTextPr}\n\t */",
     "meta": {
       "range": [
-        396745,
-        397519
+        396746,
+        397520
       ],
       "lineno": 12254,
       "columnno": 1,
@@ -19349,8 +19349,8 @@
     "comment": "/**\n\t * Sets the text spacing measured in twentieths of a point.\n\t * @memberof ApiTextPr\n\t * @param {twips} nSpacing - The value of the text spacing measured in twentieths of a point (1/1440 of an inch).\n\t * @return {ApiTextPr} - this text properties.\n\t */",
     "meta": {
       "range": [
-        397821,
-        397972
+        397822,
+        397973
       ],
       "lineno": 12285,
       "columnno": 1,
@@ -19396,8 +19396,8 @@
     "comment": "/**\n\t * Specifies that the contents of the run are displayed with two horizontal lines through each character displayed on the line.\n\t * @memberof ApiTextPr\n\t * @param {boolean} isDoubleStrikeout - Specifies that the contents of the current run are displayed double struck through.\n\t * @return {ApiTextPr} - this text properties.\n\t */",
     "meta": {
       "range": [
-        398352,
-        398514
+        398353,
+        398515
       ],
       "lineno": 12298,
       "columnno": 1,
@@ -19443,8 +19443,8 @@
     "comment": "/**\n\t * Specifies that any lowercase characters in the text run are formatted for display only as their capital letter character equivalents.\n\t * @memberof ApiTextPr\n\t * @param {boolean} isCaps - Specifies that the contents of the current run are displayed capitalized.\n\t * @return {ApiTextPr} - this text properties.\n\t */",
     "meta": {
       "range": [
-        398882,
-        399005
+        398883,
+        399006
       ],
       "lineno": 12311,
       "columnno": 1,
@@ -19490,8 +19490,8 @@
     "comment": "/**\n\t * Specifies that all the small letter characters in the text run are formatted for display only as their capital\n\t * letter character equivalents which are two points smaller than the actual font size specified for this text.\n\t * @memberof ApiTextPr\n\t * @param {boolean} isSmallCaps - Specifies if the contents of the current run are displayed capitalized two points smaller or not.\n\t * @return {ApiTextPr} - this text properties.\n\t */",
     "meta": {
       "range": [
-        399492,
-        399635
+        399493,
+        399636
       ],
       "lineno": 12325,
       "columnno": 1,
@@ -19537,8 +19537,8 @@
     "comment": "/**\n\t * Sets the text color to the current text run.\n\t * @memberof ApiTextPr\n\t * @param {ApiFill} oApiFill - The color or pattern used to fill the text color.\n\t * @return {ApiTextPr} - this text properties.\n\t */",
     "meta": {
       "range": [
-        401668,
-        401806
+        401669,
+        401807
       ],
       "lineno": 12388,
       "columnno": 1,
@@ -19584,8 +19584,8 @@
     "comment": "/**\n\t * Sets the text fill to the current text run.\n\t * @memberof ApiTextPr\n\t * @param {ApiFill} oApiFill - The color or pattern used to fill the text color.\n\t * @return {ApiTextPr} - this text properties.\n\t */",
     "meta": {
       "range": [
-        402062,
-        402205
+        402063,
+        402206
       ],
       "lineno": 12401,
       "columnno": 1,
@@ -19631,8 +19631,8 @@
     "comment": "/**\n\t * Sets the text outline to the current text run.\n\t * @memberof ApiTextPr\n\t * @param {ApiStroke} oStroke - The stroke used to create the text outline.\n\t * @return {ApiTextPr} - this text properties.\n\t */",
     "meta": {
       "range": [
-        402459,
-        402597
+        402460,
+        402598
       ],
       "lineno": 12414,
       "columnno": 1,
@@ -19678,8 +19678,8 @@
     "comment": "/**\n\t * Returns a type of the ApiParaPr class.\n\t * @memberof ApiParaPr\n\t * @returns {\"paraPr\"}\n\t */",
     "meta": {
       "range": [
-        403852,
-        403922
+        403853,
+        403923
       ],
       "lineno": 12457,
       "columnno": 1,
@@ -19709,8 +19709,8 @@
     "comment": "/**\n\t * Sets the paragraph left side indentation.\n\t * @memberof ApiParaPr\n\t * @param {twips} nValue - The paragraph left side indentation value measured in twentieths of a point (1/1440 of an inch).\n\t */",
     "meta": {
       "range": [
-        405984,
-        406117
+        405985,
+        406118
       ],
       "lineno": 12522,
       "columnno": 1,
@@ -19742,8 +19742,8 @@
     "comment": "/**\n\t * Returns the paragraph left side indentation.\n\t * @memberof ApiParaPr\n\t * @returns {twips | undefined} - The paragraph left side indentation value measured in twentieths of a point (1/1440 of an inch).\n\t */",
     "meta": {
       "range": [
-        406376,
-        406666
+        406377,
+        406667
       ],
       "lineno": 12533,
       "columnno": 1,
@@ -19783,8 +19783,8 @@
     "comment": "/**\n\t * Sets the paragraph right side indentation.\n\t * @memberof ApiParaPr\n\t * @param {twips} nValue - The paragraph right side indentation value measured in twentieths of a point (1/1440 of an inch).\n\t */",
     "meta": {
       "range": [
-        406917,
-        407052
+        406918,
+        407053
       ],
       "lineno": 12549,
       "columnno": 1,
@@ -19816,8 +19816,8 @@
     "comment": "/**\n\t * Returns the paragraph right side indentation.\n\t * @memberof ApiParaPr\n\t * @returns {twips | undefined} - The paragraph right side indentation value measured in twentieths of a point (1/1440 of an inch).\n\t */",
     "meta": {
       "range": [
-        407313,
-        407608
+        407314,
+        407609
       ],
       "lineno": 12560,
       "columnno": 1,
@@ -19857,8 +19857,8 @@
     "comment": "/**\n\t * Sets the paragraph first line indentation.\n\t * @memberof ApiParaPr\n\t * @param {twips} nValue - The paragraph first line indentation value measured in twentieths of a point (1/1440 of an inch).\n\t */",
     "meta": {
       "range": [
-        407859,
-        408002
+        407860,
+        408003
       ],
       "lineno": 12577,
       "columnno": 1,
@@ -19890,8 +19890,8 @@
     "comment": "/**\n\t * Returns the paragraph first line indentation.\n\t * @memberof ApiParaPr\n\t * @returns {twips | undefined} - The paragraph first line indentation value measured in twentieths of a point (1/1440 of an inch).\n\t */",
     "meta": {
       "range": [
-        408263,
-        408575
+        408264,
+        408576
       ],
       "lineno": 12588,
       "columnno": 1,
@@ -19931,8 +19931,8 @@
     "comment": "/**\n\t * Sets the paragraph contents justification.\n\t * @memberof ApiParaPr\n\t * @param {(\"left\" | \"right\" | \"both\" | \"center\")} sJc - The justification type that\n\t * will be applied to the paragraph contents.\n\t */",
     "meta": {
       "range": [
-        408833,
-        408953
+        408834,
+        408954
       ],
       "lineno": 12607,
       "columnno": 1,
@@ -19984,8 +19984,8 @@
     "comment": "/**\n\t * Returns the paragraph contents justification.\n\t * @memberof ApiParaPr\n\t * @returns {(\"left\" | \"right\" | \"both\" | \"center\" | undefined)} \n\t */",
     "meta": {
       "range": [
-        409148,
-        409648
+        409149,
+        409649
       ],
       "lineno": 12618,
       "columnno": 1,
@@ -20039,8 +20039,8 @@
     "comment": "/**\n\t * Sets the paragraph line spacing. If the value of the sLineRule parameter is either \n\t * \"atLeast\" or \"exact\", then the value of nLine will be interpreted as twentieths of a point. If \n\t * the value of the sLineRule parameter is \"auto\", then the value of the \n\t * nLine parameter will be interpreted as 240ths of a line.\n\t * @memberof ApiParaPr\n\t * @param {(twips | line240)} nLine - The line spacing value measured either in twentieths of a point (1/1440 of an inch) or in 240ths of a line.\n\t * @param {(\"auto\" | \"atLeast\" | \"exact\")} sLineRule - The rule that determines the measuring units of the line spacing.\n\t */",
     "meta": {
       "range": [
-        411879,
-        412506
+        411880,
+        412507
       ],
       "lineno": 12694,
       "columnno": 1,
@@ -20110,8 +20110,8 @@
     "comment": "/**\n\t * Returns the paragraph line spacing value.\n\t * @memberof ApiParaPr\n\t * @returns {twips | line240 | undefined} - to know is twips or line240 use ApiParaPr.prototype.GetSpacingLineRule().\n\t */",
     "meta": {
       "range": [
-        412749,
-        413283
+        412750,
+        413284
       ],
       "lineno": 12724,
       "columnno": 1,
@@ -20156,8 +20156,8 @@
     "comment": "/**\n\t * Returns the paragraph line spacing rule.\n\t * @memberof ApiParaPr\n\t * @returns {\"auto\" | \"atLeast\" | \"exact\" | undefined} \n\t */",
     "meta": {
       "range": [
-        413463,
-        413986
+        413464,
+        413987
       ],
       "lineno": 12756,
       "columnno": 1,
@@ -20206,8 +20206,8 @@
     "comment": "/**\n\t * Sets the spacing before the current paragraph. If the value of the isBeforeAuto parameter is true, then \n\t * any value of the nBefore is ignored. If isBeforeAuto parameter is not specified, then \n\t * it will be interpreted as false.\n\t * @memberof ApiParaPr\n\t * @param {twips} nBefore - The value of the spacing before the current paragraph measured in twentieths of a point (1/1440 of an inch).\n\t * @param {boolean} [isBeforeAuto=false] - The true value disables the spacing before the current paragraph.\n\t */",
     "meta": {
       "range": [
-        414549,
-        414833
+        414550,
+        414834
       ],
       "lineno": 12793,
       "columnno": 1,
@@ -20254,8 +20254,8 @@
     "comment": "/**\n\t * Returns the spacing before value of the current paragraph.\n\t * @memberof ApiParaPr\n\t * @returns {twips} - The value of the spacing before the current paragraph measured in twentieths of a point (1/1440 of an inch).\n\t */",
     "meta": {
       "range": [
-        415106,
-        415422
+        415107,
+        415423
       ],
       "lineno": 12809,
       "columnno": 1,
@@ -20286,8 +20286,8 @@
     "comment": "/**\n\t * Sets the spacing after the current paragraph. If the value of the isAfterAuto parameter is true, then \n\t * any value of the nAfter is ignored. If isAfterAuto parameter is not specified, then it \n\t * will be interpreted as false.\n\t * @memberof ApiParaPr\n\t * @param {twips} nAfter - The value of the spacing after the current paragraph measured in twentieths of a point (1/1440 of an inch).\n\t * @param {boolean} [isAfterAuto=false] - The true value disables the spacing after the current paragraph.\n\t */",
     "meta": {
       "range": [
-        415977,
-        416252
+        415978,
+        416253
       ],
       "lineno": 12830,
       "columnno": 1,
@@ -20334,8 +20334,8 @@
     "comment": "/**\n\t * Returns the spacing after value of the current paragraph. \n\t * @memberof ApiParaPr\n\t * @returns {twips} - The value of the spacing after the current paragraph measured in twentieths of a point (1/1440 of an inch).\n\t */",
     "meta": {
       "range": [
-        416524,
-        416836
+        416525,
+        416837
       ],
       "lineno": 12846,
       "columnno": 1,
@@ -20366,8 +20366,8 @@
     "comment": "/**\n\t * Specifies a sequence of custom tab stops which will be used for any tab characters in the current paragraph.\n\t * <b>Warning</b>: The lengths of aPos array and aVal array <b>MUST BE</b> equal to each other.\n\t * @memberof ApiParaPr\n\t * @param {twips[]} aPos - An array of the positions of custom tab stops with respect to the current page margins\n\t * measured in twentieths of a point (1/1440 of an inch).\n\t * @param {TabJc[]} aVal - An array of the styles of custom tab stops, which determines the behavior of the tab\n\t * stop and the alignment which will be applied to text entered at the current custom tab stop.\n\t */",
     "meta": {
       "range": [
-        423749,
-        424136
+        423750,
+        424137
       ],
       "lineno": 13010,
       "columnno": 1,
@@ -20430,8 +20430,8 @@
     "comment": "/**\n\t * Sets the bullet or numbering to the current paragraph.\n\t * @memberof ApiParaPr\n\t * @param {?ApiBullet} oBullet - The bullet object created with the {@link Api#CreateBullet} or {@link Api#CreateNumbering} method.\n\t */",
     "meta": {
       "range": [
-        425360,
-        425541
+        425361,
+        425542
       ],
       "lineno": 13053,
       "columnno": 1,
@@ -20465,8 +20465,8 @@
     "comment": "/**\n\t * Returns a type of the ApiDrawing class.\n\t * @memberof ApiDrawing\n\t * @returns {\"drawing\"}\n\t */",
     "meta": {
       "range": [
-        464800,
-        464872
+        464801,
+        464873
       ],
       "lineno": 14069,
       "columnno": 1,
@@ -20496,8 +20496,8 @@
     "comment": "/**\n\t * Returns the width of the current drawing.\n\t * @memberof ApiDrawing\n\t * @returns {EMU}\n\t */",
     "meta": {
       "range": [
-        484055,
-        484156
+        484056,
+        484157
       ],
       "lineno": 14608,
       "columnno": 1,
@@ -20527,8 +20527,8 @@
     "comment": "/**\n\t * Returns the height of the current drawing.\n\t * @memberof ApiDrawing\n\t * @returns {EMU}\n\t */",
     "meta": {
       "range": [
-        484301,
-        484403
+        484302,
+        484404
       ],
       "lineno": 14618,
       "columnno": 1,
@@ -20558,8 +20558,8 @@
     "comment": "/**\n\t * Returns a type of the ApiImage class.\n\t * @memberof ApiImage\n\t * @returns {\"image\"}\n\t */",
     "meta": {
       "range": [
-        487053,
-        487121
+        487054,
+        487122
       ],
       "lineno": 14695,
       "columnno": 1,
@@ -20589,8 +20589,8 @@
     "comment": "/**\n\t * Returns a type of the ApiOleObject class.\n\t * @memberof ApiOleObject\n\t * @returns {\"oleObject\"}\n\t */",
     "meta": {
       "range": [
-        488754,
-        488830
+        488755,
+        488831
       ],
       "lineno": 14764,
       "columnno": 1,
@@ -20620,8 +20620,8 @@
     "comment": "/**\n\t * Sets the data to the current OLE object.\n\t * @memberof ApiOleObject\n\t * @param {string} sData - The OLE object string data.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        489036,
-        489206
+        489037,
+        489207
       ],
       "lineno": 14776,
       "columnno": 1,
@@ -20666,8 +20666,8 @@
     "comment": "/**\n\t * Returns the string data from the current OLE object.\n\t * @memberof ApiOleObject\n\t * @returns {string}\n\t */",
     "meta": {
       "range": [
-        489367,
-        489517
+        489368,
+        489518
       ],
       "lineno": 14791,
       "columnno": 1,
@@ -20697,8 +20697,8 @@
     "comment": "/**\n\t * Sets the application ID to the current OLE object.\n\t * @memberof ApiOleObject\n\t * @param {string} sAppId - The application ID associated with the curent OLE object.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        489764,
-        489956
+        489765,
+        489957
       ],
       "lineno": 14806,
       "columnno": 1,
@@ -20743,8 +20743,8 @@
     "comment": "/**\n\t * Returns the application ID from the current OLE object.\n\t * @memberof ApiOleObject\n\t * @returns {string}\n\t */",
     "meta": {
       "range": [
-        490120,
-        490297
+        490121,
+        490298
       ],
       "lineno": 14821,
       "columnno": 1,
@@ -20774,8 +20774,8 @@
     "comment": "/**\n\t * Removes the specified series from the current chart.\n\t * @memberof ApiChart\n\t * @param {number} nSeria - The index of the chart series.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        506818,
-        506914
+        506819,
+        506915
       ],
       "lineno": 15367,
       "columnno": 1,
@@ -20820,8 +20820,8 @@
     "comment": "/**\n\t * Sets values to the specified chart series.\n\t * @memberof ApiChart\n\t * @param {number[]} aValues - The array of the data which will be set to the specified chart series.\n\t * @param {number} nSeria - The index of the chart series.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        507218,
-        507345
+        507219,
+        507346
       ],
       "lineno": 15380,
       "columnno": 1,
@@ -20888,8 +20888,8 @@
     "comment": "/**\n\t * Sets the x-axis values to all chart series. It is used with the scatter charts only.\n\t * @memberof ApiChart\n\t * @param {string[]} aValues - The array of the data which will be set to the x-axis data points.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        507627,
-        507791
+        507628,
+        507792
       ],
       "lineno": 15392,
       "columnno": 1,
@@ -20943,8 +20943,8 @@
     "comment": "/**\n\t * Sets a name to the specified chart series.\n\t * @memberof ApiChart\n\t * @param {string} sName - The name which will be set to the specified chart series.\n\t * @param {number} nSeria - The index of the chart series.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        508078,
-        508190
+        508079,
+        508191
       ],
       "lineno": 15407,
       "columnno": 1,
@@ -21002,8 +21002,8 @@
     "comment": "/**\n\t * Sets a name to the specified chart category.\n\t * @memberof ApiChart\n\t * @param {string} sName - The name which will be set to the specified chart category.\n\t * @param {number} nCategory - The index of the chart category.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        508486,
-        508605
+        508487,
+        508606
       ],
       "lineno": 15420,
       "columnno": 1,
@@ -21061,8 +21061,8 @@
     "comment": "/**\n\t * Sets a style to the current chart by style ID.\n\t * @memberof ApiChart\n\t * @param nStyleId - One of the styles available in the editor.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        508822,
-        509203
+        508823,
+        509204
       ],
       "lineno": 15432,
       "columnno": 1,
@@ -21098,8 +21098,8 @@
     "comment": "/**\n\t * Sets the fill to the chart plot area.\n\t * @memberof ApiChart\n\t * @param {ApiFill} oFill - The fill type used to fill the plot area.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        509417,
-        509625
+        509418,
+        509626
       ],
       "lineno": 15456,
       "columnno": 1,
@@ -21144,8 +21144,8 @@
     "comment": "/**\n\t * Sets the outline to the chart plot area.\n\t * @memberof ApiChart\n\t * @param {ApiStroke} oStroke - The stroke used to create the plot area outline.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        509853,
-        510074
+        509854,
+        510075
       ],
       "lineno": 15472,
       "columnno": 1,
@@ -21190,8 +21190,8 @@
     "comment": "/**\n\t * Sets the fill to the specified chart series.\n\t * @memberof ApiChart\n\t * @param {ApiFill} oFill - The fill type used to fill the series.\n\t * @param {number} nSeries - The index of the chart series.\n\t * @param {boolean} [bAll=false] - Specifies if the fill will be applied to all series.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        510442,
-        510668
+        510443,
+        510669
       ],
       "lineno": 15490,
       "columnno": 1,
@@ -21264,8 +21264,8 @@
     "comment": "/**\n\t * Sets the outline to the specified chart series.\n\t * @memberof ApiChart\n\t * @param {ApiStroke} oStroke - The stroke used to create the series outline.\n\t * @param {number} nSeries - The index of the chart series.\n\t * @param {boolean} [bAll=false] - Specifies if the outline will be applied to all series.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        511053,
-        511292
+        511054,
+        511293
       ],
       "lineno": 15507,
       "columnno": 1,
@@ -21338,8 +21338,8 @@
     "comment": "/**\n\t * Sets the fill to the data point in the specified chart series.\n\t * @memberof ApiChart\n\t * @param {ApiFill} oFill - The fill type used to fill the data point.\n\t * @param {number} nSeries - The index of the chart series.\n\t * @param {number} nDataPoint - The index of the data point in the specified chart series.\n\t * @param {boolean} [bAllSeries=false] - Specifies if the fill will be applied to the specified data point in all series.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        511808,
-        512076
+        511809,
+        512077
       ],
       "lineno": 15525,
       "columnno": 1,
@@ -21425,8 +21425,8 @@
     "comment": "/**\n\t * Sets the outline to the data point in the specified chart series.\n\t * @memberof ApiChart\n\t * @param {ApiStroke} oStroke - The stroke used to create the data point outline.\n\t * @param {number} nSeries - The index of the chart series.\n\t * @param {number} nDataPoint - The index of the data point in the specified chart series.\n\t * @param {boolean} bAllSeries - Specifies if the outline will be applied to the specified data point in all series.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        512601,
-        512882
+        512602,
+        512883
       ],
       "lineno": 15543,
       "columnno": 1,
@@ -21510,8 +21510,8 @@
     "comment": "/**\n\t * Sets the fill to the marker in the specified chart series.\n\t * @memberof ApiChart\n\t * @param {ApiFill} oFill - The fill type used to fill the marker.\n\t * @param {number} nSeries - The index of the chart series.\n\t * @param {number} nMarker - The index of the marker in the specified chart series.\n\t * @param {boolean} [bAllMarkers=false] - Specifies if the fill will be applied to all markers in the specified chart series.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        513387,
-        513645
+        513388,
+        513646
       ],
       "lineno": 15561,
       "columnno": 1,
@@ -21597,8 +21597,8 @@
     "comment": "/**\n\t * Sets the outline to the marker in the specified chart series.\n\t * @memberof ApiChart\n\t * @param {ApiStroke} oStroke - The stroke used to create the marker outline.\n\t * @param {number} nSeries - The index of the chart series.\n\t * @param {number} nMarker - The index of the marker in the specified chart series.\n\t * @param {boolean} [bAllMarkers=false] - Specifies if the outline will be applied to all markers in the specified chart series.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        514167,
-        514438
+        514168,
+        514439
       ],
       "lineno": 15579,
       "columnno": 1,
@@ -21684,8 +21684,8 @@
     "comment": "/**\n\t * Sets the fill to the chart title.\n\t * @memberof ApiChart\n\t * @param {ApiFill} oFill - The fill type used to fill the title.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        514644,
-        514838
+        514645,
+        514839
       ],
       "lineno": 15594,
       "columnno": 1,
@@ -21730,8 +21730,8 @@
     "comment": "/**\n\t * Sets the outline to the chart title.\n\t * @memberof ApiChart\n\t * @param {ApiStroke} oStroke - The stroke used to create the title outline.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        515058,
-        515265
+        515059,
+        515266
       ],
       "lineno": 15609,
       "columnno": 1,
@@ -21776,8 +21776,8 @@
     "comment": "/**\n\t * Sets the fill to the chart legend.\n\t * @memberof ApiChart\n\t * @param {ApiFill} oFill - The fill type used to fill the legend.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        515473,
-        515669
+        515474,
+        515670
       ],
       "lineno": 15624,
       "columnno": 1,
@@ -21822,8 +21822,8 @@
     "comment": "/**\n\t * Sets the outline to the chart legend.\n\t * @memberof ApiChart\n\t * @param {ApiStroke} oStroke - The stroke used to create the legend outline.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        515891,
-        516100
+        515892,
+        516101
       ],
       "lineno": 15639,
       "columnno": 1,
@@ -21868,8 +21868,8 @@
     "comment": "/**\n\t * Sets the specified numeric format to the axis values.\n\t * @memberof ApiChart\n\t * @param {NumFormat | String} sFormat - Numeric format (can be custom format).\n\t * @param {AxisPos} - Axis position in the chart.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        516391,
-        516849
+        516392,
+        516850
       ],
       "lineno": 15655,
       "columnno": 1,
@@ -21937,8 +21937,8 @@
     "comment": "/**\n\t * Sets the specified numeric format to the chart series.\n\t * @memberof ApiChart\n\t * @param {NumFormat | String} sFormat - Numeric format (can be custom format).\n\t * @param {Number} nSeria - Series index.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        517127,
-        517253
+        517128,
+        517254
       ],
       "lineno": 15687,
       "columnno": 1,
@@ -22006,8 +22006,8 @@
     "comment": "/**\n\t * Sets the specified numeric format to the chart data point.\n\t * @memberof ApiChart\n\t * @param {NumFormat | String} sFormat - Numeric format (can be custom format).\n\t * @param {Number} nSeria - Series index.\n\t * @param {number} nDataPoint - The index of the data point in the specified chart series.\n\t * @param {boolean} bAllSeries - Specifies if the numeric format will be applied to the specified data point in all series.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        517751,
-        517933
+        517752,
+        517934
       ],
       "lineno": 15702,
       "columnno": 1,
@@ -22101,8 +22101,8 @@
     "comment": "/**\n\t * Returns a type of the ApiFill class.\n\t * @memberof ApiFill\n\t * @returns {\"fill\"}\n\t */",
     "meta": {
       "range": [
-        518330,
-        518396
+        518331,
+        518397
       ],
       "lineno": 15719,
       "columnno": 1,
@@ -22132,8 +22132,8 @@
     "comment": "/**\n\t * Returns a type of the ApiStroke class.\n\t * @memberof ApiStroke\n\t * @returns {\"stroke\"}\n\t */",
     "meta": {
       "range": [
-        519089,
-        519159
+        519090,
+        519160
       ],
       "lineno": 15747,
       "columnno": 1,
@@ -22163,8 +22163,8 @@
     "comment": "/**\n\t * Returns a type of the ApiGradientStop class.\n\t * @memberof ApiGradientStop\n\t * @returns {\"gradientStop\"}\n\t */",
     "meta": {
       "range": [
-        519875,
-        519957
+        519876,
+        519958
       ],
       "lineno": 15775,
       "columnno": 1,
@@ -22194,8 +22194,8 @@
     "comment": "/**\n\t * Returns a type of the ApiUniColor class.\n\t * @memberof ApiUniColor\n\t * @returns {\"uniColor\"}\n\t */",
     "meta": {
       "range": [
-        520681,
-        520755
+        520682,
+        520756
       ],
       "lineno": 15803,
       "columnno": 1,
@@ -22225,8 +22225,8 @@
     "comment": "/**\n\t * Returns a type of the ApiRGBColor class.\n\t * @memberof ApiRGBColor\n\t * @returns {\"rgbColor\"}\n\t */",
     "meta": {
       "range": [
-        521470,
-        521544
+        521471,
+        521545
       ],
       "lineno": 15831,
       "columnno": 1,
@@ -22256,8 +22256,8 @@
     "comment": "/**\n\t * Returns a type of the ApiSchemeColor class.\n\t * @memberof ApiSchemeColor\n\t * @returns {\"schemeColor\"}\n\t */",
     "meta": {
       "range": [
-        522271,
-        522351
+        522272,
+        522352
       ],
       "lineno": 15859,
       "columnno": 1,
@@ -22287,8 +22287,8 @@
     "comment": "/**\n\t * Returns a type of the ApiPresetColor class.\n\t * @memberof ApiPresetColor\n\t * @returns {\"presetColor\"}\n\t */",
     "meta": {
       "range": [
-        523087,
-        523167
+        523088,
+        523168
       ],
       "lineno": 15887,
       "columnno": 1,
@@ -22318,8 +22318,8 @@
     "comment": "/**\n\t * Returns a type of the ApiBullet class.\n\t * @memberof ApiBullet\n\t * @returns {\"bullet\"}\n\t */",
     "meta": {
       "range": [
-        523617,
-        523687
+        523618,
+        523688
       ],
       "lineno": 15909,
       "columnno": 1,
@@ -22349,8 +22349,8 @@
     "comment": "/**\n\t * Replaces each paragraph (or text in cell) in the select with the corresponding text from an array of strings.\n\t * @memberof Api\n\t * @param {Array} arrString - An array of replacement strings.\n\t * @param {string} [sParaTab=\" \"] - A character which is used to specify the tab in the source text.\n\t * @param {string} [sParaNewLine=\" \"] - A character which is used to specify the line break character in the source text.\n\t */",
     "meta": {
       "range": [
-        598224,
-        609114
+        598225,
+        609115
       ],
       "lineno": 18500,
       "columnno": 1,
@@ -22412,8 +22412,8 @@
     "comment": "/**\n\t * Creates the empty text properties.\n\t * @memberof Api\n\t * @returns {ApiTextPr}\n\t */",
     "meta": {
       "range": [
-        610972,
-        611088
+        610973,
+        611089
       ],
       "lineno": 18951,
       "columnno": 1,
@@ -22443,8 +22443,8 @@
     "comment": "/**\n\t * Returns the full name of the currently opened file.\n\t * @memberof Api\n\t * @returns {string}\n\t */",
     "meta": {
       "range": [
-        613148,
-        613221
+        613149,
+        613222
       ],
       "lineno": 18992,
       "columnno": 1,
@@ -22474,8 +22474,8 @@
     "comment": "/**\n\t * Returns a type of the ApiComment class.\n\t * @memberof ApiComment\n\t * @returns {\"comment\"}\n\t */",
     "meta": {
       "range": [
-        613735,
-        613808
+        613736,
+        613809
       ],
       "lineno": 19013,
       "columnno": 1,
@@ -22505,8 +22505,8 @@
     "comment": "/**\n\t * Returns the comment text.\n\t * @memberof ApiComment\n\t * @returns {string}\n\t */",
     "meta": {
       "range": [
-        614298,
-        614389
+        614299,
+        614390
       ],
       "lineno": 19039,
       "columnno": 1,
@@ -22536,8 +22536,8 @@
     "comment": "/**\n\t * Sets the comment text.\n\t * @memberof ApiComment\n\t * @param {string} sText - The comment text.\n\t * @returns {ApiComment} - this\n\t */",
     "meta": {
       "range": [
-        614568,
-        614704
+        614569,
+        614705
       ],
       "lineno": 19050,
       "columnno": 1,
@@ -22583,8 +22583,8 @@
     "comment": "/**\n\t * Returns the comment author's name.\n\t * @memberof ApiComment\n\t * @returns {string}\n\t */",
     "meta": {
       "range": [
-        614838,
-        614935
+        614839,
+        614936
       ],
       "lineno": 19062,
       "columnno": 1,
@@ -22614,8 +22614,8 @@
     "comment": "/**\n\t * Sets the comment author's name.\n\t * @memberof ApiComment\n\t * @param {string} sAuthorName - The comment author's name.\n\t * @returns {ApiComment} - this\n\t */",
     "meta": {
       "range": [
-        615138,
-        615292
+        615139,
+        615293
       ],
       "lineno": 19073,
       "columnno": 1,
@@ -22661,8 +22661,8 @@
     "comment": "/**\n\t * Sets the user ID to the comment author.\n\t * @memberof ApiComment\n\t * @param {string} sUserId - The user ID of the comment author.\n\t * @returns {ApiComment} - this\n\t */",
     "meta": {
       "range": [
-        615734,
-        615878
+        615735,
+        615879
       ],
       "lineno": 19096,
       "columnno": 1,
@@ -22708,8 +22708,8 @@
     "comment": "/**\n\t * Checks if a comment is solved or not.\n\t * @memberof ApiComment\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        616017,
-        616109
+        616018,
+        616110
       ],
       "lineno": 19108,
       "columnno": 1,
@@ -22739,8 +22739,8 @@
     "comment": "/**\n\t * Marks a comment as solved.\n\t * @memberof ApiComment\n\t * @param {boolean} bSolved - Specifies if a comment is solved or not.\n\t * @returns {ApiComment} - this\n\t */",
     "meta": {
       "range": [
-        616318,
-        616461
+        616319,
+        616462
       ],
       "lineno": 19119,
       "columnno": 1,
@@ -22786,8 +22786,8 @@
     "comment": "/**\n\t * Returns the timestamp of the comment creation in UTC format.\n\t * @memberof ApiComment\n\t * @returns {Number}\n\t */",
     "meta": {
       "range": [
-        616621,
-        616778
+        616622,
+        616779
       ],
       "lineno": 19131,
       "columnno": 1,
@@ -22817,8 +22817,8 @@
     "comment": "/**\n\t * Sets the timestamp of the comment creation in UTC format.\n\t * @memberof ApiComment\n\t * @param {Number | String} nTimeStamp - The timestamp of the comment creation in UTC format.\n\t * @returns {ApiComment} - this\n\t */",
     "meta": {
       "range": [
-        617041,
-        617303
+        617042,
+        617304
       ],
       "lineno": 19145,
       "columnno": 1,
@@ -22874,8 +22874,8 @@
     "comment": "/**\n\t * Returns the timestamp of the comment creation in the current time zone format.\n\t * @memberof ApiComment\n\t * @returns {Number}\n\t */",
     "meta": {
       "range": [
-        617482,
-        617576
+        617483,
+        617577
       ],
       "lineno": 19162,
       "columnno": 2,
@@ -22905,8 +22905,8 @@
     "comment": "/**\n\t * Sets the timestamp of the comment creation in the current time zone format.\n\t * @memberof ApiComment\n\t * @param {Number | String} nTimeStamp - The timestamp of the comment creation in the current time zone format.\n\t * @returns {ApiComment} - this\n\t */",
     "meta": {
       "range": [
-        617875,
-        618130
+        617876,
+        618131
       ],
       "lineno": 19173,
       "columnno": 1,
@@ -22962,8 +22962,8 @@
     "comment": "/**\n\t * Returns the quote text of the current comment.\n\t * @memberof ApiComment\n\t * @returns {Number?}\n\t */",
     "meta": {
       "range": [
-        618277,
-        618377
+        618278,
+        618378
       ],
       "lineno": 19190,
       "columnno": 1,
@@ -22995,8 +22995,8 @@
     "comment": "/**\n\t * Returns a number of the comment replies.\n\t * @memberof ApiComment\n\t * @returns {Number?}\n\t */",
     "meta": {
       "range": [
-        618518,
-        618625
+        618519,
+        618626
       ],
       "lineno": 19200,
       "columnno": 1,
@@ -23028,8 +23028,8 @@
     "comment": "/**\n\t * Adds a reply to a comment.\n\t * @memberof ApiComment\n\t * @param {String} sText - The comment reply text (required).\n\t * @param {String} sAuthorName - The name of the comment reply author (optional).\n\t * @param {String} sUserId - The user ID of the comment reply author (optional).\n\t * @param {Number} [nPos=this.GetRepliesCount()] - The comment reply position.\n\t * @returns {ApiComment?} - this\n\t */",
     "meta": {
       "range": [
-        619567,
-        620037
+        619568,
+        620038
       ],
       "lineno": 19232,
       "columnno": 1,
@@ -23118,8 +23118,8 @@
     "comment": "/**\n\t * Removes the specified comment replies.\n\t * @memberof ApiComment\n\t * @param {Number} [nPos = 0] - The position of the first comment reply to remove.\n\t * @param {Number} [nCount = 1] - A number of comment replies to remove.\n\t * @param {boolean} [bRemoveAll = false] - Specifies whether to remove all comment replies or not.\n\t * @returns {ApiComment?} - this\n\t */",
     "meta": {
       "range": [
-        620445,
-        620891
+        620446,
+        620892
       ],
       "lineno": 19259,
       "columnno": 1,
@@ -23199,8 +23199,8 @@
     "comment": "/**\n\t * Deletes the current comment from the document.\n\t * @memberof ApiComment\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        621038,
-        621243
+        621039,
+        621244
       ],
       "lineno": 19281,
       "columnno": 1,
@@ -23230,8 +23230,8 @@
     "comment": "/**\n\t * Returns a type of the ApiCommentReply class.\n\t * @memberof ApiCommentReply\n\t * @returns {\"commentReply\"}\n\t */",
     "meta": {
       "range": [
-        621400,
-        621482
+        621401,
+        621483
       ],
       "lineno": 19296,
       "columnno": 1,
@@ -23261,8 +23261,8 @@
     "comment": "/**\n\t * Returns the comment reply text.\n\t * @memberof ApiCommentReply\n\t * @returns {string}\n\t */",
     "meta": {
       "range": [
-        621618,
-        621701
+        621619,
+        621702
       ],
       "lineno": 19306,
       "columnno": 1,
@@ -23292,8 +23292,8 @@
     "comment": "/**\n\t * Sets the comment reply text.\n\t * @memberof ApiCommentReply\n\t * @param {string} sText - The comment reply text.\n\t * @returns {ApiCommentReply} - this\n\t */",
     "meta": {
       "range": [
-        621902,
-        622030
+        621903,
+        622031
       ],
       "lineno": 19317,
       "columnno": 1,
@@ -23339,8 +23339,8 @@
     "comment": "/**\n\t * Returns the comment reply author's name.\n\t * @memberof ApiCommentReply\n\t * @returns {string}\n\t */",
     "meta": {
       "range": [
-        622176,
-        622265
+        622177,
+        622266
       ],
       "lineno": 19329,
       "columnno": 1,
@@ -23370,8 +23370,8 @@
     "comment": "/**\n\t * Sets the comment reply author's name.\n\t * @memberof ApiCommentReply\n\t * @param {string} sAuthorName - The comment reply author's name.\n\t * @returns {ApiCommentReply} - this\n\t */",
     "meta": {
       "range": [
-        622490,
-        622636
+        622491,
+        622637
       ],
       "lineno": 19340,
       "columnno": 1,
@@ -23417,8 +23417,8 @@
     "comment": "/**\n\t * Sets the user ID to the comment reply author.\n\t * @memberof ApiCommentReply\n\t * @param {string} sUserId - The user ID of the comment reply author.\n\t * @returns {ApiCommentReply} - this\n\t */",
     "meta": {
       "range": [
-        623103,
-        623239
+        623104,
+        623240
       ],
       "lineno": 19363,
       "columnno": 1,
@@ -23464,8 +23464,8 @@
     "comment": "/**\n\t * Returns a number of elements in the current document.\n\t * @memberof ApiDocumentContent\n\t * @returns {number}\n\t */",
     "meta": {
       "range": [
-        171378,
-        171481
+        171379,
+        171482
       ],
       "lineno": 5160,
       "columnno": 1,
@@ -23497,8 +23497,8 @@
     "comment": "/**\n\t * Returns an element by its position in the document.\n\t * @memberof ApiDocumentContent\n\t * @param {number} nPos - The element position that will be taken from the document.\n\t * @returns {?DocumentElement}\n\t */",
     "meta": {
       "range": [
-        171742,
-        172197
+        171743,
+        172198
       ],
       "lineno": 5171,
       "columnno": 1,
@@ -23547,8 +23547,8 @@
     "comment": "/**\n\t * Adds a paragraph or a table or a blockLvl content control using its position in the document content.\n\t * @memberof ApiDocumentContent\n\t * @param {number} nPos - The position where the current element will be added.\n\t * @param {DocumentElement} oElement - The document element which will be added at the current position.\n\t */",
     "meta": {
       "range": [
-        172577,
-        172909
+        172578,
+        172910
       ],
       "lineno": 5193,
       "columnno": 1,
@@ -23595,8 +23595,8 @@
     "comment": "/**\n\t * Pushes a paragraph or a table to actually add it to the document.\n\t * @memberof ApiDocumentContent\n\t * @param {DocumentElement} oElement - The element type which will be pushed to the document.\n\t * @returns {boolean} - returns false if oElement is unsupported.\n\t */",
     "meta": {
       "range": [
-        173228,
-        173606
+        173229,
+        173607
       ],
       "lineno": 5210,
       "columnno": 1,
@@ -23644,8 +23644,8 @@
     "comment": "/**\n\t * Removes all the elements from the current document or from the current document element.\n\t * <note>When all elements are removed, a new empty paragraph is automatically created. If you want to add\n\t * content to this paragraph, use the {@link ApiDocumentContent#GetElement} method.</note>\n\t * @memberof ApiDocumentContent\n\t */",
     "meta": {
       "range": [
-        173986,
-        174131
+        173987,
+        174132
       ],
       "lineno": 5231,
       "columnno": 1,
@@ -23664,8 +23664,8 @@
     "comment": "/**\n\t * Removes an element using the position specified.\n\t * @memberof ApiDocumentContent\n\t * @param {number} nPos - The element number (position) in the document or inside other element.\n\t */",
     "meta": {
       "range": [
-        174369,
-        174553
+        174370,
+        174554
       ],
       "lineno": 5241,
       "columnno": 1,
@@ -23699,8 +23699,8 @@
     "comment": "/**\n\t * Sets the paragraph left side indentation.\n\t * @memberof ApiParaPr\n\t * @param {twips} nValue - The paragraph left side indentation value measured in twentieths of a point (1/1440 of an inch).\n\t */",
     "meta": {
       "range": [
-        405984,
-        406117
+        405985,
+        406118
       ],
       "lineno": 12522,
       "columnno": 1,
@@ -23734,8 +23734,8 @@
     "comment": "/**\n\t * Returns the paragraph left side indentation.\n\t * @memberof ApiParaPr\n\t * @returns {twips | undefined} - The paragraph left side indentation value measured in twentieths of a point (1/1440 of an inch).\n\t */",
     "meta": {
       "range": [
-        406376,
-        406666
+        406377,
+        406667
       ],
       "lineno": 12533,
       "columnno": 1,
@@ -23777,8 +23777,8 @@
     "comment": "/**\n\t * Sets the paragraph right side indentation.\n\t * @memberof ApiParaPr\n\t * @param {twips} nValue - The paragraph right side indentation value measured in twentieths of a point (1/1440 of an inch).\n\t */",
     "meta": {
       "range": [
-        406917,
-        407052
+        406918,
+        407053
       ],
       "lineno": 12549,
       "columnno": 1,
@@ -23812,8 +23812,8 @@
     "comment": "/**\n\t * Returns the paragraph right side indentation.\n\t * @memberof ApiParaPr\n\t * @returns {twips | undefined} - The paragraph right side indentation value measured in twentieths of a point (1/1440 of an inch).\n\t */",
     "meta": {
       "range": [
-        407313,
-        407608
+        407314,
+        407609
       ],
       "lineno": 12560,
       "columnno": 1,
@@ -23855,8 +23855,8 @@
     "comment": "/**\n\t * Sets the paragraph first line indentation.\n\t * @memberof ApiParaPr\n\t * @param {twips} nValue - The paragraph first line indentation value measured in twentieths of a point (1/1440 of an inch).\n\t */",
     "meta": {
       "range": [
-        407859,
-        408002
+        407860,
+        408003
       ],
       "lineno": 12577,
       "columnno": 1,
@@ -23890,8 +23890,8 @@
     "comment": "/**\n\t * Returns the paragraph first line indentation.\n\t * @memberof ApiParaPr\n\t * @returns {twips | undefined} - The paragraph first line indentation value measured in twentieths of a point (1/1440 of an inch).\n\t */",
     "meta": {
       "range": [
-        408263,
-        408575
+        408264,
+        408576
       ],
       "lineno": 12588,
       "columnno": 1,
@@ -23933,8 +23933,8 @@
     "comment": "/**\n\t * Sets the paragraph contents justification.\n\t * @memberof ApiParaPr\n\t * @param {(\"left\" | \"right\" | \"both\" | \"center\")} sJc - The justification type that\n\t * will be applied to the paragraph contents.\n\t */",
     "meta": {
       "range": [
-        408833,
-        408953
+        408834,
+        408954
       ],
       "lineno": 12607,
       "columnno": 1,
@@ -23988,8 +23988,8 @@
     "comment": "/**\n\t * Returns the paragraph contents justification.\n\t * @memberof ApiParaPr\n\t * @returns {(\"left\" | \"right\" | \"both\" | \"center\" | undefined)} \n\t */",
     "meta": {
       "range": [
-        409148,
-        409648
+        409149,
+        409649
       ],
       "lineno": 12618,
       "columnno": 1,
@@ -24045,8 +24045,8 @@
     "comment": "/**\n\t * Sets the paragraph line spacing. If the value of the sLineRule parameter is either \n\t * \"atLeast\" or \"exact\", then the value of nLine will be interpreted as twentieths of a point. If \n\t * the value of the sLineRule parameter is \"auto\", then the value of the \n\t * nLine parameter will be interpreted as 240ths of a line.\n\t * @memberof ApiParaPr\n\t * @param {(twips | line240)} nLine - The line spacing value measured either in twentieths of a point (1/1440 of an inch) or in 240ths of a line.\n\t * @param {(\"auto\" | \"atLeast\" | \"exact\")} sLineRule - The rule that determines the measuring units of the line spacing.\n\t */",
     "meta": {
       "range": [
-        411879,
-        412506
+        411880,
+        412507
       ],
       "lineno": 12694,
       "columnno": 1,
@@ -24118,8 +24118,8 @@
     "comment": "/**\n\t * Returns the paragraph line spacing value.\n\t * @memberof ApiParaPr\n\t * @returns {twips | line240 | undefined} - to know is twips or line240 use ApiParaPr.prototype.GetSpacingLineRule().\n\t */",
     "meta": {
       "range": [
-        412749,
-        413283
+        412750,
+        413284
       ],
       "lineno": 12724,
       "columnno": 1,
@@ -24166,8 +24166,8 @@
     "comment": "/**\n\t * Returns the paragraph line spacing rule.\n\t * @memberof ApiParaPr\n\t * @returns {\"auto\" | \"atLeast\" | \"exact\" | undefined} \n\t */",
     "meta": {
       "range": [
-        413463,
-        413986
+        413464,
+        413987
       ],
       "lineno": 12756,
       "columnno": 1,
@@ -24218,8 +24218,8 @@
     "comment": "/**\n\t * Sets the spacing before the current paragraph. If the value of the isBeforeAuto parameter is true, then \n\t * any value of the nBefore is ignored. If isBeforeAuto parameter is not specified, then \n\t * it will be interpreted as false.\n\t * @memberof ApiParaPr\n\t * @param {twips} nBefore - The value of the spacing before the current paragraph measured in twentieths of a point (1/1440 of an inch).\n\t * @param {boolean} [isBeforeAuto=false] - The true value disables the spacing before the current paragraph.\n\t */",
     "meta": {
       "range": [
-        414549,
-        414833
+        414550,
+        414834
       ],
       "lineno": 12793,
       "columnno": 1,
@@ -24268,8 +24268,8 @@
     "comment": "/**\n\t * Returns the spacing before value of the current paragraph.\n\t * @memberof ApiParaPr\n\t * @returns {twips} - The value of the spacing before the current paragraph measured in twentieths of a point (1/1440 of an inch).\n\t */",
     "meta": {
       "range": [
-        415106,
-        415422
+        415107,
+        415423
       ],
       "lineno": 12809,
       "columnno": 1,
@@ -24302,8 +24302,8 @@
     "comment": "/**\n\t * Sets the spacing after the current paragraph. If the value of the isAfterAuto parameter is true, then \n\t * any value of the nAfter is ignored. If isAfterAuto parameter is not specified, then it \n\t * will be interpreted as false.\n\t * @memberof ApiParaPr\n\t * @param {twips} nAfter - The value of the spacing after the current paragraph measured in twentieths of a point (1/1440 of an inch).\n\t * @param {boolean} [isAfterAuto=false] - The true value disables the spacing after the current paragraph.\n\t */",
     "meta": {
       "range": [
-        415977,
-        416252
+        415978,
+        416253
       ],
       "lineno": 12830,
       "columnno": 1,
@@ -24352,8 +24352,8 @@
     "comment": "/**\n\t * Returns the spacing after value of the current paragraph. \n\t * @memberof ApiParaPr\n\t * @returns {twips} - The value of the spacing after the current paragraph measured in twentieths of a point (1/1440 of an inch).\n\t */",
     "meta": {
       "range": [
-        416524,
-        416836
+        416525,
+        416837
       ],
       "lineno": 12846,
       "columnno": 1,
@@ -24386,8 +24386,8 @@
     "comment": "/**\n\t * Specifies a sequence of custom tab stops which will be used for any tab characters in the current paragraph.\n\t * <b>Warning</b>: The lengths of aPos array and aVal array <b>MUST BE</b> equal to each other.\n\t * @memberof ApiParaPr\n\t * @param {twips[]} aPos - An array of the positions of custom tab stops with respect to the current page margins\n\t * measured in twentieths of a point (1/1440 of an inch).\n\t * @param {TabJc[]} aVal - An array of the styles of custom tab stops, which determines the behavior of the tab\n\t * stop and the alignment which will be applied to text entered at the current custom tab stop.\n\t */",
     "meta": {
       "range": [
-        423749,
-        424136
+        423750,
+        424137
       ],
       "lineno": 13010,
       "columnno": 1,
@@ -24452,8 +24452,8 @@
     "comment": "/**\n\t * Sets the bullet or numbering to the current paragraph.\n\t * @memberof ApiParaPr\n\t * @param {?ApiBullet} oBullet - The bullet object created with the {@link Api#CreateBullet} or {@link Api#CreateNumbering} method.\n\t */",
     "meta": {
       "range": [
-        425360,
-        425541
+        425361,
+        425542
       ],
       "lineno": 13053,
       "columnno": 1,
@@ -24489,8 +24489,8 @@
     "comment": "/**\n\t * Sets the text fill to the current text run.\n\t * @memberof ApiTextPr\n\t * @param {ApiFill} oApiFill - The color or pattern used to fill the text color.\n\t * @return {ApiTextPr} - this text properties.\n\t */",
     "meta": {
       "range": [
-        402062,
-        402205
+        402063,
+        402206
       ],
       "lineno": 12401,
       "columnno": 1,
@@ -24538,8 +24538,8 @@
     "comment": "/**\n\t * Sets the text outline to the current text run.\n\t * @memberof ApiTextPr\n\t * @param {ApiStroke} oStroke - The stroke used to create the text outline.\n\t * @return {ApiTextPr} - this text properties.\n\t */",
     "meta": {
       "range": [
-        402459,
-        402597
+        402460,
+        402598
       ],
       "lineno": 12414,
       "columnno": 1,
@@ -24855,8 +24855,8 @@
     "comment": "/**\n\t * Class representing a small text block called 'run'.\n\t * @constructor\n\t * @extends {ApiTextPr}\n\t */",
     "meta": {
       "range": [
-        92787,
-        92876
+        92788,
+        92877
       ],
       "lineno": 3050,
       "columnno": 1,
@@ -24875,8 +24875,8 @@
     "comment": "/**\n\t * Class representing the text properties.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        92588,
-        92676
+        92589,
+        92677
       ],
       "lineno": 3039,
       "columnno": 1,
@@ -24914,8 +24914,8 @@
     "comment": "/**\n\t * Class representing an RGB Color.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        106785,
-        106884
+        106786,
+        106885
       ],
       "lineno": 3578,
       "columnno": 1,
@@ -25023,8 +25023,8 @@
     "comment": "/**\n\t * Class representing a Scheme Color.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        107066,
-        108093
+        107067,
+        108094
       ],
       "lineno": 3589,
       "columnno": 1,
@@ -26012,8 +26012,8 @@
     "comment": "/**\n\t * Class representing a Preset Color.\n\t * @constructor\n\t * */",
     "meta": {
       "range": [
-        108286,
-        108498
+        108287,
+        108499
       ],
       "lineno": 3620,
       "columnno": 1,
@@ -26029,8 +26029,8 @@
     "comment": "/**\n\t * Class representing a base class for color types.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        106655,
-        106719
+        106656,
+        106720
       ],
       "lineno": 3570,
       "columnno": 1,
@@ -26046,8 +26046,8 @@
     "comment": "/**\n\t * Class representing a base class for fill.\n\t * @constructor\n\t * */",
     "meta": {
       "range": [
-        108698,
-        108755
+        108699,
+        108756
       ],
       "lineno": 3634,
       "columnno": 1,
@@ -26431,8 +26431,8 @@
     "comment": "/**\n\t * Class representing a stroke.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        108819,
-        108865
+        108820,
+        108866
       ],
       "lineno": 3644,
       "columnno": 1,
@@ -26470,8 +26470,8 @@
     "comment": "/**\n\t * Class representing gradient stop.\n\t * @constructor\n\t * */",
     "meta": {
       "range": [
-        108936,
-        109080
+        108937,
+        109081
       ],
       "lineno": 3654,
       "columnno": 1,
@@ -26487,8 +26487,8 @@
     "comment": "/**\n\t * Class representing a paragraph bullet.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        91675,
-        91731
+        91676,
+        91732
       ],
       "lineno": 2994,
       "columnno": 1,
@@ -26563,8 +26563,8 @@
     "comment": "/**\n\t * Class representing a paragraph.\n\t * @constructor\n\t * @extends {ApiParaPr}\n\t */",
     "meta": {
       "range": [
-        91822,
-        91941
+        91823,
+        91942
       ],
       "lineno": 3004,
       "columnno": 1,
@@ -26583,8 +26583,8 @@
     "comment": "/**\n\t * Class representing the paragraph properties.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        91511,
-        91599
+        91512,
+        91600
       ],
       "lineno": 2983,
       "columnno": 1,
@@ -26830,8 +26830,8 @@
     "comment": "/**\n\t * Class representing a style.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        103408,
-        103460
+        103409,
+        103461
       ],
       "lineno": 3410,
       "columnno": 1,
@@ -26847,8 +26847,8 @@
     "comment": "/**\n\t * Class representing a table.\n\t * @constructor\n\t * @extends {ApiTablePr}\n\t */",
     "meta": {
       "range": [
-        92311,
-        92411
+        92312,
+        92412
       ],
       "lineno": 3027,
       "columnno": 1,
@@ -26867,8 +26867,8 @@
     "comment": "/**\n\t * Class representing the table properties.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        92130,
-        92223
+        92131,
+        92224
       ],
       "lineno": 3016,
       "columnno": 1,
@@ -26884,8 +26884,8 @@
     "comment": "/**\n\t * Class representing a table cell.\n\t * @constructor\n\t * @extends {ApiTableCellPr}\n\t */",
     "meta": {
       "range": [
-        104339,
-        104443
+        104340,
+        104444
       ],
       "lineno": 3461,
       "columnno": 1,
@@ -26904,8 +26904,8 @@
     "comment": "/**\n\t * Class representing the table cell properties.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        104150,
-        104243
+        104151,
+        104244
       ],
       "lineno": 3451,
       "columnno": 1,
@@ -26985,8 +26985,8 @@
     "comment": "/**\n\t * Class representing a graphical object.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        105445,
-        105505
+        105446,
+        105506
       ],
       "lineno": 3512,
       "columnno": 1,
@@ -27002,8 +27002,8 @@
     "comment": "/**\n\t * Class representing an image.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        105568,
-        105658
+        105569,
+        105659
       ],
       "lineno": 3521,
       "columnno": 1,
@@ -27019,8 +27019,8 @@
     "comment": "/**\n\t * Class representing an Ole object.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        105829,
-        105939
+        105830,
+        105940
       ],
       "lineno": 3533,
       "columnno": 1,
@@ -27036,8 +27036,8 @@
     "comment": "/**\n\t * Class representing a chart.\n\t * @constructor\n\t *\n\t */",
     "meta": {
       "range": [
-        106378,
-        106469
+        106379,
+        106470
       ],
       "lineno": 3558,
       "columnno": 1,
@@ -27257,8 +27257,8 @@
     "comment": "/**\n\t * Class representing a comment.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        93036,
-        93098
+        93037,
+        93099
       ],
       "lineno": 3062,
       "columnno": 1,
@@ -27274,8 +27274,8 @@
     "comment": "/**\n\t * Class representing a comment reply.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        93168,
-        93285
+        93169,
+        93286
       ],
       "lineno": 3071,
       "columnno": 1,
@@ -27291,8 +27291,8 @@
     "comment": "/**\n\t * Class representing a document.\n\t * @constructor\n\t * @extends {ApiDocumentContent}\n\t */",
     "meta": {
       "range": [
-        91232,
-        91311
+        91233,
+        91312
       ],
       "lineno": 2971,
       "columnno": 1,
