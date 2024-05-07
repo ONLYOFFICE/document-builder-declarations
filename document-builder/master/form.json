@@ -910,8 +910,8 @@
     "comment": "/**\n\t * Class representing a document form base.\n\t * @constructor\n\t * @property {string} key - Form key.\n\t * @property {string} tip - Form tip text.\n\t * @property {boolean} required - Specifies if the form is required or not.\n\t * @property {string} placeholder - Form placeholder text.\n\t */",
     "meta": {
       "range": [
-        94042,
-        94093
+        94041,
+        94092
       ],
       "lineno": 3107,
       "columnno": 1,
@@ -981,8 +981,8 @@
     "comment": "/**\n\t * Class representing a document text field.\n\t * @constructor\n\t * @property {boolean} comb - Specifies if the text field should be a comb of characters with the same cell width. The maximum number of characters must be set to a positive value.\n\t * @property {number} maxCharacters - The maximum number of characters in the text field.\n\t * @property {number} cellWidth - The cell width for each character measured in millimeters. If this parameter is not specified or equal to 0 or less, then the width will be set automatically.\n\t * @property {boolean} multiLine - Specifies if the current fixed size text field is multiline or not.\n\t * @property {boolean} autoFit - Specifies if the text field content should be autofit, i.e. whether the font size adjusts to the size of the fixed size form.\n\t * @extends {ApiFormBase}\n\t */",
     "meta": {
       "range": [
-        94962,
-        95026
+        94961,
+        95025
       ],
       "lineno": 3123,
       "columnno": 1,
@@ -1068,8 +1068,8 @@
     "comment": "/**\n\t * Class representing a document combo box / dropdown list.\n\t * @constructor\n\t * @property {boolean} editable - Specifies if the combo box text can be edited.\n\t * @property {boolean} autoFit - Specifies if the combo box form content should be autofit, i.e. whether the font size adjusts to the size of the fixed size form.\n\t * @property {Array.<string | Array.<string>>} items - The combo box items.\n     * This array consists of strings or arrays of two strings where the first string is the displayed value and the second one is its meaning.\n     * If the array consists of single strings, then the displayed value and its meaning are the same.\n     * Example: [\"First\", [\"Second\", \"2\"], [\"Third\", \"3\"], \"Fourth\"].\n\t * @extends {ApiFormBase}\n\t */",
     "meta": {
       "range": [
-        95932,
-        96000
+        95931,
+        95999
       ],
       "lineno": 3143,
       "columnno": 1,
@@ -1156,8 +1156,8 @@
     "comment": "/**\n\t * Class representing a document checkbox / radio button.\n\t * @constructor\n\t * @property {boolean} radio - Specifies if the current checkbox is a radio button. In this case, the key parameter is considered as an identifier for the group of radio buttons.\n\t * @extends {ApiFormBase}\n\t */",
     "meta": {
       "range": [
-        96456,
-        96524
+        96455,
+        96523
       ],
       "lineno": 3158,
       "columnno": 1,
@@ -1191,8 +1191,8 @@
     "comment": "/**\n\t * Class representing a document picture form.\n\t * @constructor\n\t * @property {ScaleFlag} scaleFlag - The condition to scale an image in the picture form: \"always\", \"never\", \"tooBig\" or \"tooSmall\".\n\t * @property {boolean} lockAspectRatio - Specifies if the aspect ratio of the picture form is locked or not.\n\t * @property {boolean} respectBorders - Specifies if the form border width is respected or not when scaling the image.\n\t * @property {percentage} shiftX - Horizontal picture position inside the picture form measured in percent:\n\t * * <b>0</b> - the picture is placed on the left;\n\t * * <b>50</b> - the picture is placed in the center;\n\t * * <b>100</b> - the picture is placed on the right.\n\t * @property {percentage} shiftY - Vertical picture position inside the picture form measured in percent:\n\t * * <b>0</b> - the picture is placed on top;\n\t * * <b>50</b> - the picture is placed in the center;\n\t * * <b>100</b> - the picture is placed on the bottom.\n\t * @extends {ApiFormBase}\n\t */",
     "meta": {
       "range": [
-        97689,
-        97756
+        97688,
+        97755
       ],
       "lineno": 3183,
       "columnno": 1,
@@ -1278,8 +1278,8 @@
     "comment": "/**\n\t * Class representing a complex field.\n\t * @param oSdt\n\t * @constructor\n\t * @extends {ApiFormBase}\n\t */",
     "meta": {
       "range": [
-        98026,
-        98093
+        98025,
+        98092
       ],
       "lineno": 3198,
       "columnno": 1,
@@ -7807,8 +7807,8 @@
     "comment": "/**\n\t * Class representing a shape.\n\t * @constructor\n\t * */",
     "meta": {
       "range": [
-        106119,
-        106210
+        106118,
+        106209
       ],
       "lineno": 3545,
       "columnno": 1,
@@ -7824,8 +7824,8 @@
     "comment": "/**\n\t * Class representing the text properties.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        92589,
-        92677
+        92588,
+        92676
       ],
       "lineno": 3039,
       "columnno": 1,

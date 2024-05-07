@@ -16029,8 +16029,8 @@
     "comment": "/**\n\t * Creates a new smaller text block to be inserted to the current paragraph or table.\n\t * @memberof Api\n\t * @returns {ApiRun}\n\t */",
     "meta": {
       "range": [
-        137353,
-        137442
+        137352,
+        137441
       ],
       "lineno": 4222,
       "columnno": 1,
@@ -16060,8 +16060,8 @@
     "comment": "/**\n\t * Creates an RGB color setting the appropriate values for the red, green and blue color components.\n\t * @memberof Api\n\t * @param {byte} r - Red color component value.\n\t * @param {byte} g - Green color component value.\n\t * @param {byte} b - Blue color component value.\n\t * @returns {ApiRGBColor}\n\t */",
     "meta": {
       "range": [
-        143990,
-        144079
+        143989,
+        144078
       ],
       "lineno": 4372,
       "columnno": 1,
@@ -16132,8 +16132,8 @@
     "comment": "/**\n\t * Creates a complex color scheme selecting from one of the available schemes.\n\t * @memberof Api\n\t * @param {SchemeColorId} sSchemeColorId - The color scheme identifier.\n\t * @returns {ApiSchemeColor}\n\t */",
     "meta": {
       "range": [
-        144335,
-        144444
+        144334,
+        144443
       ],
       "lineno": 4384,
       "columnno": 1,
@@ -16178,8 +16178,8 @@
     "comment": "/**\n\t * Creates a color selecting it from one of the available color presets.\n\t * @memberof Api\n\t * @param {PresetColor} sPresetColor - A preset selected from the list of the available color preset names.\n\t * @returns {ApiPresetColor};\n\t * */",
     "meta": {
       "range": [
-        144733,
-        144838
+        144732,
+        144837
       ],
       "lineno": 4396,
       "columnno": 1,
@@ -16225,8 +16225,8 @@
     "comment": "/**\n\t * Creates a solid fill to apply to the object using a selected solid color as the object background.\n\t * @memberof Api\n\t * @param {ApiUniColor} oUniColor - The color used for the element fill.\n\t * @returns {ApiFill}\n\t * */",
     "meta": {
       "range": [
-        145113,
-        145251
+        145112,
+        145250
       ],
       "lineno": 4408,
       "columnno": 1,
@@ -16271,8 +16271,8 @@
     "comment": "/**\n\t * Creates a linear gradient fill to apply to the object using the selected linear gradient as the object background.\n\t * @memberof Api\n\t * @param {Array} aGradientStop - The array of gradient color stops measured in 1000th of percent.\n\t * @param {PositiveFixedAngle} Angle - The angle measured in 60000th of a degree that will define the gradient direction.\n\t * @returns {ApiFill}\n\t */",
     "meta": {
       "range": [
-        145689,
-        145850
+        145688,
+        145849
       ],
       "lineno": 4421,
       "columnno": 1,
@@ -16330,8 +16330,8 @@
     "comment": "/**\n\t * Creates a radial gradient fill to apply to the object using the selected radial gradient as the object background.\n\t * @memberof Api\n\t * @param {Array} aGradientStop - The array of gradient color stops measured in 1000th of percent.\n\t * @returns {ApiFill}\n\t */",
     "meta": {
       "range": [
-        146166,
-        146313
+        146165,
+        146312
       ],
       "lineno": 4434,
       "columnno": 1,
@@ -16376,8 +16376,8 @@
     "comment": "/**\n\t * Creates a pattern fill to apply to the object using the selected pattern as the object background.\n\t * @memberof Api\n\t * @param {PatternType} sPatternType - The pattern type used for the fill selected from one of the available pattern types.\n\t * @param {ApiUniColor} BgColor - The background color used for the pattern creation.\n\t * @param {ApiUniColor} FgColor - The foreground color used for the pattern creation.\n\t * @returns {ApiFill}\n\t */",
     "meta": {
       "range": [
-        146810,
-        146981
+        146809,
+        146980
       ],
       "lineno": 4447,
       "columnno": 1,
@@ -16448,8 +16448,8 @@
     "comment": "/**\n\t * Creates a blip fill to apply to the object using the selected image as the object background.\n\t * @memberof Api\n\t * @param {string} sImageUrl - The path to the image used for the blip fill (currently only internet URL or Base64 encoded images are supported).\n\t * @param {BlipFillType} sBlipFillType - The type of the fill used for the blip fill (tile or stretch).\n\t * @returns {ApiFill}\n\t * */",
     "meta": {
       "range": [
-        147429,
-        147582
+        147428,
+        147581
       ],
       "lineno": 4460,
       "columnno": 1,
@@ -16507,8 +16507,8 @@
     "comment": "/**\n\t * Creates no fill and removes the fill from the element.\n\t * @memberof Api\n\t * @returns {ApiFill}\n\t * */",
     "meta": {
       "range": [
-        147739,
-        147839
+        147738,
+        147838
       ],
       "lineno": 4471,
       "columnno": 1,
@@ -16538,8 +16538,8 @@
     "comment": "/**\n\t * Creates a stroke adding shadows to the element.\n\t * @memberof Api\n\t * @param {EMU} nWidth - The width of the shadow measured in English measure units.\n\t * @param {ApiFill} oFill - The fill type used to create the shadow.\n\t * @returns {ApiStroke}\n\t * */",
     "meta": {
       "range": [
-        148146,
-        148273
+        148145,
+        148272
       ],
       "lineno": 4484,
       "columnno": 1,
@@ -16597,8 +16597,8 @@
     "comment": "/**\n\t * Creates a gradient stop used for different types of gradients.\n\t * @memberof Api\n\t * @param {ApiUniColor} oUniColor - The color used for the gradient stop.\n\t * @param {PositivePercentage} nPos - The position of the gradient stop measured in 1000th of percent.\n\t * @returns {ApiGradientStop}\n\t * */",
     "meta": {
       "range": [
-        148625,
-        148738
+        148624,
+        148737
       ],
       "lineno": 4497,
       "columnno": 1,
@@ -16656,8 +16656,8 @@
     "comment": "/**\n\t * Creates a bullet for a paragraph with the character or symbol specified with the sSymbol parameter.\n\t * @memberof Api\n\t * @param {string} sSymbol - The character or symbol which will be used to create the bullet for the paragraph.\n\t * @returns {ApiBullet}\n\t * */",
     "meta": {
       "range": [
-        149048,
-        149466
+        149047,
+        149465
       ],
       "lineno": 4509,
       "columnno": 1,
@@ -16702,8 +16702,8 @@
     "comment": "/**\n\t * Creates a bullet for a paragraph with the numbering character or symbol specified with the sType parameter.\n\t * @memberof Api\n\t * @param {BulletType} sType - The numbering type the paragraphs will be numbered with.\n\t * @param {number} nStartAt - The number the first numbered paragraph will start with.\n\t * @returns {ApiBullet}\n\t * */",
     "meta": {
       "range": [
-        149849,
-        151046
+        149848,
+        151045
       ],
       "lineno": 4531,
       "columnno": 1,
@@ -24855,8 +24855,8 @@
     "comment": "/**\n\t * Class representing a small text block called 'run'.\n\t * @constructor\n\t * @extends {ApiTextPr}\n\t */",
     "meta": {
       "range": [
-        92788,
-        92877
+        92787,
+        92876
       ],
       "lineno": 3050,
       "columnno": 1,
@@ -24875,8 +24875,8 @@
     "comment": "/**\n\t * Class representing the text properties.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        92589,
-        92677
+        92588,
+        92676
       ],
       "lineno": 3039,
       "columnno": 1,
@@ -24914,8 +24914,8 @@
     "comment": "/**\n\t * Class representing an RGB Color.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        106786,
-        106885
+        106785,
+        106884
       ],
       "lineno": 3578,
       "columnno": 1,
@@ -25023,8 +25023,8 @@
     "comment": "/**\n\t * Class representing a Scheme Color.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        107067,
-        108094
+        107066,
+        108093
       ],
       "lineno": 3589,
       "columnno": 1,
@@ -26012,8 +26012,8 @@
     "comment": "/**\n\t * Class representing a Preset Color.\n\t * @constructor\n\t * */",
     "meta": {
       "range": [
-        108287,
-        108499
+        108286,
+        108498
       ],
       "lineno": 3620,
       "columnno": 1,
@@ -26029,8 +26029,8 @@
     "comment": "/**\n\t * Class representing a base class for color types.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        106656,
-        106720
+        106655,
+        106719
       ],
       "lineno": 3570,
       "columnno": 1,
@@ -26046,8 +26046,8 @@
     "comment": "/**\n\t * Class representing a base class for fill.\n\t * @constructor\n\t * */",
     "meta": {
       "range": [
-        108699,
-        108756
+        108698,
+        108755
       ],
       "lineno": 3634,
       "columnno": 1,
@@ -26431,8 +26431,8 @@
     "comment": "/**\n\t * Class representing a stroke.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        108820,
-        108866
+        108819,
+        108865
       ],
       "lineno": 3644,
       "columnno": 1,
@@ -26470,8 +26470,8 @@
     "comment": "/**\n\t * Class representing gradient stop.\n\t * @constructor\n\t * */",
     "meta": {
       "range": [
-        108937,
-        109081
+        108936,
+        109080
       ],
       "lineno": 3654,
       "columnno": 1,
@@ -26487,8 +26487,8 @@
     "comment": "/**\n\t * Class representing a paragraph bullet.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        91676,
-        91732
+        91675,
+        91731
       ],
       "lineno": 2994,
       "columnno": 1,
@@ -26563,8 +26563,8 @@
     "comment": "/**\n\t * Class representing a paragraph.\n\t * @constructor\n\t * @extends {ApiParaPr}\n\t */",
     "meta": {
       "range": [
-        91823,
-        91942
+        91822,
+        91941
       ],
       "lineno": 3004,
       "columnno": 1,
@@ -26583,8 +26583,8 @@
     "comment": "/**\n\t * Class representing the paragraph properties.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        91512,
-        91600
+        91511,
+        91599
       ],
       "lineno": 2983,
       "columnno": 1,
@@ -26830,8 +26830,8 @@
     "comment": "/**\n\t * Class representing a style.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        103409,
-        103461
+        103408,
+        103460
       ],
       "lineno": 3410,
       "columnno": 1,
@@ -26847,8 +26847,8 @@
     "comment": "/**\n\t * Class representing a table.\n\t * @constructor\n\t * @extends {ApiTablePr}\n\t */",
     "meta": {
       "range": [
-        92312,
-        92412
+        92311,
+        92411
       ],
       "lineno": 3027,
       "columnno": 1,
@@ -26867,8 +26867,8 @@
     "comment": "/**\n\t * Class representing the table properties.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        92131,
-        92224
+        92130,
+        92223
       ],
       "lineno": 3016,
       "columnno": 1,
@@ -26884,8 +26884,8 @@
     "comment": "/**\n\t * Class representing a table cell.\n\t * @constructor\n\t * @extends {ApiTableCellPr}\n\t */",
     "meta": {
       "range": [
-        104340,
-        104444
+        104339,
+        104443
       ],
       "lineno": 3461,
       "columnno": 1,
@@ -26904,8 +26904,8 @@
     "comment": "/**\n\t * Class representing the table cell properties.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        104151,
-        104244
+        104150,
+        104243
       ],
       "lineno": 3451,
       "columnno": 1,
@@ -26985,8 +26985,8 @@
     "comment": "/**\n\t * Class representing a graphical object.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        105446,
-        105506
+        105445,
+        105505
       ],
       "lineno": 3512,
       "columnno": 1,
@@ -27002,8 +27002,8 @@
     "comment": "/**\n\t * Class representing an image.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        105569,
-        105659
+        105568,
+        105658
       ],
       "lineno": 3521,
       "columnno": 1,
@@ -27019,8 +27019,8 @@
     "comment": "/**\n\t * Class representing an Ole object.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        105830,
-        105940
+        105829,
+        105939
       ],
       "lineno": 3533,
       "columnno": 1,
@@ -27036,8 +27036,8 @@
     "comment": "/**\n\t * Class representing a chart.\n\t * @constructor\n\t *\n\t */",
     "meta": {
       "range": [
-        106379,
-        106470
+        106378,
+        106469
       ],
       "lineno": 3558,
       "columnno": 1,
@@ -27257,8 +27257,8 @@
     "comment": "/**\n\t * Class representing a comment.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        93037,
-        93099
+        93036,
+        93098
       ],
       "lineno": 3062,
       "columnno": 1,
@@ -27274,8 +27274,8 @@
     "comment": "/**\n\t * Class representing a comment reply.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        93169,
-        93286
+        93168,
+        93285
       ],
       "lineno": 3071,
       "columnno": 1,
@@ -27291,8 +27291,8 @@
     "comment": "/**\n\t * Class representing a document.\n\t * @constructor\n\t * @extends {ApiDocumentContent}\n\t */",
     "meta": {
       "range": [
-        91233,
-        91312
+        91232,
+        91311
       ],
       "lineno": 2971,
       "columnno": 1,

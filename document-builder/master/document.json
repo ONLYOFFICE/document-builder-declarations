@@ -4671,7 +4671,7 @@
     "meta": {
       "range": [
         84878,
-        86080
+        86079
       ],
       "lineno": 2747,
       "columnno": 1,
@@ -4729,8 +4729,8 @@
     "comment": "/**\n\t * Adds a comment to the current range.\n\t * @memberof ApiRange\n\t * @param {string} sText - The comment text (required).\n\t * @param {string} sAuthor - The author's name (optional).\n\t * @param {string} sUserId - The user ID of the comment author (optional).\n\t * @returns {?ApiComment} - Returns null if the comment was not added.\n\t */",
     "meta": {
       "range": [
-        86450,
-        87035
+        86449,
+        87034
       ],
       "lineno": 2803,
       "columnno": 1,
@@ -4804,8 +4804,8 @@
     "comment": "/**\n     * Returns a Range object that represents the document part contained in the specified range.\n     * @param {Number} [Start=0] - Start character index in the current range.\n     * @param {Number} [End=-1] - End character index in the current range (if <= 0, then the range is taken to the end).\n     * @returns {ApiRange}\n     * */",
     "meta": {
       "range": [
-        87410,
-        91133
+        87409,
+        91132
       ],
       "lineno": 2834,
       "columnno": 1,
@@ -4867,8 +4867,8 @@
     "comment": "/**\n\t * Class representing a document.\n\t * @constructor\n\t * @extends {ApiDocumentContent}\n\t */",
     "meta": {
       "range": [
-        91233,
-        91312
+        91232,
+        91311
       ],
       "lineno": 2971,
       "columnno": 1,
@@ -4887,8 +4887,8 @@
     "comment": "/**\n\t * Class representing the paragraph properties.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        91512,
-        91600
+        91511,
+        91599
       ],
       "lineno": 2983,
       "columnno": 1,
@@ -4904,8 +4904,8 @@
     "comment": "/**\n\t * Class representing a paragraph bullet.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        91676,
-        91732
+        91675,
+        91731
       ],
       "lineno": 2994,
       "columnno": 1,
@@ -4921,8 +4921,8 @@
     "comment": "/**\n\t * Class representing a paragraph.\n\t * @constructor\n\t * @extends {ApiParaPr}\n\t */",
     "meta": {
       "range": [
-        91823,
-        91942
+        91822,
+        91941
       ],
       "lineno": 3004,
       "columnno": 1,
@@ -4941,8 +4941,8 @@
     "comment": "/**\n\t * Class representing the table properties.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        92131,
-        92224
+        92130,
+        92223
       ],
       "lineno": 3016,
       "columnno": 1,
@@ -4958,8 +4958,8 @@
     "comment": "/**\n\t * Class representing a table.\n\t * @constructor\n\t * @extends {ApiTablePr}\n\t */",
     "meta": {
       "range": [
-        92312,
-        92412
+        92311,
+        92411
       ],
       "lineno": 3027,
       "columnno": 1,
@@ -4978,8 +4978,8 @@
     "comment": "/**\n\t * Class representing the text properties.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        92589,
-        92677
+        92588,
+        92676
       ],
       "lineno": 3039,
       "columnno": 1,
@@ -4995,8 +4995,8 @@
     "comment": "/**\n\t * Class representing a small text block called 'run'.\n\t * @constructor\n\t * @extends {ApiTextPr}\n\t */",
     "meta": {
       "range": [
-        92788,
-        92877
+        92787,
+        92876
       ],
       "lineno": 3050,
       "columnno": 1,
@@ -5015,8 +5015,8 @@
     "comment": "/**\n\t * Class representing a comment.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        93037,
-        93099
+        93036,
+        93098
       ],
       "lineno": 3062,
       "columnno": 1,
@@ -5032,8 +5032,8 @@
     "comment": "/**\n\t * Class representing a comment reply.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        93169,
-        93286
+        93168,
+        93285
       ],
       "lineno": 3071,
       "columnno": 1,
@@ -5049,8 +5049,8 @@
     "comment": "/**\n\t * Class representing a Paragraph hyperlink.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        93362,
-        93443
+        93361,
+        93442
       ],
       "lineno": 3081,
       "columnno": 1,
@@ -5066,8 +5066,8 @@
     "comment": "/**\n\t * Returns a type of the ApiHyperlink class.\n\t * @memberof ApiHyperlink\n\t * @returns {\"hyperlink\"}\n\t */",
     "meta": {
       "range": [
-        93635,
-        93711
+        93634,
+        93710
       ],
       "lineno": 3093,
       "columnno": 1,
@@ -5097,8 +5097,8 @@
     "comment": "/**\n\t * Class representing a document form base.\n\t * @constructor\n\t * @property {string} key - Form key.\n\t * @property {string} tip - Form tip text.\n\t * @property {boolean} required - Specifies if the form is required or not.\n\t * @property {string} placeholder - Form placeholder text.\n\t */",
     "meta": {
       "range": [
-        94042,
-        94093
+        94041,
+        94092
       ],
       "lineno": 3107,
       "columnno": 1,
@@ -5168,8 +5168,8 @@
     "comment": "/**\n\t * Class representing a document text field.\n\t * @constructor\n\t * @property {boolean} comb - Specifies if the text field should be a comb of characters with the same cell width. The maximum number of characters must be set to a positive value.\n\t * @property {number} maxCharacters - The maximum number of characters in the text field.\n\t * @property {number} cellWidth - The cell width for each character measured in millimeters. If this parameter is not specified or equal to 0 or less, then the width will be set automatically.\n\t * @property {boolean} multiLine - Specifies if the current fixed size text field is multiline or not.\n\t * @property {boolean} autoFit - Specifies if the text field content should be autofit, i.e. whether the font size adjusts to the size of the fixed size form.\n\t * @extends {ApiFormBase}\n\t */",
     "meta": {
       "range": [
-        94962,
-        95026
+        94961,
+        95025
       ],
       "lineno": 3123,
       "columnno": 1,
@@ -5255,8 +5255,8 @@
     "comment": "/**\n\t * Class representing a document combo box / dropdown list.\n\t * @constructor\n\t * @property {boolean} editable - Specifies if the combo box text can be edited.\n\t * @property {boolean} autoFit - Specifies if the combo box form content should be autofit, i.e. whether the font size adjusts to the size of the fixed size form.\n\t * @property {Array.<string | Array.<string>>} items - The combo box items.\n     * This array consists of strings or arrays of two strings where the first string is the displayed value and the second one is its meaning.\n     * If the array consists of single strings, then the displayed value and its meaning are the same.\n     * Example: [\"First\", [\"Second\", \"2\"], [\"Third\", \"3\"], \"Fourth\"].\n\t * @extends {ApiFormBase}\n\t */",
     "meta": {
       "range": [
-        95932,
-        96000
+        95931,
+        95999
       ],
       "lineno": 3143,
       "columnno": 1,
@@ -5343,8 +5343,8 @@
     "comment": "/**\n\t * Class representing a document checkbox / radio button.\n\t * @constructor\n\t * @property {boolean} radio - Specifies if the current checkbox is a radio button. In this case, the key parameter is considered as an identifier for the group of radio buttons.\n\t * @extends {ApiFormBase}\n\t */",
     "meta": {
       "range": [
-        96456,
-        96524
+        96455,
+        96523
       ],
       "lineno": 3158,
       "columnno": 1,
@@ -5378,8 +5378,8 @@
     "comment": "/**\n\t * Class representing a document picture form.\n\t * @constructor\n\t * @property {ScaleFlag} scaleFlag - The condition to scale an image in the picture form: \"always\", \"never\", \"tooBig\" or \"tooSmall\".\n\t * @property {boolean} lockAspectRatio - Specifies if the aspect ratio of the picture form is locked or not.\n\t * @property {boolean} respectBorders - Specifies if the form border width is respected or not when scaling the image.\n\t * @property {percentage} shiftX - Horizontal picture position inside the picture form measured in percent:\n\t * * <b>0</b> - the picture is placed on the left;\n\t * * <b>50</b> - the picture is placed in the center;\n\t * * <b>100</b> - the picture is placed on the right.\n\t * @property {percentage} shiftY - Vertical picture position inside the picture form measured in percent:\n\t * * <b>0</b> - the picture is placed on top;\n\t * * <b>50</b> - the picture is placed in the center;\n\t * * <b>100</b> - the picture is placed on the bottom.\n\t * @extends {ApiFormBase}\n\t */",
     "meta": {
       "range": [
-        97689,
-        97756
+        97688,
+        97755
       ],
       "lineno": 3183,
       "columnno": 1,
@@ -5465,8 +5465,8 @@
     "comment": "/**\n\t * Class representing a complex field.\n\t * @param oSdt\n\t * @constructor\n\t * @extends {ApiFormBase}\n\t */",
     "meta": {
       "range": [
-        98026,
-        98093
+        98025,
+        98092
       ],
       "lineno": 3198,
       "columnno": 1,
@@ -5490,8 +5490,8 @@
     "comment": "/**\n\t * Sets the hyperlink address.\n\t * @param {string} sLink - The hyperlink address.\n\t * @returns {boolean}\n\t * */",
     "meta": {
       "range": [
-        98363,
-        98875
+        98362,
+        98874
       ],
       "lineno": 3211,
       "columnno": 1,
@@ -5536,8 +5536,8 @@
     "comment": "/**\n\t * Sets the hyperlink display text.\n\t * @param {string} sDisplay - The text to display the hyperlink.\n\t * @returns {boolean}\n\t * */",
     "meta": {
       "range": [
-        99043,
-        99755
+        99042,
+        99754
       ],
       "lineno": 3236,
       "columnno": 1,
@@ -5582,8 +5582,8 @@
     "comment": "/**\n\t * Sets the screen tip text of the hyperlink.\n\t * @param {string} sScreenTipText - The screen tip text of the hyperlink.\n\t * @returns {boolean}\n\t * */",
     "meta": {
       "range": [
-        99942,
-        100142
+        99941,
+        100141
       ],
       "lineno": 3272,
       "columnno": 1,
@@ -5628,8 +5628,8 @@
     "comment": "/**\n\t * Returns the hyperlink address.\n\t * @returns {string} \n\t * */",
     "meta": {
       "range": [
-        100242,
-        100432
+        100241,
+        100431
       ],
       "lineno": 3286,
       "columnno": 1,
@@ -5659,8 +5659,8 @@
     "comment": "/**\n\t * Returns the hyperlink display text.\n\t * @returns {string} \n\t * */",
     "meta": {
       "range": [
-        100537,
-        100739
+        100536,
+        100738
       ],
       "lineno": 3302,
       "columnno": 1,
@@ -5690,8 +5690,8 @@
     "comment": "/**\n\t * Returns the screen tip text of the hyperlink.\n\t * @returns {string} \n\t * */",
     "meta": {
       "range": [
-        100854,
-        101049
+        100853,
+        101048
       ],
       "lineno": 3318,
       "columnno": 1,
@@ -5721,8 +5721,8 @@
     "comment": "/**\n\t * Returns the hyperlink element using the position specified.\n\t * @param {number} nPos - The position where the element which content we want to get must be located.\n\t * @returns {?ParagraphContent}\n\t */",
     "meta": {
       "range": [
-        101290,
-        101549
+        101289,
+        101548
       ],
       "lineno": 3335,
       "columnno": 1,
@@ -5769,8 +5769,8 @@
     "comment": "/**\n\t * Returns a number of elements in the current hyperlink.\n\t * @returns {number}\n\t */",
     "meta": {
       "range": [
-        101670,
-        101776
+        101669,
+        101775
       ],
       "lineno": 3350,
       "columnno": 1,
@@ -5800,8 +5800,8 @@
     "comment": "/**\n\t * Sets the default hyperlink style.\n\t * @returns {boolean}\n\t * */",
     "meta": {
       "range": [
-        101879,
-        102391
+        101878,
+        102390
       ],
       "lineno": 3359,
       "columnno": 1,
@@ -5831,8 +5831,8 @@
     "comment": "/**\n\t * Returns a Range object that represents the document part contained in the specified hyperlink.\n\t * @param {Number} Start - Start character index in the current element.\n\t * @param {Number} End - End character index in the current element.\n\t * @returns {ApiRange} \n\t * */",
     "meta": {
       "range": [
-        102701,
-        102816
+        102700,
+        102815
       ],
       "lineno": 3385,
       "columnno": 1,
@@ -5890,8 +5890,8 @@
     "comment": "/**\n\t * Converts the ApiHyperlink object into the JSON object.\n\t * @memberof ApiHyperlink\n\t * @param {boolean} bWriteStyles - Specifies if the used styles will be written to the JSON object or not.\n\t * @returns {JSON}\n\t */",
     "meta": {
       "range": [
-        103070,
-        103346
+        103069,
+        103345
       ],
       "lineno": 3396,
       "columnno": 1,
@@ -5936,8 +5936,8 @@
     "comment": "/**\n\t * Class representing a style.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        103409,
-        103461
+        103408,
+        103460
       ],
       "lineno": 3410,
       "columnno": 1,
@@ -5953,8 +5953,8 @@
     "comment": "/**\n\t * Class representing a document section.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        103534,
-        103594
+        103533,
+        103593
       ],
       "lineno": 3419,
       "columnno": 1,
@@ -5970,8 +5970,8 @@
     "comment": "/**\n\t * Class representing the table row properties.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        103673,
-        103763
+        103672,
+        103762
       ],
       "lineno": 3428,
       "columnno": 1,
@@ -5987,8 +5987,8 @@
     "comment": "/**\n\t * Class representing a table row.\n\t * @constructor\n\t * @extends {ApiTableRowPr}\n\t */",
     "meta": {
       "range": [
-        103858,
-        103956
+        103857,
+        103955
       ],
       "lineno": 3439,
       "columnno": 1,
@@ -6007,8 +6007,8 @@
     "comment": "/**\n\t * Class representing the table cell properties.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        104151,
-        104244
+        104150,
+        104243
       ],
       "lineno": 3451,
       "columnno": 1,
@@ -6024,8 +6024,8 @@
     "comment": "/**\n\t * Class representing a table cell.\n\t * @constructor\n\t * @extends {ApiTableCellPr}\n\t */",
     "meta": {
       "range": [
-        104340,
-        104444
+        104339,
+        104443
       ],
       "lineno": 3461,
       "columnno": 1,
@@ -6044,8 +6044,8 @@
     "comment": "/**\n\t * Class representing the numbering properties.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        104642,
-        104692
+        104641,
+        104691
       ],
       "lineno": 3473,
       "columnno": 1,
@@ -6061,8 +6061,8 @@
     "comment": "/**\n\t * Class representing a reference to a specified level of the numbering.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        104796,
-        104900
+        104795,
+        104899
       ],
       "lineno": 3482,
       "columnno": 1,
@@ -6078,8 +6078,8 @@
     "comment": "/**\n\t * Class representing a set of formatting properties which shall be conditionally applied to the parts of a table\n\t * which match the requirement specified on the <code>Type</code>.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        105113,
-        105265
+        105112,
+        105264
       ],
       "lineno": 3493,
       "columnno": 1,
@@ -6095,8 +6095,8 @@
     "comment": "/**\n\t * Class representing an unsupported element.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        105342,
-        105373
+        105341,
+        105372
       ],
       "lineno": 3504,
       "columnno": 1,
@@ -6112,8 +6112,8 @@
     "comment": "/**\n\t * Class representing a graphical object.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        105446,
-        105506
+        105445,
+        105505
       ],
       "lineno": 3512,
       "columnno": 1,
@@ -6129,8 +6129,8 @@
     "comment": "/**\n\t * Class representing an image.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        105569,
-        105659
+        105568,
+        105658
       ],
       "lineno": 3521,
       "columnno": 1,
@@ -6146,8 +6146,8 @@
     "comment": "/**\n\t * Class representing an Ole object.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        105830,
-        105940
+        105829,
+        105939
       ],
       "lineno": 3533,
       "columnno": 1,
@@ -6163,8 +6163,8 @@
     "comment": "/**\n\t * Class representing a shape.\n\t * @constructor\n\t * */",
     "meta": {
       "range": [
-        106119,
-        106210
+        106118,
+        106209
       ],
       "lineno": 3545,
       "columnno": 1,
@@ -6180,8 +6180,8 @@
     "comment": "/**\n\t * Class representing a chart.\n\t * @constructor\n\t *\n\t */",
     "meta": {
       "range": [
-        106379,
-        106470
+        106378,
+        106469
       ],
       "lineno": 3558,
       "columnno": 1,
@@ -6197,8 +6197,8 @@
     "comment": "/**\n\t * Class representing a base class for color types.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        106656,
-        106720
+        106655,
+        106719
       ],
       "lineno": 3570,
       "columnno": 1,
@@ -6214,8 +6214,8 @@
     "comment": "/**\n\t * Class representing an RGB Color.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        106786,
-        106885
+        106785,
+        106884
       ],
       "lineno": 3578,
       "columnno": 1,
@@ -6231,8 +6231,8 @@
     "comment": "/**\n\t * Class representing a Scheme Color.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        107067,
-        108094
+        107066,
+        108093
       ],
       "lineno": 3589,
       "columnno": 1,
@@ -6248,8 +6248,8 @@
     "comment": "/**\n\t * Class representing a Preset Color.\n\t * @constructor\n\t * */",
     "meta": {
       "range": [
-        108287,
-        108499
+        108286,
+        108498
       ],
       "lineno": 3620,
       "columnno": 1,
@@ -6265,8 +6265,8 @@
     "comment": "/**\n\t * Class representing a base class for fill.\n\t * @constructor\n\t * */",
     "meta": {
       "range": [
-        108699,
-        108756
+        108698,
+        108755
       ],
       "lineno": 3634,
       "columnno": 1,
@@ -6282,8 +6282,8 @@
     "comment": "/**\n\t * Class representing a stroke.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        108820,
-        108866
+        108819,
+        108865
       ],
       "lineno": 3644,
       "columnno": 1,
@@ -6299,8 +6299,8 @@
     "comment": "/**\n\t * Class representing gradient stop.\n\t * @constructor\n\t * */",
     "meta": {
       "range": [
-        108937,
-        109081
+        108936,
+        109080
       ],
       "lineno": 3654,
       "columnno": 1,
@@ -6316,8 +6316,8 @@
     "comment": "/**\n\t * Class representing a container for the paragraph elements.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        109174,
-        109227
+        109173,
+        109226
       ],
       "lineno": 3665,
       "columnno": 1,
@@ -6333,8 +6333,8 @@
     "comment": "/**\n\t * Class representing a list of values of the combo box / dropdown list content control.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        109347,
-        109443
+        109346,
+        109442
       ],
       "lineno": 3674,
       "columnno": 1,
@@ -6350,8 +6350,8 @@
     "comment": "/**\n\t * Class representing an entry of the combo box / dropdown list content control.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        109555,
-        109712
+        109554,
+        109711
       ],
       "lineno": 3684,
       "columnno": 1,
@@ -6367,8 +6367,8 @@
     "comment": "/**\n\t * Class representing a container for the document content.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        109803,
-        109855
+        109802,
+        109854
       ],
       "lineno": 3696,
       "columnno": 1,
@@ -6384,8 +6384,8 @@
     "comment": "/**\n\t * Class representing the settings which are used to create a watermark.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        109959,
-        110034
+        109958,
+        110033
       ],
       "lineno": 3705,
       "columnno": 1,
@@ -11476,8 +11476,8 @@
     "comment": "/**\n\t * Returns the main document.\n\t * @memberof Api\n\t * @returns {ApiDocument}\n\t */",
     "meta": {
       "range": [
-        135366,
-        135471
+        135365,
+        135470
       ],
       "lineno": 4152,
       "columnno": 1,
@@ -11507,8 +11507,8 @@
     "comment": "/**\n\t * Creates a new paragraph.\n\t * @memberof Api\n\t * @returns {ApiParagraph}\n\t */",
     "meta": {
       "range": [
-        135593,
-        135741
+        135592,
+        135740
       ],
       "lineno": 4162,
       "columnno": 1,
@@ -11538,8 +11538,8 @@
     "comment": "/**\n\t * Creates an element range.\n\t * If you do not specify the start and end positions, the range will be taken from the entire element.\n\t * @memberof Api\n\t * @param oElement - The element from which the range will be taken.\n\t * @param nStart - Start range position.\n\t * @param nEnd - End range position.\n\t * @returns {ApiRange | null} - returns null if oElement isn't supported.\n\t */",
     "meta": {
       "range": [
-        136158,
-        136562
+        136157,
+        136561
       ],
       "lineno": 4176,
       "columnno": 1,
@@ -11593,8 +11593,8 @@
     "comment": "/**\n\t * Creates a new table with a specified number of rows and columns.\n\t * @memberof Api\n\t * @param {number} nCols - Number of columns.\n\t * @param {number} nRows - Number of rows.\n\t * @returns {ApiTable}\n\t */",
     "meta": {
       "range": [
-        136804,
-        137172
+        136803,
+        137171
       ],
       "lineno": 4205,
       "columnno": 1,
@@ -11652,8 +11652,8 @@
     "comment": "/**\n\t * Creates a new smaller text block to be inserted to the current paragraph or table.\n\t * @memberof Api\n\t * @returns {ApiRun}\n\t */",
     "meta": {
       "range": [
-        137353,
-        137442
+        137352,
+        137441
       ],
       "lineno": 4222,
       "columnno": 1,
@@ -11683,8 +11683,8 @@
     "comment": "/**\n\t * Creates a new hyperlink text block to be inserted to the current paragraph or table.\n\t * @memberof Api\n\t * @param {string} sLink - The hyperlink address. \n\t * @param {string} sDisplay - The text to display the hyperlink.\n\t * @param {string} sScreenTipText - The screen tip text.\n\t * @returns {ApiHyperlink}\n\t */",
     "meta": {
       "range": [
-        137793,
-        138139
+        137792,
+        138138
       ],
       "lineno": 4235,
       "columnno": 1,
@@ -11755,8 +11755,8 @@
     "comment": "/**\n\t * Creates an image with the parameters specified.\n\t * @memberof Api\n\t * @param {string} sImageSrc - The image source where the image to be inserted should be taken from (currently only internet URL or Base64 encoded images are supported).\n\t * @param {EMU} nWidth - The image width in English measure units.\n\t * @param {EMU} nHeight - The image height in English measure units.\n\t * @returns {ApiImage}\n\t */",
     "meta": {
       "range": [
-        138583,
-        139031
+        138582,
+        139030
       ],
       "lineno": 4257,
       "columnno": 1,
@@ -11827,8 +11827,8 @@
     "comment": "/**\n\t * Creates a shape with the parameters specified.\n\t * @memberof Api\n\t * @param {ShapeType} [sType=\"rect\"] - The shape type which specifies the preset shape geometry.\n\t * @param {EMU} [nWidth = 914400] - The shape width in English measure units.\n\t * @param {EMU} [nHeight = 914400] - The shape height in English measure units.\n\t * @param {ApiFill} [oFill = Api.CreateNoFill()] - The color or pattern used to fill the shape.\n\t * @param {ApiStroke} [oStroke = Api.CreateStroke(0, Api.CreateNoFill())] - The stroke used to create the element shadow.\n\t * @returns {ApiShape}\n\t * */",
     "meta": {
       "range": [
-        139645,
-        140618
+        139644,
+        140617
       ],
       "lineno": 4280,
       "columnno": 1,
@@ -11935,8 +11935,8 @@
     "comment": "/**\n\t * Creates a chart with the parameters specified.\n\t * @memberof Api\n\t * @param {ChartType} [sType=\"bar\"] - The chart type used for the chart display.\n\t * @param {Array} aSeries - The array of the data used to build the chart from.\n\t * @param {Array} aSeriesNames - The array of the names (the source table column names) used for the data which the chart will be build from.\n\t * @param {Array} aCatNames - The array of the names (the source table row names) used for the data which the chart will be build from.\n\t * @param {EMU} nWidth - The chart width in English measure units.\n\t * @param {EMU} nHeight - The chart height in English measure units.\n\t * @param {number} nStyleIndex - The chart color style index (can be 1 - 48, as described in OOXML specification).\n\t * @param {NumFormat[] | String[]} aNumFormats - Numeric formats which will be applied to the series (can be custom formats).\n     * The default numeric format is \"General\".\n\t * @returns {ApiChart}\n\t * */",
     "meta": {
       "range": [
-        141626,
-        142320
+        141625,
+        142319
       ],
       "lineno": 4318,
       "columnno": 1,
@@ -12102,8 +12102,8 @@
     "comment": "/**\n\t * Creates an OLE object with the parameters specified.\n\t * @memberof Api\n\t * @param {string} sImageSrc - The image source where the image to be inserted should be taken from (currently, only internet URL or Base64 encoded images are supported).\n\t * @param {EMU} nWidth - The OLE object width in English measure units.\n\t * @param {EMU} nHeight - The OLE object height in English measure units.\n\t * @param {string} sData - The OLE object string data.\n\t * @param {string} sAppId - The application ID associated with the current OLE object.\n\t * @returns {ApiOleObject}\n\t */",
     "meta": {
       "range": [
-        142928,
-        143638
+        142927,
+        143637
       ],
       "lineno": 4346,
       "columnno": 1,
@@ -12200,8 +12200,8 @@
     "comment": "/**\n\t * Creates an RGB color setting the appropriate values for the red, green and blue color components.\n\t * @memberof Api\n\t * @param {byte} r - Red color component value.\n\t * @param {byte} g - Green color component value.\n\t * @param {byte} b - Blue color component value.\n\t * @returns {ApiRGBColor}\n\t */",
     "meta": {
       "range": [
-        143990,
-        144079
+        143989,
+        144078
       ],
       "lineno": 4372,
       "columnno": 1,
@@ -12272,8 +12272,8 @@
     "comment": "/**\n\t * Creates a complex color scheme selecting from one of the available schemes.\n\t * @memberof Api\n\t * @param {SchemeColorId} sSchemeColorId - The color scheme identifier.\n\t * @returns {ApiSchemeColor}\n\t */",
     "meta": {
       "range": [
-        144335,
-        144444
+        144334,
+        144443
       ],
       "lineno": 4384,
       "columnno": 1,
@@ -12318,8 +12318,8 @@
     "comment": "/**\n\t * Creates a color selecting it from one of the available color presets.\n\t * @memberof Api\n\t * @param {PresetColor} sPresetColor - A preset selected from the list of the available color preset names.\n\t * @returns {ApiPresetColor};\n\t * */",
     "meta": {
       "range": [
-        144733,
-        144838
+        144732,
+        144837
       ],
       "lineno": 4396,
       "columnno": 1,
@@ -12365,8 +12365,8 @@
     "comment": "/**\n\t * Creates a solid fill to apply to the object using a selected solid color as the object background.\n\t * @memberof Api\n\t * @param {ApiUniColor} oUniColor - The color used for the element fill.\n\t * @returns {ApiFill}\n\t * */",
     "meta": {
       "range": [
-        145113,
-        145251
+        145112,
+        145250
       ],
       "lineno": 4408,
       "columnno": 1,
@@ -12411,8 +12411,8 @@
     "comment": "/**\n\t * Creates a linear gradient fill to apply to the object using the selected linear gradient as the object background.\n\t * @memberof Api\n\t * @param {Array} aGradientStop - The array of gradient color stops measured in 1000th of percent.\n\t * @param {PositiveFixedAngle} Angle - The angle measured in 60000th of a degree that will define the gradient direction.\n\t * @returns {ApiFill}\n\t */",
     "meta": {
       "range": [
-        145689,
-        145850
+        145688,
+        145849
       ],
       "lineno": 4421,
       "columnno": 1,
@@ -12470,8 +12470,8 @@
     "comment": "/**\n\t * Creates a radial gradient fill to apply to the object using the selected radial gradient as the object background.\n\t * @memberof Api\n\t * @param {Array} aGradientStop - The array of gradient color stops measured in 1000th of percent.\n\t * @returns {ApiFill}\n\t */",
     "meta": {
       "range": [
-        146166,
-        146313
+        146165,
+        146312
       ],
       "lineno": 4434,
       "columnno": 1,
@@ -12516,8 +12516,8 @@
     "comment": "/**\n\t * Creates a pattern fill to apply to the object using the selected pattern as the object background.\n\t * @memberof Api\n\t * @param {PatternType} sPatternType - The pattern type used for the fill selected from one of the available pattern types.\n\t * @param {ApiUniColor} BgColor - The background color used for the pattern creation.\n\t * @param {ApiUniColor} FgColor - The foreground color used for the pattern creation.\n\t * @returns {ApiFill}\n\t */",
     "meta": {
       "range": [
-        146810,
-        146981
+        146809,
+        146980
       ],
       "lineno": 4447,
       "columnno": 1,
@@ -12588,8 +12588,8 @@
     "comment": "/**\n\t * Creates a blip fill to apply to the object using the selected image as the object background.\n\t * @memberof Api\n\t * @param {string} sImageUrl - The path to the image used for the blip fill (currently only internet URL or Base64 encoded images are supported).\n\t * @param {BlipFillType} sBlipFillType - The type of the fill used for the blip fill (tile or stretch).\n\t * @returns {ApiFill}\n\t * */",
     "meta": {
       "range": [
-        147429,
-        147582
+        147428,
+        147581
       ],
       "lineno": 4460,
       "columnno": 1,
@@ -12647,8 +12647,8 @@
     "comment": "/**\n\t * Creates no fill and removes the fill from the element.\n\t * @memberof Api\n\t * @returns {ApiFill}\n\t * */",
     "meta": {
       "range": [
-        147739,
-        147839
+        147738,
+        147838
       ],
       "lineno": 4471,
       "columnno": 1,
@@ -12678,8 +12678,8 @@
     "comment": "/**\n\t * Creates a stroke adding shadows to the element.\n\t * @memberof Api\n\t * @param {EMU} nWidth - The width of the shadow measured in English measure units.\n\t * @param {ApiFill} oFill - The fill type used to create the shadow.\n\t * @returns {ApiStroke}\n\t * */",
     "meta": {
       "range": [
-        148146,
-        148273
+        148145,
+        148272
       ],
       "lineno": 4484,
       "columnno": 1,
@@ -12737,8 +12737,8 @@
     "comment": "/**\n\t * Creates a gradient stop used for different types of gradients.\n\t * @memberof Api\n\t * @param {ApiUniColor} oUniColor - The color used for the gradient stop.\n\t * @param {PositivePercentage} nPos - The position of the gradient stop measured in 1000th of percent.\n\t * @returns {ApiGradientStop}\n\t * */",
     "meta": {
       "range": [
-        148625,
-        148738
+        148624,
+        148737
       ],
       "lineno": 4497,
       "columnno": 1,
@@ -12796,8 +12796,8 @@
     "comment": "/**\n\t * Creates a bullet for a paragraph with the character or symbol specified with the sSymbol parameter.\n\t * @memberof Api\n\t * @param {string} sSymbol - The character or symbol which will be used to create the bullet for the paragraph.\n\t * @returns {ApiBullet}\n\t * */",
     "meta": {
       "range": [
-        149048,
-        149466
+        149047,
+        149465
       ],
       "lineno": 4509,
       "columnno": 1,
@@ -12842,8 +12842,8 @@
     "comment": "/**\n\t * Creates a bullet for a paragraph with the numbering character or symbol specified with the sType parameter.\n\t * @memberof Api\n\t * @param {BulletType} sType - The numbering type the paragraphs will be numbered with.\n\t * @param {number} nStartAt - The number the first numbered paragraph will start with.\n\t * @returns {ApiBullet}\n\t * */",
     "meta": {
       "range": [
-        149849,
-        151046
+        149848,
+        151045
       ],
       "lineno": 4531,
       "columnno": 1,
@@ -12901,8 +12901,8 @@
     "comment": "/**\n\t * Creates a new inline container.\n\t * @memberof Api\n\t * @returns {ApiInlineLvlSdt}\n\t */",
     "meta": {
       "range": [
-        151172,
-        151346
+        151171,
+        151345
       ],
       "lineno": 4587,
       "columnno": 1,
@@ -12932,8 +12932,8 @@
     "comment": "/**\n\t * Creates a new block level container.\n\t * @memberof Api\n\t * @returns {ApiBlockLvlSdt}\n\t */",
     "meta": {
       "range": [
-        151476,
-        151638
+        151475,
+        151637
       ],
       "lineno": 4600,
       "columnno": 1,
@@ -12963,8 +12963,8 @@
     "comment": "/**\n\t * Saves changes to the specified document.\n\t * @memberof Api\n\t */",
     "meta": {
       "range": [
-        151742,
-        151810
+        151741,
+        151809
       ],
       "lineno": 4610,
       "columnno": 1,
@@ -12981,8 +12981,8 @@
     "comment": "/**\n\t * Loads data for the mail merge. \n\t * @memberof Api\n\t * @param {String[][]} aList - Mail merge data. The first element of the array is the array with names of the merge fields.\n\t * The rest of the array elements are arrays with values for the merge fields.\n\t * @typeofeditors [\"CDE\"]\n\t * @return {boolean}\n\t */",
     "meta": {
       "range": [
-        152159,
-        152326
+        152158,
+        152325
       ],
       "lineno": 4623,
       "columnno": 1,
@@ -13053,7 +13053,7 @@
     "comment": "/**\n\t * Returns the mail merge template document.\n\t * @memberof Api\n\t * @return {ApiDocumentContent}  \n\t */",
     "meta": {
       "range": [
-        152466,
+        152465,
         154970
       ],
       "lineno": 4639,
