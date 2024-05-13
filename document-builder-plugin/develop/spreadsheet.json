@@ -13,7 +13,7 @@
     "longname": "Api"
   },
   {
-    "comment": "/**\n\t * @typedef {Object} CommentData\n\t * The comment data.\n\t * @property {string} UserName - The comment author.\n\t * @property {string} QuoteText - The quote comment text.\n\t * @property {string} Text - The comment text.\n\t * @property {string} Time - The time when the comment was posted (in milliseconds).\n\t * @property {boolean} Solved - Specifies if the comment is resolved (**true**) or not (**false**).\n\t * @property {CommentData[]} Replies - An array containing the comment replies represented as the *CommentData* object.\n\t */",
+    "comment": "/**\n/**\n/** ## Try it\n/** \n/** ```js use-document-builder\n/** var oCommentData = {\n/**     \"UserName\": \"John Smith\",\n/**     \"Text\": \"comment\",\n/**     \"Time\": \"1662737941471\",\n/**     \"Solved\": true,\n/**     \"Replies\": [\n/**         {\n/**             \"UserName\": \"Mark Potato\",\n/**             \"Text\": \"reply 1\",\n/**             \"Time\": \"1662740895892\",\n/**             \"Solved\": false\n/**         }\n/**     ]\n/** };\n/** window.Asc.plugin.executeMethod (\"AddComment\", [oCommentData]);\n/** ```\n/**\n\t * @typedef {Object} CommentData\n\t * The comment data.\n\t * @property {string} UserName - The comment author.\n\t * @property {string} QuoteText - The quote comment text.\n\t * @property {string} Text - The comment text.\n\t * @property {string} Time - The time when the comment was posted (in milliseconds).\n\t * @property {boolean} Solved - Specifies if the comment is resolved (**true**) or not (**false**).\n\t * @property {CommentData[]} Replies - An array containing the comment replies represented as the *CommentData* object.\n\t */",
     "meta": {
       "lineno": 45,
       "columnno": 1,
@@ -30,7 +30,7 @@
         "name": "Object"
       }
     },
-    "description": "The comment data.",
+    "description": "The comment data.\n\n## Try it\n\n```js use-document-builder\nvar oCommentData = {\n    \"UserName\": \"John Smith\",\n    \"Text\": \"comment\",\n    \"Time\": \"1662737941471\",\n    \"Solved\": true,\n    \"Replies\": [\n        {\n            \"UserName\": \"Mark Potato\",\n            \"Text\": \"reply 1\",\n            \"Time\": \"1662740895892\",\n            \"Solved\": false\n        }\n    ]\n};\nwindow.Asc.plugin.executeMethod (\"AddComment\", [oCommentData]);\n```",
     "properties": [
       {
         "type": {
@@ -2528,13 +2528,13 @@
     "longname": "Api"
   },
   {
-    "comment": "/**\n\t * An object containing the font information.\n     * @typedef {Object} FontInfo\n     * @property {string} m_wsFontName The font name.\n     * @property {string} m_wsFontPath The path to the file with the current font.\n\t * @property {number} m_lIndex The font number in the file if there is more than one font in the file.\n\t * @property {boolean} m_bBold Specifies if the font characters are bold or not.\n\t * @property {boolean} m_bItalic Specifies if the font characters are italic or not.\n\t * @property {boolean} m_bIsFixed Specifies if the current font is monospaced or not.\n\t * @property {Array.<number>} m_aPanose The PANOSE Typeface Classification Number, a compact 10-byte description of the font critical visual characteristics, such as contrast, weight, and serif style.\n\t * @property {number} m_ulUnicodeRange1 The Unicode range encompassed by the font file (Bits 0-31).\n\t * @property {number} m_ulUnicodeRange2 The Unicode range encompassed by the font file (Bits 32-63).\n\t * @property {number} m_ulUnicodeRange3 The Unicode range encompassed by the font file (Bits 64-95).\n\t * @property {number} m_ulUnicodeRange4 The Unicode range encompassed by the font file (Bits 96-127).\n\t * @property {number} m_ulCodePageRange1 The code pages encompassed by the font file (Bits 0-31).\n\t * @property {number} m_ulCodePageRange2 The code pages encompassed by the font file (Bits 32-63).\n\t * @property {number} m_usWeigth The visual weight (stroke blackness or thickness) of the font characters (1-1000).\n\t * @property {number} m_usWidth The relative change from the normal aspect ratio (width to height ratio).\n\t * @property {number} m_sFamilyClass The font family class which values are assigned by IBM to each font family.\n\t * @property {number} m_eFontFormat The specific file type(s) used to store font data: <b>0</b> - *.fon, <b>1</b> - *.ttf, <b>2</b> - *.ttf, *.otf (CFF), <b>3</b> - unknown font format.\n\t * @property {number} m_shAvgCharWidth The arithmetic average of the escapement (width) of all non-zero width glyphs in the font.\n\t * @property {number} m_shAscent The height above the baseline for a clipping region.\n\t * @property {number} m_shDescent The vertical extent below the baseline for a clipping region.\n\t * @property {number} m_shLineGap The typographic line gap for the current font.\n\t * @property {number} m_shXHeight The distance between the baseline and the approximate height of non-ascending lowercase letters measured in FUnits.\n\t * @property {number} m_shCapHeight The distance between the baseline and the approximate height of uppercase letters measured in FUnits.\n     */",
+    "comment": "/**\n\t * An object containing the font information.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * var oFontInfo = {\n\t *     \"m_wsFontName\": \"Open Sans\",\n\t *     \"m_wsFontPath\": \"OpenSans-Bold.ttf\",\n\t *     \"m_lIndex\": 0,\n\t *     \"m_bBold\": true,\n\t *     \"m_bItalic\": false,\n\t *     \"m_bIsFixed\": false,\n\t *     \"m_aPanose\": [2, 11, 8, 6, 3, 5, 4, 2, 2, 4],\n\t *     \"m_ulUnicodeRange1\": 3758097135,\n\t *     \"m_ulUnicodeRange2\": 1073750107,\n\t *     \"m_ulUnicodeRange3\": 40,\n\t *     \"m_ulUnicodeRange4\": 0,\n\t *     \"m_ulCodePageRange1\": 536871327,\n\t *     \"m_ulCodePageRange2\": 0,\n\t *     \"m_usWeigth\": 700,\n\t *     \"m_usWidth\": 5,\n\t *     \"m_sFamilyClass\": 2050,\n\t *     \"m_eFontFormat\": 1,\n\t *     \"m_shAvgCharWidth\": 632,\n\t *     \"m_shAscent\": 765,\n\t *     \"m_shDescent\": -240,\n\t *     \"m_shLineGap\": 64,\n\t *     \"m_shXHeight\": 545,\n\t *     \"m_shCapHeight\": 713\n\t * };\n\t * ```\n\t *\n     * @typedef {Object} FontInfo\n     * @property {string} m_wsFontName The font name.\n     * @property {string} m_wsFontPath The path to the file with the current font.\n\t * @property {number} m_lIndex The font number in the file if there is more than one font in the file.\n\t * @property {boolean} m_bBold Specifies if the font characters are bold or not.\n\t * @property {boolean} m_bItalic Specifies if the font characters are italic or not.\n\t * @property {boolean} m_bIsFixed Specifies if the current font is monospaced or not.\n\t * @property {Array.<number>} m_aPanose The PANOSE Typeface Classification Number, a compact 10-byte description of the font critical visual characteristics, such as contrast, weight, and serif style.\n\t * @property {number} m_ulUnicodeRange1 The Unicode range encompassed by the font file (Bits 0-31).\n\t * @property {number} m_ulUnicodeRange2 The Unicode range encompassed by the font file (Bits 32-63).\n\t * @property {number} m_ulUnicodeRange3 The Unicode range encompassed by the font file (Bits 64-95).\n\t * @property {number} m_ulUnicodeRange4 The Unicode range encompassed by the font file (Bits 96-127).\n\t * @property {number} m_ulCodePageRange1 The code pages encompassed by the font file (Bits 0-31).\n\t * @property {number} m_ulCodePageRange2 The code pages encompassed by the font file (Bits 32-63).\n\t * @property {number} m_usWeigth The visual weight (stroke blackness or thickness) of the font characters (1-1000).\n\t * @property {number} m_usWidth The relative change from the normal aspect ratio (width to height ratio).\n\t * @property {number} m_sFamilyClass The font family class which values are assigned by IBM to each font family.\n\t * @property {number} m_eFontFormat The specific file type(s) used to store font data: <b>0</b> - *.fon, <b>1</b> - *.ttf, <b>2</b> - *.ttf, *.otf (CFF), <b>3</b> - unknown font format.\n\t * @property {number} m_shAvgCharWidth The arithmetic average of the escapement (width) of all non-zero width glyphs in the font.\n\t * @property {number} m_shAscent The height above the baseline for a clipping region.\n\t * @property {number} m_shDescent The vertical extent below the baseline for a clipping region.\n\t * @property {number} m_shLineGap The typographic line gap for the current font.\n\t * @property {number} m_shXHeight The distance between the baseline and the approximate height of non-ascending lowercase letters measured in FUnits.\n\t * @property {number} m_shCapHeight The distance between the baseline and the approximate height of uppercase letters measured in FUnits.\n     */",
     "meta": {
       "lineno": 223,
       "columnno": 4,
       "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=19fa7da31a6eb32d002071ba873c06d20ab8d52e"
     },
-    "description": "An object containing the font information.",
+    "description": "An object containing the font information.\n\n## Try it\n\n```js use-document-builder\nvar oFontInfo = {\n    \"m_wsFontName\": \"Open Sans\",\n    \"m_wsFontPath\": \"OpenSans-Bold.ttf\",\n    \"m_lIndex\": 0,\n    \"m_bBold\": true,\n    \"m_bItalic\": false,\n    \"m_bIsFixed\": false,\n    \"m_aPanose\": [2, 11, 8, 6, 3, 5, 4, 2, 2, 4],\n    \"m_ulUnicodeRange1\": 3758097135,\n    \"m_ulUnicodeRange2\": 1073750107,\n    \"m_ulUnicodeRange3\": 40,\n    \"m_ulUnicodeRange4\": 0,\n    \"m_ulCodePageRange1\": 536871327,\n    \"m_ulCodePageRange2\": 0,\n    \"m_usWeigth\": 700,\n    \"m_usWidth\": 5,\n    \"m_sFamilyClass\": 2050,\n    \"m_eFontFormat\": 1,\n    \"m_shAvgCharWidth\": 632,\n    \"m_shAscent\": 765,\n    \"m_shDescent\": -240,\n    \"m_shLineGap\": 64,\n    \"m_shXHeight\": 545,\n    \"m_shCapHeight\": 713\n};\n```\n\n## Try it\n\n```js use-document-builder\nvar oFontInfo = {\n    \"m_wsFontName\": \"Open Sans\",\n    \"m_wsFontPath\": \"OpenSans-Bold.ttf\",\n    \"m_lIndex\": 0,\n    \"m_bBold\": true,\n    \"m_bItalic\": false,\n    \"m_bIsFixed\": false,\n    \"m_aPanose\": [2, 11, 8, 6, 3, 5, 4, 2, 2, 4],\n    \"m_ulUnicodeRange1\": 3758097135,\n    \"m_ulUnicodeRange2\": 1073750107,\n    \"m_ulUnicodeRange3\": 40,\n    \"m_ulUnicodeRange4\": 0,\n    \"m_ulCodePageRange1\": 536871327,\n    \"m_ulCodePageRange2\": 0,\n    \"m_usWeigth\": 700,\n    \"m_usWidth\": 5,\n    \"m_sFamilyClass\": 2050,\n    \"m_eFontFormat\": 1,\n    \"m_shAvgCharWidth\": 632,\n    \"m_shAscent\": 765,\n    \"m_shDescent\": -240,\n    \"m_shLineGap\": 64,\n    \"m_shXHeight\": 545,\n    \"m_shCapHeight\": 713\n};\n```",
     "kind": "typedef",
     "name": "FontInfo",
     "type": {
@@ -2860,13 +2860,13 @@
     "scope": "global"
   },
   {
-    "comment": "/**\n     * An object containing the data about all the macros from the document.\n     * @typedef {Object} Macros\n     * @property {Array.<string>} macrosArray - An array of macros codes (*[{\"name\": \"Macros1\", \"value\": \"{macrosCode}\"}]*).\n     * @property {number} current - A current macro index.\n     */",
+    "comment": "/**\n     * An object containing the data about all the macros from the document.\n     *\n     * ## Try it\n     * \n     * ```js use-document-builder\n     * var oMacros = {\n     *     \"macrosArray\": [\n     *         {\n     *             \"name\": \"Macros 1\",\n     *             \"value\": \"(function()\\n{oDocument = Api.GetDocument();\\noParagraph = Api.CreateParagraph();\\noParagraph.AddText(\\\"This is a new paragraph\\\");\\noDocument.Push(oParagraph);\\n})();\"\n     *         },\n     *         {\n     *             \"name\": \"Macros 2\",\n     *             \"value\": \"(function()\\n{oDocument = Api.GetDocument();\\noParagraph = oDocument.GetElement(0);\\noParagraph.AddText(\\\"ONLYOFFICE Document Builder\\\");\\noRange = oDocument.GetRange(0, 24);\\noRange.SetBold(true);\\n})();\"\n     *         }\n     *     ],\n     *     \"current\": 1\n     * };\n     * window.Asc.plugin.executeMethod(\"SetMacros\", [oMacros]);\n     * ```\n     *\n     * @typedef {Object} Macros\n     * @property {Array.<string>} macrosArray - An array of macros codes (*[{\"name\": \"Macros1\", \"value\": \"{macrosCode}\"}]*).\n     * @property {number} current - A current macro index.\n     */",
     "meta": {
       "lineno": 374,
       "columnno": 4,
       "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=19fa7da31a6eb32d002071ba873c06d20ab8d52e"
     },
-    "description": "An object containing the data about all the macros from the document.",
+    "description": "An object containing the data about all the macros from the document.\n\n## Try it\n\n```js use-document-builder\nvar oMacros = {\n    \"macrosArray\": [\n        {\n            \"name\": \"Macros 1\",\n            \"value\": \"(function()\\n{oDocument = Api.GetDocument();\\noParagraph = Api.CreateParagraph();\\noParagraph.AddText(\\\"This is a new paragraph\\\");\\noDocument.Push(oParagraph);\\n})();\"\n        },\n        {\n            \"name\": \"Macros 2\",\n            \"value\": \"(function()\\n{oDocument = Api.GetDocument();\\noParagraph = oDocument.GetElement(0);\\noParagraph.AddText(\\\"ONLYOFFICE Document Builder\\\");\\noRange = oDocument.GetRange(0, 24);\\noRange.SetBold(true);\\n})();\"\n        }\n    ],\n    \"current\": 1\n};\nwindow.Asc.plugin.executeMethod(\"SetMacros\", [oMacros]);\n```",
     "kind": "typedef",
     "name": "Macros",
     "type": {
@@ -2919,13 +2919,13 @@
     "scope": "global"
   },
   {
-    "comment": "/**\n\t * The current selection type (\"none\", \"text\", \"drawing\", or \"slide\").\n\t * @typedef {(\"none\" | \"text\" | \"drawing\" | \"slide\")} SelectionType\n\t */",
+    "comment": "/**\n\t * The current selection type (\"none\", \"text\", \"drawing\", or \"slide\").\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * window.Asc.plugin.executeMethod (\"GetSelectionType\", [], function(sType) {\n\t *     switch (sType) {\n\t *         case \"none\":\n\t *         case \"drawing\":\n\t *             window.Asc.plugin.executeMethod (\"PasteText\", [$(\"#txt_shower\")[0].innerText]);\n\t *             break;\n\t *         case \"text\":\n\t *             window.Asc.plugin.callCommand (function() {\n\t *                 Api.ReplaceTextSmart (Asc.scope.arr);\n\t *             });\n\t *             break;\n\t *     }\n\t * });\n\t * ```\n\t *\n\t * @typedef {(\"none\" | \"text\" | \"drawing\" | \"slide\")} SelectionType\n\t */",
     "meta": {
       "lineno": 956,
       "columnno": 1,
       "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=19fa7da31a6eb32d002071ba873c06d20ab8d52e"
     },
-    "description": "The current selection type (\"none\", \"text\", \"drawing\", or \"slide\").",
+    "description": "The current selection type (\"none\", \"text\", \"drawing\", or \"slide\").\n\n## Try it\n\n```js use-document-builder\nwindow.Asc.plugin.executeMethod (\"GetSelectionType\", [], function(sType) {\n    switch (sType) {\n        case \"none\":\n        case \"drawing\":\n            window.Asc.plugin.executeMethod (\"PasteText\", [$(\"#txt_shower\")[0].innerText]);\n            break;\n        case \"text\":\n            window.Asc.plugin.callCommand (function() {\n                Api.ReplaceTextSmart (Asc.scope.arr);\n            });\n            break;\n    }\n});\n```",
     "kind": "typedef",
     "name": "SelectionType",
     "type": {
@@ -2961,13 +2961,13 @@
     "scope": "global"
   },
   {
-    "comment": "/**\n     * An object containing the information about the base64 encoded *png* image.\n     * @typedef {Object} ImageData\n     * @property {string} src The image source in the base64 format.\n     * @property {number} width The image width in pixels.\n     * @property {number} height The image height in pixels.\n     * @property {?ReplaceImageMode} replaceMode Specifies how to adjust the image object in case of replacing the selected image.\n     */",
+    "comment": "/**\n     * An object containing the information about the base64 encoded *png* image.\n     *\n     * ## Try it\n     * \n     * ```js use-document-builder\n     * window.saveImage = function () {\n     *     let sImageSrc = imageEditor.toDataURL();\n     *     let editorDimension = imageEditor.getCanvasSize();\n     *     let nWidth = editorDimension.width;\n     *     let nHeight = editorDimension.height;\n     *     let oImageData = {\n     *         \"src\": sImageSrc,\n     *         \"width\": nWidth,\n     *         \"height\": nHeight,\n     *         \"replaceMode\": \"original\"\n     *     };\n     *     window.Asc.plugin.executeMethod (\"PutImageDataToSelection\", [oImageData]);\n     *     window.Asc.plugin.callCommand(\"close\", \"\");\n     * };\n     * ```\n     *\n     * @typedef {Object} ImageData\n     * @property {string} src The image source in the base64 format.\n     * @property {number} width The image width in pixels.\n     * @property {number} height The image height in pixels.\n     * @property {?ReplaceImageMode} replaceMode Specifies how to adjust the image object in case of replacing the selected image.\n     */",
     "meta": {
       "lineno": 1195,
       "columnno": 4,
       "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=19fa7da31a6eb32d002071ba873c06d20ab8d52e"
     },
-    "description": "An object containing the information about the base64 encoded *png* image.",
+    "description": "An object containing the information about the base64 encoded *png* image.\n\n## Try it\n\n```js use-document-builder\nwindow.saveImage = function () {\n    let sImageSrc = imageEditor.toDataURL();\n    let editorDimension = imageEditor.getCanvasSize();\n    let nWidth = editorDimension.width;\n    let nHeight = editorDimension.height;\n    let oImageData = {\n        \"src\": sImageSrc,\n        \"width\": nWidth,\n        \"height\": nHeight,\n        \"replaceMode\": \"original\"\n    };\n    window.Asc.plugin.executeMethod (\"PutImageDataToSelection\", [oImageData]);\n    window.Asc.plugin.callCommand(\"close\", \"\");\n};\n```",
     "kind": "typedef",
     "name": "ImageData",
     "type": {
@@ -3039,13 +3039,13 @@
     "scope": "global"
   },
   {
-    "comment": "/**\n\t * Specifies how to adjust the image object in case of replacing the selected image.\n\t * @typedef {(\"fill\" | \"fit\" | \"original\" | \"stretch\")} ReplaceImageMode\n\t */",
+    "comment": "/**\n\t * Specifies how to adjust the image object in case of replacing the selected image.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * window.saveImage = function () {\n\t *     let sImageSrc = imageEditor.toDataURL();\n\t *     let editorDimension = imageEditor.getCanvasSize();\n\t *     let nWidth = editorDimension.width;\n\t *     let nHeight = editorDimension.height;\n\t *     let oImageData = {\n\t *         \"src\": sImageSrc,\n\t *         \"width\": nWidth,\n\t *         \"height\": nHeight,\n\t *         \"replaceMode\": \"original\"\n\t *     };\n\t *     window.Asc.plugin.executeMethod (\"PutImageDataToSelection\", [oImageData]);\n\t *     window.Asc.plugin.executeCommand(\"close\", \"\");\n\t * };\n\t * ```\n\t *\n\t * @typedef {(\"fill\" | \"fit\" | \"original\" | \"stretch\")} ReplaceImageMode\n\t */",
     "meta": {
       "lineno": 1190,
       "columnno": 1,
       "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=19fa7da31a6eb32d002071ba873c06d20ab8d52e"
     },
-    "description": "Specifies how to adjust the image object in case of replacing the selected image.",
+    "description": "Specifies how to adjust the image object in case of replacing the selected image.\n\n## Try it\n\n```js use-document-builder\nwindow.saveImage = function () {\n    let sImageSrc = imageEditor.toDataURL();\n    let editorDimension = imageEditor.getCanvasSize();\n    let nWidth = editorDimension.width;\n    let nHeight = editorDimension.height;\n    let oImageData = {\n        \"src\": sImageSrc,\n        \"width\": nWidth,\n        \"height\": nHeight,\n        \"replaceMode\": \"original\"\n    };\n    window.Asc.plugin.executeMethod (\"PutImageDataToSelection\", [oImageData]);\n    window.Asc.plugin.executeCommand(\"close\", \"\");\n};\n```",
     "kind": "typedef",
     "name": "ReplaceImageMode",
     "type": {
@@ -3081,13 +3081,13 @@
     "scope": "global"
   },
   {
-    "comment": "/**\n\t * The plugin object.\n     * @typedef {Object} PluginData\n     * @property {string} url The URL to plugin config.\n     * @property {string} guid The plugin identifier. It must be of the *asc.{UUID}* type.\n\t * @property {boolean} canRemoved Specifies if the plugin can be removed (**true**) or not (**false**).\n     * @property {object} obj The {@link /plugin/config config} of the installed plugin. The version is taken from the config and compared with the current one to check for updates.\n     */",
+    "comment": "/**\n\t * The plugin object.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * var oPlugin = {\n\t *     \"url\": \"https://example.com/plugin/config.json\",\n\t *     \"guid\": \"asc.{38E022EA-AD92-45FC-B22B-49DF39746DB4}\",\n\t *     \"canRemoved\": true,\n\t *     \"obj\": {\n\t *         \"baseUrl\": \"\",\n\t *         \"guid\": \"asc.{FFE1F462-1EA2-4391-990D-4CC84940B754}\",\n\t *         \"version\": \"1.0\",\n\t *         \"minVersion\": \"6.3.0\",\n\t *         ...\n\t *     }\n\t * };\n\t * ```\n\t *\n     * @typedef {Object} PluginData\n     * @property {string} url The URL to plugin config.\n     * @property {string} guid The plugin identifier. It must be of the *asc.{UUID}* type.\n\t * @property {boolean} canRemoved Specifies if the plugin can be removed (**true**) or not (**false**).\n     * @property {object} obj The {@link /plugin/config config} of the installed plugin. The version is taken from the config and compared with the current one to check for updates.\n     */",
     "meta": {
       "lineno": 1413,
       "columnno": 4,
       "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=19fa7da31a6eb32d002071ba873c06d20ab8d52e"
     },
-    "description": "The plugin object.",
+    "description": "The plugin object.\n\n## Try it\n\n```js use-document-builder\nvar oPlugin = {\n    \"url\": \"https://example.com/plugin/config.json\",\n    \"guid\": \"asc.{38E022EA-AD92-45FC-B22B-49DF39746DB4}\",\n    \"canRemoved\": true,\n    \"obj\": {\n        \"baseUrl\": \"\",\n        \"guid\": \"asc.{FFE1F462-1EA2-4391-990D-4CC84940B754}\",\n        \"version\": \"1.0\",\n        \"minVersion\": \"6.3.0\",\n        ...\n    }\n};\n```",
     "kind": "typedef",
     "name": "PluginData",
     "type": {
@@ -3157,7 +3157,7 @@
     "scope": "global"
   },
   {
-    "comment": "/**\n\t * @typedef {Object} ContextMenuItem\n\t * The context menu item.\n\t * @property {string} id - The item ID.\n\t * @property {string} text - The item text.\n\t * @property {string} [data] - The item data (this data will be sended to click event callback).\n\t * @property {boolean} [disabled] - Specifies if the current item is disabled or not.\n\t * @property {string} [icons] - The item icons (see plugins config documentation)\n\t * @property {ContextMenuItem[]} items - An array containing the context menu items for the current item.\n\t */",
+    "comment": "/**\n/**\n/** ## Try it\n/** \n/** ```js use-document-builder\n/** var aContextMenuItems = function getContextMenuItems() {\n/** \tlet settings = {\n/** \t\tguid: window.Asc.plugin.guid,\n/** \t\titems: [\n/** \t\t\t{\n/** \t\t\t\tid : 'onConvert',\n/** \t\t\t\ttext : getMessage('Convert to Markdown or HTML')\n/** \t\t\t}\n/** \t\t]\n/** \t};\n/** \treturn settings;\n/** };\n/** \n/** window.Asc.plugin.attachEvent('onContextMenuShow', function(options) {\n/** \tif (!options) return;\n/** \n/** \tif (options.type === 'Selection' || options.type === 'Target')\n/** \t\tthis.executeMethod('AddContextMenuItem', [aContextMenuItems]);\n/** });\n/** ```\n/**\n\t * @typedef {Object} ContextMenuItem\n\t * The context menu item.\n\t * @property {string} id - The item ID.\n\t * @property {string} text - The item text.\n\t * @property {string} [data] - The item data (this data will be sended to click event callback).\n\t * @property {boolean} [disabled] - Specifies if the current item is disabled or not.\n\t * @property {string} [icons] - The item icons (see plugins config documentation)\n\t * @property {ContextMenuItem[]} items - An array containing the context menu items for the current item.\n\t */",
     "meta": {
       "lineno": 1779,
       "columnno": 1,
@@ -3174,7 +3174,7 @@
         "name": "Object"
       }
     },
-    "description": "The context menu item.",
+    "description": "The context menu item.\n\n## Try it\n\n```js use-document-builder\nvar aContextMenuItems = function getContextMenuItems() {\n\tlet settings = {\n\t\tguid: window.Asc.plugin.guid,\n\t\titems: [\n\t\t\t{\n\t\t\t\tid : 'onConvert',\n\t\t\t\ttext : getMessage('Convert to Markdown or HTML')\n\t\t\t}\n\t\t]\n\t};\n\treturn settings;\n};\n\nwindow.Asc.plugin.attachEvent('onContextMenuShow', function(options) {\n\tif (!options) return;\n\n\tif (options.type === 'Selection' || options.type === 'Target')\n\t\tthis.executeMethod('AddContextMenuItem', [aContextMenuItems]);\n});\n```",
     "properties": [
       {
         "type": {
