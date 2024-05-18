@@ -910,8 +910,8 @@
     "comment": "/**\n\t * Class representing a document form base.\n\t * @constructor\n\t * @property {string} key - Form key.\n\t * @property {string} tip - Form tip text.\n\t * @property {boolean} required - Specifies if the form is required or not.\n\t * @property {string} placeholder - Form placeholder text.\n\t */",
     "meta": {
       "range": [
-        94042,
-        94093
+        94040,
+        94091
       ],
       "lineno": 3107,
       "columnno": 1,
@@ -981,8 +981,8 @@
     "comment": "/**\n\t * Class representing a document text field.\n\t * @constructor\n\t * @property {boolean} comb - Specifies if the text field should be a comb of characters with the same cell width. The maximum number of characters must be set to a positive value.\n\t * @property {number} maxCharacters - The maximum number of characters in the text field.\n\t * @property {number} cellWidth - The cell width for each character measured in millimeters. If this parameter is not specified or equal to 0 or less, then the width will be set automatically.\n\t * @property {boolean} multiLine - Specifies if the current fixed size text field is multiline or not.\n\t * @property {boolean} autoFit - Specifies if the text field content should be autofit, i.e. whether the font size adjusts to the size of the fixed size form.\n\t * @extends {ApiFormBase}\n\t */",
     "meta": {
       "range": [
-        94962,
-        95026
+        94960,
+        95024
       ],
       "lineno": 3123,
       "columnno": 1,
@@ -1068,8 +1068,8 @@
     "comment": "/**\n\t * Class representing a document combo box / dropdown list.\n\t * @constructor\n\t * @property {boolean} editable - Specifies if the combo box text can be edited.\n\t * @property {boolean} autoFit - Specifies if the combo box form content should be autofit, i.e. whether the font size adjusts to the size of the fixed size form.\n\t * @property {Array.<string | Array.<string>>} items - The combo box items.\n     * This array consists of strings or arrays of two strings where the first string is the displayed value and the second one is its meaning.\n     * If the array consists of single strings, then the displayed value and its meaning are the same.\n     * Example: [\"First\", [\"Second\", \"2\"], [\"Third\", \"3\"], \"Fourth\"].\n\t * @extends {ApiFormBase}\n\t */",
     "meta": {
       "range": [
-        95932,
-        96000
+        95930,
+        95998
       ],
       "lineno": 3143,
       "columnno": 1,
@@ -1156,8 +1156,8 @@
     "comment": "/**\n\t * Class representing a document checkbox / radio button.\n\t * @constructor\n\t * @property {boolean} radio - Specifies if the current checkbox is a radio button. In this case, the key parameter is considered as an identifier for the group of radio buttons.\n\t * @extends {ApiFormBase}\n\t */",
     "meta": {
       "range": [
-        96456,
-        96524
+        96454,
+        96522
       ],
       "lineno": 3158,
       "columnno": 1,
@@ -1191,8 +1191,8 @@
     "comment": "/**\n\t * Class representing a document picture form.\n\t * @constructor\n\t * @property {ScaleFlag} scaleFlag - The condition to scale an image in the picture form: \"always\", \"never\", \"tooBig\" or \"tooSmall\".\n\t * @property {boolean} lockAspectRatio - Specifies if the aspect ratio of the picture form is locked or not.\n\t * @property {boolean} respectBorders - Specifies if the form border width is respected or not when scaling the image.\n\t * @property {percentage} shiftX - Horizontal picture position inside the picture form measured in percent:\n\t * * <b>0</b> - the picture is placed on the left;\n\t * * <b>50</b> - the picture is placed in the center;\n\t * * <b>100</b> - the picture is placed on the right.\n\t * @property {percentage} shiftY - Vertical picture position inside the picture form measured in percent:\n\t * * <b>0</b> - the picture is placed on top;\n\t * * <b>50</b> - the picture is placed in the center;\n\t * * <b>100</b> - the picture is placed on the bottom.\n\t * @extends {ApiFormBase}\n\t */",
     "meta": {
       "range": [
-        97689,
-        97756
+        97687,
+        97754
       ],
       "lineno": 3183,
       "columnno": 1,
@@ -1278,8 +1278,8 @@
     "comment": "/**\n\t * Class representing a complex field.\n\t * @param oSdt\n\t * @constructor\n\t * @extends {ApiFormBase}\n\t */",
     "meta": {
       "range": [
-        98026,
-        98093
+        98024,
+        98091
       ],
       "lineno": 3198,
       "columnno": 1,
@@ -1303,8 +1303,8 @@
     "comment": "/**\n\t * Returns a type of the ApiFormBase class.\n\t * @memberof ApiFormBase\n\t * @returns {\"form\"}\n\t */",
     "meta": {
       "range": [
-        570412,
-        570482
+        570410,
+        570480
       ],
       "lineno": 17516,
       "columnno": 1,
@@ -1334,8 +1334,8 @@
     "comment": "/**\n\t * Returns a type of the current form.\n\t * @memberof ApiFormBase\n\t * @returns {FormType}\n\t */",
     "meta": {
       "range": [
-        570619,
-        571009
+        570617,
+        571007
       ],
       "lineno": 17526,
       "columnno": 1,
@@ -1365,8 +1365,8 @@
     "comment": "/**\n\t * Returns the current form key.\n\t * @memberof ApiFormBase\n\t * @returns {string}\n\t */",
     "meta": {
       "range": [
-        571138,
-        571397
+        571136,
+        571395
       ],
       "lineno": 17547,
       "columnno": 1,
@@ -1396,8 +1396,8 @@
     "comment": "/**\n\t * Sets a key to the current form.\n\t * @memberof ApiFormBase\n\t * @param {string} sKey - Form key.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        571566,
-        572006
+        571564,
+        572004
       ],
       "lineno": 17566,
       "columnno": 1,
@@ -1442,8 +1442,8 @@
     "comment": "/**\n\t * Returns the tip text of the current form.\n\t * @memberof ApiFormBase\n\t * @returns {string}\n\t */",
     "meta": {
       "range": [
-        572147,
-        572330
+        572145,
+        572328
       ],
       "lineno": 17592,
       "columnno": 1,
@@ -1473,8 +1473,8 @@
     "comment": "/**\n\t * Sets the tip text to the current form.\n\t * @memberof ApiFormBase\n\t * @param {string} sText - Tip text.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        572507,
-        572748
+        572505,
+        572746
       ],
       "lineno": 17608,
       "columnno": 1,
@@ -1519,8 +1519,8 @@
     "comment": "/**\n\t * Checks if the current form is required.\n\t * @memberof ApiFormBase\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        572888,
-        572975
+        572886,
+        572973
       ],
       "lineno": 17625,
       "columnno": 1,
@@ -1550,8 +1550,8 @@
     "comment": "/**\n\t * Specifies if the current form should be required.\n\t * @memberof ApiFormBase\n\t * @param {boolean} bRequired - Defines if the current form is required (true) or not (false).\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        573221,
-        573531
+        573219,
+        573529
       ],
       "lineno": 17636,
       "columnno": 1,
@@ -1596,8 +1596,8 @@
     "comment": "/**\n\t * Checks if the current form is fixed size.\n\t * @memberof ApiFormBase\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        573673,
-        573796
+        573671,
+        573794
       ],
       "lineno": 17655,
       "columnno": 1,
@@ -1627,8 +1627,8 @@
     "comment": "/**\n\t * Converts the current form to a fixed size form.\n\t * @memberof ApiFormBase\n\t * @param {twips} nWidth - The wrapper shape width measured in twentieths of a point (1/1440 of an inch).\n\t * @param {twips} nHeight - The wrapper shape height measured in twentieths of a point (1/1440 of an inch).\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        574160,
-        574364
+        574158,
+        574362
       ],
       "lineno": 17667,
       "columnno": 1,
@@ -1686,8 +1686,8 @@
     "comment": "/**\n\t * Converts the current form to an inline form.\n\t * *Picture form can't be converted to an inline form, it's always a fixed size object.*\n\t * @memberof ApiFormBase\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        574599,
-        574738
+        574597,
+        574736
       ],
       "lineno": 17682,
       "columnno": 1,
@@ -1717,8 +1717,8 @@
     "comment": "/**\n\t * Sets the border color to the current form.\n\t * @memberof ApiFormBase\n\t * @param {byte} r - Red color component value.\n\t * @param {byte} g - Green color component value.\n\t * @param {byte} b - Blue color component value.\n\t * @param {boolean} bNone - Defines that border color will not be set.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        575103,
-        575555
+        575101,
+        575553
       ],
       "lineno": 17700,
       "columnno": 1,
@@ -1802,8 +1802,8 @@
     "comment": "/**\n\t * Sets the background color to the current form.\n\t * @memberof ApiFormBase\n\t * @param {byte} r - Red color component value.\n\t * @param {byte} g - Green color component value.\n\t * @param {byte} b - Blue color component value.\n\t * @param {boolean} bNone - Defines that background color will not be set.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        575928,
-        576686
+        575926,
+        576684
       ],
       "lineno": 17729,
       "columnno": 1,
@@ -1887,8 +1887,8 @@
     "comment": "/**\n\t * Returns the text from the current form.\n\t * *This method is used only for text and combo box forms.*\n\t * @memberof ApiFormBase\n\t * @returns {string}\n\t */",
     "meta": {
       "range": [
-        576886,
-        576968
+        576884,
+        576966
       ],
       "lineno": 17771,
       "columnno": 1,
@@ -1918,8 +1918,8 @@
     "comment": "/**\n\t * Clears the current form.\n\t * @memberof ApiFormBase\n\t */",
     "meta": {
       "range": [
-        577070,
-        577153
+        577068,
+        577151
       ],
       "lineno": 17780,
       "columnno": 1,
@@ -1936,8 +1936,8 @@
     "comment": "/**\n\t * Returns a shape in which the form is placed to control the position and size of the fixed size form frame.\n\t * The null value will be returned for the inline forms.\n\t * @memberof ApiFormBase\n\t * @returns {?ApiShape} - returns the shape in which the form is placed.\n\t */",
     "meta": {
       "range": [
-        577469,
-        577777
+        577467,
+        577775
       ],
       "lineno": 17791,
       "columnno": 1,
@@ -1970,8 +1970,8 @@
     "comment": "/**\n\t * Sets the placeholder text to the current form.\n\t * *Can't be set to checkbox or radio button.*\n\t * @memberof ApiFormBase\n\t * @param {string} sText - The text that will be set to the current form.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        578047,
-        578308
+        578045,
+        578306
       ],
       "lineno": 17808,
       "columnno": 1,
@@ -2016,8 +2016,8 @@
     "comment": "/**\n\t * Sets the text properties to the current form.\n\t * *This method is used only for text and combo box forms.*\n\t * @memberof ApiFormBase\n\t * @param {ApiTextPr} oTextPr - The text properties that will be set to the current form.\n\t * @return {boolean}  \n\t */",
     "meta": {
       "range": [
-        578607,
-        578825
+        578605,
+        578823
       ],
       "lineno": 17826,
       "columnno": 1,
@@ -2062,8 +2062,8 @@
     "comment": "/**\n\t * Returns the text properties from the current form.\n\t * *This method is used only for text and combo box forms.*\n\t * @memberof ApiFormBase\n\t * @return {ApiTextPr}  \n\t */",
     "meta": {
       "range": [
-        579040,
-        579147
+        579038,
+        579145
       ],
       "lineno": 17843,
       "columnno": 1,
@@ -2093,8 +2093,8 @@
     "comment": "/**\n\t * Copies the current form (copies with the shape if it exists).\n\t * @memberof ApiFormBase\n\t * @returns {?ApiForm}\n\t */",
     "meta": {
       "range": [
-        579310,
-        580060
+        579308,
+        580058
       ],
       "lineno": 17853,
       "columnno": 1,
@@ -2126,8 +2126,8 @@
     "comment": "/**\n\t * Checks if the text field content is autofit, i.e. whether the font size adjusts to the size of the fixed size form.\n\t * @memberof ApiTextForm\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        580538,
-        580626
+        580536,
+        580624
       ],
       "lineno": 17899,
       "columnno": 1,
@@ -2157,8 +2157,8 @@
     "comment": "/**\n\t * Specifies if the text field content should be autofit, i.e. whether the font size adjusts to the size of the fixed size form.\n\t * @memberof ApiTextForm\n\t * @param {boolean} bAutoFit - Defines if the text field content is autofit (true) or not (false).\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        580952,
-        581259
+        580950,
+        581257
       ],
       "lineno": 17910,
       "columnno": 1,
@@ -2203,8 +2203,8 @@
     "comment": "/**\n\t * Checks if the current text field is multiline.\n\t * @memberof ApiTextForm\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        581406,
-        581495
+        581404,
+        581493
       ],
       "lineno": 17929,
       "columnno": 1,
@@ -2234,8 +2234,8 @@
     "comment": "/**\n\t * Specifies if the current text field should be miltiline.\n\t * @memberof ApiTextForm\n\t * @param {boolean} bMultiline - Defines if the current text field is multiline (true) or not (false).\n\t * @returns {boolean} - return false, if the text field is not fixed size.\n\t */",
     "meta": {
       "range": [
-        581809,
-        582170
+        581807,
+        582168
       ],
       "lineno": 17940,
       "columnno": 1,
@@ -2281,8 +2281,8 @@
     "comment": "/**\n\t * Returns a limit of the text field characters.\n\t * @memberof ApiTextForm\n\t * @returns {number} - if this method returns -1 -> the form has no limit for characters\n\t */",
     "meta": {
       "range": [
-        582383,
-        582540
+        582381,
+        582538
       ],
       "lineno": 17961,
       "columnno": 1,
@@ -2313,8 +2313,8 @@
     "comment": "/**\n\t * Sets a limit to the text field characters.\n\t * @memberof ApiTextForm\n\t * @param {number} nChars - The maximum number of characters in the text field. If this parameter is equal to -1, no limit will be set.\n\t * A limit is required to be set if a comb of characters is applied.\n\t * Maximum value for this parameter is 1000000.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        582939,
-        583375
+        582937,
+        583373
       ],
       "lineno": 17978,
       "columnno": 1,
@@ -2359,8 +2359,8 @@
     "comment": "/**\n\t * Checks if the text field is a comb of characters with the same cell width.\n\t * @memberof ApiTextForm\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        583550,
-        583672
+        583548,
+        583670
       ],
       "lineno": 18005,
       "columnno": 1,
@@ -2390,8 +2390,8 @@
     "comment": "/**\n\t * Specifies if the text field should be a comb of characters with the same cell width.\n\t * The maximum number of characters must be set to a positive value.\n\t * @memberof ApiTextForm\n\t * @param {boolean} bComb - Defines if the text field is a comb of characters (true) or not (false).\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        584029,
-        584424
+        584027,
+        584422
       ],
       "lineno": 18018,
       "columnno": 1,
@@ -2436,8 +2436,8 @@
     "comment": "/**\n\t * Sets the cell width to the applied comb of characters.\n\t * @memberof ApiTextForm\n\t * @param {mm} [nCellWidth=0] - The cell width measured in millimeters.\n\t * If this parameter is not specified or equal to 0 or less, then the width will be set automatically. Must be >= 1 and <= 558.8.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        584783,
-        585238
+        584781,
+        585236
       ],
       "lineno": 18047,
       "columnno": 1,
@@ -2484,8 +2484,8 @@
     "comment": "/**\n\t * Sets the text to the current text field.\n\t * @memberof ApiTextForm\n\t * @param {string} sText - The text that will be set to the current text field.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        585460,
-        585666
+        585458,
+        585664
       ],
       "lineno": 18069,
       "columnno": 1,
@@ -2530,8 +2530,8 @@
     "comment": "/**\n\t * Returns the current scaling condition of the picture form.\n\t * @memberof ApiPictureForm\n\t * @returns {ScaleFlag}\n\t */",
     "meta": {
       "range": [
-        586095,
-        586620
+        586093,
+        586618
       ],
       "lineno": 18092,
       "columnno": 1,
@@ -2561,8 +2561,8 @@
     "comment": "/**\n\t * Sets the scaling condition to the current picture form.\n\t * @memberof ApiPictureForm\n\t * @param {ScaleFlag} sScaleFlag - Picture scaling condition: \"always\", \"never\", \"tooBig\" or \"tooSmall\".\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        586885,
-        587536
+        586883,
+        587534
       ],
       "lineno": 18121,
       "columnno": 1,
@@ -2607,8 +2607,8 @@
     "comment": "/**\n\t * Locks the aspect ratio of the current picture form.\n\t * @memberof ApiPictureForm\n\t * @param {boolean} [isLock=true] - Specifies if the aspect ratio of the current picture form will be locked (true) or not (false).\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        587824,
-        588090
+        587822,
+        588088
       ],
       "lineno": 18155,
       "columnno": 1,
@@ -2655,8 +2655,8 @@
     "comment": "/**\n\t * Checks if the aspect ratio of the current picture form is locked or not.\n\t * @memberof ApiPictureForm\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        588266,
-        588389
+        588264,
+        588387
       ],
       "lineno": 18169,
       "columnno": 1,
@@ -2686,8 +2686,8 @@
     "comment": "/**\n\t * Sets the picture position inside the current form:\n\t * * <b>0</b> - the picture is placed on the left/top;\n\t * * <b>50</b> - the picture is placed in the center;\n\t * * <b>100</b> - the picture is placed on the right/bottom.\n\t * @memberof ApiPictureForm\n\t * @param {percentage} nShiftX - Horizontal position measured in percent.\n\t * @param {percentage} nShiftY - Vertical position measured in percent.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        588864,
-        589245
+        588862,
+        589243
       ],
       "lineno": 18184,
       "columnno": 1,
@@ -2745,8 +2745,8 @@
     "comment": "/**\n\t * Returns the picture position inside the current form.\n\t * @memberof ApiPictureForm\n\t * @returns {Array.<percentage>} Array of two numbers [shiftX, shiftY]\n\t */",
     "meta": {
       "range": [
-        589451,
-        589623
+        589449,
+        589621
       ],
       "lineno": 18199,
       "columnno": 1,
@@ -2786,8 +2786,8 @@
     "comment": "/**\n\t * Respects the form border width when scaling the image.\n\t * @memberof ApiPictureForm\n\t * @param {boolean} [isRespect=true] - Specifies if the form border width will be respected (true) or not (false).\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        589897,
-        590162
+        589895,
+        590160
       ],
       "lineno": 18211,
       "columnno": 1,
@@ -2834,8 +2834,8 @@
     "comment": "/**\n\t * Checks if the form border width is respected or not.\n\t * @memberof ApiPictureForm\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        590318,
-        590435
+        590316,
+        590433
       ],
       "lineno": 18225,
       "columnno": 1,
@@ -2865,8 +2865,8 @@
     "comment": "/**\n\t * Returns an image in the base64 format from the current picture form.\n\t * @memberof ApiPictureForm\n\t * @returns {base64img}\n\t */",
     "meta": {
       "range": [
-        590609,
-        590967
+        590607,
+        590965
       ],
       "lineno": 18235,
       "columnno": 1,
@@ -2896,8 +2896,8 @@
     "comment": "/**\n\t * Sets an image to the current picture form.\n\t * @memberof ApiPictureForm\n\t * @param {string} sImageSrc - The image source where the image to be inserted should be taken from (currently, only internet URL or base64 encoded images are supported).\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        591285,
-        591821
+        591283,
+        591819
       ],
       "lineno": 18259,
       "columnno": 1,
@@ -2942,8 +2942,8 @@
     "comment": "/**\n\t * Returns the list values from the current combo box.\n\t * @memberof ApiComboBoxForm\n\t * @returns {string[]}\n\t */",
     "meta": {
       "range": [
-        592244,
-        592615
+        592242,
+        592613
       ],
       "lineno": 18297,
       "columnno": 1,
@@ -2982,8 +2982,8 @@
     "comment": "/**\n\t * Sets the list values to the current combo box.\n\t * @memberof ApiComboBoxForm\n\t * @param {string[]} aListString - The combo box list values.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        592829,
-        593514
+        592827,
+        593512
       ],
       "lineno": 18317,
       "columnno": 1,
@@ -3037,8 +3037,8 @@
     "comment": "/**\n\t * Selects the specified value from the combo box list values. \n\t * @memberof ApiComboBoxForm\n\t * @param {string} sValue - The combo box list value that will be selected.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        593756,
-        594170
+        593754,
+        594168
       ],
       "lineno": 18349,
       "columnno": 1,
@@ -3083,8 +3083,8 @@
     "comment": "/**\n\t * Sets the text to the current combo box.\n\t * *Available only for editable combo box forms.*\n\t * @memberof ApiComboBoxForm\n\t * @param {string} sText - The combo box text.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        594413,
-        594799
+        594411,
+        594797
       ],
       "lineno": 18373,
       "columnno": 1,
@@ -3129,8 +3129,8 @@
     "comment": "/**\n\t * Checks if the combo box text can be edited. If it is not editable, then this form is a dropdown list.\n\t * @memberof ApiComboBoxForm\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        595005,
-        595094
+        595003,
+        595092
       ],
       "lineno": 18397,
       "columnno": 1,
@@ -3160,8 +3160,8 @@
     "comment": "/**\n\t * Checks the current checkbox.\n\t * @memberof ApiCheckBoxForm\n\t * @param {boolean} isChecked - Specifies if the current checkbox will be checked (true) or not (false).\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        595599,
-        595797
+        595597,
+        595795
       ],
       "lineno": 18415,
       "columnno": 1,
@@ -3206,8 +3206,8 @@
     "comment": "/**\n\t * Returns the state of the current checkbox (checked or not).\n\t * @memberof ApiCheckBoxForm\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        595961,
-        596054
+        595959,
+        596052
       ],
       "lineno": 18430,
       "columnno": 1,
@@ -3237,8 +3237,8 @@
     "comment": "/**\n\t * Checks if the current checkbox is a radio button. \n\t * @memberof ApiCheckBoxForm\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        596209,
-        596302
+        596207,
+        596300
       ],
       "lineno": 18440,
       "columnno": 1,
@@ -3268,8 +3268,8 @@
     "comment": "/**\n\t * Returns the radio group key if the current checkbox is a radio button.\n\t * @memberof ApiCheckBoxForm\n\t * @returns {string}\n\t */",
     "meta": {
       "range": [
-        596476,
-        596632
+        596474,
+        596630
       ],
       "lineno": 18450,
       "columnno": 1,
@@ -3299,8 +3299,8 @@
     "comment": "/**\n\t * Sets the radio group key to the current radio button.\n\t * @memberof ApiCheckBoxForm\n\t * @param {string} sKey - Radio group key.\n\t */",
     "meta": {
       "range": [
-        596811,
-        597011
+        596809,
+        597009
       ],
       "lineno": 18461,
       "columnno": 1,
@@ -3332,8 +3332,8 @@
     "comment": "/**\n\t * Returns a type of the ApiFormBase class.\n\t * @memberof ApiFormBase\n\t * @returns {\"form\"}\n\t */",
     "meta": {
       "range": [
-        570412,
-        570482
+        570410,
+        570480
       ],
       "lineno": 17516,
       "columnno": 1,
@@ -3365,8 +3365,8 @@
     "comment": "/**\n\t * Returns a type of the current form.\n\t * @memberof ApiFormBase\n\t * @returns {FormType}\n\t */",
     "meta": {
       "range": [
-        570619,
-        571009
+        570617,
+        571007
       ],
       "lineno": 17526,
       "columnno": 1,
@@ -3398,8 +3398,8 @@
     "comment": "/**\n\t * Returns the current form key.\n\t * @memberof ApiFormBase\n\t * @returns {string}\n\t */",
     "meta": {
       "range": [
-        571138,
-        571397
+        571136,
+        571395
       ],
       "lineno": 17547,
       "columnno": 1,
@@ -3431,8 +3431,8 @@
     "comment": "/**\n\t * Sets a key to the current form.\n\t * @memberof ApiFormBase\n\t * @param {string} sKey - Form key.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        571566,
-        572006
+        571564,
+        572004
       ],
       "lineno": 17566,
       "columnno": 1,
@@ -3479,8 +3479,8 @@
     "comment": "/**\n\t * Returns the tip text of the current form.\n\t * @memberof ApiFormBase\n\t * @returns {string}\n\t */",
     "meta": {
       "range": [
-        572147,
-        572330
+        572145,
+        572328
       ],
       "lineno": 17592,
       "columnno": 1,
@@ -3512,8 +3512,8 @@
     "comment": "/**\n\t * Sets the tip text to the current form.\n\t * @memberof ApiFormBase\n\t * @param {string} sText - Tip text.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        572507,
-        572748
+        572505,
+        572746
       ],
       "lineno": 17608,
       "columnno": 1,
@@ -3560,8 +3560,8 @@
     "comment": "/**\n\t * Checks if the current form is required.\n\t * @memberof ApiFormBase\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        572888,
-        572975
+        572886,
+        572973
       ],
       "lineno": 17625,
       "columnno": 1,
@@ -3593,8 +3593,8 @@
     "comment": "/**\n\t * Specifies if the current form should be required.\n\t * @memberof ApiFormBase\n\t * @param {boolean} bRequired - Defines if the current form is required (true) or not (false).\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        573221,
-        573531
+        573219,
+        573529
       ],
       "lineno": 17636,
       "columnno": 1,
@@ -3641,8 +3641,8 @@
     "comment": "/**\n\t * Checks if the current form is fixed size.\n\t * @memberof ApiFormBase\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        573673,
-        573796
+        573671,
+        573794
       ],
       "lineno": 17655,
       "columnno": 1,
@@ -3674,8 +3674,8 @@
     "comment": "/**\n\t * Converts the current form to a fixed size form.\n\t * @memberof ApiFormBase\n\t * @param {twips} nWidth - The wrapper shape width measured in twentieths of a point (1/1440 of an inch).\n\t * @param {twips} nHeight - The wrapper shape height measured in twentieths of a point (1/1440 of an inch).\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        574160,
-        574364
+        574158,
+        574362
       ],
       "lineno": 17667,
       "columnno": 1,
@@ -3735,8 +3735,8 @@
     "comment": "/**\n\t * Converts the current form to an inline form.\n\t * *Picture form can't be converted to an inline form, it's always a fixed size object.*\n\t * @memberof ApiFormBase\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        574599,
-        574738
+        574597,
+        574736
       ],
       "lineno": 17682,
       "columnno": 1,
@@ -3768,8 +3768,8 @@
     "comment": "/**\n\t * Sets the border color to the current form.\n\t * @memberof ApiFormBase\n\t * @param {byte} r - Red color component value.\n\t * @param {byte} g - Green color component value.\n\t * @param {byte} b - Blue color component value.\n\t * @param {boolean} bNone - Defines that border color will not be set.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        575103,
-        575555
+        575101,
+        575553
       ],
       "lineno": 17700,
       "columnno": 1,
@@ -3855,8 +3855,8 @@
     "comment": "/**\n\t * Sets the background color to the current form.\n\t * @memberof ApiFormBase\n\t * @param {byte} r - Red color component value.\n\t * @param {byte} g - Green color component value.\n\t * @param {byte} b - Blue color component value.\n\t * @param {boolean} bNone - Defines that background color will not be set.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        575928,
-        576686
+        575926,
+        576684
       ],
       "lineno": 17729,
       "columnno": 1,
@@ -3942,8 +3942,8 @@
     "comment": "/**\n\t * Returns the text from the current form.\n\t * *This method is used only for text and combo box forms.*\n\t * @memberof ApiFormBase\n\t * @returns {string}\n\t */",
     "meta": {
       "range": [
-        576886,
-        576968
+        576884,
+        576966
       ],
       "lineno": 17771,
       "columnno": 1,
@@ -3975,8 +3975,8 @@
     "comment": "/**\n\t * Clears the current form.\n\t * @memberof ApiFormBase\n\t */",
     "meta": {
       "range": [
-        577070,
-        577153
+        577068,
+        577151
       ],
       "lineno": 17780,
       "columnno": 1,
@@ -3995,8 +3995,8 @@
     "comment": "/**\n\t * Returns a shape in which the form is placed to control the position and size of the fixed size form frame.\n\t * The null value will be returned for the inline forms.\n\t * @memberof ApiFormBase\n\t * @returns {?ApiShape} - returns the shape in which the form is placed.\n\t */",
     "meta": {
       "range": [
-        577469,
-        577777
+        577467,
+        577775
       ],
       "lineno": 17791,
       "columnno": 1,
@@ -4031,8 +4031,8 @@
     "comment": "/**\n\t * Sets the placeholder text to the current form.\n\t * *Can't be set to checkbox or radio button.*\n\t * @memberof ApiFormBase\n\t * @param {string} sText - The text that will be set to the current form.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        578047,
-        578308
+        578045,
+        578306
       ],
       "lineno": 17808,
       "columnno": 1,
@@ -4079,8 +4079,8 @@
     "comment": "/**\n\t * Sets the text properties to the current form.\n\t * *This method is used only for text and combo box forms.*\n\t * @memberof ApiFormBase\n\t * @param {ApiTextPr} oTextPr - The text properties that will be set to the current form.\n\t * @return {boolean}  \n\t */",
     "meta": {
       "range": [
-        578607,
-        578825
+        578605,
+        578823
       ],
       "lineno": 17826,
       "columnno": 1,
@@ -4127,8 +4127,8 @@
     "comment": "/**\n\t * Returns the text properties from the current form.\n\t * *This method is used only for text and combo box forms.*\n\t * @memberof ApiFormBase\n\t * @return {ApiTextPr}  \n\t */",
     "meta": {
       "range": [
-        579040,
-        579147
+        579038,
+        579145
       ],
       "lineno": 17843,
       "columnno": 1,
@@ -4160,8 +4160,8 @@
     "comment": "/**\n\t * Copies the current form (copies with the shape if it exists).\n\t * @memberof ApiFormBase\n\t * @returns {?ApiForm}\n\t */",
     "meta": {
       "range": [
-        579310,
-        580060
+        579308,
+        580058
       ],
       "lineno": 17853,
       "columnno": 1,
@@ -4195,8 +4195,8 @@
     "comment": "/**\n\t * Returns a type of the ApiFormBase class.\n\t * @memberof ApiFormBase\n\t * @returns {\"form\"}\n\t */",
     "meta": {
       "range": [
-        570412,
-        570482
+        570410,
+        570480
       ],
       "lineno": 17516,
       "columnno": 1,
@@ -4228,8 +4228,8 @@
     "comment": "/**\n\t * Returns a type of the current form.\n\t * @memberof ApiFormBase\n\t * @returns {FormType}\n\t */",
     "meta": {
       "range": [
-        570619,
-        571009
+        570617,
+        571007
       ],
       "lineno": 17526,
       "columnno": 1,
@@ -4261,8 +4261,8 @@
     "comment": "/**\n\t * Returns the current form key.\n\t * @memberof ApiFormBase\n\t * @returns {string}\n\t */",
     "meta": {
       "range": [
-        571138,
-        571397
+        571136,
+        571395
       ],
       "lineno": 17547,
       "columnno": 1,
@@ -4294,8 +4294,8 @@
     "comment": "/**\n\t * Sets a key to the current form.\n\t * @memberof ApiFormBase\n\t * @param {string} sKey - Form key.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        571566,
-        572006
+        571564,
+        572004
       ],
       "lineno": 17566,
       "columnno": 1,
@@ -4342,8 +4342,8 @@
     "comment": "/**\n\t * Returns the tip text of the current form.\n\t * @memberof ApiFormBase\n\t * @returns {string}\n\t */",
     "meta": {
       "range": [
-        572147,
-        572330
+        572145,
+        572328
       ],
       "lineno": 17592,
       "columnno": 1,
@@ -4375,8 +4375,8 @@
     "comment": "/**\n\t * Sets the tip text to the current form.\n\t * @memberof ApiFormBase\n\t * @param {string} sText - Tip text.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        572507,
-        572748
+        572505,
+        572746
       ],
       "lineno": 17608,
       "columnno": 1,
@@ -4423,8 +4423,8 @@
     "comment": "/**\n\t * Checks if the current form is required.\n\t * @memberof ApiFormBase\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        572888,
-        572975
+        572886,
+        572973
       ],
       "lineno": 17625,
       "columnno": 1,
@@ -4456,8 +4456,8 @@
     "comment": "/**\n\t * Specifies if the current form should be required.\n\t * @memberof ApiFormBase\n\t * @param {boolean} bRequired - Defines if the current form is required (true) or not (false).\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        573221,
-        573531
+        573219,
+        573529
       ],
       "lineno": 17636,
       "columnno": 1,
@@ -4504,8 +4504,8 @@
     "comment": "/**\n\t * Checks if the current form is fixed size.\n\t * @memberof ApiFormBase\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        573673,
-        573796
+        573671,
+        573794
       ],
       "lineno": 17655,
       "columnno": 1,
@@ -4537,8 +4537,8 @@
     "comment": "/**\n\t * Converts the current form to a fixed size form.\n\t * @memberof ApiFormBase\n\t * @param {twips} nWidth - The wrapper shape width measured in twentieths of a point (1/1440 of an inch).\n\t * @param {twips} nHeight - The wrapper shape height measured in twentieths of a point (1/1440 of an inch).\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        574160,
-        574364
+        574158,
+        574362
       ],
       "lineno": 17667,
       "columnno": 1,
@@ -4598,8 +4598,8 @@
     "comment": "/**\n\t * Converts the current form to an inline form.\n\t * *Picture form can't be converted to an inline form, it's always a fixed size object.*\n\t * @memberof ApiFormBase\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        574599,
-        574738
+        574597,
+        574736
       ],
       "lineno": 17682,
       "columnno": 1,
@@ -4631,8 +4631,8 @@
     "comment": "/**\n\t * Sets the border color to the current form.\n\t * @memberof ApiFormBase\n\t * @param {byte} r - Red color component value.\n\t * @param {byte} g - Green color component value.\n\t * @param {byte} b - Blue color component value.\n\t * @param {boolean} bNone - Defines that border color will not be set.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        575103,
-        575555
+        575101,
+        575553
       ],
       "lineno": 17700,
       "columnno": 1,
@@ -4718,8 +4718,8 @@
     "comment": "/**\n\t * Sets the background color to the current form.\n\t * @memberof ApiFormBase\n\t * @param {byte} r - Red color component value.\n\t * @param {byte} g - Green color component value.\n\t * @param {byte} b - Blue color component value.\n\t * @param {boolean} bNone - Defines that background color will not be set.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        575928,
-        576686
+        575926,
+        576684
       ],
       "lineno": 17729,
       "columnno": 1,
@@ -4805,8 +4805,8 @@
     "comment": "/**\n\t * Returns the text from the current form.\n\t * *This method is used only for text and combo box forms.*\n\t * @memberof ApiFormBase\n\t * @returns {string}\n\t */",
     "meta": {
       "range": [
-        576886,
-        576968
+        576884,
+        576966
       ],
       "lineno": 17771,
       "columnno": 1,
@@ -4838,8 +4838,8 @@
     "comment": "/**\n\t * Clears the current form.\n\t * @memberof ApiFormBase\n\t */",
     "meta": {
       "range": [
-        577070,
-        577153
+        577068,
+        577151
       ],
       "lineno": 17780,
       "columnno": 1,
@@ -4858,8 +4858,8 @@
     "comment": "/**\n\t * Returns a shape in which the form is placed to control the position and size of the fixed size form frame.\n\t * The null value will be returned for the inline forms.\n\t * @memberof ApiFormBase\n\t * @returns {?ApiShape} - returns the shape in which the form is placed.\n\t */",
     "meta": {
       "range": [
-        577469,
-        577777
+        577467,
+        577775
       ],
       "lineno": 17791,
       "columnno": 1,
@@ -4894,8 +4894,8 @@
     "comment": "/**\n\t * Sets the placeholder text to the current form.\n\t * *Can't be set to checkbox or radio button.*\n\t * @memberof ApiFormBase\n\t * @param {string} sText - The text that will be set to the current form.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        578047,
-        578308
+        578045,
+        578306
       ],
       "lineno": 17808,
       "columnno": 1,
@@ -4942,8 +4942,8 @@
     "comment": "/**\n\t * Sets the text properties to the current form.\n\t * *This method is used only for text and combo box forms.*\n\t * @memberof ApiFormBase\n\t * @param {ApiTextPr} oTextPr - The text properties that will be set to the current form.\n\t * @return {boolean}  \n\t */",
     "meta": {
       "range": [
-        578607,
-        578825
+        578605,
+        578823
       ],
       "lineno": 17826,
       "columnno": 1,
@@ -4990,8 +4990,8 @@
     "comment": "/**\n\t * Returns the text properties from the current form.\n\t * *This method is used only for text and combo box forms.*\n\t * @memberof ApiFormBase\n\t * @return {ApiTextPr}  \n\t */",
     "meta": {
       "range": [
-        579040,
-        579147
+        579038,
+        579145
       ],
       "lineno": 17843,
       "columnno": 1,
@@ -5023,8 +5023,8 @@
     "comment": "/**\n\t * Copies the current form (copies with the shape if it exists).\n\t * @memberof ApiFormBase\n\t * @returns {?ApiForm}\n\t */",
     "meta": {
       "range": [
-        579310,
-        580060
+        579308,
+        580058
       ],
       "lineno": 17853,
       "columnno": 1,
@@ -5058,8 +5058,8 @@
     "comment": "/**\n\t * Returns a type of the ApiFormBase class.\n\t * @memberof ApiFormBase\n\t * @returns {\"form\"}\n\t */",
     "meta": {
       "range": [
-        570412,
-        570482
+        570410,
+        570480
       ],
       "lineno": 17516,
       "columnno": 1,
@@ -5091,8 +5091,8 @@
     "comment": "/**\n\t * Returns a type of the current form.\n\t * @memberof ApiFormBase\n\t * @returns {FormType}\n\t */",
     "meta": {
       "range": [
-        570619,
-        571009
+        570617,
+        571007
       ],
       "lineno": 17526,
       "columnno": 1,
@@ -5124,8 +5124,8 @@
     "comment": "/**\n\t * Returns the current form key.\n\t * @memberof ApiFormBase\n\t * @returns {string}\n\t */",
     "meta": {
       "range": [
-        571138,
-        571397
+        571136,
+        571395
       ],
       "lineno": 17547,
       "columnno": 1,
@@ -5157,8 +5157,8 @@
     "comment": "/**\n\t * Sets a key to the current form.\n\t * @memberof ApiFormBase\n\t * @param {string} sKey - Form key.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        571566,
-        572006
+        571564,
+        572004
       ],
       "lineno": 17566,
       "columnno": 1,
@@ -5205,8 +5205,8 @@
     "comment": "/**\n\t * Returns the tip text of the current form.\n\t * @memberof ApiFormBase\n\t * @returns {string}\n\t */",
     "meta": {
       "range": [
-        572147,
-        572330
+        572145,
+        572328
       ],
       "lineno": 17592,
       "columnno": 1,
@@ -5238,8 +5238,8 @@
     "comment": "/**\n\t * Sets the tip text to the current form.\n\t * @memberof ApiFormBase\n\t * @param {string} sText - Tip text.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        572507,
-        572748
+        572505,
+        572746
       ],
       "lineno": 17608,
       "columnno": 1,
@@ -5286,8 +5286,8 @@
     "comment": "/**\n\t * Checks if the current form is required.\n\t * @memberof ApiFormBase\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        572888,
-        572975
+        572886,
+        572973
       ],
       "lineno": 17625,
       "columnno": 1,
@@ -5319,8 +5319,8 @@
     "comment": "/**\n\t * Specifies if the current form should be required.\n\t * @memberof ApiFormBase\n\t * @param {boolean} bRequired - Defines if the current form is required (true) or not (false).\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        573221,
-        573531
+        573219,
+        573529
       ],
       "lineno": 17636,
       "columnno": 1,
@@ -5367,8 +5367,8 @@
     "comment": "/**\n\t * Checks if the current form is fixed size.\n\t * @memberof ApiFormBase\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        573673,
-        573796
+        573671,
+        573794
       ],
       "lineno": 17655,
       "columnno": 1,
@@ -5400,8 +5400,8 @@
     "comment": "/**\n\t * Converts the current form to a fixed size form.\n\t * @memberof ApiFormBase\n\t * @param {twips} nWidth - The wrapper shape width measured in twentieths of a point (1/1440 of an inch).\n\t * @param {twips} nHeight - The wrapper shape height measured in twentieths of a point (1/1440 of an inch).\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        574160,
-        574364
+        574158,
+        574362
       ],
       "lineno": 17667,
       "columnno": 1,
@@ -5461,8 +5461,8 @@
     "comment": "/**\n\t * Converts the current form to an inline form.\n\t * *Picture form can't be converted to an inline form, it's always a fixed size object.*\n\t * @memberof ApiFormBase\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        574599,
-        574738
+        574597,
+        574736
       ],
       "lineno": 17682,
       "columnno": 1,
@@ -5494,8 +5494,8 @@
     "comment": "/**\n\t * Sets the border color to the current form.\n\t * @memberof ApiFormBase\n\t * @param {byte} r - Red color component value.\n\t * @param {byte} g - Green color component value.\n\t * @param {byte} b - Blue color component value.\n\t * @param {boolean} bNone - Defines that border color will not be set.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        575103,
-        575555
+        575101,
+        575553
       ],
       "lineno": 17700,
       "columnno": 1,
@@ -5581,8 +5581,8 @@
     "comment": "/**\n\t * Sets the background color to the current form.\n\t * @memberof ApiFormBase\n\t * @param {byte} r - Red color component value.\n\t * @param {byte} g - Green color component value.\n\t * @param {byte} b - Blue color component value.\n\t * @param {boolean} bNone - Defines that background color will not be set.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        575928,
-        576686
+        575926,
+        576684
       ],
       "lineno": 17729,
       "columnno": 1,
@@ -5668,8 +5668,8 @@
     "comment": "/**\n\t * Returns the text from the current form.\n\t * *This method is used only for text and combo box forms.*\n\t * @memberof ApiFormBase\n\t * @returns {string}\n\t */",
     "meta": {
       "range": [
-        576886,
-        576968
+        576884,
+        576966
       ],
       "lineno": 17771,
       "columnno": 1,
@@ -5701,8 +5701,8 @@
     "comment": "/**\n\t * Clears the current form.\n\t * @memberof ApiFormBase\n\t */",
     "meta": {
       "range": [
-        577070,
-        577153
+        577068,
+        577151
       ],
       "lineno": 17780,
       "columnno": 1,
@@ -5721,8 +5721,8 @@
     "comment": "/**\n\t * Returns a shape in which the form is placed to control the position and size of the fixed size form frame.\n\t * The null value will be returned for the inline forms.\n\t * @memberof ApiFormBase\n\t * @returns {?ApiShape} - returns the shape in which the form is placed.\n\t */",
     "meta": {
       "range": [
-        577469,
-        577777
+        577467,
+        577775
       ],
       "lineno": 17791,
       "columnno": 1,
@@ -5757,8 +5757,8 @@
     "comment": "/**\n\t * Sets the placeholder text to the current form.\n\t * *Can't be set to checkbox or radio button.*\n\t * @memberof ApiFormBase\n\t * @param {string} sText - The text that will be set to the current form.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        578047,
-        578308
+        578045,
+        578306
       ],
       "lineno": 17808,
       "columnno": 1,
@@ -5805,8 +5805,8 @@
     "comment": "/**\n\t * Sets the text properties to the current form.\n\t * *This method is used only for text and combo box forms.*\n\t * @memberof ApiFormBase\n\t * @param {ApiTextPr} oTextPr - The text properties that will be set to the current form.\n\t * @return {boolean}  \n\t */",
     "meta": {
       "range": [
-        578607,
-        578825
+        578605,
+        578823
       ],
       "lineno": 17826,
       "columnno": 1,
@@ -5853,8 +5853,8 @@
     "comment": "/**\n\t * Returns the text properties from the current form.\n\t * *This method is used only for text and combo box forms.*\n\t * @memberof ApiFormBase\n\t * @return {ApiTextPr}  \n\t */",
     "meta": {
       "range": [
-        579040,
-        579147
+        579038,
+        579145
       ],
       "lineno": 17843,
       "columnno": 1,
@@ -5886,8 +5886,8 @@
     "comment": "/**\n\t * Copies the current form (copies with the shape if it exists).\n\t * @memberof ApiFormBase\n\t * @returns {?ApiForm}\n\t */",
     "meta": {
       "range": [
-        579310,
-        580060
+        579308,
+        580058
       ],
       "lineno": 17853,
       "columnno": 1,
@@ -5921,8 +5921,8 @@
     "comment": "/**\n\t * Returns a type of the ApiFormBase class.\n\t * @memberof ApiFormBase\n\t * @returns {\"form\"}\n\t */",
     "meta": {
       "range": [
-        570412,
-        570482
+        570410,
+        570480
       ],
       "lineno": 17516,
       "columnno": 1,
@@ -5954,8 +5954,8 @@
     "comment": "/**\n\t * Returns a type of the current form.\n\t * @memberof ApiFormBase\n\t * @returns {FormType}\n\t */",
     "meta": {
       "range": [
-        570619,
-        571009
+        570617,
+        571007
       ],
       "lineno": 17526,
       "columnno": 1,
@@ -5987,8 +5987,8 @@
     "comment": "/**\n\t * Returns the current form key.\n\t * @memberof ApiFormBase\n\t * @returns {string}\n\t */",
     "meta": {
       "range": [
-        571138,
-        571397
+        571136,
+        571395
       ],
       "lineno": 17547,
       "columnno": 1,
@@ -6020,8 +6020,8 @@
     "comment": "/**\n\t * Sets a key to the current form.\n\t * @memberof ApiFormBase\n\t * @param {string} sKey - Form key.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        571566,
-        572006
+        571564,
+        572004
       ],
       "lineno": 17566,
       "columnno": 1,
@@ -6068,8 +6068,8 @@
     "comment": "/**\n\t * Returns the tip text of the current form.\n\t * @memberof ApiFormBase\n\t * @returns {string}\n\t */",
     "meta": {
       "range": [
-        572147,
-        572330
+        572145,
+        572328
       ],
       "lineno": 17592,
       "columnno": 1,
@@ -6101,8 +6101,8 @@
     "comment": "/**\n\t * Sets the tip text to the current form.\n\t * @memberof ApiFormBase\n\t * @param {string} sText - Tip text.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        572507,
-        572748
+        572505,
+        572746
       ],
       "lineno": 17608,
       "columnno": 1,
@@ -6149,8 +6149,8 @@
     "comment": "/**\n\t * Checks if the current form is required.\n\t * @memberof ApiFormBase\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        572888,
-        572975
+        572886,
+        572973
       ],
       "lineno": 17625,
       "columnno": 1,
@@ -6182,8 +6182,8 @@
     "comment": "/**\n\t * Specifies if the current form should be required.\n\t * @memberof ApiFormBase\n\t * @param {boolean} bRequired - Defines if the current form is required (true) or not (false).\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        573221,
-        573531
+        573219,
+        573529
       ],
       "lineno": 17636,
       "columnno": 1,
@@ -6230,8 +6230,8 @@
     "comment": "/**\n\t * Checks if the current form is fixed size.\n\t * @memberof ApiFormBase\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        573673,
-        573796
+        573671,
+        573794
       ],
       "lineno": 17655,
       "columnno": 1,
@@ -6263,8 +6263,8 @@
     "comment": "/**\n\t * Converts the current form to a fixed size form.\n\t * @memberof ApiFormBase\n\t * @param {twips} nWidth - The wrapper shape width measured in twentieths of a point (1/1440 of an inch).\n\t * @param {twips} nHeight - The wrapper shape height measured in twentieths of a point (1/1440 of an inch).\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        574160,
-        574364
+        574158,
+        574362
       ],
       "lineno": 17667,
       "columnno": 1,
@@ -6324,8 +6324,8 @@
     "comment": "/**\n\t * Converts the current form to an inline form.\n\t * *Picture form can't be converted to an inline form, it's always a fixed size object.*\n\t * @memberof ApiFormBase\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        574599,
-        574738
+        574597,
+        574736
       ],
       "lineno": 17682,
       "columnno": 1,
@@ -6357,8 +6357,8 @@
     "comment": "/**\n\t * Sets the border color to the current form.\n\t * @memberof ApiFormBase\n\t * @param {byte} r - Red color component value.\n\t * @param {byte} g - Green color component value.\n\t * @param {byte} b - Blue color component value.\n\t * @param {boolean} bNone - Defines that border color will not be set.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        575103,
-        575555
+        575101,
+        575553
       ],
       "lineno": 17700,
       "columnno": 1,
@@ -6444,8 +6444,8 @@
     "comment": "/**\n\t * Sets the background color to the current form.\n\t * @memberof ApiFormBase\n\t * @param {byte} r - Red color component value.\n\t * @param {byte} g - Green color component value.\n\t * @param {byte} b - Blue color component value.\n\t * @param {boolean} bNone - Defines that background color will not be set.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        575928,
-        576686
+        575926,
+        576684
       ],
       "lineno": 17729,
       "columnno": 1,
@@ -6531,8 +6531,8 @@
     "comment": "/**\n\t * Returns the text from the current form.\n\t * *This method is used only for text and combo box forms.*\n\t * @memberof ApiFormBase\n\t * @returns {string}\n\t */",
     "meta": {
       "range": [
-        576886,
-        576968
+        576884,
+        576966
       ],
       "lineno": 17771,
       "columnno": 1,
@@ -6564,8 +6564,8 @@
     "comment": "/**\n\t * Clears the current form.\n\t * @memberof ApiFormBase\n\t */",
     "meta": {
       "range": [
-        577070,
-        577153
+        577068,
+        577151
       ],
       "lineno": 17780,
       "columnno": 1,
@@ -6584,8 +6584,8 @@
     "comment": "/**\n\t * Returns a shape in which the form is placed to control the position and size of the fixed size form frame.\n\t * The null value will be returned for the inline forms.\n\t * @memberof ApiFormBase\n\t * @returns {?ApiShape} - returns the shape in which the form is placed.\n\t */",
     "meta": {
       "range": [
-        577469,
-        577777
+        577467,
+        577775
       ],
       "lineno": 17791,
       "columnno": 1,
@@ -6620,8 +6620,8 @@
     "comment": "/**\n\t * Sets the placeholder text to the current form.\n\t * *Can't be set to checkbox or radio button.*\n\t * @memberof ApiFormBase\n\t * @param {string} sText - The text that will be set to the current form.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        578047,
-        578308
+        578045,
+        578306
       ],
       "lineno": 17808,
       "columnno": 1,
@@ -6668,8 +6668,8 @@
     "comment": "/**\n\t * Sets the text properties to the current form.\n\t * *This method is used only for text and combo box forms.*\n\t * @memberof ApiFormBase\n\t * @param {ApiTextPr} oTextPr - The text properties that will be set to the current form.\n\t * @return {boolean}  \n\t */",
     "meta": {
       "range": [
-        578607,
-        578825
+        578605,
+        578823
       ],
       "lineno": 17826,
       "columnno": 1,
@@ -6716,8 +6716,8 @@
     "comment": "/**\n\t * Returns the text properties from the current form.\n\t * *This method is used only for text and combo box forms.*\n\t * @memberof ApiFormBase\n\t * @return {ApiTextPr}  \n\t */",
     "meta": {
       "range": [
-        579040,
-        579147
+        579038,
+        579145
       ],
       "lineno": 17843,
       "columnno": 1,
@@ -6749,8 +6749,8 @@
     "comment": "/**\n\t * Copies the current form (copies with the shape if it exists).\n\t * @memberof ApiFormBase\n\t * @returns {?ApiForm}\n\t */",
     "meta": {
       "range": [
-        579310,
-        580060
+        579308,
+        580058
       ],
       "lineno": 17853,
       "columnno": 1,
@@ -6784,8 +6784,8 @@
     "comment": "/**\n\t * Returns a type of the ApiFormBase class.\n\t * @memberof ApiFormBase\n\t * @returns {\"form\"}\n\t */",
     "meta": {
       "range": [
-        570412,
-        570482
+        570410,
+        570480
       ],
       "lineno": 17516,
       "columnno": 1,
@@ -6817,8 +6817,8 @@
     "comment": "/**\n\t * Returns a type of the current form.\n\t * @memberof ApiFormBase\n\t * @returns {FormType}\n\t */",
     "meta": {
       "range": [
-        570619,
-        571009
+        570617,
+        571007
       ],
       "lineno": 17526,
       "columnno": 1,
@@ -6850,8 +6850,8 @@
     "comment": "/**\n\t * Returns the current form key.\n\t * @memberof ApiFormBase\n\t * @returns {string}\n\t */",
     "meta": {
       "range": [
-        571138,
-        571397
+        571136,
+        571395
       ],
       "lineno": 17547,
       "columnno": 1,
@@ -6883,8 +6883,8 @@
     "comment": "/**\n\t * Sets a key to the current form.\n\t * @memberof ApiFormBase\n\t * @param {string} sKey - Form key.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        571566,
-        572006
+        571564,
+        572004
       ],
       "lineno": 17566,
       "columnno": 1,
@@ -6931,8 +6931,8 @@
     "comment": "/**\n\t * Returns the tip text of the current form.\n\t * @memberof ApiFormBase\n\t * @returns {string}\n\t */",
     "meta": {
       "range": [
-        572147,
-        572330
+        572145,
+        572328
       ],
       "lineno": 17592,
       "columnno": 1,
@@ -6964,8 +6964,8 @@
     "comment": "/**\n\t * Sets the tip text to the current form.\n\t * @memberof ApiFormBase\n\t * @param {string} sText - Tip text.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        572507,
-        572748
+        572505,
+        572746
       ],
       "lineno": 17608,
       "columnno": 1,
@@ -7012,8 +7012,8 @@
     "comment": "/**\n\t * Checks if the current form is required.\n\t * @memberof ApiFormBase\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        572888,
-        572975
+        572886,
+        572973
       ],
       "lineno": 17625,
       "columnno": 1,
@@ -7045,8 +7045,8 @@
     "comment": "/**\n\t * Specifies if the current form should be required.\n\t * @memberof ApiFormBase\n\t * @param {boolean} bRequired - Defines if the current form is required (true) or not (false).\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        573221,
-        573531
+        573219,
+        573529
       ],
       "lineno": 17636,
       "columnno": 1,
@@ -7093,8 +7093,8 @@
     "comment": "/**\n\t * Checks if the current form is fixed size.\n\t * @memberof ApiFormBase\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        573673,
-        573796
+        573671,
+        573794
       ],
       "lineno": 17655,
       "columnno": 1,
@@ -7126,8 +7126,8 @@
     "comment": "/**\n\t * Converts the current form to a fixed size form.\n\t * @memberof ApiFormBase\n\t * @param {twips} nWidth - The wrapper shape width measured in twentieths of a point (1/1440 of an inch).\n\t * @param {twips} nHeight - The wrapper shape height measured in twentieths of a point (1/1440 of an inch).\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        574160,
-        574364
+        574158,
+        574362
       ],
       "lineno": 17667,
       "columnno": 1,
@@ -7187,8 +7187,8 @@
     "comment": "/**\n\t * Converts the current form to an inline form.\n\t * *Picture form can't be converted to an inline form, it's always a fixed size object.*\n\t * @memberof ApiFormBase\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        574599,
-        574738
+        574597,
+        574736
       ],
       "lineno": 17682,
       "columnno": 1,
@@ -7220,8 +7220,8 @@
     "comment": "/**\n\t * Sets the border color to the current form.\n\t * @memberof ApiFormBase\n\t * @param {byte} r - Red color component value.\n\t * @param {byte} g - Green color component value.\n\t * @param {byte} b - Blue color component value.\n\t * @param {boolean} bNone - Defines that border color will not be set.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        575103,
-        575555
+        575101,
+        575553
       ],
       "lineno": 17700,
       "columnno": 1,
@@ -7307,8 +7307,8 @@
     "comment": "/**\n\t * Sets the background color to the current form.\n\t * @memberof ApiFormBase\n\t * @param {byte} r - Red color component value.\n\t * @param {byte} g - Green color component value.\n\t * @param {byte} b - Blue color component value.\n\t * @param {boolean} bNone - Defines that background color will not be set.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        575928,
-        576686
+        575926,
+        576684
       ],
       "lineno": 17729,
       "columnno": 1,
@@ -7394,8 +7394,8 @@
     "comment": "/**\n\t * Returns the text from the current form.\n\t * *This method is used only for text and combo box forms.*\n\t * @memberof ApiFormBase\n\t * @returns {string}\n\t */",
     "meta": {
       "range": [
-        576886,
-        576968
+        576884,
+        576966
       ],
       "lineno": 17771,
       "columnno": 1,
@@ -7427,8 +7427,8 @@
     "comment": "/**\n\t * Clears the current form.\n\t * @memberof ApiFormBase\n\t */",
     "meta": {
       "range": [
-        577070,
-        577153
+        577068,
+        577151
       ],
       "lineno": 17780,
       "columnno": 1,
@@ -7447,8 +7447,8 @@
     "comment": "/**\n\t * Returns a shape in which the form is placed to control the position and size of the fixed size form frame.\n\t * The null value will be returned for the inline forms.\n\t * @memberof ApiFormBase\n\t * @returns {?ApiShape} - returns the shape in which the form is placed.\n\t */",
     "meta": {
       "range": [
-        577469,
-        577777
+        577467,
+        577775
       ],
       "lineno": 17791,
       "columnno": 1,
@@ -7483,8 +7483,8 @@
     "comment": "/**\n\t * Sets the placeholder text to the current form.\n\t * *Can't be set to checkbox or radio button.*\n\t * @memberof ApiFormBase\n\t * @param {string} sText - The text that will be set to the current form.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        578047,
-        578308
+        578045,
+        578306
       ],
       "lineno": 17808,
       "columnno": 1,
@@ -7531,8 +7531,8 @@
     "comment": "/**\n\t * Sets the text properties to the current form.\n\t * *This method is used only for text and combo box forms.*\n\t * @memberof ApiFormBase\n\t * @param {ApiTextPr} oTextPr - The text properties that will be set to the current form.\n\t * @return {boolean}  \n\t */",
     "meta": {
       "range": [
-        578607,
-        578825
+        578605,
+        578823
       ],
       "lineno": 17826,
       "columnno": 1,
@@ -7579,8 +7579,8 @@
     "comment": "/**\n\t * Returns the text properties from the current form.\n\t * *This method is used only for text and combo box forms.*\n\t * @memberof ApiFormBase\n\t * @return {ApiTextPr}  \n\t */",
     "meta": {
       "range": [
-        579040,
-        579147
+        579038,
+        579145
       ],
       "lineno": 17843,
       "columnno": 1,
@@ -7612,8 +7612,8 @@
     "comment": "/**\n\t * Copies the current form (copies with the shape if it exists).\n\t * @memberof ApiFormBase\n\t * @returns {?ApiForm}\n\t */",
     "meta": {
       "range": [
-        579310,
-        580060
+        579308,
+        580058
       ],
       "lineno": 17853,
       "columnno": 1,
@@ -7807,8 +7807,8 @@
     "comment": "/**\n\t * Class representing a shape.\n\t * @constructor\n\t * */",
     "meta": {
       "range": [
-        106119,
-        106210
+        106117,
+        106208
       ],
       "lineno": 3545,
       "columnno": 1,
@@ -7824,8 +7824,8 @@
     "comment": "/**\n\t * Class representing the text properties.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        92589,
-        92677
+        92587,
+        92675
       ],
       "lineno": 3039,
       "columnno": 1,

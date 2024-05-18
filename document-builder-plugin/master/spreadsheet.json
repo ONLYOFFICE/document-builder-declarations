@@ -3110,7 +3110,7 @@
       "columnno": 4,
       "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=d62dbcaed18b79f86f4e78d36aa781538bc4c501"
     },
-    "description": "The plugin object.\n\n## Try it\n\n```js use-document-builder\nvar oPlugin = {\n    \"url\": \"https://example.com/plugin/config.json\",\n    \"guid\": \"asc.{38E022EA-AD92-45FC-B22B-49DF39746DB4}\",\n    \"canRemoved\": true,\n    \"obj\": {\n        \"baseUrl\": \"\",\n        \"guid\": \"asc.{FFE1F462-1EA2-4391-990D-4CC84940B754}\",\n        \"version\": \"1.0\",\n        \"minVersion\": \"6.3.0\",\n        ...\n    }\n};\n```\n\n## Try it\n\n```js use-document-builder\nvar oPlugin = {\n    \"url\": \"https://example.com/plugin/config.json\",\n    \"guid\": \"asc.{38E022EA-AD92-45FC-B22B-49DF39746DB4}\",\n    \"canRemoved\": true,\n    \"obj\": {\n        \"baseUrl\": \"\",\n        \"guid\": \"asc.{FFE1F462-1EA2-4391-990D-4CC84940B754}\",\n        \"version\": \"1.0\",\n        \"minVersion\": \"6.3.0\",\n        ...\n    }\n};\n```",
+    "description": "The plugin object.\n\n## Try it\n\n```js use-document-builder\nvar oPlugin = {\n    \"url\": \"https://example.com/plugin/config.json\",\n    \"guid\": \"asc.{38E022EA-AD92-45FC-B22B-49DF39746DB4}\",\n    \"canRemoved\": true,\n    \"obj\": {\n        \"baseUrl\": \"\",\n        \"guid\": \"asc.{FFE1F462-1EA2-4391-990D-4CC84940B754}\",\n        \"version\": \"1.0\",\n        \"minVersion\": \"6.3.0\",\n        ...\n    }\n};\n```",
     "kind": "typedef",
     "name": "PluginData",
     "type": {
@@ -3197,7 +3197,7 @@
         "name": "Object"
       }
     },
-    "description": "The context menu item.\n\n## Try it\n\n```js use-document-builder\nvar aContextMenuItems = function getContextMenuItems() {\n\tlet settings = {\n\t\tguid: window.Asc.plugin.guid,\n\t\titems: [\n\t\t\t{\n\t\t\t\tid : 'onConvert',\n\t\t\t\ttext : getMessage('Convert to Markdown or HTML')\n\t\t\t}\n\t\t]\n\t};\n\treturn settings;\n};\n\nwindow.Asc.plugin.attachEvent('onContextMenuShow', function(options) {\n\tif (!options) return;\n\n\tif (options.type === 'Selection' || options.type === 'Target')\n\t\tthis.executeMethod('AddContextMenuItem', [aContextMenuItems]);\n});\n```\n\n## Try it\n\n```js use-document-builder\nvar aContextMenuItems = function getContextMenuItems() {\n\tlet settings = {\n\t\tguid: window.Asc.plugin.guid,\n\t\titems: [\n\t\t\t{\n\t\t\t\tid : 'onConvert',\n\t\t\t\ttext : getMessage('Convert to Markdown or HTML')\n\t\t\t}\n\t\t]\n\t};\n\treturn settings;\n};\n\nwindow.Asc.plugin.attachEvent('onContextMenuShow', function(options) {\n\tif (!options) return;\n\n\tif (options.type === 'Selection' || options.type === 'Target')\n\t\tthis.executeMethod('AddContextMenuItem', [aContextMenuItems]);\n});\n```",
+    "description": "The context menu item.\n\n## Try it\n\n```js use-document-builder\nvar aContextMenuItems = function getContextMenuItems() {\n\tlet settings = {\n\t\tguid: window.Asc.plugin.guid,\n\t\titems: [\n\t\t\t{\n\t\t\t\tid : 'onConvert',\n\t\t\t\ttext : getMessage('Convert to Markdown or HTML')\n\t\t\t}\n\t\t]\n\t};\n\treturn settings;\n};\n\nwindow.Asc.plugin.attachEvent('onContextMenuShow', function(options) {\n\tif (!options) return;\n\n\tif (options.type === 'Selection' || options.type === 'Target')\n\t\tthis.executeMethod('AddContextMenuItem', [aContextMenuItems]);\n});\n```",
     "properties": [
       {
         "type": {
