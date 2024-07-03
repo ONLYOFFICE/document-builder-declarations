@@ -1038,12 +1038,12 @@
     "comment": "/**\n\t * Class representing a document form base.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        95794,
-        95845
+        95744,
+        95795
       ],
-      "lineno": 3196,
+      "lineno": 3195,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Class representing a document form base.",
     "kind": "class",
@@ -1055,12 +1055,12 @@
     "comment": "/**\n\t * Class representing a document text field.\n\t * @constructor\n\t * @extends {ApiFormBase}\n\t */",
     "meta": {
       "range": [
-        95983,
-        96047
+        95933,
+        95997
       ],
-      "lineno": 3207,
+      "lineno": 3206,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Class representing a document text field.",
     "kind": "class",
@@ -1075,12 +1075,12 @@
     "comment": "/**\n\t * Class representing a document combo box / dropdown list.\n\t * @constructor\n\t * @extends {ApiFormBase}\n\t */",
     "meta": {
       "range": [
-        96313,
-        96381
+        96263,
+        96331
       ],
-      "lineno": 3221,
+      "lineno": 3220,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Class representing a document combo box / dropdown list.",
     "kind": "class",
@@ -1095,12 +1095,12 @@
     "comment": "/**\n\t * Class representing a document checkbox / radio button.\n\t * @constructor\n\t * @extends {ApiFormBase}\n\t */",
     "meta": {
       "range": [
-        96657,
-        96725
+        96607,
+        96675
       ],
-      "lineno": 3235,
+      "lineno": 3234,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Class representing a document checkbox / radio button.",
     "kind": "class",
@@ -1115,12 +1115,12 @@
     "comment": "/**\n\t * Class representing a document picture form.\n\t * @constructor\n\t * @extends {ApiFormBase}\n\t */",
     "meta": {
       "range": [
-        96990,
-        97057
+        96940,
+        97007
       ],
-      "lineno": 3249,
+      "lineno": 3248,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Class representing a document picture form.",
     "kind": "class",
@@ -1135,12 +1135,12 @@
     "comment": "/**\n\t * Class representing a document date field.\n\t * @constructor\n\t * @extends {ApiFormBase}\n\t */",
     "meta": {
       "range": [
-        97317,
-        97381
+        97267,
+        97331
       ],
-      "lineno": 3263,
+      "lineno": 3262,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Class representing a document date field.",
     "kind": "class",
@@ -1155,12 +1155,12 @@
     "comment": "/**\n\t * Class representing a complex field.\n\t * @param oSdt\n\t * @constructor\n\t * @extends {ApiFormBase}\n\t */",
     "meta": {
       "range": [
-        97642,
-        97709
+        97592,
+        97659
       ],
-      "lineno": 3278,
+      "lineno": 3277,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Class representing a complex field.",
     "params": [
@@ -1180,12 +1180,12 @@
     "comment": "/**\n\t * Returns a type of the ApiFormBase class.\n\t * @memberof ApiFormBase\n\t * @returns {\"form\"}\n\t */",
     "meta": {
       "range": [
-        582424,
-        582494
+        582637,
+        582707
       ],
-      "lineno": 18071,
+      "lineno": 18074,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Returns a type of the ApiFormBase class.",
     "memberof": "ApiFormBase",
@@ -1211,12 +1211,12 @@
     "comment": "/**\n\t * Returns a type of the current form.\n\t * @memberof ApiFormBase\n\t * @returns {FormType}\n\t */",
     "meta": {
       "range": [
-        582631,
-        583074
+        582844,
+        583287
       ],
-      "lineno": 18081,
+      "lineno": 18084,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Returns a type of the current form.",
     "memberof": "ApiFormBase",
@@ -1242,12 +1242,12 @@
     "comment": "/**\n\t * Returns the current form key.\n\t * @memberof ApiFormBase\n\t * @returns {string}\n\t */",
     "meta": {
       "range": [
-        583203,
-        583462
+        583416,
+        583675
       ],
-      "lineno": 18104,
+      "lineno": 18107,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Returns the current form key.",
     "memberof": "ApiFormBase",
@@ -1273,12 +1273,12 @@
     "comment": "/**\n\t * Sets a key to the current form.\n\t * @memberof ApiFormBase\n\t * @param {string} sKey - Form key.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        583631,
-        584148
+        583844,
+        584361
       ],
-      "lineno": 18123,
+      "lineno": 18126,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Sets a key to the current form.",
     "memberof": "ApiFormBase",
@@ -1319,12 +1319,12 @@
     "comment": "/**\n\t * Returns the tip text of the current form.\n\t * @memberof ApiFormBase\n\t * @returns {string}\n\t */",
     "meta": {
       "range": [
-        584289,
-        584472
+        584502,
+        584685
       ],
-      "lineno": 18151,
+      "lineno": 18154,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Returns the tip text of the current form.",
     "memberof": "ApiFormBase",
@@ -1350,12 +1350,12 @@
     "comment": "/**\n\t * Sets the tip text to the current form.\n\t * @memberof ApiFormBase\n\t * @param {string} sText - Tip text.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        584649,
-        584960
+        584862,
+        585173
       ],
-      "lineno": 18167,
+      "lineno": 18170,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Sets the tip text to the current form.",
     "memberof": "ApiFormBase",
@@ -1396,12 +1396,12 @@
     "comment": "/**\n\t * Checks if the current form is required.\n\t * @memberof ApiFormBase\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        585100,
-        585187
+        585313,
+        585400
       ],
-      "lineno": 18186,
+      "lineno": 18189,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Checks if the current form is required.",
     "memberof": "ApiFormBase",
@@ -1427,12 +1427,12 @@
     "comment": "/**\n\t * Specifies if the current form should be required.\n\t * @memberof ApiFormBase\n\t * @param {boolean} bRequired - Defines if the current form is required (true) or not (false).\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        585433,
-        585815
+        585646,
+        586028
       ],
-      "lineno": 18197,
+      "lineno": 18200,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Specifies if the current form should be required.",
     "memberof": "ApiFormBase",
@@ -1473,12 +1473,12 @@
     "comment": "/**\n\t * Checks if the current form is fixed size.\n\t * @memberof ApiFormBase\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        585957,
-        586080
+        586170,
+        586293
       ],
-      "lineno": 18218,
+      "lineno": 18221,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Checks if the current form is fixed size.",
     "memberof": "ApiFormBase",
@@ -1504,12 +1504,12 @@
     "comment": "/**\n\t * Converts the current form to a fixed size form.\n\t * @memberof ApiFormBase\n\t * @param {twips} nWidth - The wrapper shape width measured in twentieths of a point (1/1440 of an inch).\n\t * @param {twips} nHeight - The wrapper shape height measured in twentieths of a point (1/1440 of an inch).\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        586444,
-        586710
+        586657,
+        586923
       ],
-      "lineno": 18230,
+      "lineno": 18233,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Converts the current form to a fixed size form.",
     "memberof": "ApiFormBase",
@@ -1563,12 +1563,12 @@
     "comment": "/**\n\t * Converts the current form to an inline form.\n\t * *Picture form can't be converted to an inline form, it's always a fixed size object.*\n\t * @memberof ApiFormBase\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        586945,
-        587148
+        587158,
+        587361
       ],
-      "lineno": 18247,
+      "lineno": 18250,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Converts the current form to an inline form.\n*Picture form can't be converted to an inline form, it's always a fixed size object.*",
     "memberof": "ApiFormBase",
@@ -1594,12 +1594,12 @@
     "comment": "/**\n\t * Sets the border color to the current form.\n\t * @memberof ApiFormBase\n\t * @param {byte} r - Red color component value.\n\t * @param {byte} g - Green color component value.\n\t * @param {byte} b - Blue color component value.\n\t * @param {boolean} bNone - Defines that border color will not be set.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        587513,
-        588051
+        587726,
+        588264
       ],
-      "lineno": 18267,
+      "lineno": 18270,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Sets the border color to the current form.",
     "memberof": "ApiFormBase",
@@ -1679,12 +1679,12 @@
     "comment": "/**\n\t * Sets the background color to the current form.\n\t * @memberof ApiFormBase\n\t * @param {byte} r - Red color component value.\n\t * @param {byte} g - Green color component value.\n\t * @param {byte} b - Blue color component value.\n\t * @param {boolean} bNone - Defines that background color will not be set.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        588424,
-        589182
+        588637,
+        589395
       ],
-      "lineno": 18298,
+      "lineno": 18301,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Sets the background color to the current form.",
     "memberof": "ApiFormBase",
@@ -1764,12 +1764,12 @@
     "comment": "/**\n\t * Returns the text from the current form.\n\t * *Returns the value as a string if possible for the given form type*\n\t * @memberof ApiFormBase\n\t * @returns {string}\n\t */",
     "meta": {
       "range": [
-        589393,
-        589475
+        589606,
+        589688
       ],
-      "lineno": 18340,
+      "lineno": 18343,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Returns the text from the current form.\n*Returns the value as a string if possible for the given form type*",
     "memberof": "ApiFormBase",
@@ -1795,12 +1795,12 @@
     "comment": "/**\n\t * Clears the current form.\n\t * @memberof ApiFormBase\n\t */",
     "meta": {
       "range": [
-        589577,
-        589718
+        589790,
+        589931
       ],
-      "lineno": 18349,
+      "lineno": 18352,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Clears the current form.",
     "memberof": "ApiFormBase",
@@ -1813,12 +1813,12 @@
     "comment": "/**\n\t * Returns a shape in which the form is placed to control the position and size of the fixed size form frame.\n\t * The null value will be returned for the inline forms.\n\t * @memberof ApiFormBase\n\t * @returns {?ApiShape} - returns the shape in which the form is placed.\n\t */",
     "meta": {
       "range": [
-        590034,
-        590342
+        590247,
+        590555
       ],
-      "lineno": 18362,
+      "lineno": 18365,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Returns a shape in which the form is placed to control the position and size of the fixed size form frame.\nThe null value will be returned for the inline forms.",
     "memberof": "ApiFormBase",
@@ -1847,12 +1847,12 @@
     "comment": "/**\n\t * Sets the placeholder text to the current form.\n\t * *Can't be set to checkbox or radio button.*\n\t * @memberof ApiFormBase\n\t * @param {string} sText - The text that will be set to the current form.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        590612,
-        590938
+        590825,
+        591151
       ],
-      "lineno": 18379,
+      "lineno": 18382,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Sets the placeholder text to the current form.\n*Can't be set to checkbox or radio button.*",
     "memberof": "ApiFormBase",
@@ -1893,12 +1893,12 @@
     "comment": "/**\n\t * Sets the text properties to the current form.\n\t * *Used if possible for this type of form*\n\t * @memberof ApiFormBase\n\t * @param {ApiTextPr} oTextPr - The text properties that will be set to the current form.\n\t * @return {boolean}  \n\t */",
     "meta": {
       "range": [
-        591221,
-        591439
+        591434,
+        591652
       ],
-      "lineno": 18399,
+      "lineno": 18402,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Sets the text properties to the current form.\n*Used if possible for this type of form*",
     "memberof": "ApiFormBase",
@@ -1939,12 +1939,12 @@
     "comment": "/**\n\t * Returns the text properties from the current form.\n\t * *Used if possible for this type of form*\n\t * @memberof ApiFormBase\n\t * @return {ApiTextPr}  \n\t */",
     "meta": {
       "range": [
-        591638,
-        591745
+        591851,
+        591958
       ],
-      "lineno": 18416,
+      "lineno": 18419,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Returns the text properties from the current form.\n*Used if possible for this type of form*",
     "memberof": "ApiFormBase",
@@ -1967,15 +1967,53 @@
     "scope": "instance"
   },
   {
+    "comment": "/**\n\t * Places a cursor before/after the current form.\n\t * @param {boolean?} [isAfter=true] - Specifies whether a cursor will be placed before (false) or after (true) the current form.\n\t * @memberof ApiFormBase\n\t * @since 8.1.0\n\t */",
+    "meta": {
+      "range": [
+        592229,
+        592347
+      ],
+      "lineno": 18430,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
+    },
+    "description": "Places a cursor before/after the current form.",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "boolean"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "boolean",
+            "nullable": true
+          }
+        },
+        "optional": true,
+        "nullable": true,
+        "defaultvalue": true,
+        "description": "Specifies whether a cursor will be placed before (false) or after (true) the current form.",
+        "name": "isAfter"
+      }
+    ],
+    "memberof": "ApiFormBase",
+    "since": "8.1.0",
+    "name": "MoveCursorOutside",
+    "longname": "ApiFormBase#MoveCursorOutside",
+    "kind": "function",
+    "scope": "instance"
+  },
+  {
     "comment": "/**\n\t * Copies the current form (copies with the shape if it exists).\n\t * @memberof ApiFormBase\n\t * @returns {?ApiForm}\n\t */",
     "meta": {
       "range": [
-        592177,
-        593013
+        592510,
+        593346
       ],
-      "lineno": 18436,
+      "lineno": 18440,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Copies the current form (copies with the shape if it exists).",
     "memberof": "ApiFormBase",
@@ -2003,12 +2041,12 @@
     "comment": "/**\n\t * Checks if the text field content is autofit, i.e. whether the font size adjusts to the size of the fixed size form.\n\t * @memberof ApiTextForm\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        593491,
-        593579
+        593824,
+        593912
       ],
-      "lineno": 18484,
+      "lineno": 18488,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Checks if the text field content is autofit, i.e. whether the font size adjusts to the size of the fixed size form.",
     "memberof": "ApiTextForm",
@@ -2034,12 +2072,12 @@
     "comment": "/**\n\t * Specifies if the text field content should be autofit, i.e. whether the font size adjusts to the size of the fixed size form.\n\t * @memberof ApiTextForm\n\t * @param {boolean} bAutoFit - Defines if the text field content is autofit (true) or not (false).\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        593905,
-        594283
+        594238,
+        594616
       ],
-      "lineno": 18495,
+      "lineno": 18499,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Specifies if the text field content should be autofit, i.e. whether the font size adjusts to the size of the fixed size form.",
     "memberof": "ApiTextForm",
@@ -2080,12 +2118,12 @@
     "comment": "/**\n\t * Checks if the current text field is multiline.\n\t * @memberof ApiTextForm\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        594430,
-        594519
+        594763,
+        594852
       ],
-      "lineno": 18516,
+      "lineno": 18520,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Checks if the current text field is multiline.",
     "memberof": "ApiTextForm",
@@ -2111,12 +2149,12 @@
     "comment": "/**\n\t * Specifies if the current text field should be miltiline.\n\t * @memberof ApiTextForm\n\t * @param {boolean} bMultiline - Defines if the current text field is multiline (true) or not (false).\n\t * @returns {boolean} - return false, if the text field is not fixed size.\n\t */",
     "meta": {
       "range": [
-        594833,
-        595267
+        595166,
+        595600
       ],
-      "lineno": 18527,
+      "lineno": 18531,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Specifies if the current text field should be miltiline.",
     "memberof": "ApiTextForm",
@@ -2158,12 +2196,12 @@
     "comment": "/**\n\t * Returns a limit of the text field characters.\n\t * @memberof ApiTextForm\n\t * @returns {number} - if this method returns -1 -> the form has no limit for characters\n\t */",
     "meta": {
       "range": [
-        595480,
-        595637
+        595813,
+        595970
       ],
-      "lineno": 18550,
+      "lineno": 18554,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Returns a limit of the text field characters.",
     "memberof": "ApiTextForm",
@@ -2190,12 +2228,12 @@
     "comment": "/**\n\t * Sets a limit to the text field characters.\n\t * @memberof ApiTextForm\n\t * @param {number} nChars - The maximum number of characters in the text field. If this parameter is equal to -1, no limit will be set.\n\t * A limit is required to be set if a comb of characters is applied.\n\t * Maximum value for this parameter is 1000000.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        596036,
-        596561
+        596369,
+        596894
       ],
-      "lineno": 18567,
+      "lineno": 18571,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Sets a limit to the text field characters.",
     "memberof": "ApiTextForm",
@@ -2236,12 +2274,12 @@
     "comment": "/**\n\t * Checks if the text field is a comb of characters with the same cell width.\n\t * @memberof ApiTextForm\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        596736,
-        596858
+        597069,
+        597191
       ],
-      "lineno": 18596,
+      "lineno": 18600,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Checks if the text field is a comb of characters with the same cell width.",
     "memberof": "ApiTextForm",
@@ -2267,12 +2305,12 @@
     "comment": "/**\n\t * Specifies if the text field should be a comb of characters with the same cell width.\n\t * The maximum number of characters must be set to a positive value.\n\t * @memberof ApiTextForm\n\t * @param {boolean} bComb - Defines if the text field is a comb of characters (true) or not (false).\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        597215,
-        597693
+        597548,
+        598026
       ],
-      "lineno": 18609,
+      "lineno": 18613,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Specifies if the text field should be a comb of characters with the same cell width.\nThe maximum number of characters must be set to a positive value.",
     "memberof": "ApiTextForm",
@@ -2313,12 +2351,12 @@
     "comment": "/**\n\t * Sets the cell width to the applied comb of characters.\n\t * @memberof ApiTextForm\n\t * @param {mm} [nCellWidth=0] - The cell width measured in millimeters.\n\t * If this parameter is not specified or equal to 0 or less, then the width will be set automatically. Must be >= 1 and <= 558.8.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        598052,
-        598588
+        598385,
+        598921
       ],
-      "lineno": 18640,
+      "lineno": 18644,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Sets the cell width to the applied comb of characters.",
     "memberof": "ApiTextForm",
@@ -2361,12 +2399,12 @@
     "comment": "/**\n\t * Sets the text to the current text field.\n\t * @memberof ApiTextForm\n\t * @param {string} sText - The text that will be set to the current text field.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        598810,
-        599079
+        599143,
+        599412
       ],
-      "lineno": 18664,
+      "lineno": 18668,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Sets the text to the current text field.",
     "memberof": "ApiTextForm",
@@ -2407,12 +2445,12 @@
     "comment": "/**\n\t * Returns the current scaling condition of the picture form.\n\t * @memberof ApiPictureForm\n\t * @returns {ScaleFlag}\n\t */",
     "meta": {
       "range": [
-        599508,
-        600033
+        599841,
+        600366
       ],
-      "lineno": 18689,
+      "lineno": 18693,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Returns the current scaling condition of the picture form.",
     "memberof": "ApiPictureForm",
@@ -2438,12 +2476,12 @@
     "comment": "/**\n\t * Sets the scaling condition to the current picture form.\n\t * @memberof ApiPictureForm\n\t * @param {ScaleFlag} sScaleFlag - Picture scaling condition: \"always\", \"never\", \"tooBig\" or \"tooSmall\".\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        600298,
-        601029
+        600631,
+        601362
       ],
-      "lineno": 18718,
+      "lineno": 18722,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Sets the scaling condition to the current picture form.",
     "memberof": "ApiPictureForm",
@@ -2484,12 +2522,12 @@
     "comment": "/**\n\t * Locks the aspect ratio of the current picture form.\n\t * @memberof ApiPictureForm\n\t * @param {boolean} [isLock=true] - Specifies if the aspect ratio of the current picture form will be locked (true) or not (false).\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        601317,
-        601644
+        601650,
+        601977
       ],
-      "lineno": 18754,
+      "lineno": 18758,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Locks the aspect ratio of the current picture form.",
     "memberof": "ApiPictureForm",
@@ -2532,12 +2570,12 @@
     "comment": "/**\n\t * Checks if the aspect ratio of the current picture form is locked or not.\n\t * @memberof ApiPictureForm\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        601820,
-        601943
+        602153,
+        602276
       ],
-      "lineno": 18770,
+      "lineno": 18774,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Checks if the aspect ratio of the current picture form is locked or not.",
     "memberof": "ApiPictureForm",
@@ -2563,12 +2601,12 @@
     "comment": "/**\n\t * Sets the picture position inside the current form:\n\t * * <b>0</b> - the picture is placed on the left/top;\n\t * * <b>50</b> - the picture is placed in the center;\n\t * * <b>100</b> - the picture is placed on the right/bottom.\n\t * @memberof ApiPictureForm\n\t * @param {percentage} nShiftX - Horizontal position measured in percent.\n\t * @param {percentage} nShiftY - Vertical position measured in percent.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        602418,
-        602861
+        602751,
+        603194
       ],
-      "lineno": 18785,
+      "lineno": 18789,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Sets the picture position inside the current form:\n* <b>0</b> - the picture is placed on the left/top;\n* <b>50</b> - the picture is placed in the center;\n* <b>100</b> - the picture is placed on the right/bottom.",
     "memberof": "ApiPictureForm",
@@ -2622,12 +2660,12 @@
     "comment": "/**\n\t * Returns the picture position inside the current form.\n\t * @memberof ApiPictureForm\n\t * @returns {Array.<percentage>} Array of two numbers [shiftX, shiftY]\n\t */",
     "meta": {
       "range": [
-        603067,
-        603239
+        603400,
+        603572
       ],
-      "lineno": 18802,
+      "lineno": 18806,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Returns the picture position inside the current form.",
     "memberof": "ApiPictureForm",
@@ -2663,12 +2701,12 @@
     "comment": "/**\n\t * Respects the form border width when scaling the image.\n\t * @memberof ApiPictureForm\n\t * @param {boolean} [isRespect=true] - Specifies if the form border width will be respected (true) or not (false).\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        603513,
-        603839
+        603846,
+        604172
       ],
-      "lineno": 18814,
+      "lineno": 18818,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Respects the form border width when scaling the image.",
     "memberof": "ApiPictureForm",
@@ -2711,12 +2749,12 @@
     "comment": "/**\n\t * Checks if the form border width is respected or not.\n\t * @memberof ApiPictureForm\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        603995,
-        604112
+        604328,
+        604445
       ],
-      "lineno": 18830,
+      "lineno": 18834,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Checks if the form border width is respected or not.",
     "memberof": "ApiPictureForm",
@@ -2742,12 +2780,12 @@
     "comment": "/**\n\t * Returns an image in the base64 format from the current picture form.\n\t * @memberof ApiPictureForm\n\t * @returns {base64img}\n\t */",
     "meta": {
       "range": [
-        604286,
-        604644
+        604619,
+        604977
       ],
-      "lineno": 18840,
+      "lineno": 18844,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Returns an image in the base64 format from the current picture form.",
     "memberof": "ApiPictureForm",
@@ -2773,12 +2811,12 @@
     "comment": "/**\n\t * Sets an image to the current picture form.\n\t * @memberof ApiPictureForm\n\t * @param {string} sImageSrc - The image source where the image to be inserted should be taken from (currently, only internet URL or base64 encoded images are supported).\n\t * @param {EMU} nWidth - The image width in English measure units.\n\t * @param {EMU} nHeight - The image height in English measure units.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        605100,
-        606319
+        605433,
+        607080
       ],
-      "lineno": 18866,
+      "lineno": 18870,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Sets an image to the current picture form.",
     "memberof": "ApiPictureForm",
@@ -2845,12 +2883,12 @@
     "comment": "/**\n\t * Returns the list values from the current combo box.\n\t * @memberof ApiComboBoxForm\n\t * @returns {string[]}\n\t */",
     "meta": {
       "range": [
-        606742,
-        607113
+        607503,
+        607874
       ],
-      "lineno": 18934,
+      "lineno": 18947,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Returns the list values from the current combo box.",
     "memberof": "ApiComboBoxForm",
@@ -2885,12 +2923,12 @@
     "comment": "/**\n\t * Sets the list values to the current combo box.\n\t * @memberof ApiComboBoxForm\n\t * @param {string[]} aListString - The combo box list values.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        607327,
-        608090
+        608088,
+        608851
       ],
-      "lineno": 18954,
+      "lineno": 18967,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Sets the list values to the current combo box.",
     "memberof": "ApiComboBoxForm",
@@ -2940,12 +2978,12 @@
     "comment": "/**\n\t * Selects the specified value from the combo box list values. \n\t * @memberof ApiComboBoxForm\n\t * @param {string} sValue - The combo box list value that will be selected.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        608332,
-        608822
+        609093,
+        609583
       ],
-      "lineno": 18988,
+      "lineno": 19001,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Selects the specified value from the combo box list values.",
     "memberof": "ApiComboBoxForm",
@@ -2986,12 +3024,12 @@
     "comment": "/**\n\t * Sets the text to the current combo box.\n\t * *Available only for editable combo box forms.*\n\t * @memberof ApiComboBoxForm\n\t * @param {string} sText - The combo box text.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        609065,
-        609524
+        609826,
+        610285
       ],
-      "lineno": 19014,
+      "lineno": 19027,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Sets the text to the current combo box.\n*Available only for editable combo box forms.*",
     "memberof": "ApiComboBoxForm",
@@ -3032,12 +3070,12 @@
     "comment": "/**\n\t * Checks if the combo box text can be edited. If it is not editable, then this form is a dropdown list.\n\t * @memberof ApiComboBoxForm\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        609730,
-        609819
+        610491,
+        610580
       ],
-      "lineno": 19040,
+      "lineno": 19053,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Checks if the combo box text can be edited. If it is not editable, then this form is a dropdown list.",
     "memberof": "ApiComboBoxForm",
@@ -3063,12 +3101,12 @@
     "comment": "/**\n\t * Checks the current checkbox.\n\t * @memberof ApiCheckBoxForm\n\t * @param {boolean} isChecked - Specifies if the current checkbox will be checked (true) or not (false).\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        610324,
-        610587
+        611085,
+        611348
       ],
-      "lineno": 19058,
+      "lineno": 19071,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Checks the current checkbox.",
     "memberof": "ApiCheckBoxForm",
@@ -3109,12 +3147,12 @@
     "comment": "/**\n\t * Returns the state of the current checkbox (checked or not).\n\t * @memberof ApiCheckBoxForm\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        610751,
-        610844
+        611512,
+        611605
       ],
-      "lineno": 19075,
+      "lineno": 19088,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Returns the state of the current checkbox (checked or not).",
     "memberof": "ApiCheckBoxForm",
@@ -3140,12 +3178,12 @@
     "comment": "/**\n\t * Checks if the current checkbox is a radio button. \n\t * @memberof ApiCheckBoxForm\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        610999,
-        611092
+        611760,
+        611853
       ],
-      "lineno": 19085,
+      "lineno": 19098,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Checks if the current checkbox is a radio button.",
     "memberof": "ApiCheckBoxForm",
@@ -3171,12 +3209,12 @@
     "comment": "/**\n\t * Returns the radio group key if the current checkbox is a radio button.\n\t * @memberof ApiCheckBoxForm\n\t * @returns {string}\n\t */",
     "meta": {
       "range": [
-        611266,
-        611422
+        612027,
+        612183
       ],
-      "lineno": 19095,
+      "lineno": 19108,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Returns the radio group key if the current checkbox is a radio button.",
     "memberof": "ApiCheckBoxForm",
@@ -3202,12 +3240,12 @@
     "comment": "/**\n\t * Sets the radio group key to the current radio button.\n\t * @memberof ApiCheckBoxForm\n\t * @param {string} sKey - Radio group key.\n\t */",
     "meta": {
       "range": [
-        611601,
-        611866
+        612362,
+        612627
       ],
-      "lineno": 19106,
+      "lineno": 19119,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Sets the radio group key to the current radio button.",
     "memberof": "ApiCheckBoxForm",
@@ -3235,12 +3273,12 @@
     "comment": "/**\n\t * Gets the date format of the current form.\n\t * @memberof ApiDateForm\n\t * @returns {string}\n\t * @since 8.1.0\n\t */",
     "meta": {
       "range": [
-        612287,
-        612414
+        613048,
+        613175
       ],
-      "lineno": 19132,
+      "lineno": 19145,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Gets the date format of the current form.",
     "memberof": "ApiDateForm",
@@ -3267,12 +3305,12 @@
     "comment": "/**\n\t * Sets the date format to the current form.\n\t * @memberof ApiDateForm\n\t * @param {string} sFormat - The date format. For example, mm.dd.yyyy\n\t * @returns {boolean}\n\t * @since 8.1.0\n\t */",
     "meta": {
       "range": [
-        612645,
-        612995
+        613406,
+        613756
       ],
-      "lineno": 19145,
+      "lineno": 19158,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Sets the date format to the current form.",
     "memberof": "ApiDateForm",
@@ -3314,12 +3352,12 @@
     "comment": "/**\n\t * Gets the used date language of the current form.\n\t * @memberof ApiDateForm\n\t * @returns {string}\n\t * @since 8.1.0\n\t */",
     "meta": {
       "range": [
-        613161,
-        613381
+        613922,
+        614142
       ],
-      "lineno": 19166,
+      "lineno": 19179,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Gets the used date language of the current form.",
     "memberof": "ApiDateForm",
@@ -3346,12 +3384,12 @@
     "comment": "/**\n\t * Sets the date language to the current form.\n\t * @memberof ApiDateForm\n\t * @param {string} sLangId - The date language. The possible value for this parameter is a language identifier as defined in\n\t * RFC 4646/BCP 47. Example: \"en-CA\".\n\t * @returns {boolean}\n\t * @since 8.1.0\n\t */",
     "meta": {
       "range": [
-        613708,
-        614077
+        614469,
+        614838
       ],
-      "lineno": 19185,
+      "lineno": 19198,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Sets the date language to the current form.",
     "memberof": "ApiDateForm",
@@ -3393,12 +3431,12 @@
     "comment": "/**\n\t * Returns the timestamp of the current form.\n\t * @memberof ApiDateForm\n\t * @returns {number}\n\t * @since 8.1.0\n\t */",
     "meta": {
       "range": [
-        614237,
-        614403
+        614998,
+        615164
       ],
-      "lineno": 19207,
+      "lineno": 19220,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Returns the timestamp of the current form.",
     "memberof": "ApiDateForm",
@@ -3425,12 +3463,12 @@
     "comment": "/**\n\t * Sets the timestamp to the current form.\n\t * @memberof ApiDateForm\n\t * @param {number} nTimeStamp The timestamp that will be set to the current date form.\n\t * @returns {boolean}\n\t * @since 8.1.0\n\t */",
     "meta": {
       "range": [
-        614649,
-        615016
+        615410,
+        615777
       ],
-      "lineno": 19223,
+      "lineno": 19236,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Sets the timestamp to the current form.",
     "memberof": "ApiDateForm",
@@ -3472,12 +3510,12 @@
     "comment": "/**\n\t * Returns a type of the ApiFormBase class.\n\t * @memberof ApiFormBase\n\t * @returns {\"form\"}\n\t */",
     "meta": {
       "range": [
-        582424,
-        582494
+        582637,
+        582707
       ],
-      "lineno": 18071,
+      "lineno": 18074,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "GetClassType",
     "longname": "ApiTextForm#GetClassType",
@@ -3505,12 +3543,12 @@
     "comment": "/**\n\t * Returns a type of the current form.\n\t * @memberof ApiFormBase\n\t * @returns {FormType}\n\t */",
     "meta": {
       "range": [
-        582631,
-        583074
+        582844,
+        583287
       ],
-      "lineno": 18081,
+      "lineno": 18084,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "GetFormType",
     "longname": "ApiTextForm#GetFormType",
@@ -3538,12 +3576,12 @@
     "comment": "/**\n\t * Returns the current form key.\n\t * @memberof ApiFormBase\n\t * @returns {string}\n\t */",
     "meta": {
       "range": [
-        583203,
-        583462
+        583416,
+        583675
       ],
-      "lineno": 18104,
+      "lineno": 18107,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "GetFormKey",
     "longname": "ApiTextForm#GetFormKey",
@@ -3571,12 +3609,12 @@
     "comment": "/**\n\t * Sets a key to the current form.\n\t * @memberof ApiFormBase\n\t * @param {string} sKey - Form key.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        583631,
-        584148
+        583844,
+        584361
       ],
-      "lineno": 18123,
+      "lineno": 18126,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "SetFormKey",
     "longname": "ApiTextForm#SetFormKey",
@@ -3619,12 +3657,12 @@
     "comment": "/**\n\t * Returns the tip text of the current form.\n\t * @memberof ApiFormBase\n\t * @returns {string}\n\t */",
     "meta": {
       "range": [
-        584289,
-        584472
+        584502,
+        584685
       ],
-      "lineno": 18151,
+      "lineno": 18154,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "GetTipText",
     "longname": "ApiTextForm#GetTipText",
@@ -3652,12 +3690,12 @@
     "comment": "/**\n\t * Sets the tip text to the current form.\n\t * @memberof ApiFormBase\n\t * @param {string} sText - Tip text.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        584649,
-        584960
+        584862,
+        585173
       ],
-      "lineno": 18167,
+      "lineno": 18170,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "SetTipText",
     "longname": "ApiTextForm#SetTipText",
@@ -3700,12 +3738,12 @@
     "comment": "/**\n\t * Checks if the current form is required.\n\t * @memberof ApiFormBase\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        585100,
-        585187
+        585313,
+        585400
       ],
-      "lineno": 18186,
+      "lineno": 18189,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "IsRequired",
     "longname": "ApiTextForm#IsRequired",
@@ -3733,12 +3771,12 @@
     "comment": "/**\n\t * Specifies if the current form should be required.\n\t * @memberof ApiFormBase\n\t * @param {boolean} bRequired - Defines if the current form is required (true) or not (false).\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        585433,
-        585815
+        585646,
+        586028
       ],
-      "lineno": 18197,
+      "lineno": 18200,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "SetRequired",
     "longname": "ApiTextForm#SetRequired",
@@ -3781,12 +3819,12 @@
     "comment": "/**\n\t * Checks if the current form is fixed size.\n\t * @memberof ApiFormBase\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        585957,
-        586080
+        586170,
+        586293
       ],
-      "lineno": 18218,
+      "lineno": 18221,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "IsFixed",
     "longname": "ApiTextForm#IsFixed",
@@ -3814,12 +3852,12 @@
     "comment": "/**\n\t * Converts the current form to a fixed size form.\n\t * @memberof ApiFormBase\n\t * @param {twips} nWidth - The wrapper shape width measured in twentieths of a point (1/1440 of an inch).\n\t * @param {twips} nHeight - The wrapper shape height measured in twentieths of a point (1/1440 of an inch).\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        586444,
-        586710
+        586657,
+        586923
       ],
-      "lineno": 18230,
+      "lineno": 18233,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "ToFixed",
     "longname": "ApiTextForm#ToFixed",
@@ -3875,12 +3913,12 @@
     "comment": "/**\n\t * Converts the current form to an inline form.\n\t * *Picture form can't be converted to an inline form, it's always a fixed size object.*\n\t * @memberof ApiFormBase\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        586945,
-        587148
+        587158,
+        587361
       ],
-      "lineno": 18247,
+      "lineno": 18250,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "ToInline",
     "longname": "ApiTextForm#ToInline",
@@ -3908,12 +3946,12 @@
     "comment": "/**\n\t * Sets the border color to the current form.\n\t * @memberof ApiFormBase\n\t * @param {byte} r - Red color component value.\n\t * @param {byte} g - Green color component value.\n\t * @param {byte} b - Blue color component value.\n\t * @param {boolean} bNone - Defines that border color will not be set.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        587513,
-        588051
+        587726,
+        588264
       ],
-      "lineno": 18267,
+      "lineno": 18270,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "SetBorderColor",
     "longname": "ApiTextForm#SetBorderColor",
@@ -3995,12 +4033,12 @@
     "comment": "/**\n\t * Sets the background color to the current form.\n\t * @memberof ApiFormBase\n\t * @param {byte} r - Red color component value.\n\t * @param {byte} g - Green color component value.\n\t * @param {byte} b - Blue color component value.\n\t * @param {boolean} bNone - Defines that background color will not be set.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        588424,
-        589182
+        588637,
+        589395
       ],
-      "lineno": 18298,
+      "lineno": 18301,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "SetBackgroundColor",
     "longname": "ApiTextForm#SetBackgroundColor",
@@ -4082,12 +4120,12 @@
     "comment": "/**\n\t * Returns the text from the current form.\n\t * *Returns the value as a string if possible for the given form type*\n\t * @memberof ApiFormBase\n\t * @returns {string}\n\t */",
     "meta": {
       "range": [
-        589393,
-        589475
+        589606,
+        589688
       ],
-      "lineno": 18340,
+      "lineno": 18343,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "GetText",
     "longname": "ApiTextForm#GetText",
@@ -4115,12 +4153,12 @@
     "comment": "/**\n\t * Clears the current form.\n\t * @memberof ApiFormBase\n\t */",
     "meta": {
       "range": [
-        589577,
-        589718
+        589790,
+        589931
       ],
-      "lineno": 18349,
+      "lineno": 18352,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "Clear",
     "longname": "ApiTextForm#Clear",
@@ -4135,12 +4173,12 @@
     "comment": "/**\n\t * Returns a shape in which the form is placed to control the position and size of the fixed size form frame.\n\t * The null value will be returned for the inline forms.\n\t * @memberof ApiFormBase\n\t * @returns {?ApiShape} - returns the shape in which the form is placed.\n\t */",
     "meta": {
       "range": [
-        590034,
-        590342
+        590247,
+        590555
       ],
-      "lineno": 18362,
+      "lineno": 18365,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "GetWrapperShape",
     "longname": "ApiTextForm#GetWrapperShape",
@@ -4171,12 +4209,12 @@
     "comment": "/**\n\t * Sets the placeholder text to the current form.\n\t * *Can't be set to checkbox or radio button.*\n\t * @memberof ApiFormBase\n\t * @param {string} sText - The text that will be set to the current form.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        590612,
-        590938
+        590825,
+        591151
       ],
-      "lineno": 18379,
+      "lineno": 18382,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "SetPlaceholderText",
     "longname": "ApiTextForm#SetPlaceholderText",
@@ -4219,12 +4257,12 @@
     "comment": "/**\n\t * Sets the text properties to the current form.\n\t * *Used if possible for this type of form*\n\t * @memberof ApiFormBase\n\t * @param {ApiTextPr} oTextPr - The text properties that will be set to the current form.\n\t * @return {boolean}  \n\t */",
     "meta": {
       "range": [
-        591221,
-        591439
+        591434,
+        591652
       ],
-      "lineno": 18399,
+      "lineno": 18402,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "SetTextPr",
     "longname": "ApiTextForm#SetTextPr",
@@ -4267,12 +4305,12 @@
     "comment": "/**\n\t * Returns the text properties from the current form.\n\t * *Used if possible for this type of form*\n\t * @memberof ApiFormBase\n\t * @return {ApiTextPr}  \n\t */",
     "meta": {
       "range": [
-        591638,
-        591745
+        591851,
+        591958
       ],
-      "lineno": 18416,
+      "lineno": 18419,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "GetTextPr",
     "longname": "ApiTextForm#GetTextPr",
@@ -4297,15 +4335,55 @@
     "inherited": true
   },
   {
+    "comment": "/**\n\t * Places a cursor before/after the current form.\n\t * @param {boolean?} [isAfter=true] - Specifies whether a cursor will be placed before (false) or after (true) the current form.\n\t * @memberof ApiFormBase\n\t * @since 8.1.0\n\t */",
+    "meta": {
+      "range": [
+        592229,
+        592347
+      ],
+      "lineno": 18430,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
+    },
+    "name": "MoveCursorOutside",
+    "longname": "ApiTextForm#MoveCursorOutside",
+    "kind": "function",
+    "description": "Places a cursor before/after the current form.",
+    "memberof": "ApiTextForm",
+    "since": "8.1.0",
+    "scope": "instance",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "boolean"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "boolean",
+            "nullable": true
+          }
+        },
+        "optional": true,
+        "nullable": true,
+        "defaultvalue": true,
+        "description": "Specifies whether a cursor will be placed before (false) or after (true) the current form.",
+        "name": "isAfter"
+      }
+    ],
+    "inherits": "ApiFormBase#MoveCursorOutside",
+    "inherited": true
+  },
+  {
     "comment": "/**\n\t * Copies the current form (copies with the shape if it exists).\n\t * @memberof ApiFormBase\n\t * @returns {?ApiForm}\n\t */",
     "meta": {
       "range": [
-        592177,
-        593013
+        592510,
+        593346
       ],
-      "lineno": 18436,
+      "lineno": 18440,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "Copy",
     "longname": "ApiTextForm#Copy",
@@ -4335,12 +4413,12 @@
     "comment": "/**\n\t * Returns a type of the ApiFormBase class.\n\t * @memberof ApiFormBase\n\t * @returns {\"form\"}\n\t */",
     "meta": {
       "range": [
-        582424,
-        582494
+        582637,
+        582707
       ],
-      "lineno": 18071,
+      "lineno": 18074,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "GetClassType",
     "longname": "ApiComboBoxForm#GetClassType",
@@ -4368,12 +4446,12 @@
     "comment": "/**\n\t * Returns a type of the current form.\n\t * @memberof ApiFormBase\n\t * @returns {FormType}\n\t */",
     "meta": {
       "range": [
-        582631,
-        583074
+        582844,
+        583287
       ],
-      "lineno": 18081,
+      "lineno": 18084,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "GetFormType",
     "longname": "ApiComboBoxForm#GetFormType",
@@ -4401,12 +4479,12 @@
     "comment": "/**\n\t * Returns the current form key.\n\t * @memberof ApiFormBase\n\t * @returns {string}\n\t */",
     "meta": {
       "range": [
-        583203,
-        583462
+        583416,
+        583675
       ],
-      "lineno": 18104,
+      "lineno": 18107,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "GetFormKey",
     "longname": "ApiComboBoxForm#GetFormKey",
@@ -4434,12 +4512,12 @@
     "comment": "/**\n\t * Sets a key to the current form.\n\t * @memberof ApiFormBase\n\t * @param {string} sKey - Form key.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        583631,
-        584148
+        583844,
+        584361
       ],
-      "lineno": 18123,
+      "lineno": 18126,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "SetFormKey",
     "longname": "ApiComboBoxForm#SetFormKey",
@@ -4482,12 +4560,12 @@
     "comment": "/**\n\t * Returns the tip text of the current form.\n\t * @memberof ApiFormBase\n\t * @returns {string}\n\t */",
     "meta": {
       "range": [
-        584289,
-        584472
+        584502,
+        584685
       ],
-      "lineno": 18151,
+      "lineno": 18154,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "GetTipText",
     "longname": "ApiComboBoxForm#GetTipText",
@@ -4515,12 +4593,12 @@
     "comment": "/**\n\t * Sets the tip text to the current form.\n\t * @memberof ApiFormBase\n\t * @param {string} sText - Tip text.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        584649,
-        584960
+        584862,
+        585173
       ],
-      "lineno": 18167,
+      "lineno": 18170,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "SetTipText",
     "longname": "ApiComboBoxForm#SetTipText",
@@ -4563,12 +4641,12 @@
     "comment": "/**\n\t * Checks if the current form is required.\n\t * @memberof ApiFormBase\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        585100,
-        585187
+        585313,
+        585400
       ],
-      "lineno": 18186,
+      "lineno": 18189,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "IsRequired",
     "longname": "ApiComboBoxForm#IsRequired",
@@ -4596,12 +4674,12 @@
     "comment": "/**\n\t * Specifies if the current form should be required.\n\t * @memberof ApiFormBase\n\t * @param {boolean} bRequired - Defines if the current form is required (true) or not (false).\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        585433,
-        585815
+        585646,
+        586028
       ],
-      "lineno": 18197,
+      "lineno": 18200,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "SetRequired",
     "longname": "ApiComboBoxForm#SetRequired",
@@ -4644,12 +4722,12 @@
     "comment": "/**\n\t * Checks if the current form is fixed size.\n\t * @memberof ApiFormBase\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        585957,
-        586080
+        586170,
+        586293
       ],
-      "lineno": 18218,
+      "lineno": 18221,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "IsFixed",
     "longname": "ApiComboBoxForm#IsFixed",
@@ -4677,12 +4755,12 @@
     "comment": "/**\n\t * Converts the current form to a fixed size form.\n\t * @memberof ApiFormBase\n\t * @param {twips} nWidth - The wrapper shape width measured in twentieths of a point (1/1440 of an inch).\n\t * @param {twips} nHeight - The wrapper shape height measured in twentieths of a point (1/1440 of an inch).\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        586444,
-        586710
+        586657,
+        586923
       ],
-      "lineno": 18230,
+      "lineno": 18233,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "ToFixed",
     "longname": "ApiComboBoxForm#ToFixed",
@@ -4738,12 +4816,12 @@
     "comment": "/**\n\t * Converts the current form to an inline form.\n\t * *Picture form can't be converted to an inline form, it's always a fixed size object.*\n\t * @memberof ApiFormBase\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        586945,
-        587148
+        587158,
+        587361
       ],
-      "lineno": 18247,
+      "lineno": 18250,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "ToInline",
     "longname": "ApiComboBoxForm#ToInline",
@@ -4771,12 +4849,12 @@
     "comment": "/**\n\t * Sets the border color to the current form.\n\t * @memberof ApiFormBase\n\t * @param {byte} r - Red color component value.\n\t * @param {byte} g - Green color component value.\n\t * @param {byte} b - Blue color component value.\n\t * @param {boolean} bNone - Defines that border color will not be set.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        587513,
-        588051
+        587726,
+        588264
       ],
-      "lineno": 18267,
+      "lineno": 18270,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "SetBorderColor",
     "longname": "ApiComboBoxForm#SetBorderColor",
@@ -4858,12 +4936,12 @@
     "comment": "/**\n\t * Sets the background color to the current form.\n\t * @memberof ApiFormBase\n\t * @param {byte} r - Red color component value.\n\t * @param {byte} g - Green color component value.\n\t * @param {byte} b - Blue color component value.\n\t * @param {boolean} bNone - Defines that background color will not be set.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        588424,
-        589182
+        588637,
+        589395
       ],
-      "lineno": 18298,
+      "lineno": 18301,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "SetBackgroundColor",
     "longname": "ApiComboBoxForm#SetBackgroundColor",
@@ -4945,12 +5023,12 @@
     "comment": "/**\n\t * Returns the text from the current form.\n\t * *Returns the value as a string if possible for the given form type*\n\t * @memberof ApiFormBase\n\t * @returns {string}\n\t */",
     "meta": {
       "range": [
-        589393,
-        589475
+        589606,
+        589688
       ],
-      "lineno": 18340,
+      "lineno": 18343,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "GetText",
     "longname": "ApiComboBoxForm#GetText",
@@ -4978,12 +5056,12 @@
     "comment": "/**\n\t * Clears the current form.\n\t * @memberof ApiFormBase\n\t */",
     "meta": {
       "range": [
-        589577,
-        589718
+        589790,
+        589931
       ],
-      "lineno": 18349,
+      "lineno": 18352,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "Clear",
     "longname": "ApiComboBoxForm#Clear",
@@ -4998,12 +5076,12 @@
     "comment": "/**\n\t * Returns a shape in which the form is placed to control the position and size of the fixed size form frame.\n\t * The null value will be returned for the inline forms.\n\t * @memberof ApiFormBase\n\t * @returns {?ApiShape} - returns the shape in which the form is placed.\n\t */",
     "meta": {
       "range": [
-        590034,
-        590342
+        590247,
+        590555
       ],
-      "lineno": 18362,
+      "lineno": 18365,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "GetWrapperShape",
     "longname": "ApiComboBoxForm#GetWrapperShape",
@@ -5034,12 +5112,12 @@
     "comment": "/**\n\t * Sets the placeholder text to the current form.\n\t * *Can't be set to checkbox or radio button.*\n\t * @memberof ApiFormBase\n\t * @param {string} sText - The text that will be set to the current form.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        590612,
-        590938
+        590825,
+        591151
       ],
-      "lineno": 18379,
+      "lineno": 18382,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "SetPlaceholderText",
     "longname": "ApiComboBoxForm#SetPlaceholderText",
@@ -5082,12 +5160,12 @@
     "comment": "/**\n\t * Sets the text properties to the current form.\n\t * *Used if possible for this type of form*\n\t * @memberof ApiFormBase\n\t * @param {ApiTextPr} oTextPr - The text properties that will be set to the current form.\n\t * @return {boolean}  \n\t */",
     "meta": {
       "range": [
-        591221,
-        591439
+        591434,
+        591652
       ],
-      "lineno": 18399,
+      "lineno": 18402,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "SetTextPr",
     "longname": "ApiComboBoxForm#SetTextPr",
@@ -5130,12 +5208,12 @@
     "comment": "/**\n\t * Returns the text properties from the current form.\n\t * *Used if possible for this type of form*\n\t * @memberof ApiFormBase\n\t * @return {ApiTextPr}  \n\t */",
     "meta": {
       "range": [
-        591638,
-        591745
+        591851,
+        591958
       ],
-      "lineno": 18416,
+      "lineno": 18419,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "GetTextPr",
     "longname": "ApiComboBoxForm#GetTextPr",
@@ -5160,15 +5238,55 @@
     "inherited": true
   },
   {
+    "comment": "/**\n\t * Places a cursor before/after the current form.\n\t * @param {boolean?} [isAfter=true] - Specifies whether a cursor will be placed before (false) or after (true) the current form.\n\t * @memberof ApiFormBase\n\t * @since 8.1.0\n\t */",
+    "meta": {
+      "range": [
+        592229,
+        592347
+      ],
+      "lineno": 18430,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
+    },
+    "name": "MoveCursorOutside",
+    "longname": "ApiComboBoxForm#MoveCursorOutside",
+    "kind": "function",
+    "description": "Places a cursor before/after the current form.",
+    "memberof": "ApiComboBoxForm",
+    "since": "8.1.0",
+    "scope": "instance",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "boolean"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "boolean",
+            "nullable": true
+          }
+        },
+        "optional": true,
+        "nullable": true,
+        "defaultvalue": true,
+        "description": "Specifies whether a cursor will be placed before (false) or after (true) the current form.",
+        "name": "isAfter"
+      }
+    ],
+    "inherits": "ApiFormBase#MoveCursorOutside",
+    "inherited": true
+  },
+  {
     "comment": "/**\n\t * Copies the current form (copies with the shape if it exists).\n\t * @memberof ApiFormBase\n\t * @returns {?ApiForm}\n\t */",
     "meta": {
       "range": [
-        592177,
-        593013
+        592510,
+        593346
       ],
-      "lineno": 18436,
+      "lineno": 18440,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "Copy",
     "longname": "ApiComboBoxForm#Copy",
@@ -5198,12 +5316,12 @@
     "comment": "/**\n\t * Returns a type of the ApiFormBase class.\n\t * @memberof ApiFormBase\n\t * @returns {\"form\"}\n\t */",
     "meta": {
       "range": [
-        582424,
-        582494
+        582637,
+        582707
       ],
-      "lineno": 18071,
+      "lineno": 18074,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "GetClassType",
     "longname": "ApiCheckBoxForm#GetClassType",
@@ -5231,12 +5349,12 @@
     "comment": "/**\n\t * Returns a type of the current form.\n\t * @memberof ApiFormBase\n\t * @returns {FormType}\n\t */",
     "meta": {
       "range": [
-        582631,
-        583074
+        582844,
+        583287
       ],
-      "lineno": 18081,
+      "lineno": 18084,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "GetFormType",
     "longname": "ApiCheckBoxForm#GetFormType",
@@ -5264,12 +5382,12 @@
     "comment": "/**\n\t * Returns the current form key.\n\t * @memberof ApiFormBase\n\t * @returns {string}\n\t */",
     "meta": {
       "range": [
-        583203,
-        583462
+        583416,
+        583675
       ],
-      "lineno": 18104,
+      "lineno": 18107,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "GetFormKey",
     "longname": "ApiCheckBoxForm#GetFormKey",
@@ -5297,12 +5415,12 @@
     "comment": "/**\n\t * Sets a key to the current form.\n\t * @memberof ApiFormBase\n\t * @param {string} sKey - Form key.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        583631,
-        584148
+        583844,
+        584361
       ],
-      "lineno": 18123,
+      "lineno": 18126,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "SetFormKey",
     "longname": "ApiCheckBoxForm#SetFormKey",
@@ -5345,12 +5463,12 @@
     "comment": "/**\n\t * Returns the tip text of the current form.\n\t * @memberof ApiFormBase\n\t * @returns {string}\n\t */",
     "meta": {
       "range": [
-        584289,
-        584472
+        584502,
+        584685
       ],
-      "lineno": 18151,
+      "lineno": 18154,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "GetTipText",
     "longname": "ApiCheckBoxForm#GetTipText",
@@ -5378,12 +5496,12 @@
     "comment": "/**\n\t * Sets the tip text to the current form.\n\t * @memberof ApiFormBase\n\t * @param {string} sText - Tip text.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        584649,
-        584960
+        584862,
+        585173
       ],
-      "lineno": 18167,
+      "lineno": 18170,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "SetTipText",
     "longname": "ApiCheckBoxForm#SetTipText",
@@ -5426,12 +5544,12 @@
     "comment": "/**\n\t * Checks if the current form is required.\n\t * @memberof ApiFormBase\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        585100,
-        585187
+        585313,
+        585400
       ],
-      "lineno": 18186,
+      "lineno": 18189,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "IsRequired",
     "longname": "ApiCheckBoxForm#IsRequired",
@@ -5459,12 +5577,12 @@
     "comment": "/**\n\t * Specifies if the current form should be required.\n\t * @memberof ApiFormBase\n\t * @param {boolean} bRequired - Defines if the current form is required (true) or not (false).\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        585433,
-        585815
+        585646,
+        586028
       ],
-      "lineno": 18197,
+      "lineno": 18200,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "SetRequired",
     "longname": "ApiCheckBoxForm#SetRequired",
@@ -5507,12 +5625,12 @@
     "comment": "/**\n\t * Checks if the current form is fixed size.\n\t * @memberof ApiFormBase\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        585957,
-        586080
+        586170,
+        586293
       ],
-      "lineno": 18218,
+      "lineno": 18221,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "IsFixed",
     "longname": "ApiCheckBoxForm#IsFixed",
@@ -5540,12 +5658,12 @@
     "comment": "/**\n\t * Converts the current form to a fixed size form.\n\t * @memberof ApiFormBase\n\t * @param {twips} nWidth - The wrapper shape width measured in twentieths of a point (1/1440 of an inch).\n\t * @param {twips} nHeight - The wrapper shape height measured in twentieths of a point (1/1440 of an inch).\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        586444,
-        586710
+        586657,
+        586923
       ],
-      "lineno": 18230,
+      "lineno": 18233,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "ToFixed",
     "longname": "ApiCheckBoxForm#ToFixed",
@@ -5601,12 +5719,12 @@
     "comment": "/**\n\t * Converts the current form to an inline form.\n\t * *Picture form can't be converted to an inline form, it's always a fixed size object.*\n\t * @memberof ApiFormBase\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        586945,
-        587148
+        587158,
+        587361
       ],
-      "lineno": 18247,
+      "lineno": 18250,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "ToInline",
     "longname": "ApiCheckBoxForm#ToInline",
@@ -5634,12 +5752,12 @@
     "comment": "/**\n\t * Sets the border color to the current form.\n\t * @memberof ApiFormBase\n\t * @param {byte} r - Red color component value.\n\t * @param {byte} g - Green color component value.\n\t * @param {byte} b - Blue color component value.\n\t * @param {boolean} bNone - Defines that border color will not be set.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        587513,
-        588051
+        587726,
+        588264
       ],
-      "lineno": 18267,
+      "lineno": 18270,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "SetBorderColor",
     "longname": "ApiCheckBoxForm#SetBorderColor",
@@ -5721,12 +5839,12 @@
     "comment": "/**\n\t * Sets the background color to the current form.\n\t * @memberof ApiFormBase\n\t * @param {byte} r - Red color component value.\n\t * @param {byte} g - Green color component value.\n\t * @param {byte} b - Blue color component value.\n\t * @param {boolean} bNone - Defines that background color will not be set.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        588424,
-        589182
+        588637,
+        589395
       ],
-      "lineno": 18298,
+      "lineno": 18301,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "SetBackgroundColor",
     "longname": "ApiCheckBoxForm#SetBackgroundColor",
@@ -5808,12 +5926,12 @@
     "comment": "/**\n\t * Returns the text from the current form.\n\t * *Returns the value as a string if possible for the given form type*\n\t * @memberof ApiFormBase\n\t * @returns {string}\n\t */",
     "meta": {
       "range": [
-        589393,
-        589475
+        589606,
+        589688
       ],
-      "lineno": 18340,
+      "lineno": 18343,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "GetText",
     "longname": "ApiCheckBoxForm#GetText",
@@ -5841,12 +5959,12 @@
     "comment": "/**\n\t * Clears the current form.\n\t * @memberof ApiFormBase\n\t */",
     "meta": {
       "range": [
-        589577,
-        589718
+        589790,
+        589931
       ],
-      "lineno": 18349,
+      "lineno": 18352,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "Clear",
     "longname": "ApiCheckBoxForm#Clear",
@@ -5861,12 +5979,12 @@
     "comment": "/**\n\t * Returns a shape in which the form is placed to control the position and size of the fixed size form frame.\n\t * The null value will be returned for the inline forms.\n\t * @memberof ApiFormBase\n\t * @returns {?ApiShape} - returns the shape in which the form is placed.\n\t */",
     "meta": {
       "range": [
-        590034,
-        590342
+        590247,
+        590555
       ],
-      "lineno": 18362,
+      "lineno": 18365,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "GetWrapperShape",
     "longname": "ApiCheckBoxForm#GetWrapperShape",
@@ -5897,12 +6015,12 @@
     "comment": "/**\n\t * Sets the placeholder text to the current form.\n\t * *Can't be set to checkbox or radio button.*\n\t * @memberof ApiFormBase\n\t * @param {string} sText - The text that will be set to the current form.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        590612,
-        590938
+        590825,
+        591151
       ],
-      "lineno": 18379,
+      "lineno": 18382,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "SetPlaceholderText",
     "longname": "ApiCheckBoxForm#SetPlaceholderText",
@@ -5945,12 +6063,12 @@
     "comment": "/**\n\t * Sets the text properties to the current form.\n\t * *Used if possible for this type of form*\n\t * @memberof ApiFormBase\n\t * @param {ApiTextPr} oTextPr - The text properties that will be set to the current form.\n\t * @return {boolean}  \n\t */",
     "meta": {
       "range": [
-        591221,
-        591439
+        591434,
+        591652
       ],
-      "lineno": 18399,
+      "lineno": 18402,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "SetTextPr",
     "longname": "ApiCheckBoxForm#SetTextPr",
@@ -5993,12 +6111,12 @@
     "comment": "/**\n\t * Returns the text properties from the current form.\n\t * *Used if possible for this type of form*\n\t * @memberof ApiFormBase\n\t * @return {ApiTextPr}  \n\t */",
     "meta": {
       "range": [
-        591638,
-        591745
+        591851,
+        591958
       ],
-      "lineno": 18416,
+      "lineno": 18419,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "GetTextPr",
     "longname": "ApiCheckBoxForm#GetTextPr",
@@ -6023,15 +6141,55 @@
     "inherited": true
   },
   {
+    "comment": "/**\n\t * Places a cursor before/after the current form.\n\t * @param {boolean?} [isAfter=true] - Specifies whether a cursor will be placed before (false) or after (true) the current form.\n\t * @memberof ApiFormBase\n\t * @since 8.1.0\n\t */",
+    "meta": {
+      "range": [
+        592229,
+        592347
+      ],
+      "lineno": 18430,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
+    },
+    "name": "MoveCursorOutside",
+    "longname": "ApiCheckBoxForm#MoveCursorOutside",
+    "kind": "function",
+    "description": "Places a cursor before/after the current form.",
+    "memberof": "ApiCheckBoxForm",
+    "since": "8.1.0",
+    "scope": "instance",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "boolean"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "boolean",
+            "nullable": true
+          }
+        },
+        "optional": true,
+        "nullable": true,
+        "defaultvalue": true,
+        "description": "Specifies whether a cursor will be placed before (false) or after (true) the current form.",
+        "name": "isAfter"
+      }
+    ],
+    "inherits": "ApiFormBase#MoveCursorOutside",
+    "inherited": true
+  },
+  {
     "comment": "/**\n\t * Copies the current form (copies with the shape if it exists).\n\t * @memberof ApiFormBase\n\t * @returns {?ApiForm}\n\t */",
     "meta": {
       "range": [
-        592177,
-        593013
+        592510,
+        593346
       ],
-      "lineno": 18436,
+      "lineno": 18440,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "Copy",
     "longname": "ApiCheckBoxForm#Copy",
@@ -6061,12 +6219,12 @@
     "comment": "/**\n\t * Returns a type of the ApiFormBase class.\n\t * @memberof ApiFormBase\n\t * @returns {\"form\"}\n\t */",
     "meta": {
       "range": [
-        582424,
-        582494
+        582637,
+        582707
       ],
-      "lineno": 18071,
+      "lineno": 18074,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "GetClassType",
     "longname": "ApiPictureForm#GetClassType",
@@ -6094,12 +6252,12 @@
     "comment": "/**\n\t * Returns a type of the current form.\n\t * @memberof ApiFormBase\n\t * @returns {FormType}\n\t */",
     "meta": {
       "range": [
-        582631,
-        583074
+        582844,
+        583287
       ],
-      "lineno": 18081,
+      "lineno": 18084,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "GetFormType",
     "longname": "ApiPictureForm#GetFormType",
@@ -6127,12 +6285,12 @@
     "comment": "/**\n\t * Returns the current form key.\n\t * @memberof ApiFormBase\n\t * @returns {string}\n\t */",
     "meta": {
       "range": [
-        583203,
-        583462
+        583416,
+        583675
       ],
-      "lineno": 18104,
+      "lineno": 18107,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "GetFormKey",
     "longname": "ApiPictureForm#GetFormKey",
@@ -6160,12 +6318,12 @@
     "comment": "/**\n\t * Sets a key to the current form.\n\t * @memberof ApiFormBase\n\t * @param {string} sKey - Form key.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        583631,
-        584148
+        583844,
+        584361
       ],
-      "lineno": 18123,
+      "lineno": 18126,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "SetFormKey",
     "longname": "ApiPictureForm#SetFormKey",
@@ -6208,12 +6366,12 @@
     "comment": "/**\n\t * Returns the tip text of the current form.\n\t * @memberof ApiFormBase\n\t * @returns {string}\n\t */",
     "meta": {
       "range": [
-        584289,
-        584472
+        584502,
+        584685
       ],
-      "lineno": 18151,
+      "lineno": 18154,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "GetTipText",
     "longname": "ApiPictureForm#GetTipText",
@@ -6241,12 +6399,12 @@
     "comment": "/**\n\t * Sets the tip text to the current form.\n\t * @memberof ApiFormBase\n\t * @param {string} sText - Tip text.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        584649,
-        584960
+        584862,
+        585173
       ],
-      "lineno": 18167,
+      "lineno": 18170,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "SetTipText",
     "longname": "ApiPictureForm#SetTipText",
@@ -6289,12 +6447,12 @@
     "comment": "/**\n\t * Checks if the current form is required.\n\t * @memberof ApiFormBase\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        585100,
-        585187
+        585313,
+        585400
       ],
-      "lineno": 18186,
+      "lineno": 18189,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "IsRequired",
     "longname": "ApiPictureForm#IsRequired",
@@ -6322,12 +6480,12 @@
     "comment": "/**\n\t * Specifies if the current form should be required.\n\t * @memberof ApiFormBase\n\t * @param {boolean} bRequired - Defines if the current form is required (true) or not (false).\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        585433,
-        585815
+        585646,
+        586028
       ],
-      "lineno": 18197,
+      "lineno": 18200,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "SetRequired",
     "longname": "ApiPictureForm#SetRequired",
@@ -6370,12 +6528,12 @@
     "comment": "/**\n\t * Checks if the current form is fixed size.\n\t * @memberof ApiFormBase\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        585957,
-        586080
+        586170,
+        586293
       ],
-      "lineno": 18218,
+      "lineno": 18221,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "IsFixed",
     "longname": "ApiPictureForm#IsFixed",
@@ -6403,12 +6561,12 @@
     "comment": "/**\n\t * Converts the current form to a fixed size form.\n\t * @memberof ApiFormBase\n\t * @param {twips} nWidth - The wrapper shape width measured in twentieths of a point (1/1440 of an inch).\n\t * @param {twips} nHeight - The wrapper shape height measured in twentieths of a point (1/1440 of an inch).\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        586444,
-        586710
+        586657,
+        586923
       ],
-      "lineno": 18230,
+      "lineno": 18233,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "ToFixed",
     "longname": "ApiPictureForm#ToFixed",
@@ -6464,12 +6622,12 @@
     "comment": "/**\n\t * Converts the current form to an inline form.\n\t * *Picture form can't be converted to an inline form, it's always a fixed size object.*\n\t * @memberof ApiFormBase\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        586945,
-        587148
+        587158,
+        587361
       ],
-      "lineno": 18247,
+      "lineno": 18250,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "ToInline",
     "longname": "ApiPictureForm#ToInline",
@@ -6497,12 +6655,12 @@
     "comment": "/**\n\t * Sets the border color to the current form.\n\t * @memberof ApiFormBase\n\t * @param {byte} r - Red color component value.\n\t * @param {byte} g - Green color component value.\n\t * @param {byte} b - Blue color component value.\n\t * @param {boolean} bNone - Defines that border color will not be set.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        587513,
-        588051
+        587726,
+        588264
       ],
-      "lineno": 18267,
+      "lineno": 18270,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "SetBorderColor",
     "longname": "ApiPictureForm#SetBorderColor",
@@ -6584,12 +6742,12 @@
     "comment": "/**\n\t * Sets the background color to the current form.\n\t * @memberof ApiFormBase\n\t * @param {byte} r - Red color component value.\n\t * @param {byte} g - Green color component value.\n\t * @param {byte} b - Blue color component value.\n\t * @param {boolean} bNone - Defines that background color will not be set.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        588424,
-        589182
+        588637,
+        589395
       ],
-      "lineno": 18298,
+      "lineno": 18301,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "SetBackgroundColor",
     "longname": "ApiPictureForm#SetBackgroundColor",
@@ -6671,12 +6829,12 @@
     "comment": "/**\n\t * Returns the text from the current form.\n\t * *Returns the value as a string if possible for the given form type*\n\t * @memberof ApiFormBase\n\t * @returns {string}\n\t */",
     "meta": {
       "range": [
-        589393,
-        589475
+        589606,
+        589688
       ],
-      "lineno": 18340,
+      "lineno": 18343,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "GetText",
     "longname": "ApiPictureForm#GetText",
@@ -6704,12 +6862,12 @@
     "comment": "/**\n\t * Clears the current form.\n\t * @memberof ApiFormBase\n\t */",
     "meta": {
       "range": [
-        589577,
-        589718
+        589790,
+        589931
       ],
-      "lineno": 18349,
+      "lineno": 18352,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "Clear",
     "longname": "ApiPictureForm#Clear",
@@ -6724,12 +6882,12 @@
     "comment": "/**\n\t * Returns a shape in which the form is placed to control the position and size of the fixed size form frame.\n\t * The null value will be returned for the inline forms.\n\t * @memberof ApiFormBase\n\t * @returns {?ApiShape} - returns the shape in which the form is placed.\n\t */",
     "meta": {
       "range": [
-        590034,
-        590342
+        590247,
+        590555
       ],
-      "lineno": 18362,
+      "lineno": 18365,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "GetWrapperShape",
     "longname": "ApiPictureForm#GetWrapperShape",
@@ -6760,12 +6918,12 @@
     "comment": "/**\n\t * Sets the placeholder text to the current form.\n\t * *Can't be set to checkbox or radio button.*\n\t * @memberof ApiFormBase\n\t * @param {string} sText - The text that will be set to the current form.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        590612,
-        590938
+        590825,
+        591151
       ],
-      "lineno": 18379,
+      "lineno": 18382,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "SetPlaceholderText",
     "longname": "ApiPictureForm#SetPlaceholderText",
@@ -6808,12 +6966,12 @@
     "comment": "/**\n\t * Sets the text properties to the current form.\n\t * *Used if possible for this type of form*\n\t * @memberof ApiFormBase\n\t * @param {ApiTextPr} oTextPr - The text properties that will be set to the current form.\n\t * @return {boolean}  \n\t */",
     "meta": {
       "range": [
-        591221,
-        591439
+        591434,
+        591652
       ],
-      "lineno": 18399,
+      "lineno": 18402,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "SetTextPr",
     "longname": "ApiPictureForm#SetTextPr",
@@ -6856,12 +7014,12 @@
     "comment": "/**\n\t * Returns the text properties from the current form.\n\t * *Used if possible for this type of form*\n\t * @memberof ApiFormBase\n\t * @return {ApiTextPr}  \n\t */",
     "meta": {
       "range": [
-        591638,
-        591745
+        591851,
+        591958
       ],
-      "lineno": 18416,
+      "lineno": 18419,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "GetTextPr",
     "longname": "ApiPictureForm#GetTextPr",
@@ -6886,15 +7044,55 @@
     "inherited": true
   },
   {
+    "comment": "/**\n\t * Places a cursor before/after the current form.\n\t * @param {boolean?} [isAfter=true] - Specifies whether a cursor will be placed before (false) or after (true) the current form.\n\t * @memberof ApiFormBase\n\t * @since 8.1.0\n\t */",
+    "meta": {
+      "range": [
+        592229,
+        592347
+      ],
+      "lineno": 18430,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
+    },
+    "name": "MoveCursorOutside",
+    "longname": "ApiPictureForm#MoveCursorOutside",
+    "kind": "function",
+    "description": "Places a cursor before/after the current form.",
+    "memberof": "ApiPictureForm",
+    "since": "8.1.0",
+    "scope": "instance",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "boolean"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "boolean",
+            "nullable": true
+          }
+        },
+        "optional": true,
+        "nullable": true,
+        "defaultvalue": true,
+        "description": "Specifies whether a cursor will be placed before (false) or after (true) the current form.",
+        "name": "isAfter"
+      }
+    ],
+    "inherits": "ApiFormBase#MoveCursorOutside",
+    "inherited": true
+  },
+  {
     "comment": "/**\n\t * Copies the current form (copies with the shape if it exists).\n\t * @memberof ApiFormBase\n\t * @returns {?ApiForm}\n\t */",
     "meta": {
       "range": [
-        592177,
-        593013
+        592510,
+        593346
       ],
-      "lineno": 18436,
+      "lineno": 18440,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "Copy",
     "longname": "ApiPictureForm#Copy",
@@ -6924,12 +7122,12 @@
     "comment": "/**\n\t * Returns a type of the ApiFormBase class.\n\t * @memberof ApiFormBase\n\t * @returns {\"form\"}\n\t */",
     "meta": {
       "range": [
-        582424,
-        582494
+        582637,
+        582707
       ],
-      "lineno": 18071,
+      "lineno": 18074,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "GetClassType",
     "longname": "ApiDateForm#GetClassType",
@@ -6957,12 +7155,12 @@
     "comment": "/**\n\t * Returns a type of the current form.\n\t * @memberof ApiFormBase\n\t * @returns {FormType}\n\t */",
     "meta": {
       "range": [
-        582631,
-        583074
+        582844,
+        583287
       ],
-      "lineno": 18081,
+      "lineno": 18084,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "GetFormType",
     "longname": "ApiDateForm#GetFormType",
@@ -6990,12 +7188,12 @@
     "comment": "/**\n\t * Returns the current form key.\n\t * @memberof ApiFormBase\n\t * @returns {string}\n\t */",
     "meta": {
       "range": [
-        583203,
-        583462
+        583416,
+        583675
       ],
-      "lineno": 18104,
+      "lineno": 18107,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "GetFormKey",
     "longname": "ApiDateForm#GetFormKey",
@@ -7023,12 +7221,12 @@
     "comment": "/**\n\t * Sets a key to the current form.\n\t * @memberof ApiFormBase\n\t * @param {string} sKey - Form key.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        583631,
-        584148
+        583844,
+        584361
       ],
-      "lineno": 18123,
+      "lineno": 18126,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "SetFormKey",
     "longname": "ApiDateForm#SetFormKey",
@@ -7071,12 +7269,12 @@
     "comment": "/**\n\t * Returns the tip text of the current form.\n\t * @memberof ApiFormBase\n\t * @returns {string}\n\t */",
     "meta": {
       "range": [
-        584289,
-        584472
+        584502,
+        584685
       ],
-      "lineno": 18151,
+      "lineno": 18154,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "GetTipText",
     "longname": "ApiDateForm#GetTipText",
@@ -7104,12 +7302,12 @@
     "comment": "/**\n\t * Sets the tip text to the current form.\n\t * @memberof ApiFormBase\n\t * @param {string} sText - Tip text.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        584649,
-        584960
+        584862,
+        585173
       ],
-      "lineno": 18167,
+      "lineno": 18170,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "SetTipText",
     "longname": "ApiDateForm#SetTipText",
@@ -7152,12 +7350,12 @@
     "comment": "/**\n\t * Checks if the current form is required.\n\t * @memberof ApiFormBase\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        585100,
-        585187
+        585313,
+        585400
       ],
-      "lineno": 18186,
+      "lineno": 18189,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "IsRequired",
     "longname": "ApiDateForm#IsRequired",
@@ -7185,12 +7383,12 @@
     "comment": "/**\n\t * Specifies if the current form should be required.\n\t * @memberof ApiFormBase\n\t * @param {boolean} bRequired - Defines if the current form is required (true) or not (false).\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        585433,
-        585815
+        585646,
+        586028
       ],
-      "lineno": 18197,
+      "lineno": 18200,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "SetRequired",
     "longname": "ApiDateForm#SetRequired",
@@ -7233,12 +7431,12 @@
     "comment": "/**\n\t * Checks if the current form is fixed size.\n\t * @memberof ApiFormBase\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        585957,
-        586080
+        586170,
+        586293
       ],
-      "lineno": 18218,
+      "lineno": 18221,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "IsFixed",
     "longname": "ApiDateForm#IsFixed",
@@ -7266,12 +7464,12 @@
     "comment": "/**\n\t * Converts the current form to a fixed size form.\n\t * @memberof ApiFormBase\n\t * @param {twips} nWidth - The wrapper shape width measured in twentieths of a point (1/1440 of an inch).\n\t * @param {twips} nHeight - The wrapper shape height measured in twentieths of a point (1/1440 of an inch).\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        586444,
-        586710
+        586657,
+        586923
       ],
-      "lineno": 18230,
+      "lineno": 18233,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "ToFixed",
     "longname": "ApiDateForm#ToFixed",
@@ -7327,12 +7525,12 @@
     "comment": "/**\n\t * Converts the current form to an inline form.\n\t * *Picture form can't be converted to an inline form, it's always a fixed size object.*\n\t * @memberof ApiFormBase\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        586945,
-        587148
+        587158,
+        587361
       ],
-      "lineno": 18247,
+      "lineno": 18250,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "ToInline",
     "longname": "ApiDateForm#ToInline",
@@ -7360,12 +7558,12 @@
     "comment": "/**\n\t * Sets the border color to the current form.\n\t * @memberof ApiFormBase\n\t * @param {byte} r - Red color component value.\n\t * @param {byte} g - Green color component value.\n\t * @param {byte} b - Blue color component value.\n\t * @param {boolean} bNone - Defines that border color will not be set.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        587513,
-        588051
+        587726,
+        588264
       ],
-      "lineno": 18267,
+      "lineno": 18270,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "SetBorderColor",
     "longname": "ApiDateForm#SetBorderColor",
@@ -7447,12 +7645,12 @@
     "comment": "/**\n\t * Sets the background color to the current form.\n\t * @memberof ApiFormBase\n\t * @param {byte} r - Red color component value.\n\t * @param {byte} g - Green color component value.\n\t * @param {byte} b - Blue color component value.\n\t * @param {boolean} bNone - Defines that background color will not be set.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        588424,
-        589182
+        588637,
+        589395
       ],
-      "lineno": 18298,
+      "lineno": 18301,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "SetBackgroundColor",
     "longname": "ApiDateForm#SetBackgroundColor",
@@ -7534,12 +7732,12 @@
     "comment": "/**\n\t * Returns the text from the current form.\n\t * *Returns the value as a string if possible for the given form type*\n\t * @memberof ApiFormBase\n\t * @returns {string}\n\t */",
     "meta": {
       "range": [
-        589393,
-        589475
+        589606,
+        589688
       ],
-      "lineno": 18340,
+      "lineno": 18343,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "GetText",
     "longname": "ApiDateForm#GetText",
@@ -7567,12 +7765,12 @@
     "comment": "/**\n\t * Clears the current form.\n\t * @memberof ApiFormBase\n\t */",
     "meta": {
       "range": [
-        589577,
-        589718
+        589790,
+        589931
       ],
-      "lineno": 18349,
+      "lineno": 18352,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "Clear",
     "longname": "ApiDateForm#Clear",
@@ -7587,12 +7785,12 @@
     "comment": "/**\n\t * Returns a shape in which the form is placed to control the position and size of the fixed size form frame.\n\t * The null value will be returned for the inline forms.\n\t * @memberof ApiFormBase\n\t * @returns {?ApiShape} - returns the shape in which the form is placed.\n\t */",
     "meta": {
       "range": [
-        590034,
-        590342
+        590247,
+        590555
       ],
-      "lineno": 18362,
+      "lineno": 18365,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "GetWrapperShape",
     "longname": "ApiDateForm#GetWrapperShape",
@@ -7623,12 +7821,12 @@
     "comment": "/**\n\t * Sets the placeholder text to the current form.\n\t * *Can't be set to checkbox or radio button.*\n\t * @memberof ApiFormBase\n\t * @param {string} sText - The text that will be set to the current form.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        590612,
-        590938
+        590825,
+        591151
       ],
-      "lineno": 18379,
+      "lineno": 18382,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "SetPlaceholderText",
     "longname": "ApiDateForm#SetPlaceholderText",
@@ -7671,12 +7869,12 @@
     "comment": "/**\n\t * Sets the text properties to the current form.\n\t * *Used if possible for this type of form*\n\t * @memberof ApiFormBase\n\t * @param {ApiTextPr} oTextPr - The text properties that will be set to the current form.\n\t * @return {boolean}  \n\t */",
     "meta": {
       "range": [
-        591221,
-        591439
+        591434,
+        591652
       ],
-      "lineno": 18399,
+      "lineno": 18402,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "SetTextPr",
     "longname": "ApiDateForm#SetTextPr",
@@ -7719,12 +7917,12 @@
     "comment": "/**\n\t * Returns the text properties from the current form.\n\t * *Used if possible for this type of form*\n\t * @memberof ApiFormBase\n\t * @return {ApiTextPr}  \n\t */",
     "meta": {
       "range": [
-        591638,
-        591745
+        591851,
+        591958
       ],
-      "lineno": 18416,
+      "lineno": 18419,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "GetTextPr",
     "longname": "ApiDateForm#GetTextPr",
@@ -7749,15 +7947,55 @@
     "inherited": true
   },
   {
+    "comment": "/**\n\t * Places a cursor before/after the current form.\n\t * @param {boolean?} [isAfter=true] - Specifies whether a cursor will be placed before (false) or after (true) the current form.\n\t * @memberof ApiFormBase\n\t * @since 8.1.0\n\t */",
+    "meta": {
+      "range": [
+        592229,
+        592347
+      ],
+      "lineno": 18430,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
+    },
+    "name": "MoveCursorOutside",
+    "longname": "ApiDateForm#MoveCursorOutside",
+    "kind": "function",
+    "description": "Places a cursor before/after the current form.",
+    "memberof": "ApiDateForm",
+    "since": "8.1.0",
+    "scope": "instance",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "boolean"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "boolean",
+            "nullable": true
+          }
+        },
+        "optional": true,
+        "nullable": true,
+        "defaultvalue": true,
+        "description": "Specifies whether a cursor will be placed before (false) or after (true) the current form.",
+        "name": "isAfter"
+      }
+    ],
+    "inherits": "ApiFormBase#MoveCursorOutside",
+    "inherited": true
+  },
+  {
     "comment": "/**\n\t * Copies the current form (copies with the shape if it exists).\n\t * @memberof ApiFormBase\n\t * @returns {?ApiForm}\n\t */",
     "meta": {
       "range": [
-        592177,
-        593013
+        592510,
+        593346
       ],
-      "lineno": 18436,
+      "lineno": 18440,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "Copy",
     "longname": "ApiDateForm#Copy",
@@ -7787,12 +8025,12 @@
     "comment": "/**\n\t * Returns a type of the ApiFormBase class.\n\t * @memberof ApiFormBase\n\t * @returns {\"form\"}\n\t */",
     "meta": {
       "range": [
-        582424,
-        582494
+        582637,
+        582707
       ],
-      "lineno": 18071,
+      "lineno": 18074,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "GetClassType",
     "longname": "ApiComplexForm#GetClassType",
@@ -7820,12 +8058,12 @@
     "comment": "/**\n\t * Returns a type of the current form.\n\t * @memberof ApiFormBase\n\t * @returns {FormType}\n\t */",
     "meta": {
       "range": [
-        582631,
-        583074
+        582844,
+        583287
       ],
-      "lineno": 18081,
+      "lineno": 18084,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "GetFormType",
     "longname": "ApiComplexForm#GetFormType",
@@ -7853,12 +8091,12 @@
     "comment": "/**\n\t * Returns the current form key.\n\t * @memberof ApiFormBase\n\t * @returns {string}\n\t */",
     "meta": {
       "range": [
-        583203,
-        583462
+        583416,
+        583675
       ],
-      "lineno": 18104,
+      "lineno": 18107,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "GetFormKey",
     "longname": "ApiComplexForm#GetFormKey",
@@ -7886,12 +8124,12 @@
     "comment": "/**\n\t * Sets a key to the current form.\n\t * @memberof ApiFormBase\n\t * @param {string} sKey - Form key.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        583631,
-        584148
+        583844,
+        584361
       ],
-      "lineno": 18123,
+      "lineno": 18126,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "SetFormKey",
     "longname": "ApiComplexForm#SetFormKey",
@@ -7934,12 +8172,12 @@
     "comment": "/**\n\t * Returns the tip text of the current form.\n\t * @memberof ApiFormBase\n\t * @returns {string}\n\t */",
     "meta": {
       "range": [
-        584289,
-        584472
+        584502,
+        584685
       ],
-      "lineno": 18151,
+      "lineno": 18154,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "GetTipText",
     "longname": "ApiComplexForm#GetTipText",
@@ -7967,12 +8205,12 @@
     "comment": "/**\n\t * Sets the tip text to the current form.\n\t * @memberof ApiFormBase\n\t * @param {string} sText - Tip text.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        584649,
-        584960
+        584862,
+        585173
       ],
-      "lineno": 18167,
+      "lineno": 18170,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "SetTipText",
     "longname": "ApiComplexForm#SetTipText",
@@ -8015,12 +8253,12 @@
     "comment": "/**\n\t * Checks if the current form is required.\n\t * @memberof ApiFormBase\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        585100,
-        585187
+        585313,
+        585400
       ],
-      "lineno": 18186,
+      "lineno": 18189,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "IsRequired",
     "longname": "ApiComplexForm#IsRequired",
@@ -8048,12 +8286,12 @@
     "comment": "/**\n\t * Specifies if the current form should be required.\n\t * @memberof ApiFormBase\n\t * @param {boolean} bRequired - Defines if the current form is required (true) or not (false).\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        585433,
-        585815
+        585646,
+        586028
       ],
-      "lineno": 18197,
+      "lineno": 18200,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "SetRequired",
     "longname": "ApiComplexForm#SetRequired",
@@ -8096,12 +8334,12 @@
     "comment": "/**\n\t * Checks if the current form is fixed size.\n\t * @memberof ApiFormBase\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        585957,
-        586080
+        586170,
+        586293
       ],
-      "lineno": 18218,
+      "lineno": 18221,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "IsFixed",
     "longname": "ApiComplexForm#IsFixed",
@@ -8129,12 +8367,12 @@
     "comment": "/**\n\t * Converts the current form to a fixed size form.\n\t * @memberof ApiFormBase\n\t * @param {twips} nWidth - The wrapper shape width measured in twentieths of a point (1/1440 of an inch).\n\t * @param {twips} nHeight - The wrapper shape height measured in twentieths of a point (1/1440 of an inch).\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        586444,
-        586710
+        586657,
+        586923
       ],
-      "lineno": 18230,
+      "lineno": 18233,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "ToFixed",
     "longname": "ApiComplexForm#ToFixed",
@@ -8190,12 +8428,12 @@
     "comment": "/**\n\t * Converts the current form to an inline form.\n\t * *Picture form can't be converted to an inline form, it's always a fixed size object.*\n\t * @memberof ApiFormBase\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        586945,
-        587148
+        587158,
+        587361
       ],
-      "lineno": 18247,
+      "lineno": 18250,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "ToInline",
     "longname": "ApiComplexForm#ToInline",
@@ -8223,12 +8461,12 @@
     "comment": "/**\n\t * Sets the border color to the current form.\n\t * @memberof ApiFormBase\n\t * @param {byte} r - Red color component value.\n\t * @param {byte} g - Green color component value.\n\t * @param {byte} b - Blue color component value.\n\t * @param {boolean} bNone - Defines that border color will not be set.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        587513,
-        588051
+        587726,
+        588264
       ],
-      "lineno": 18267,
+      "lineno": 18270,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "SetBorderColor",
     "longname": "ApiComplexForm#SetBorderColor",
@@ -8310,12 +8548,12 @@
     "comment": "/**\n\t * Sets the background color to the current form.\n\t * @memberof ApiFormBase\n\t * @param {byte} r - Red color component value.\n\t * @param {byte} g - Green color component value.\n\t * @param {byte} b - Blue color component value.\n\t * @param {boolean} bNone - Defines that background color will not be set.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        588424,
-        589182
+        588637,
+        589395
       ],
-      "lineno": 18298,
+      "lineno": 18301,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "SetBackgroundColor",
     "longname": "ApiComplexForm#SetBackgroundColor",
@@ -8397,12 +8635,12 @@
     "comment": "/**\n\t * Returns the text from the current form.\n\t * *Returns the value as a string if possible for the given form type*\n\t * @memberof ApiFormBase\n\t * @returns {string}\n\t */",
     "meta": {
       "range": [
-        589393,
-        589475
+        589606,
+        589688
       ],
-      "lineno": 18340,
+      "lineno": 18343,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "GetText",
     "longname": "ApiComplexForm#GetText",
@@ -8430,12 +8668,12 @@
     "comment": "/**\n\t * Clears the current form.\n\t * @memberof ApiFormBase\n\t */",
     "meta": {
       "range": [
-        589577,
-        589718
+        589790,
+        589931
       ],
-      "lineno": 18349,
+      "lineno": 18352,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "Clear",
     "longname": "ApiComplexForm#Clear",
@@ -8450,12 +8688,12 @@
     "comment": "/**\n\t * Returns a shape in which the form is placed to control the position and size of the fixed size form frame.\n\t * The null value will be returned for the inline forms.\n\t * @memberof ApiFormBase\n\t * @returns {?ApiShape} - returns the shape in which the form is placed.\n\t */",
     "meta": {
       "range": [
-        590034,
-        590342
+        590247,
+        590555
       ],
-      "lineno": 18362,
+      "lineno": 18365,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "GetWrapperShape",
     "longname": "ApiComplexForm#GetWrapperShape",
@@ -8486,12 +8724,12 @@
     "comment": "/**\n\t * Sets the placeholder text to the current form.\n\t * *Can't be set to checkbox or radio button.*\n\t * @memberof ApiFormBase\n\t * @param {string} sText - The text that will be set to the current form.\n\t * @returns {boolean}\n\t */",
     "meta": {
       "range": [
-        590612,
-        590938
+        590825,
+        591151
       ],
-      "lineno": 18379,
+      "lineno": 18382,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "SetPlaceholderText",
     "longname": "ApiComplexForm#SetPlaceholderText",
@@ -8534,12 +8772,12 @@
     "comment": "/**\n\t * Sets the text properties to the current form.\n\t * *Used if possible for this type of form*\n\t * @memberof ApiFormBase\n\t * @param {ApiTextPr} oTextPr - The text properties that will be set to the current form.\n\t * @return {boolean}  \n\t */",
     "meta": {
       "range": [
-        591221,
-        591439
+        591434,
+        591652
       ],
-      "lineno": 18399,
+      "lineno": 18402,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "SetTextPr",
     "longname": "ApiComplexForm#SetTextPr",
@@ -8582,12 +8820,12 @@
     "comment": "/**\n\t * Returns the text properties from the current form.\n\t * *Used if possible for this type of form*\n\t * @memberof ApiFormBase\n\t * @return {ApiTextPr}  \n\t */",
     "meta": {
       "range": [
-        591638,
-        591745
+        591851,
+        591958
       ],
-      "lineno": 18416,
+      "lineno": 18419,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "GetTextPr",
     "longname": "ApiComplexForm#GetTextPr",
@@ -8612,15 +8850,55 @@
     "inherited": true
   },
   {
+    "comment": "/**\n\t * Places a cursor before/after the current form.\n\t * @param {boolean?} [isAfter=true] - Specifies whether a cursor will be placed before (false) or after (true) the current form.\n\t * @memberof ApiFormBase\n\t * @since 8.1.0\n\t */",
+    "meta": {
+      "range": [
+        592229,
+        592347
+      ],
+      "lineno": 18430,
+      "columnno": 1,
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
+    },
+    "name": "MoveCursorOutside",
+    "longname": "ApiComplexForm#MoveCursorOutside",
+    "kind": "function",
+    "description": "Places a cursor before/after the current form.",
+    "memberof": "ApiComplexForm",
+    "since": "8.1.0",
+    "scope": "instance",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "boolean"
+          ],
+          "parsedType": {
+            "type": "NameExpression",
+            "name": "boolean",
+            "nullable": true
+          }
+        },
+        "optional": true,
+        "nullable": true,
+        "defaultvalue": true,
+        "description": "Specifies whether a cursor will be placed before (false) or after (true) the current form.",
+        "name": "isAfter"
+      }
+    ],
+    "inherits": "ApiFormBase#MoveCursorOutside",
+    "inherited": true
+  },
+  {
     "comment": "/**\n\t * Copies the current form (copies with the shape if it exists).\n\t * @memberof ApiFormBase\n\t * @returns {?ApiForm}\n\t */",
     "meta": {
       "range": [
-        592177,
-        593013
+        592510,
+        593346
       ],
-      "lineno": 18436,
+      "lineno": 18440,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "name": "Copy",
     "longname": "ApiComplexForm#Copy",
@@ -8649,9 +8927,9 @@
   {
     "comment": "/**\n\t * Form type.\n\t * The available form types.\n\t * @typedef {\"textForm\" | \"comboBoxForm\" | \"dropDownForm\" | \"checkBoxForm\" | \"radioButtonForm\" | \"pictureForm\"} FormType\n\t */",
     "meta": {
-      "lineno": 4004,
+      "lineno": 4022,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Form type.\nThe available form types.",
     "kind": "typedef",
@@ -8701,9 +8979,9 @@
   {
     "comment": "/**\n\t * Twentieths of a point (equivalent to 1/1440th of an inch).\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * // Set the distance between columns equal to 36 points:\n\t * oParagraph.SetEqualColumns(2, 720);\n\t * ```\n\t *\n\t * @typedef {number} twips\n\t */",
     "meta": {
-      "lineno": 3791,
+      "lineno": 3801,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Twentieths of a point (equivalent to 1/1440th of an inch).\n\n## Try it\n\n```js use-document-builder\n// Set the distance between columns equal to 36 points:\noParagraph.SetEqualColumns(2, 720);\n```",
     "kind": "typedef",
@@ -8723,9 +9001,9 @@
   {
     "comment": "/**\n\t * A numeric value from 0 to 255.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * // The resulting color is green, the bytes are measured in decimal numbers:\n\t * var oRGBColor = Api.CreateRGBColor(0, 255, 0);\n\t * // The resulting color is green, the bytes are measured in hexadecimal numbers:\n\t * var oRGBColor = Api.CreateRGBColor(0, 0xff, 0);\n\t * ```\n\t *\n\t * @typedef {number} byte\n\t */",
     "meta": {
-      "lineno": 3816,
+      "lineno": 3826,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "A numeric value from 0 to 255.\n\n## Try it\n\n```js use-document-builder\n// The resulting color is green, the bytes are measured in decimal numbers:\nvar oRGBColor = Api.CreateRGBColor(0, 255, 0);\n// The resulting color is green, the bytes are measured in hexadecimal numbers:\nvar oRGBColor = Api.CreateRGBColor(0, 0xff, 0);\n```",
     "kind": "typedef",
@@ -8746,12 +9024,12 @@
     "comment": "/**\n\t * Class representing a shape.\n\t * @constructor\n\t * */",
     "meta": {
       "range": [
-        105735,
-        105826
+        105671,
+        105755
       ],
-      "lineno": 3625,
+      "lineno": 3624,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Class representing a shape.",
     "kind": "class",
@@ -8763,12 +9041,12 @@
     "comment": "/**\n\t * Class representing the text properties.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        94561,
-        94649
+        94511,
+        94599
       ],
-      "lineno": 3132,
+      "lineno": 3131,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Class representing the text properties.",
     "kind": "class",
@@ -8779,9 +9057,9 @@
   {
     "comment": "/**\n\t * Types of all supported forms.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * // Copies a text form\n\t * var oCopyTextForm = oTextForm.Copy();\n\t * ```\n\t *\n\t * @typedef {ApiTextForm | ApiComboBoxForm | ApiCheckBoxForm | ApiPictureForm | ApiDateForm | ApiComplexForm} ApiForm\n\t */",
     "meta": {
-      "lineno": 4113,
+      "lineno": 4131,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Types of all supported forms.\n\n## Try it\n\n```js use-document-builder\n// Copies a text form\nvar oCopyTextForm = oTextForm.Copy();\n```",
     "kind": "typedef",
@@ -8831,9 +9109,9 @@
   {
     "comment": "/**\n\t * 1 millimetre equals 1/10th of a centimetre.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * // Set the cell width measured in millimeters to the applied comb of characters:\n\t * oTextForm.SetCellWidth(7);\n\t * ```\n\t *\n\t * @typedef {number} mm\n\t */",
     "meta": {
-      "lineno": 4010,
+      "lineno": 4028,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "1 millimetre equals 1/10th of a centimetre.\n\n## Try it\n\n```js use-document-builder\n// Set the cell width measured in millimeters to the applied comb of characters:\noTextForm.SetCellWidth(7);\n```",
     "kind": "typedef",
@@ -8853,9 +9131,9 @@
   {
     "comment": "/**\n\t * The condition to scale an image in the picture form.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * // Set the scaling condition when the current picture form is scaled if it is too big:\n\t * oPictureForm.SetScaleFlag(\"tooBig\");\n\t * ```\n\t *\n\t * @typedef {\"always\" | \"never\" | \"tooBig\" | \"tooSmall\"} ScaleFlag\n\t */",
     "meta": {
-      "lineno": 4015,
+      "lineno": 4033,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "The condition to scale an image in the picture form.\n\n## Try it\n\n```js use-document-builder\n// Set the scaling condition when the current picture form is scaled if it is too big:\noPictureForm.SetScaleFlag(\"tooBig\");\n```",
     "kind": "typedef",
@@ -8895,9 +9173,9 @@
   {
     "comment": "/**\n\t * Value from 0 to 100.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * // Set the picture position measured in percent inside the current form:\n\t * oPictureForm.SetPicturePosition(70, 70);\n\t * ```\n\t *\n\t * @typedef {number} percentage\n\t */",
     "meta": {
-      "lineno": 4020,
+      "lineno": 4038,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "Value from 0 to 100.\n\n## Try it\n\n```js use-document-builder\n// Set the picture position measured in percent inside the current form:\noPictureForm.SetPicturePosition(70, 70);\n```",
     "kind": "typedef",
@@ -8917,9 +9195,9 @@
   {
     "comment": "/**\n\t * English measure unit. 1 mm = 36000 EMUs, 1 inch = 914400 EMUs.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * // Set the size of the drawing to be created as 100 mm (10 cm) in width and 100 mm (10 cm) in height:\n\t * oDrawing.SetSize(100 * 36000, 100 * 36000);\n\t * ```\n\t *\n\t * @typedef {number} EMU\n\t */",
     "meta": {
-      "lineno": 3905,
+      "lineno": 3915,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=19eb1a5b413538edfc2bdd7ac929e88e47c8c5f4"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/word/apiBuilder.js?ref=f9643d81904e0d8fce70e412d52e43a9e4cc7a56"
     },
     "description": "English measure unit. 1 mm = 36000 EMUs, 1 inch = 914400 EMUs.\n\n## Try it\n\n```js use-document-builder\n// Set the size of the drawing to be created as 100 mm (10 cm) in width and 100 mm (10 cm) in height:\noDrawing.SetSize(100 * 36000, 100 * 36000);\n```",
     "kind": "typedef",
