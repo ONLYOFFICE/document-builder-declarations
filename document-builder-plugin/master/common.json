@@ -200,13 +200,13 @@
     "scope": "global"
   },
   {
-    "comment": "/**\n\t * The OLE object properties\n\t * @typedef {Object} OLEProperties\n\t * @property {string} data - OLE object data (internal format).\n\t * @property {string} imgSrc - A link to the image (its visual representation) stored in the OLE object and used by the plugin.\n\t * @property {string} guid - An identifier of the plugin which can edit the current OLE object and must be of the *asc.{UUID}* type.\n\t * @property {number} width - The OLE object width measured in millimeters.\n\t * @property {number} height - The OLE object height measured in millimeters.\n\t * @property {number} widthPix - The OLE object image width in pixels.\n\t * @property {number} heightPix - The OLE object image height in pixels.\n\t */",
+    "comment": "/**\n\t * The OLE object properties\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * var oOLEProperties = {\n\t *     \"data\": \"{data}\",\n\t *     \"imgSrc\": \"https://link-to-the-image.jpg\",\n\t *     \"guid\": \"asc.{38E022EA-AD92-45FC-B22B-49DF39746DB4}\",\n\t *     \"width\": 70,\n\t *     \"height\": 70,\n\t *     \"widthPix\": 60 * 36000,\n\t *     \"heightPix\": 60 * 36000\n\t * };\n\t * ```\n\t *\n\t * @typedef {Object} OLEProperties\n\t * @property {string} data - OLE object data (internal format).\n\t * @property {string} imgSrc - A link to the image (its visual representation) stored in the OLE object and used by the plugin.\n\t * @property {string} guid - An identifier of the plugin which can edit the current OLE object and must be of the *asc.{UUID}* type.\n\t * @property {number} width - The OLE object width measured in millimeters.\n\t * @property {number} height - The OLE object height measured in millimeters.\n\t * @property {number} widthPix - The OLE object image width in pixels.\n\t * @property {number} heightPix - The OLE object image height in pixels.\n\t */",
     "meta": {
       "lineno": 153,
       "columnno": 1,
       "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=b31e77471d8428952feae361f8943da110d2c6d1"
     },
-    "description": "The OLE object properties",
+    "description": "The OLE object properties\n\n## Try it\n\n```js use-document-builder\nvar oOLEProperties = {\n    \"data\": \"{data}\",\n    \"imgSrc\": \"https://link-to-the-image.jpg\",\n    \"guid\": \"asc.{38E022EA-AD92-45FC-B22B-49DF39746DB4}\",\n    \"width\": 70,\n    \"height\": 70,\n    \"widthPix\": 60 * 36000,\n    \"heightPix\": 60 * 36000\n};\n```",
     "kind": "typedef",
     "name": "OLEProperties",
     "type": {
@@ -959,7 +959,7 @@
       "columnno": 4,
       "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=b31e77471d8428952feae361f8943da110d2c6d1"
     },
-    "description": "An object containing the data about all the macros from the document.\n\n## Try it\n\n```js use-document-builder\nvar oMacros = {\n    \"macrosArray\": [\n        {\n            \"name\": \"Macros 1\",\n            \"value\": \"(function()\\n{oDocument = Api.GetDocument();\\noParagraph = Api.CreateParagraph();\\noParagraph.AddText(\\\"This is a new paragraph\\\");\\noDocument.Push(oParagraph);\\n})();\"\n        },\n        {\n            \"name\": \"Macros 2\",\n            \"value\": \"(function()\\n{oDocument = Api.GetDocument();\\noParagraph = oDocument.GetElement(0);\\noParagraph.AddText(\\\"ONLYOFFICE Document Builder\\\");\\noRange = oDocument.GetRange(0, 24);\\noRange.SetBold(true);\\n})();\"\n        }\n    ],\n    \"current\": 1\n};\nwindow.Asc.plugin.executeMethod(\"SetMacros\", [oMacros]);\n```\n\n## Try it\n\n```js use-document-builder\nvar oMacros = {\n    \"macrosArray\": [\n        {\n            \"name\": \"Macros 1\",\n            \"value\": \"(function()\\n{oDocument = Api.GetDocument();\\noParagraph = Api.CreateParagraph();\\noParagraph.AddText(\\\"This is a new paragraph\\\");\\noDocument.Push(oParagraph);\\n})();\"\n        },\n        {\n            \"name\": \"Macros 2\",\n            \"value\": \"(function()\\n{oDocument = Api.GetDocument();\\noParagraph = oDocument.GetElement(0);\\noParagraph.AddText(\\\"ONLYOFFICE Document Builder\\\");\\noRange = oDocument.GetRange(0, 24);\\noRange.SetBold(true);\\n})();\"\n        }\n    ],\n    \"current\": 1\n};\nwindow.Asc.plugin.executeMethod(\"SetMacros\", [oMacros]);\n```\n\n## Try it\n\n```js use-document-builder\nvar oMacros = {\n    \"macrosArray\": [\n        {\n            \"name\": \"Macros 1\",\n            \"value\": \"(function()\\n{oDocument = Api.GetDocument();\\noParagraph = Api.CreateParagraph();\\noParagraph.AddText(\\\"This is a new paragraph\\\");\\noDocument.Push(oParagraph);\\n})();\"\n        },\n        {\n            \"name\": \"Macros 2\",\n            \"value\": \"(function()\\n{oDocument = Api.GetDocument();\\noParagraph = oDocument.GetElement(0);\\noParagraph.AddText(\\\"ONLYOFFICE Document Builder\\\");\\noRange = oDocument.GetRange(0, 24);\\noRange.SetBold(true);\\n})();\"\n        }\n    ],\n    \"current\": 1\n};\nwindow.Asc.plugin.executeMethod(\"SetMacros\", [oMacros]);\n```",
+    "description": "An object containing the data about all the macros from the document.\n\n## Try it\n\n```js use-document-builder\nvar oMacros = {\n    \"macrosArray\": [\n        {\n            \"name\": \"Macros 1\",\n            \"value\": \"(function()\\n{oDocument = Api.GetDocument();\\noParagraph = Api.CreateParagraph();\\noParagraph.AddText(\\\"This is a new paragraph\\\");\\noDocument.Push(oParagraph);\\n})();\"\n        },\n        {\n            \"name\": \"Macros 2\",\n            \"value\": \"(function()\\n{oDocument = Api.GetDocument();\\noParagraph = oDocument.GetElement(0);\\noParagraph.AddText(\\\"ONLYOFFICE Document Builder\\\");\\noRange = oDocument.GetRange(0, 24);\\noRange.SetBold(true);\\n})();\"\n        }\n    ],\n    \"current\": 1\n};\nwindow.Asc.plugin.executeMethod(\"SetMacros\", [oMacros]);\n```\n\n## Try it\n\n```js use-document-builder\nvar oMacros = {\n    \"macrosArray\": [\n        {\n            \"name\": \"Macros 1\",\n            \"value\": \"(function()\\n{oDocument = Api.GetDocument();\\noParagraph = Api.CreateParagraph();\\noParagraph.AddText(\\\"This is a new paragraph\\\");\\noDocument.Push(oParagraph);\\n})();\"\n        },\n        {\n            \"name\": \"Macros 2\",\n            \"value\": \"(function()\\n{oDocument = Api.GetDocument();\\noParagraph = oDocument.GetElement(0);\\noParagraph.AddText(\\\"ONLYOFFICE Document Builder\\\");\\noRange = oDocument.GetRange(0, 24);\\noRange.SetBold(true);\\n})();\"\n        }\n    ],\n    \"current\": 1\n};\nwindow.Asc.plugin.executeMethod(\"SetMacros\", [oMacros]);\n```",
     "kind": "typedef",
     "name": "Macros",
     "type": {
@@ -2620,7 +2620,7 @@
       "columnno": 1,
       "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=b31e77471d8428952feae361f8943da110d2c6d1"
     },
-    "description": "Specifies how to adjust the image object in case of replacing the selected image.\n\n## Try it\n\n```js use-document-builder\nwindow.saveImage = function () {\n    let sImageSrc = imageEditor.toDataURL();\n    let editorDimension = imageEditor.getCanvasSize();\n    let nWidth = editorDimension.width;\n    let nHeight = editorDimension.height;\n    let oImageData = {\n        \"src\": sImageSrc,\n        \"width\": nWidth,\n        \"height\": nHeight,\n        \"replaceMode\": \"original\"\n    };\n    window.Asc.plugin.executeMethod (\"PutImageDataToSelection\", [oImageData]);\n    window.Asc.plugin.executeCommand(\"close\", \"\");\n};\n```\n\n## Try it\n\n```js use-document-builder\nwindow.saveImage = function () {\n    let sImageSrc = imageEditor.toDataURL();\n    let editorDimension = imageEditor.getCanvasSize();\n    let nWidth = editorDimension.width;\n    let nHeight = editorDimension.height;\n    let oImageData = {\n        \"src\": sImageSrc,\n        \"width\": nWidth,\n        \"height\": nHeight,\n        \"replaceMode\": \"original\"\n    };\n    window.Asc.plugin.executeMethod (\"PutImageDataToSelection\", [oImageData]);\n    window.Asc.plugin.executeCommand(\"close\", \"\");\n};\n```\n\n## Try it\n\n```js use-document-builder\nwindow.saveImage = function () {\n    let sImageSrc = imageEditor.toDataURL();\n    let editorDimension = imageEditor.getCanvasSize();\n    let nWidth = editorDimension.width;\n    let nHeight = editorDimension.height;\n    let oImageData = {\n        \"src\": sImageSrc,\n        \"width\": nWidth,\n        \"height\": nHeight,\n        \"replaceMode\": \"original\"\n    };\n    window.Asc.plugin.executeMethod (\"PutImageDataToSelection\", [oImageData]);\n    window.Asc.plugin.executeCommand(\"close\", \"\");\n};\n```",
+    "description": "Specifies how to adjust the image object in case of replacing the selected image.\n\n## Try it\n\n```js use-document-builder\nwindow.saveImage = function () {\n    let sImageSrc = imageEditor.toDataURL();\n    let editorDimension = imageEditor.getCanvasSize();\n    let nWidth = editorDimension.width;\n    let nHeight = editorDimension.height;\n    let oImageData = {\n        \"src\": sImageSrc,\n        \"width\": nWidth,\n        \"height\": nHeight,\n        \"replaceMode\": \"original\"\n    };\n    window.Asc.plugin.executeMethod (\"PutImageDataToSelection\", [oImageData]);\n    window.Asc.plugin.executeCommand(\"close\", \"\");\n};\n```\n\n## Try it\n\n```js use-document-builder\nwindow.saveImage = function () {\n    let sImageSrc = imageEditor.toDataURL();\n    let editorDimension = imageEditor.getCanvasSize();\n    let nWidth = editorDimension.width;\n    let nHeight = editorDimension.height;\n    let oImageData = {\n        \"src\": sImageSrc,\n        \"width\": nWidth,\n        \"height\": nHeight,\n        \"replaceMode\": \"original\"\n    };\n    window.Asc.plugin.executeMethod (\"PutImageDataToSelection\", [oImageData]);\n    window.Asc.plugin.executeCommand(\"close\", \"\");\n};\n```",
     "kind": "typedef",
     "name": "ReplaceImageMode",
     "type": {
@@ -2809,7 +2809,7 @@
       "columnno": 4,
       "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=b31e77471d8428952feae361f8943da110d2c6d1"
     },
-    "description": "The plugin object.\n\n## Try it\n\n```js use-document-builder\nvar oPlugin = {\n    \"url\": \"https://example.com/plugin/config.json\",\n    \"guid\": \"asc.{38E022EA-AD92-45FC-B22B-49DF39746DB4}\",\n    \"canRemoved\": true,\n    \"obj\": {\n        \"baseUrl\": \"\",\n        \"guid\": \"asc.{FFE1F462-1EA2-4391-990D-4CC84940B754}\",\n        \"version\": \"1.0\",\n        \"minVersion\": \"6.3.0\",\n        ...\n    }\n};\n```\n\n## Try it\n\n```js use-document-builder\nvar oPlugin = {\n    \"url\": \"https://example.com/plugin/config.json\",\n    \"guid\": \"asc.{38E022EA-AD92-45FC-B22B-49DF39746DB4}\",\n    \"canRemoved\": true,\n    \"obj\": {\n        \"baseUrl\": \"\",\n        \"guid\": \"asc.{FFE1F462-1EA2-4391-990D-4CC84940B754}\",\n        \"version\": \"1.0\",\n        \"minVersion\": \"6.3.0\",\n        ...\n    }\n};\n```\n\n## Try it\n\n```js use-document-builder\nvar oPlugin = {\n    \"url\": \"https://example.com/plugin/config.json\",\n    \"guid\": \"asc.{38E022EA-AD92-45FC-B22B-49DF39746DB4}\",\n    \"canRemoved\": true,\n    \"obj\": {\n        \"baseUrl\": \"\",\n        \"guid\": \"asc.{FFE1F462-1EA2-4391-990D-4CC84940B754}\",\n        \"version\": \"1.0\",\n        \"minVersion\": \"6.3.0\",\n        ...\n    }\n};\n```",
+    "description": "The plugin object.\n\n## Try it\n\n```js use-document-builder\nvar oPlugin = {\n    \"url\": \"https://example.com/plugin/config.json\",\n    \"guid\": \"asc.{38E022EA-AD92-45FC-B22B-49DF39746DB4}\",\n    \"canRemoved\": true,\n    \"obj\": {\n        \"baseUrl\": \"\",\n        \"guid\": \"asc.{FFE1F462-1EA2-4391-990D-4CC84940B754}\",\n        \"version\": \"1.0\",\n        \"minVersion\": \"6.3.0\",\n        ...\n    }\n};\n```\n\n## Try it\n\n```js use-document-builder\nvar oPlugin = {\n    \"url\": \"https://example.com/plugin/config.json\",\n    \"guid\": \"asc.{38E022EA-AD92-45FC-B22B-49DF39746DB4}\",\n    \"canRemoved\": true,\n    \"obj\": {\n        \"baseUrl\": \"\",\n        \"guid\": \"asc.{FFE1F462-1EA2-4391-990D-4CC84940B754}\",\n        \"version\": \"1.0\",\n        \"minVersion\": \"6.3.0\",\n        ...\n    }\n};\n```",
     "kind": "typedef",
     "name": "PluginData",
     "type": {
@@ -3337,7 +3337,7 @@
         "name": "Object"
       }
     },
-    "description": "The context menu item.\n\n## Try it\n\n```js use-document-builder\nvar aContextMenuItems = function getContextMenuItems() {\n\tlet settings = {\n\t\tguid: window.Asc.plugin.guid,\n\t\titems: [\n\t\t\t{\n\t\t\t\tid : 'onConvert',\n\t\t\t\ttext : getMessage('Convert to Markdown or HTML')\n\t\t\t}\n\t\t]\n\t};\n\treturn settings;\n};\n\nwindow.Asc.plugin.attachEvent('onContextMenuShow', function(options) {\n\tif (!options) return;\n\n\tif (options.type === 'Selection' || options.type === 'Target')\n\t\tthis.executeMethod('AddContextMenuItem', [aContextMenuItems]);\n});\n```\n\n## Try it\n\n```js use-document-builder\nvar aContextMenuItems = function getContextMenuItems() {\n\tlet settings = {\n\t\tguid: window.Asc.plugin.guid,\n\t\titems: [\n\t\t\t{\n\t\t\t\tid : 'onConvert',\n\t\t\t\ttext : getMessage('Convert to Markdown or HTML')\n\t\t\t}\n\t\t]\n\t};\n\treturn settings;\n};\n\nwindow.Asc.plugin.attachEvent('onContextMenuShow', function(options) {\n\tif (!options) return;\n\n\tif (options.type === 'Selection' || options.type === 'Target')\n\t\tthis.executeMethod('AddContextMenuItem', [aContextMenuItems]);\n});\n```\n\n## Try it\n\n```js use-document-builder\nvar aContextMenuItems = function getContextMenuItems() {\n\tlet settings = {\n\t\tguid: window.Asc.plugin.guid,\n\t\titems: [\n\t\t\t{\n\t\t\t\tid : 'onConvert',\n\t\t\t\ttext : getMessage('Convert to Markdown or HTML')\n\t\t\t}\n\t\t]\n\t};\n\treturn settings;\n};\n\nwindow.Asc.plugin.attachEvent('onContextMenuShow', function(options) {\n\tif (!options) return;\n\n\tif (options.type === 'Selection' || options.type === 'Target')\n\t\tthis.executeMethod('AddContextMenuItem', [aContextMenuItems]);\n});\n```",
+    "description": "The context menu item.\n\n## Try it\n\n```js use-document-builder\nvar aContextMenuItems = function getContextMenuItems() {\n\tlet settings = {\n\t\tguid: window.Asc.plugin.guid,\n\t\titems: [\n\t\t\t{\n\t\t\t\tid : 'onConvert',\n\t\t\t\ttext : getMessage('Convert to Markdown or HTML')\n\t\t\t}\n\t\t]\n\t};\n\treturn settings;\n};\n\nwindow.Asc.plugin.attachEvent('onContextMenuShow', function(options) {\n\tif (!options) return;\n\n\tif (options.type === 'Selection' || options.type === 'Target')\n\t\tthis.executeMethod('AddContextMenuItem', [aContextMenuItems]);\n});\n```\n\n## Try it\n\n```js use-document-builder\nvar aContextMenuItems = function getContextMenuItems() {\n\tlet settings = {\n\t\tguid: window.Asc.plugin.guid,\n\t\titems: [\n\t\t\t{\n\t\t\t\tid : 'onConvert',\n\t\t\t\ttext : getMessage('Convert to Markdown or HTML')\n\t\t\t}\n\t\t]\n\t};\n\treturn settings;\n};\n\nwindow.Asc.plugin.attachEvent('onContextMenuShow', function(options) {\n\tif (!options) return;\n\n\tif (options.type === 'Selection' || options.type === 'Target')\n\t\tthis.executeMethod('AddContextMenuItem', [aContextMenuItems]);\n});\n```",
     "properties": [
       {
         "type": {
@@ -3520,13 +3520,13 @@
     "kind": "function"
   },
   {
-    "comment": "/**\n\t * The possible values of the base which the relative vertical position of the toolbar menu item will be calculated from.\n\t * @typedef {(\"button\" | \"...\")} ToolbarMenuItemType\n\t */",
+    "comment": "/**\n\t * The possible values of the base which the relative vertical position of the toolbar menu item will be calculated from.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * var sToolbarMenuItemType = \"button\";\n\t * var oToolbarMenuItem = {\n\t *     \"id\": \"MeaningItem\",\n\t *     \"type\": sToolbarMenuItemType,\n\t *     \"text\": \"Meaning\",\n\t *     \"hint\": \"Meaning\",\n\t *     \"icons\": \"resources/light/icon.png\",\n\t *     \"disabled\": false,\n\t *     \"enableToggle\": false,\n\t *     \"lockInViewMode\": false,\n\t *     \"separator\": true,\n\t *     \"split\": true,\n\t *     \"items\": [\n\t *         {\n\t *             \"id\": \"onMeaningT\",\n\t *             \"text\": \"Explain text in comment\"\n\t *         },\n\t *         {\n\t *             \"id\": \"onFixSpelling\",\n\t *             \"text\": \"Fix spelling & grammar\"\n\t *         },\n\t *         {\n\t *             \"id\": \"onMakeLonger\",\n\t *             \"text\": \"Make longer\"\n\t *         },\n\t *         {\n\t *             \"id\": \"onMakeShorter\",\n\t *             \"text\": \"Make shorter\"\n\t *         }\n\t *     ]\n\t * };\n\t * ```\n\t *\n\t * @typedef {(\"button\" | \"...\")} ToolbarMenuItemType\n\t */",
     "meta": {
       "lineno": 1839,
       "columnno": 1,
       "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=b31e77471d8428952feae361f8943da110d2c6d1"
     },
-    "description": "The possible values of the base which the relative vertical position of the toolbar menu item will be calculated from.",
+    "description": "The possible values of the base which the relative vertical position of the toolbar menu item will be calculated from.\n\n## Try it\n\n```js use-document-builder\nvar sToolbarMenuItemType = \"button\";\nvar oToolbarMenuItem = {\n    \"id\": \"MeaningItem\",\n    \"type\": sToolbarMenuItemType,\n    \"text\": \"Meaning\",\n    \"hint\": \"Meaning\",\n    \"icons\": \"resources/light/icon.png\",\n    \"disabled\": false,\n    \"enableToggle\": false,\n    \"lockInViewMode\": false,\n    \"separator\": true,\n    \"split\": true,\n    \"items\": [\n        {\n            \"id\": \"onMeaningT\",\n            \"text\": \"Explain text in comment\"\n        },\n        {\n            \"id\": \"onFixSpelling\",\n            \"text\": \"Fix spelling & grammar\"\n        },\n        {\n            \"id\": \"onMakeLonger\",\n            \"text\": \"Make longer\"\n        },\n        {\n            \"id\": \"onMakeShorter\",\n            \"text\": \"Make shorter\"\n        }\n    ]\n};\n```",
     "kind": "typedef",
     "name": "ToolbarMenuItemType",
     "type": {
@@ -3552,7 +3552,7 @@
     "scope": "global"
   },
   {
-    "comment": "/**\n\t * @typedef {Object} ToolbarMenuItem\n\t * The toolbar menu item.\n\t * @property {string} id - The item ID.\n\t * @property {ToolbarMenuItemType} type - The item type.\n\t * @property {string} text - The item text.\n\t * @property {string} hint - The item hint.\n\t * @property {string} [icons] - The item icons (see the plugins {@link /plugin/config config} documentation).\n\t * @property {boolean} [disabled] - Specifies if the current item is disabled or not.\n\t * @property {boolean} [enableToggle] - Specifies if an item toggle is enabled or not.\n\t * @property {boolean} [lockInViewMode] - Specifies if the current item is locked in the view mode or not.\n\t * @property {boolean} [separator] - Specifies if a separator is used between the toolbar menu items or not.\n\t * @property {boolean} [split] - Specifies if the toolbar menu items are split or not.\n\t * @property {ContextMenuItem[]} [items] - An array containing the context menu items for the current item.\n\t */",
+    "comment": "/**\n/**\n/** ## Try it\n/** \n/** ```js use-document-builder\n/** var oToolbarMenuItem = {\n/**     \"id\": \"MeaningItem\",\n/**     \"type\": \"button\",\n/**     \"text\": \"Meaning\",\n/**     \"hint\": \"Meaning\",\n/**     \"icons\": \"resources/light/icon.png\",\n/**     \"disabled\": false,\n/**     \"enableToggle\": false,\n/**     \"lockInViewMode\": false,\n/**     \"separator\": true,\n/**     \"split\": true,\n/**     \"items\": [\n/**         {\n/**             \"id\": \"onMeaningT\",\n/**             \"text\": \"Explain text in comment\"\n/**         },\n/**         {\n/**             \"id\": \"onFixSpelling\",\n/**             \"text\": \"Fix spelling & grammar\"\n/**         },\n/**         {\n/**             \"id\": \"onMakeLonger\",\n/**             \"text\": \"Make longer\"\n/**         },\n/**         {\n/**             \"id\": \"onMakeShorter\",\n/**             \"text\": \"Make shorter\"\n/**         }\n/**     ]\n/** };\n/** ```\n/**\n\t * @typedef {Object} ToolbarMenuItem\n\t * The toolbar menu item.\n\t * @property {string} id - The item ID.\n\t * @property {ToolbarMenuItemType} type - The item type.\n\t * @property {string} text - The item text.\n\t * @property {string} hint - The item hint.\n\t * @property {string} [icons] - The item icons (see the plugins {@link /plugin/config config} documentation).\n\t * @property {boolean} [disabled] - Specifies if the current item is disabled or not.\n\t * @property {boolean} [enableToggle] - Specifies if an item toggle is enabled or not.\n\t * @property {boolean} [lockInViewMode] - Specifies if the current item is locked in the view mode or not.\n\t * @property {boolean} [separator] - Specifies if a separator is used between the toolbar menu items or not.\n\t * @property {boolean} [split] - Specifies if the toolbar menu items are split or not.\n\t * @property {ContextMenuItem[]} [items] - An array containing the context menu items for the current item.\n\t */",
     "meta": {
       "lineno": 1844,
       "columnno": 1,
@@ -3569,7 +3569,7 @@
         "name": "Object"
       }
     },
-    "description": "The toolbar menu item.",
+    "description": "The toolbar menu item.\n\n## Try it\n\n```js use-document-builder\nvar oToolbarMenuItem = {\n    \"id\": \"MeaningItem\",\n    \"type\": \"button\",\n    \"text\": \"Meaning\",\n    \"hint\": \"Meaning\",\n    \"icons\": \"resources/light/icon.png\",\n    \"disabled\": false,\n    \"enableToggle\": false,\n    \"lockInViewMode\": false,\n    \"separator\": true,\n    \"split\": true,\n    \"items\": [\n        {\n            \"id\": \"onMeaningT\",\n            \"text\": \"Explain text in comment\"\n        },\n        {\n            \"id\": \"onFixSpelling\",\n            \"text\": \"Fix spelling & grammar\"\n        },\n        {\n            \"id\": \"onMakeLonger\",\n            \"text\": \"Make longer\"\n        },\n        {\n            \"id\": \"onMakeShorter\",\n            \"text\": \"Make shorter\"\n        }\n    ]\n};\n```",
     "properties": [
       {
         "type": {
@@ -3735,7 +3735,7 @@
     "scope": "global"
   },
   {
-    "comment": "/**\n\t * @typedef {Object} ToolbarMenuTab\n\t * The toolbar menu tab.\n\t * @property {string} id - The tab ID.\n\t * @property {string} text - The tab text.\n\t * @property {ToolbarMenuItem[]} [items] - An array containing the toolbar menu items for the current tab.\n\t */",
+    "comment": "/**\n/**\n/** ## Try it\n/** \n/** ```js use-document-builder\n/** var oToolbarMenuTab = {\n/**     \"id\": \"ChatGPT\",\n/**     \"text\": \"AI Assistant\",\n/**     \"items\": [oToolbarMenuItem]\n/** };\n/** ```\n/**\n\t * @typedef {Object} ToolbarMenuTab\n\t * The toolbar menu tab.\n\t * @property {string} id - The tab ID.\n\t * @property {string} text - The tab text.\n\t * @property {ToolbarMenuItem[]} [items] - An array containing the toolbar menu items for the current tab.\n\t */",
     "meta": {
       "lineno": 1860,
       "columnno": 1,
@@ -3752,7 +3752,7 @@
         "name": "Object"
       }
     },
-    "description": "The toolbar menu tab.",
+    "description": "The toolbar menu tab.\n\n## Try it\n\n```js use-document-builder\nvar oToolbarMenuTab = {\n    \"id\": \"ChatGPT\",\n    \"text\": \"AI Assistant\",\n    \"items\": [oToolbarMenuItem]\n};\n```",
     "properties": [
       {
         "type": {
@@ -3808,7 +3808,7 @@
     "scope": "global"
   },
   {
-    "comment": "/**\n\t * @typedef {Object} ToolbarMenuMainItem\n\t * The main toolbar menu item.\n\t * @property {string} guid - The plugin guid.\n\t * @property {ToolbarMenuTab[]} tabs - An array containing the toolbar menu tabs for the current item.\n\t */",
+    "comment": "/**\n/**\n/** ## Try it\n/** \n/** ```js use-document-builder\n/** var oToolbarMenuMainItem = {\n/**     \"guid\": \"asc.{9DC93CDB-B576-4F0C-B55E-FCC9C48DD007}\",\n/**     \"tabs\": [oToolbarMenuTab]\n/** };\n/** ```\n/**\n\t * @typedef {Object} ToolbarMenuMainItem\n\t * The main toolbar menu item.\n\t * @property {string} guid - The plugin guid.\n\t * @property {ToolbarMenuTab[]} tabs - An array containing the toolbar menu tabs for the current item.\n\t */",
     "meta": {
       "lineno": 1868,
       "columnno": 1,
@@ -3825,7 +3825,7 @@
         "name": "Object"
       }
     },
-    "description": "The main toolbar menu item.",
+    "description": "The main toolbar menu item.\n\n## Try it\n\n```js use-document-builder\nvar oToolbarMenuMainItem = {\n    \"guid\": \"asc.{9DC93CDB-B576-4F0C-B55E-FCC9C48DD007}\",\n    \"tabs\": [oToolbarMenuTab]\n};\n```\n\n## Try it\n\n```js use-document-builder\nvar oToolbarMenuMainItem = {\n    \"guid\": \"asc.{9DC93CDB-B576-4F0C-B55E-FCC9C48DD007}\",\n    \"tabs\": [oToolbarMenuTab]\n};\n```",
     "properties": [
       {
         "type": {
@@ -5352,13 +5352,13 @@
     "scope": "instance"
   },
   {
-    "comment": "/**\n\t * Event: onToolbarMenuClick\n\t * @event Plugin#onToolbarMenuClick\n\t * @memberof Plugin\n\t * @alias onToolbarMenuClick\n\t * @description The function called when the toolbar menu item has been clicked.\n\t * @param {string} id - Item ID.\n\t * @since 8.1.0\n\t */",
+    "comment": "/**\n\t * Event: onToolbarMenuClick\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * window.Asc.plugin.event_onToolbarMenuClick = function(id)\n\t * {\n\t *     this._onCustomMenuClick(\"toolbarMenuEvents\", id);\n\t * };\n\t * ```\n\t *\n\t * @event Plugin#onToolbarMenuClick\n\t * @memberof Plugin\n\t * @alias onToolbarMenuClick\n\t * @description The function called when the toolbar menu item has been clicked.\n\t * @param {string} id - Item ID.\n\t * @since 8.1.0\n\t */",
     "meta": {
       "lineno": 377,
       "columnno": 1,
       "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/plugins/plugin_base_api.js?ref=b31e77471d8428952feae361f8943da110d2c6d1"
     },
-    "description": "The function called when the toolbar menu item has been clicked.",
+    "description": "The function called when the toolbar menu item has been clicked.\n\n## Try it\n\n```js use-document-builder\nwindow.Asc.plugin.event_onToolbarMenuClick = function(id)\n{\n    this._onCustomMenuClick(\"toolbarMenuEvents\", id);\n};\n```",
     "kind": "event",
     "name": "onToolbarMenuClick",
     "memberof": "Plugin",
