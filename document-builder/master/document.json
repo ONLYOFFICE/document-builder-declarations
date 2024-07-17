@@ -2556,7 +2556,7 @@
     "meta": {
       "range": [
         87880,
-        91603
+        91604
       ],
       "lineno": 2864,
       "columnno": 1,
@@ -2618,8 +2618,8 @@
     "comment": "/**\n\t * Class representing a document.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oNoSpacingStyle = oDocument.GetStyle(\"No Spacing\");\n\t * var oSection = oDocument.GetFinalSection();\n\t * var oHeader = oSection.GetHeader(\"default\", true);\n\t * var oParagraph = oHeader.GetElement(0);\n\t * oParagraph.AddText(\"This is the text in the default header\");\n\t * var oTextPr = oDocument.GetDefaultTextPr();\n\t * oTextPr.SetFontSize(22);\n\t * oTextPr.SetLanguage(\"en-US\");\n\t * oTextPr.SetFontFamily(\"Calibri\");\n\t * var oParaPr = oDocument.GetDefaultParaPr();\n\t * oParaPr.SetSpacingLine(276, \"auto\");\n\t * oParaPr.SetSpacingAfter(200);\n\t * var oNormalStyle = oDocument.GetDefaultStyle(\"paragraph\");\n\t * oParaPr = oNormalStyle.GetParaPr();\n\t * oParaPr.SetSpacingLine(240, \"auto\");\n\t * oParaPr.SetJc(\"both\");\n\t * oTextPr = oNormalStyle.GetTextPr();\n\t * oTextPr.SetColor(0x26, 0x26, 0x26, false);\n\t * var oHeading1Style = oDocument.CreateStyle(\"Heading 1\", \"paragraph\");\n\t * oParaPr = oHeading1Style.GetParaPr();\n\t * oParaPr.SetKeepNext(true);\n\t * oParaPr.SetKeepLines(true);\n\t * oParaPr.SetSpacingAfter(240);\n\t * oTextPr = oHeading1Style.GetTextPr();\n\t * oTextPr.SetColor(0xff, 0x68, 0x00, false);\n\t * oTextPr.SetFontSize(40);\n\t * oTextPr.SetFontFamily(\"Calibri Light\");\n\t * oParagraph = oDocument.GetElement(0);\n\t * oParagraph.SetStyle(oHeading1Style);\n\t * oParagraph.AddText(\"This is a heading\");\n\t * oParagraph = Api.CreateParagraph();\n\t * var oRun = Api.CreateRun();\n\t * oRun.AddText(\"Number of paragraph elements at this point: \");\n\t * oRun.AddTabStop();\n\t * oRun.AddText(\"\" + oParagraph.GetElementsCount());\n\t * oRun.AddLineBreak();\n\t * oParagraph.AddElement(oRun);\n\t * oRun.AddText(\"Number of paragraph elements after we added a text run: \");\n\t * oRun.AddTabStop();\n\t * oRun.AddText(\"\" + oParagraph.GetElementsCount());\n\t * oDocument.Push(oParagraph);\n\t * var oNumbering = oDocument.CreateNumbering(\"bullet\");\n\t * for (let nLvl = 0; nLvl < 8; ++nLvl) {\n\t *   var oNumLvl = oNumbering.GetLevel(nLvl);\n\t *   oParagraph = Api.CreateParagraph();\n\t *   oParagraph.AddText(\"Default bullet lvl \" + (nLvl + 1));\n\t *   oParagraph.SetNumbering(oNumLvl);\n\t *   oParagraph.SetContextualSpacing(true);\n\t *   oDocument.Push(oParagraph);\n\t * }\n\t * builder.SaveFile(\"docx\", \"ApiDocument.docx\");\n\t * builder.CloseFile();\n\t * \n\t * ```\n\t *\n\t * @constructor\n\t * @extends {ApiDocumentContent}\n\t */",
     "meta": {
       "range": [
-        91703,
-        91782
+        91704,
+        91783
       ],
       "lineno": 3001,
       "columnno": 1,
@@ -2638,8 +2638,8 @@
     "comment": "/**\n\t * Class representing the paragraph properties.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oHeading6Style = oDocument.GetStyle(\"Heading 6\");\n\t * var oParaPr = oHeading6Style.GetParaPr();\n\t * oParaPr.SetStyle(oHeading6Style);\n\t * oParaPr.SetJc(\"center\");\n\t * var oParagraph = oDocument.GetElement(0);\n\t * oParagraph.SetStyle(oHeading6Style);\n\t * oParagraph.AddText(\"This is a text in a paragraph styled with the 'Heading 6' style.\");\n\t * builder.SaveFile(\"docx\", \"ApiParaPr.docx\");\n\t * builder.CloseFile();\n\t * \n\t * ```\n\t *\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        91982,
-        92070
+        91983,
+        92071
       ],
       "lineno": 3013,
       "columnno": 1,
@@ -2655,8 +2655,8 @@
     "comment": "/**\n\t * Class representing a paragraph bullet.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        92146,
-        92202
+        92147,
+        92203
       ],
       "lineno": 3024,
       "columnno": 1,
@@ -2672,8 +2672,8 @@
     "comment": "/**\n\t * Class representing a paragraph.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oParagraph = oDocument.GetElement(0);\n\t * oParagraph.AddText(\"This is a paragraph with the text in it aligned by the left side. \");\n\t * oParagraph.AddText(\"These sentences are used to add lines for demonstrative purposes. \");\n\t * oParagraph.AddText(\"These sentences are used to add lines for demonstrative purposes.\");\n\t * oParagraph.SetJc(\"left\");\n\t * oParagraph = Api.CreateParagraph();\n\t * oParagraph.AddText(\"This is a paragraph with the text in it aligned by the right side. \");\n\t * oParagraph.AddText(\"These sentences are used to add lines for demonstrative purposes. \");\n\t * oParagraph.AddText(\"These sentences are used to add lines for demonstrative purposes.\");\n\t * oParagraph.SetJc(\"right\");\n\t * oDocument.Push(oParagraph);\n\t * oParagraph = Api.CreateParagraph();\n\t * oParagraph.AddText(\"This is a paragraph with the text in it aligned by the center. \");\n\t * oParagraph.AddText(\"These sentences are used to add lines for demonstrative purposes. \");\n\t * oParagraph.AddText(\"These sentences are used to add lines for demonstrative purposes.\");\n\t * oParagraph.SetJc(\"center\");\n\t * oDocument.Push(oParagraph);\n\t * oParagraph = Api.CreateParagraph();\n\t * oParagraph.AddText(\"This is a paragraph with the text in it aligned by both sides (justified). \");\n\t * oParagraph.AddText(\"These sentences are used to add lines for demonstrative purposes. \");\n\t * oParagraph.AddText(\"These sentences are used to add lines for demonstrative purposes.\");\n\t * oParagraph.SetJc(\"both\");\n\t * oDocument.Push(oParagraph);\n\t * builder.SaveFile(\"docx\", \"ApiParagraph.docx\");\n\t * builder.CloseFile();\n\t * \n\t * ```\n\t *\n\t * @constructor\n\t * @extends {ApiParaPr}\n\t */",
     "meta": {
       "range": [
-        92293,
-        92412
+        92294,
+        92413
       ],
       "lineno": 3034,
       "columnno": 1,
@@ -2692,8 +2692,8 @@
     "comment": "/**\n\t * Class representing the table properties.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oTableStyle = oDocument.CreateStyle(\"CustomTableStyle\", \"table\");\n\t * oTableStyle.SetBasedOn(oDocument.GetStyle(\"Bordered\"));\n\t * var oTablePr = oTableStyle.GetTablePr();\n\t * oTablePr.SetJc(\"center\");\n\t * oTablePr.SetCellSpacing(720);\n\t * oTablePr.SetTableBorderBottom(\"single\", 32, 0, 51, 51, 51);\n\t * oTablePr.SetTableBorderLeft(\"single\", 32, 0, 51, 51, 51);\n\t * oTablePr.SetTableBorderRight(\"single\", 32, 0, 51, 51, 51);\n\t * oTablePr.SetTableBorderTop(\"single\", 32, 0, 51, 51, 51);\n\t * oTablePr.SetWidth(\"percent\", 100);\n\t * var oTable = Api.CreateTable(4, 2);\n\t * oTable.SetTableLook(true, true, true, true, true, true);\n\t * oTablePr.SetStyleColBandSize(2);\n\t * oTableStyle.GetConditionalTableStyle(\"bandedColumn\").GetTextPr().SetBold(true);\n\t * oTable.GetRow(0).GetCell(0).GetContent().GetElement(0).AddText(\"Bold\");\n\t * oTable.GetRow(0).GetCell(1).GetContent().GetElement(0).AddText(\"Bold\");\n\t * oTable.GetRow(0).GetCell(2).GetContent().GetElement(0).AddText(\"Normal\");\n\t * oTable.GetRow(0).GetCell(3).GetContent().GetElement(0).AddText(\"Normal\");\n\t * oTable.GetRow(1).GetCell(0).GetContent().GetElement(0).AddText(\"Bold\");\n\t * oTable.GetRow(1).GetCell(1).GetContent().GetElement(0).AddText(\"Bold\");\n\t * oTable.GetRow(1).GetCell(2).GetContent().GetElement(0).AddText(\"Normal\");\n\t * oTable.GetRow(1).GetCell(3).GetContent().GetElement(0).AddText(\"Normal\");\n\t * oTable.SetStyle(oTableStyle);\n\t * var sClassType = oTablePr.GetClassType();\n\t * var oParagraph = oDocument.GetElement(0);\n\t * oParagraph.AddText(\"Class Type = \" + sClassType);\n\t * oDocument.Push(oTable);\n\t * builder.SaveFile(\"docx\", \"ApiTablePr.docx\");\n\t * builder.CloseFile();\n\t * \n\t * ```\n\t *\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        92601,
-        92694
+        92602,
+        92695
       ],
       "lineno": 3046,
       "columnno": 1,
@@ -2709,8 +2709,8 @@
     "comment": "/**\n\t * Class representing a table.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oTable = Api.CreateTable(5, 5);\n\t * oTable.SetWidth(\"percent\", 100);\n\t * oTable.AddColumn(oTable.GetRow(0).GetCell(1), true);\n\t * oTable.AddRow(oTable.GetRow(1).GetCell(0), true);\n\t * var oCopyTable = oTable.Copy();\n\t * var oTableStyle = oDocument.CreateStyle(\"CustomTableStyle\", \"table\");\n\t * oTableStyle.SetBasedOn(oDocument.GetStyle(\"Bordered\"));\n\t * oTable.SetStyle(oTableStyle);\n\t * var oParagraph = Api.CreateParagraph();\n\t * oParagraph.AddText(\"Merged cell\");\n\t * var oCell = oTable.MergeCells([oTable.GetRow(1).GetCell(1), oTable.GetRow(1).GetCell(2), oTable.GetRow(2).GetCell(1), oTable.GetRow(2).GetCell(2)]);\n\t * oTable.AddElement(oCell, 0, oParagraph);\n\t * var oBlockLvlSdt = oTable.InsertInContentControl(1);\n\t * oDocument.AddElement(0, oBlockLvlSdt);\n\t * var sClassType = oTable.GetClassType();\n\t * oParagraph = oDocument.GetElement(0);\n\t * oParagraph.AddText(\"Class Type = \" + sClassType);\n\t * var aSearch = oTable.Search(\"cell\");\n\t * aSearch[0].SetBold(true);\n\t * oCopyTable.SetHAlign(\"center\");\n\t * oCopyTable.SetTableBorderTop(\"single\", 4, 0, 51, 51, 51);\n\t * oCopyTable.SetTableBorderBottom(\"single\", 32, 0, 51, 51, 51);\n\t * oCopyTable.SetTableBorderLeft(\"single\", 4, 0, 51, 51, 51);\n\t * oCopyTable.SetTableBorderRight(\"single\", 4, 0, 51, 51, 51);\n\t * oCopyTable.SetTableBorderInsideV(\"single\", 4, 0, 255, 111, 61);\n\t * oCopyTable.SetTableBorderInsideH(\"single\", 4, 0, 255, 111, 61);\n\t * oDocument.Push(oCopyTable);\n\t * builder.SaveFile(\"docx\", \"ApiTable.docx\");\n\t * builder.CloseFile();\n\t * \n\t * ```\n\t *\n\t * @constructor\n\t * @extends {ApiTablePr}\n\t */",
     "meta": {
       "range": [
-        92782,
-        92882
+        92783,
+        92883
       ],
       "lineno": 3057,
       "columnno": 1,
@@ -2729,8 +2729,8 @@
     "comment": "/**\n\t * Class representing the text properties.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        93059,
-        93147
+        93060,
+        93148
       ],
       "lineno": 3069,
       "columnno": 1,
@@ -2746,8 +2746,8 @@
     "comment": "/**\n\t * Class representing a small text block called 'run'.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oParagraph = oDocument.GetElement(0);\n\t * var oRun = Api.CreateRun();\n\t * oRun.AddText(\"This is just a sample text.\");\n\t * oRun.AddLineBreak();\n\t * oRun.AddTabStop();\n\t * oRun.AddTabStop();\n\t * oRun.AddText(\" Nothing special.\");\n\t * oRun.SetBold(true);\n\t * oParagraph.AddElement(oRun);\n\t * var oCopyRun = oRun.Copy();\n\t * oParagraph.AddLineBreak();\n\t * oParagraph.AddElement(oCopyRun);\n\t * oRun = Api.CreateRun();\n\t * var oDrawing = Api.CreateChart(\"bar3D\", [\n\t *   [200, 240, 280],\n\t *   [250, 260, 280]\n\t * ], [\"Projected Revenue\", \"Estimated Costs\"], [2014, 2015, 2016], 4051300, 2347595, 24);\n\t * var oFill = Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51));\n\t * oDrawing.SetSeriesFill(oFill, 0, false);\n\t * oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));\n\t * oDrawing.SetSeriesFill(oFill, 1, false);\n\t * oDrawing.SetVerAxisTitle(\"USD In Hundred Thousands\", 10);\n\t * oDrawing.SetHorAxisTitle(\"Year\", 11);\n\t * oDrawing.SetLegendPos(\"bottom\");\n\t * oDrawing.SetShowDataLabels(false, false, true, false);\n\t * oDrawing.SetTitle(\"Financial Overview\", 13);\n\t * oRun.AddDrawing(oDrawing);\n\t * oParagraph.AddElement(oRun);\n\t * oRun = Api.CreateRun();\n\t * oRun.AddText(\"onlyoffice document builder\");\n\t * oRun.SetCaps(true);\n\t * oParagraph.AddLineBreak();\n\t * oParagraph.AddElement(oRun);\n\t * oRun.AddHyperlink(\"https://www.onlyoffice.com\", \"main page\");\n\t * builder.SaveFile(\"docx\", \"ApiRun.docx\");\n\t * builder.CloseFile();\n\t * \n\t * ```\n\t *\n\t * @constructor\n\t * @extends {ApiTextPr}\n\t */",
     "meta": {
       "range": [
-        93258,
-        93347
+        93259,
+        93348
       ],
       "lineno": 3080,
       "columnno": 1,
@@ -2766,8 +2766,8 @@
     "comment": "/**\n\t * Class representing a comment.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oParagraph = oDocument.GetElement(0);\n\t * oParagraph.AddText(\"This is just a sample text\");\n\t * Api.AddComment(oParagraph, \"comment\", \"John Smith\");\n\t * var aComments = oDocument.GetAllComments();\n\t * aComments[0].SetTimeUTC(\"1672247153658\");\n\t * aComments[0].SetUserId(\"uid-1\");\n\t * aComments[0].AddReply(\"reply1\", \"Mark Potato\", \"uid-2\", 0);\n\t * var sType = aComments[0].GetClassType();\n\t * oParagraph = Api.CreateParagraph();\n\t * oParagraph.AddText(\"Class type: \" + sType);\n\t * oDocument.Push(oParagraph);\n\t * var sTimeUTC = aComments[0].GetTimeUTC();\n\t * oParagraph = Api.CreateParagraph();\n\t * oParagraph.AddText(\"The timestamp of comment creation: \" + sTimeUTC);\n\t * oDocument.Push(oParagraph);\n\t * var sAuthor = aComments[0].GetAuthorName();\n\t * oParagraph = Api.CreateParagraph();\n\t * oParagraph.AddText(\"Comment author name: \" + sAuthor);\n\t * oDocument.Push(oParagraph);\n\t * var sQuoteText = aComments[0].GetQuoteText();\n\t * oParagraph = Api.CreateParagraph();\n\t * oParagraph.AddText(\"Comment quote text: \" + sQuoteText);\n\t * oDocument.Push(oParagraph);\n\t * var sText = aComments[0].GetText();\n\t * oParagraph = Api.CreateParagraph();\n\t * oParagraph.AddText(\"Comment text: \" + sText);\n\t * oDocument.Push(oParagraph);\n\t * var sUserId = aComments[0].GetUserId();\n\t * oParagraph = Api.CreateParagraph();\n\t * oParagraph.AddText(\"Comment user ID: \" + sUserId);\n\t * oDocument.Push(oParagraph);\n\t * aComments[0].SetSolved(true);\n\t * var bSolved = aComments[0].IsSolved();\n\t * oParagraph = Api.CreateParagraph();\n\t * oParagraph.AddText(\"The comment is solved: \" + bSolved);\n\t * oDocument.Push(oParagraph);\n\t * var nReplies = aComments[0].GetRepliesCount();\n\t * oParagraph = Api.CreateParagraph();\n\t * oParagraph.AddText(\"Number of comment replies: \" + nReplies);\n\t * oDocument.Push(oParagraph);\n\t * var oCommentReply = aComments[0].GetReply(0);\n\t * oParagraph = Api.CreateParagraph();\n\t * oParagraph.AddText(\"First comment reply: \" + oCommentReply.GetText());\n\t * oDocument.Push(oParagraph);\n\t * builder.SaveFile(\"docx\", \"ApiComment.docx\");\n\t * builder.CloseFile();\n\t * ```\n\t *\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        93507,
-        93569
+        93508,
+        93570
       ],
       "lineno": 3092,
       "columnno": 1,
@@ -2783,8 +2783,8 @@
     "comment": "/**\n\t * Class representing a comment reply.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oParagraph = oDocument.GetElement(0);\n\t * oParagraph.AddText(\"This is just a sample text\");\n\t * Api.AddComment(oParagraph, \"comment\", \"John Smith\");\n\t * var aComments = oDocument.GetAllComments();\n\t * aComments[0].AddReply(\"reply1\", \"Mark Potato\", \"uid-2\", 0);\n\t * var oCommentReply = aComments[0].GetReply(0);\n\t * oCommentReply.SetAuthorName(\"Hamish Mitchell\");\n\t * oCommentReply.SetText(\"new reply\");\n\t * oCommentReply.SetUserId(\"uid-1\");\n\t * var sType = oCommentReply.GetClassType();\n\t * oParagraph = Api.CreateParagraph();\n\t * oParagraph.AddText(\"Class type: \" + sType);\n\t * var sAuthor = oCommentReply.GetAuthorName();\n\t * oDocument.Push(oParagraph);\n\t * oParagraph = Api.CreateParagraph();\n\t * oParagraph.AddText(\"Comment reply author: \" + sAuthor);\n\t * oDocument.Push(oParagraph);\n\t * var sText = oCommentReply.GetText();\n\t * oParagraph = Api.CreateParagraph();\n\t * oParagraph.AddText(\"Comment reply text: \" + sText);\n\t * oDocument.Push(oParagraph);\n\t * var sUserId = oCommentReply.GetUserId();\n\t * oParagraph = Api.CreateParagraph();\n\t * oParagraph.AddText(\"Comment reply user ID: \" + sUserId);\n\t * oDocument.Push(oParagraph);\n\t * builder.SaveFile(\"docx\", \"ApiCommentReply.docx\");\n\t * builder.CloseFile();\n\t * ```\n\t *\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        93639,
-        93756
+        93640,
+        93757
       ],
       "lineno": 3101,
       "columnno": 1,
@@ -2800,8 +2800,8 @@
     "comment": "/**\n\t * Class representing a Paragraph hyperlink.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oParagraph = oDocument.GetElement(0);\n\t * var oRun = Api.CreateRun();\n\t * oRun.AddText(\"Api ONLYOFFICE DocBuilder\");\n\t * oParagraph.AddElement(oRun);\n\t * var oHyperlink = oParagraph.AddHyperlink(\"https://api.onlyoffice.com/\");\n\t * oHyperlink.SetLink(\"https://api.onlyoffice.com/docbuilder/basic\");\n\t * oHyperlink.SetScreenTipText(\"ONLYOFFICE for developers\");\n\t * oHyperlink.SetDisplayedText(\"ONLYOFFICE Document Builder\");\n\t * var oLinkedText = oHyperlink.GetLinkedText();\n\t * var oScreenTipText = oHyperlink.GetScreenTipText();\n\t * oParagraph = Api.CreateParagraph();\n\t * oParagraph.AddText(\"Linked text: \" + oLinkedText);\n\t * oParagraph.AddLineBreak();\n\t * oParagraph.AddText(\"Screen tip text: \" + oScreenTipText);\n\t * oDocument.Push(oParagraph);\n\t * var oRange = oHyperlink.GetRange(0, 9);\n\t * oRange.SetBold(true);\n\t * builder.SaveFile(\"docx\", \"ApiHyperlink .docx\");\n\t * builder.CloseFile();\n\t * \n\t * ```\n\t *\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        93832,
-        93913
+        93833,
+        93914
       ],
       "lineno": 3111,
       "columnno": 1,
@@ -2817,8 +2817,8 @@
     "comment": "/**\n\t * Returns a type of the ApiHyperlink class.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oParagraph = oDocument.GetElement(0);\n\t * var oRun = Api.CreateRun();\n\t * oRun.AddText(\"ONLYOFFICE Document Builder\");\n\t * oParagraph.AddElement(oRun);\n\t * var oHyperlink = oParagraph.AddHyperlink(\"https://api.onlyoffice.com/docbuilder/basic\");\n\t * var sClassType = oHyperlink.GetClassType();\n\t * oParagraph = Api.CreateParagraph();\n\t * oParagraph.AddText(\"Class type: \" + sClassType);\n\t * oDocument.Push(oParagraph);\n\t * builder.SaveFile(\"docx\", \"GetClassType.docx\");\n\t * builder.CloseFile();\n\t * \n\t * ```\n\t *\n\t * @memberof ApiHyperlink\n\t * @returns {\"hyperlink\"}\n\t */",
     "meta": {
       "range": [
-        94105,
-        94181
+        94106,
+        94182
       ],
       "lineno": 3123,
       "columnno": 1,
@@ -2848,8 +2848,8 @@
     "comment": "/**\n\t * Class representing a document form base.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oTextForm = Api.CreateTextForm({\"key\": \"Personal information\", \"tip\": \"Enter your first name\", \"required\": true, \"placeholder\": \"First name\", \"comb\": true, \"maxCharacters\": 10, \"cellWidth\": 3, \"multiLine\": false, \"autoFit\": false});\n\t * var oParagraph = oDocument.GetElement(0);\n\t * oParagraph.AddElement(oTextForm);\n\t * oTextForm.SetBorderColor(255, 111, 61);\n\t * oTextForm.ToFixed(10 * 240, 2 * 240);\n\t * oTextForm.SetText(\"John Smith\");\n\t * var oTextPr = oDocument.GetDefaultTextPr();\n\t * oTextPr.SetFontSize(30);\n\t * oTextPr.SetBold(true);\n\t * oTextForm.SetTextPr(oTextPr);\n\t * var oFormTextPr = oTextForm.GetTextPr();\n\t * oFormTextPr.SetItalic(true);\n\t * var oShape = oTextForm.GetWrapperShape();\n\t * var oStroke = Api.CreateStroke(36000, Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61)));\n\t * oShape.SetOutLine(oStroke);\n\t * var oCopyForm = oTextForm.Copy();\n\t * oParagraph = Api.CreateParagraph();\n\t * oParagraph.AddElement(oCopyForm);\n\t * oDocument.Push(oParagraph);\n\t * oCopyForm.ToInline();\n\t * var sText = oTextForm.GetText();\n\t * var sClassType = oTextForm.GetClassType();\n\t * var sFormType = oTextForm.GetFormType();\n\t * var bFixed = oTextForm.IsFixed();\n\t * var bFixedCopy = oCopyForm.IsFixed();\n\t * var bRequired = oTextForm.IsRequired();\n\t * var sKey = oTextForm.GetFormKey();\n\t * var sTipText = oTextForm.GetTipText();\n\t * oCopyForm.SetText(\"John Smith\");\n\t * oCopyForm.Clear();\n\t * oParagraph = Api.CreateParagraph();\n\t * oParagraph.AddText(\"Class type: \" + sClassType);\n\t * oParagraph.AddLineBreak();\n\t * oParagraph.AddText(\"Form type: \" + sFormType);\n\t * oParagraph.AddLineBreak();\n\t * oParagraph.AddText(\"Form text: \" + sText);\n\t * oParagraph.AddLineBreak();\n\t * oParagraph.AddText(\"The first form from this document has a fixed size: \" + bFixed);\n\t * oParagraph.AddLineBreak();\n\t * oParagraph.AddText(\"The second form from this document has a fixed size: \" + bFixedCopy);\n\t * oParagraph.AddLineBreak();\n\t * oParagraph.AddText(\"The first form from this document is required: \" + bRequired);\n\t * oParagraph.AddLineBreak();\n\t * oParagraph.AddText(\"Form key: \" + sKey);\n\t * oParagraph.AddLineBreak();\n\t * oParagraph.AddText(\"Form tip text: \" + sTipText);\n\t * oParagraph.AddLineBreak();\n\t * oParagraph.AddText(\"The second form from this document was cleared.\");\n\t * oDocument.Push(oParagraph);\n\t * builder.SaveFile(\"docx\", \"ApiFormBase.docx\");\n\t * builder.CloseFile();\n\t * \n\t * ```\n\t *\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        94292,
-        94343
+        94293,
+        94344
       ],
       "lineno": 3133,
       "columnno": 1,
@@ -2865,8 +2865,8 @@
     "comment": "/**\n\t * Class representing a document text field.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oTextForm = Api.CreateTextForm({\"key\": \"Personal information\", \"tip\": \"Enter your first name\", \"required\": true, \"placeholder\": \"First name\", \"multiLine\": false, \"autoFit\": false});\n\t * var oParagraph = oDocument.GetElement(0);\n\t * oParagraph.AddElement(oTextForm);\n\t * oTextForm.SetCharactersLimit(5);\n\t * oTextForm.SetText(\"John Smith\");\n\t * oTextForm.SetComb(true);\n\t * var nLimit = oTextForm.GetCharactersLimit();\n\t * var bComb = oTextForm.IsComb();\n\t * var bMultiline = oTextForm.IsMultiline();\n\t * var bAutoFit = oTextForm.IsAutoFit();\n\t * oParagraph = Api.CreateParagraph();\n\t * oParagraph.AddText(\"Characters limit: \" + nLimit);\n\t * oParagraph.AddLineBreak();\n\t * oParagraph.AddText(\"The first text form from this document is comb: \" + bComb);\n\t * oParagraph.AddLineBreak();\n\t * oParagraph.AddText(\"The first text form from this document is multiline: \" + bMultiline);\n\t * oParagraph.AddLineBreak();\n\t * oParagraph.AddText(\"The first text form from this document is autofit: \" + bAutoFit);\n\t * oDocument.Push(oParagraph);\n\t * builder.SaveFile(\"docx\", \"ApiTextForm.docx\");\n\t * builder.CloseFile();\n\t * \n\t * ```\n\t *\n\t * @constructor\n\t * @extends {ApiFormBase}\n\t */",
     "meta": {
       "range": [
-        94481,
-        94545
+        94482,
+        94546
       ],
       "lineno": 3144,
       "columnno": 1,
@@ -2885,8 +2885,8 @@
     "comment": "/**\n\t * Class representing a document combo box / dropdown list.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oComboBoxForm = Api.CreateComboBoxForm({\"key\": \"Personal information\", \"tip\": \"Choose your country\", \"required\": true, \"placeholder\": \"Country\", \"editable\": true, \"autoFit\": false});\n\t * var oParagraph = oDocument.GetElement(0);\n\t * oParagraph.AddElement(oComboBoxForm);\n\t * oComboBoxForm.SetListValues([\"Latvia\", \"USA\", \"UK\"]);\n\t * oComboBoxForm.SetText(\"France\");\n\t * oComboBoxForm.SelectListValue(\"USA\");\n\t * var aListValues = oComboBoxForm.GetListValues();\n\t * oParagraph = Api.CreateParagraph();\n\t * oParagraph.AddText(\"Combo box list values: \");\n\t * oParagraph.AddLineBreak();\n\t * for (let i = 0; i < aListValues.length; i++ ){\n\t *     oParagraph.AddText(aListValues[i]);\n\t *     oParagraph.AddLineBreak();\n\t * }\n\t * var bEdit = oComboBoxForm.IsEditable();\n\t * oParagraph.AddLineBreak();\n\t * oParagraph.AddText(\"The first combo box from this document is editable: \" + bEdit);\n\t * oDocument.Push(oParagraph);\n\t * builder.SaveFile(\"docx\", \"ApiComboBoxForm.docx\");\n\t * builder.CloseFile();\n\t * \n\t * ```\n\t *\n\t * @constructor\n\t * @extends {ApiFormBase}\n\t */",
     "meta": {
       "range": [
-        94811,
-        94879
+        94812,
+        94880
       ],
       "lineno": 3158,
       "columnno": 1,
@@ -2905,8 +2905,8 @@
     "comment": "/**\n\t * Class representing a document checkbox / radio button.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oCheckBoxForm = Api.CreateCheckBoxForm({\"tip\": \"Specify your marital status\", \"required\": true, \"placeholder\": \"Marital status\", \"radio\": true});\n\t * oCheckBoxForm.SetRadioGroup(\"Marital status\");\n\t * var oParagraph = oDocument.GetElement(0);\n\t * oParagraph.AddElement(oCheckBoxForm);\n\t * oParagraph.AddText(\" Married\");\n\t * oParagraph.AddLineBreak();\n\t * oCheckBoxForm = Api.CreateCheckBoxForm({\"tip\": \"Specify your marital status\", \"required\": true, \"placeholder\": \"Marital status\", \"radio\": true});\n\t * oCheckBoxForm.SetRadioGroup(\"Marital status\");\n\t * oParagraph.AddElement(oCheckBoxForm);\n\t * oParagraph.AddText(\" Single\");\n\t * var sRadioGroup = oCheckBoxForm.GetRadioGroup();\n\t * var bRadioButton = oCheckBoxForm.IsRadioButton();\n\t * oCheckBoxForm.SetChecked(true);\n\t * var bChecked = oCheckBoxForm.IsChecked();\n\t * oParagraph = Api.CreateParagraph();\n\t * oParagraph.AddText(\"The second checkbox from this document is a radio button: \" + bRadioButton);\n\t * oParagraph.AddLineBreak();\n\t * oParagraph.AddText(\"The second checkbox from this document is checked: \" + bChecked);\n\t * oParagraph.AddLineBreak();\n\t * oParagraph.AddText(\"Radio group name of the radio buttons in this document: \" + sRadioGroup);\n\t * oDocument.Push(oParagraph);\n\t * builder.SaveFile(\"docx\", \"ApiCheckBoxForm.docx\");\n\t * builder.CloseFile();\n\t * \n\t * ```\n\t *\n\t * @constructor\n\t * @extends {ApiFormBase}\n\t */",
     "meta": {
       "range": [
-        95155,
-        95223
+        95156,
+        95224
       ],
       "lineno": 3172,
       "columnno": 1,
@@ -2925,8 +2925,8 @@
     "comment": "/**\n\t * Class representing a document picture form.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oPictureForm = Api.CreatePictureForm({\"key\": \"Personal information\", \"tip\": \"Upload your photo\", \"required\": true, \"placeholder\": \"Photo\"});\n\t * var oParagraph = oDocument.GetElement(0);\n\t * oParagraph.AddElement(oPictureForm);\n\t * oPictureForm.SetImage(\"https://api.onlyoffice.com/content/img/docbuilder/examples/user-profile.png\", 60 * 36000, 35 * 36000);\n\t * oPictureForm.SetLockAspectRatio(true);\n\t * oPictureForm.SetScaleFlag(\"tooBig\");\n\t * oPictureForm.SetPicturePosition(70, 70);\n\t * oPictureForm.SetRespectBorders(true);\n\t * var sScaleFlag = oPictureForm.GetScaleFlag();\n\t * var aPosition = oPictureForm.GetPicturePosition();\n\t * var bLock = oPictureForm.IsLockAspectRatio();\n\t * var bRespectBorders = oPictureForm.IsRespectBorders();\n\t * oParagraph = Api.CreateParagraph();\n\t * oParagraph.AddText(\"Picture scale flag: \" + sScaleFlag);\n\t * oParagraph.AddLineBreak();\n\t * oParagraph.AddText(\"The aspect ratio of the first picture form in this document is locked: \" + bLock);\n\t * oParagraph.AddLineBreak();\n\t * oParagraph.AddText(\"The borders of the first picture form in this document are respected when scaling the image: \" + bRespectBorders);\n\t * oDocument.Push(oParagraph);\n\t * oParagraph = Api.CreateParagraph();\n\t * oParagraph.AddText(\"Picture position: \");\n\t * oParagraph.AddLineBreak();\n\t * for (let i = 0; i < aPosition.length; i++ ){\n\t *     var nShift = aPosition[i];\n\t *     oParagraph.AddText(\"\" + nShift);\n\t *     oParagraph.AddLineBreak();\n\t * }\n\t * oDocument.Push(oParagraph);\n\t * builder.SaveFile(\"docx\", \"ApiPictureForm.docx\");\n\t * builder.CloseFile();\n\t * \n\t * ```\n\t *\n\t * @constructor\n\t * @extends {ApiFormBase}\n\t */",
     "meta": {
       "range": [
-        95488,
-        95555
+        95489,
+        95556
       ],
       "lineno": 3186,
       "columnno": 1,
@@ -2945,8 +2945,8 @@
     "comment": "/**\n\t * Class representing a document date field.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"pdf\");\n\t * var oDocument = Api.GetDocument();\n\t * var oDateForm = Api.CreateDateForm({\"key\": \"Nowadays\", \"tip\": \"Enter current date\", \"required\": true, \"placeholder\": \"Date\", \"format\": \"mm.dd.yyyy\", \"lang\": \"en-US\"});\n\t * var oParagraph = oDocument.GetElement(0);\n\t * oParagraph.AddElement(oDateForm);\n\t * oDateForm.SetFormat(\"mm/dd/yyyy\");\n\t * oDateForm.SetLanguage(\"en-CA\");\n\t * oDateForm.SetTime(new Date().getTime());\n\t * var sFormat = oDateForm.GetFormat();\n\t * var sLanguage = oDateForm.GetLanguage();\n\t * var nTime = oDateForm.GetTime();\n\t * oParagraph = Api.CreateParagraph();\n\t * oParagraph.AddText(\"Date format: \" + sFormat);\n\t * oParagraph.AddLineBreak();\n\t * oParagraph.AddText(\"Date language: \" + sLanguage);\n\t * oParagraph.AddLineBreak();\n\t * oParagraph.AddText(\"Date: \" + new Date(nTime));\n\t * oDocument.Push(oParagraph);\n\t * builder.SaveFile(\"pdf\", \"ApiDateForm.pdf\");\n\t * builder.CloseFile();\n\t * ```\n\t *\n\t * @constructor\n\t * @extends {ApiFormBase}\n\t */",
     "meta": {
       "range": [
-        95815,
-        95879
+        95816,
+        95880
       ],
       "lineno": 3200,
       "columnno": 1,
@@ -2965,8 +2965,8 @@
     "comment": "/**\n\t * Class representing a complex field.\n\t * @param oSdt\n\t * @constructor\n\t * @extends {ApiFormBase}\n\t */",
     "meta": {
       "range": [
-        96140,
-        96207
+        96141,
+        96208
       ],
       "lineno": 3215,
       "columnno": 1,
@@ -2990,8 +2990,8 @@
     "comment": "/**\n\t * Sets the hyperlink address.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oParagraph = oDocument.GetElement(0);\n\t * var oRun = Api.CreateRun();\n\t * oRun.AddText(\"ONLYOFFICE Document Builder\");\n\t * oParagraph.AddElement(oRun);\n\t * var oHyperlink = oParagraph.AddHyperlink(\"https://api.onlyoffice.com/docbuilder/basic\");\n\t * oHyperlink.SetLink(\"https://api.onlyoffice.com/\");\n\t * builder.SaveFile(\"docx\", \"SetLink.docx\");\n\t * builder.CloseFile();\n\t * \n\t * ```\n\t *\n\t * @param {string} sLink - The hyperlink address.\n\t * @returns {boolean}\n\t * */",
     "meta": {
       "range": [
-        96477,
-        96989
+        96478,
+        96990
       ],
       "lineno": 3228,
       "columnno": 1,
@@ -3036,8 +3036,8 @@
     "comment": "/**\n\t * Sets the hyperlink display text.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oParagraph = oDocument.GetElement(0);\n\t * var oRun = Api.CreateRun();\n\t * oRun.AddText(\"ONLYOFFICE Document Builder\");\n\t * oParagraph.AddElement(oRun);\n\t * var oHyperlink = oParagraph.AddHyperlink(\"https://api.onlyoffice.com/docbuilder/basic\");\n\t * oHyperlink.SetDisplayedText(\"Api ONLYOFFICE DocBuilder\");\n\t * builder.SaveFile(\"docx\", \"SetDisplayedText.docx\");\n\t * builder.CloseFile();\n\t * \n\t * ```\n\t *\n\t * @param {string} sDisplay - The text to display the hyperlink.\n\t * @returns {boolean}\n\t * */",
     "meta": {
       "range": [
-        97157,
-        97869
+        97158,
+        97870
       ],
       "lineno": 3253,
       "columnno": 1,
@@ -3082,8 +3082,8 @@
     "comment": "/**\n\t * Sets the screen tip text of the hyperlink.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oParagraph = oDocument.GetElement(0);\n\t * var oRun = Api.CreateRun();\n\t * oRun.AddText(\"ONLYOFFICE Document Builder\");\n\t * oParagraph.AddElement(oRun);\n\t * var oHyperlink = oParagraph.AddHyperlink(\"https://api.onlyoffice.com/docbuilder/basic\");\n\t * oHyperlink.SetScreenTipText(\"ONLYOFFICE for developers\");\n\t * var sScreenTipText = oHyperlink.GetScreenTipText();\n\t * oParagraph = Api.CreateParagraph();\n\t * oParagraph.AddText(\"Screen tip text: \" + sScreenTipText);\n\t * oDocument.Push(oParagraph);\n\t * builder.SaveFile(\"docx\", \"SetScreenTipText.docx\");\n\t * builder.CloseFile();\n\t * \n\t * ```\n\t *\n\t * @param {string} sScreenTipText - The screen tip text of the hyperlink.\n\t * @returns {boolean}\n\t * */",
     "meta": {
       "range": [
-        98056,
-        98256
+        98057,
+        98257
       ],
       "lineno": 3289,
       "columnno": 1,
@@ -3128,8 +3128,8 @@
     "comment": "/**\n\t * Returns the hyperlink address.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oParagraph = oDocument.GetElement(0);\n\t * var oRun = Api.CreateRun();\n\t * oRun.AddText(\"ONLYOFFICE Document Builder\");\n\t * oParagraph.AddElement(oRun);\n\t * var oHyperlink = oParagraph.AddHyperlink(\"https://api.onlyoffice.com/docbuilder/basic\");\n\t * oHyperlink.SetLink(\"https://api.onlyoffice.com/\");\n\t * var sLinkedText = oHyperlink.GetLinkedText();\n\t * oParagraph = Api.CreateParagraph();\n\t * oParagraph.AddText(\"Linked text: \" + sLinkedText);\n\t * oDocument.Push(oParagraph);\n\t * builder.SaveFile(\"docx\", \"GetLinkedText.docx\");\n\t * builder.CloseFile();\n\t * \n\t * ```\n\t *\n\t * @returns {string} \n\t * */",
     "meta": {
       "range": [
-        98356,
-        98546
+        98357,
+        98547
       ],
       "lineno": 3303,
       "columnno": 1,
@@ -3159,8 +3159,8 @@
     "comment": "/**\n\t * Returns the hyperlink display text.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oParagraph = oDocument.GetElement(0);\n\t * oParagraph.AddText(\"ONLYOFFICE Document Builder\");\n\t * var oHyperlink = oParagraph.AddHyperlink(\"https://api.onlyoffice.com/docbuilder/basic\");\n\t * var sDisplayedText = oHyperlink.GetDisplayedText();\n\t * oParagraph = Api.CreateParagraph();\n\t * oParagraph.AddText(\"Displayed text: \" + sDisplayedText);\n\t * oDocument.Push(oParagraph);\n\t * builder.SaveFile(\"docx\", \"GetDisplayedText.docx\");\n\t * builder.CloseFile();\n\t * \n\t * ```\n\t *\n\t * @returns {string} \n\t * */",
     "meta": {
       "range": [
-        98651,
-        98853
+        98652,
+        98854
       ],
       "lineno": 3319,
       "columnno": 1,
@@ -3190,8 +3190,8 @@
     "comment": "/**\n\t * Returns the screen tip text of the hyperlink.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oParagraph = oDocument.GetElement(0);\n\t * var oRun = Api.CreateRun();\n\t * oRun.AddText(\"ONLYOFFICE Document Builder\");\n\t * oParagraph.AddElement(oRun);\n\t * var oHyperlink = oParagraph.AddHyperlink(\"https://api.onlyoffice.com/docbuilder/basic\");\n\t * oHyperlink.SetScreenTipText(\"ONLYOFFICE for developers\");\n\t * var sScreenTipText = oHyperlink.GetScreenTipText();\n\t * oParagraph = Api.CreateParagraph();\n\t * oParagraph.AddText(\"Screen tip text: \" + sScreenTipText);\n\t * oDocument.Push(oParagraph);\n\t * builder.SaveFile(\"docx\", \"GetScreenTipText.docx\");\n\t * builder.CloseFile();\n\t * \n\t * ```\n\t *\n\t * @returns {string} \n\t * */",
     "meta": {
       "range": [
-        98968,
-        99163
+        98969,
+        99164
       ],
       "lineno": 3335,
       "columnno": 1,
@@ -3221,8 +3221,8 @@
     "comment": "/**\n\t * Returns the hyperlink element using the position specified.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oParagraph = oDocument.GetElement(0);\n\t * var oRun1 = Api.CreateRun();\n\t * oRun1.AddText(\"Api Document Builder.\");\n\t * oParagraph.AddElement(oRun1, 0);\n\t * var oRun2 = Api.CreateRun();\n\t * oRun2.AddText(\" ONLYOFFICE for developers\");\n\t * oParagraph.AddElement(oRun2, 1);\n\t * var oHyperlink = oParagraph.AddHyperlink(\"https://api.onlyoffice.com/docbuilder/basic\");\n\t * var oElement = oHyperlink.GetElement(1);\n\t * oParagraph = Api.CreateParagraph();\n\t * oParagraph.AddElement(oElement);\n\t * oDocument.Push(oParagraph);\n\t * builder.SaveFile(\"docx\", \"GetElement.docx\");\n\t * builder.CloseFile();\n\t * \n\t * ```\n\t *\n\t * @param {number} nPos - The position where the element which content we want to get must be located.\n\t * @returns {?ParagraphContent}\n\t */",
     "meta": {
       "range": [
-        99404,
-        99663
+        99405,
+        99664
       ],
       "lineno": 3352,
       "columnno": 1,
@@ -3269,8 +3269,8 @@
     "comment": "/**\n\t * Returns a number of elements in the current hyperlink.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oParagraph = oDocument.GetElement(0);\n\t * var oRun1 = Api.CreateRun();\n\t * oRun1.AddText(\"Api Document Builder.\");\n\t * oParagraph.AddElement(oRun1, 0);\n\t * var oRun2 = Api.CreateRun();\n\t * oRun2.AddText(\" ONLYOFFICE for developers\");\n\t * oParagraph.AddElement(oRun2, 1);\n\t * var oHyperlink = oParagraph.AddHyperlink(\"https://api.onlyoffice.com/docbuilder/basic\");\n\t * var nElementsCount = oHyperlink.GetElementsCount();\n\t * oParagraph = Api.CreateParagraph();\n\t * oParagraph.AddText(\"Number of elements in hyperlink: \" + nElementsCount);\n\t * oParagraph.AddLineBreak();\n\t * oParagraph.AddText(\"Elements: oParagraph, oRun1, oRun2, oHyperlink\");\n\t * oDocument.Push(oParagraph);\n\t * builder.SaveFile(\"docx\", \"GetElementsCount.docx\");\n\t * builder.CloseFile();\n\t * \n\t * ```\n\t *\n\t * @returns {number}\n\t */",
     "meta": {
       "range": [
-        99784,
-        99890
+        99785,
+        99891
       ],
       "lineno": 3367,
       "columnno": 1,
@@ -3300,8 +3300,8 @@
     "comment": "/**\n\t * Sets the default hyperlink style.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oParagraph = oDocument.GetElement(0);\n\t * oParagraph.AddText(\"Api Document Builder\");\n\t * oParagraph.SetColor(255, 111, 61);\n\t * var oCopyParagraph = oParagraph.Copy();\n\t * oDocument.Push(oCopyParagraph);\n\t * var oHyperlink = oParagraph.AddHyperlink(\"http://api.teamlab.info/docbuilder/basic\");\n\t * var oCopyHyperlink = oCopyParagraph.AddHyperlink(\"http://api.teamlab.info/docbuilder/basic\");\n\t * oCopyHyperlink.SetDefaultStyle();\n\t * builder.SaveFile(\"docx\", \"SetDefaultStyle .docx\");\n\t * builder.CloseFile();\n\t * ```\n\t *\n\t * @returns {boolean}\n\t * */",
     "meta": {
       "range": [
-        99993,
-        100505
+        99994,
+        100506
       ],
       "lineno": 3376,
       "columnno": 1,
@@ -3331,8 +3331,8 @@
     "comment": "/**\n\t * Returns a Range object that represents the document part contained in the specified hyperlink.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oParagraph = oDocument.GetElement(0);\n\t * oParagraph.AddText(\"Api Document Builder\");\n\t * var oHyperlink = oParagraph.AddHyperlink(\"https://api.onlyoffice.com/docbuilder/basic\");\n\t * var oRange = oHyperlink.GetRange(0, 2);\n\t * oRange.SetBold(true);\n\t * builder.SaveFile(\"docx\", \"GetRange .docx\");\n\t * builder.CloseFile();\n\t * \n\t * ```\n\t *\n\t * @param {Number} Start - Start character index in the current element.\n\t * @param {Number} End - End character index in the current element.\n\t * @returns {ApiRange} \n\t * */",
     "meta": {
       "range": [
-        100815,
-        100930
+        100816,
+        100931
       ],
       "lineno": 3402,
       "columnno": 1,
@@ -3390,8 +3390,8 @@
     "comment": "/**\n\t * Converts the ApiHyperlink object into the JSON object.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oParagraph = oDocument.GetElement(0);\n\t * var oHyperlink = Api.CreateHyperlink(\"https://api.onlyoffice.com/\", \"ONLYOFFICE Document Builder\", \"ONLYOFFICE for developers\");\n\t * var json = oHyperlink.ToJSON(true);\n\t * var oHyperlinkFromJSON = Api.FromJSON(json);\n\t * oHyperlinkFromJSON.SetDefaultStyle();\n\t * oParagraph.AddElement(oHyperlinkFromJSON);\n\t * builder.SaveFile(\"docx\", \"ToJSON.docx\");\n\t * builder.CloseFile();\n\t * ```\n\t *\n\t * @memberof ApiHyperlink\n\t * @param {boolean} bWriteStyles - Specifies if the used styles will be written to the JSON object or not.\n\t * @returns {JSON}\n\t */",
     "meta": {
       "range": [
-        101184,
-        101460
+        101185,
+        101461
       ],
       "lineno": 3413,
       "columnno": 1,
@@ -3436,8 +3436,8 @@
     "comment": "/**\n\t * Class representing a style.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oTableStyle = oDocument.CreateStyle(\"CustomTableStyle\", \"table\");\n\t * oTableStyle.SetBasedOn(oDocument.GetStyle(\"Bordered\"));\n\t * oTableStyle.SetName(\"My Custom Style\");\n\t * var oTableStyleName = oTableStyle.GetName();\n\t * var oParagraph = oDocument.GetElement(0);\n\t * oParagraph.AddText(\"Table style name = \" + oTableStyleName);\n\t * var oTable = Api.CreateTable(2, 2);\n\t * oTable.SetWidth(\"percent\", 100);\n\t * var oTablePr = oTableStyle.GetTablePr();\n\t * oTablePr.SetTableInd(0);\n\t * oTablePr.SetTableCellMarginTop(720);\n\t * oTablePr.SetTableCellMarginLeft(120);\n\t * oTablePr.SetTableCellMarginRight(120);\n\t * oTablePr.SetTableCellMarginBottom(0);\n\t * oDocument.Push(oTable);\n\t * oTable.SetStyle(oTableStyle);\n\t * oTable.SetTableLook(true, true, true, true, true, true);\n\t * oTableStyle.GetConditionalTableStyle(\"topLeftCell\").GetTableCellPr().SetShd(\"clear\", 255, 111, 61);\n\t * oTableStyle.GetConditionalTableStyle(\"topRightCell\").GetTableCellPr().SetShd(\"clear\", 51, 51, 51);\n\t * oTableStyle.GetConditionalTableStyle(\"bottomLeftCell\").GetTableCellPr().SetShd(\"clear\", 128, 128, 128);\n\t * oTableStyle.GetConditionalTableStyle(\"bottomRightCell\").GetTableCellPr().SetShd(\"clear\", 255, 213, 191);\n\t * builder.SaveFile(\"docx\", \"ApiStyle.docx\");\n\t * builder.CloseFile();\n\t * \n\t * ```\n\t *\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        101523,
-        101575
+        101524,
+        101576
       ],
       "lineno": 3427,
       "columnno": 1,
@@ -3453,8 +3453,8 @@
     "comment": "/**\n\t * Class representing a document section.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oParagraph = oDocument.GetElement(0);\n\t * var oSection = oDocument.GetFinalSection();\n\t * oSection.SetEqualColumns(3, 720);\n\t * oParagraph.AddText(\"This is a text split into 3 equal columns. \");\n\t * oParagraph.AddText(\"The columns are separated by the distance of half an inch.\");\n\t * oParagraph.AddColumnBreak();\n\t * oParagraph.AddText(\"This text starts from column #2. \");\n\t * oParagraph.AddText(\"This sentence is used to add lines for demonstrative purposes.\");\n\t * oParagraph.AddColumnBreak();\n\t * oParagraph.AddText(\"This text starts from column #3. \");\n\t * oParagraph.AddText(\"This sentence is used to add lines for demonstrative purposes.\");\n\t * var oFooter = oSection.GetFooter(\"default\", true);\n\t * oSection.SetFooterDistance(1440);\n\t * oParagraph = oFooter.GetElement(0);\n\t * oParagraph.AddText(\"This is a page footer. \");\n\t * oParagraph.AddText(\"The distance from the page bottom to the footer is 1 inch (1440 twentieths of a point).\");\n\t * var oHeader = oSection.GetHeader(\"default\", true);\n\t * oSection.SetHeaderDistance(1440);\n\t * oParagraph = oHeader.GetElement(0);\n\t * oParagraph.AddText(\"This is a page header. \");\n\t * oParagraph.AddText(\"The distance from the page top to the header is 1 inch (1440 twentieths of a point).\");\n\t * oSection.SetPageMargins(720, 720, 720, 720);\n\t * builder.SaveFile(\"docx\", \"ApiSection.docx\");\n\t * builder.CloseFile();\n\t * \n\t * ```\n\t *\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        101648,
-        101708
+        101649,
+        101709
       ],
       "lineno": 3436,
       "columnno": 1,
@@ -3470,8 +3470,8 @@
     "comment": "/**\n\t * Class representing the table row properties.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oTableStyle = oDocument.CreateStyle(\"CustomTableStyle\", \"table\");\n\t * oTableStyle.SetBasedOn(oDocument.GetStyle(\"Bordered\"));\n\t * var oTable = Api.CreateTable(3, 3);\n\t * oTable.SetWidth(\"percent\", 100);\n\t * oTable.SetTableLook(true, true, true, true, false, false);\n\t * var oTableRowPr = oTableStyle.GetTableRowPr();\n\t * oTableRowPr.SetTableHeader(true);\n\t * oTableRowPr.SetHeight(\"atLeast\", 720);\n\t * oTable.SetStyle(oTableStyle);\n\t * oDocument.Push(oTable);\n\t * var sClassType = oTableRowPr.GetClassType();\n\t * var oParagraph = oDocument.GetElement(0);\n\t * oParagraph.AddText(\"Class Type = \" + sClassType);\n\t * oParagraph.AddLineBreak();\n\t * oParagraph.AddText(\"We create a 3x3 table and set all table rows as the table headers:\");\n\t * builder.SaveFile(\"docx\", \"ApiTableRowPr.docx\");\n\t * builder.CloseFile();\n\t * \n\t * ```\n\t *\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        101787,
-        101877
+        101788,
+        101878
       ],
       "lineno": 3445,
       "columnno": 1,
@@ -3487,8 +3487,8 @@
     "comment": "/**\n\t * Class representing a table row.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oTableStyle = oDocument.CreateStyle(\"CustomTableStyle\", \"table\");\n\t * oTableStyle.SetBasedOn(oDocument.GetStyle(\"Bordered\"));\n\t * var oTable = Api.CreateTable(3, 3);\n\t * oTable.SetWidth(\"percent\", 100);\n\t * var oTableRow = oTable.GetRow(0);\n\t * oTableRow.SetHeight(\"atLeast\", 720);\n\t * oTableRow.AddRows(1, true);\n\t * oTableRow = oTable.GetRow(0);\n\t * var oCell = oTableRow.GetCell(1);\n\t * oCell.SetVerticalAlign(\"bottom\");\n\t * var oParagraph = oCell.GetContent().GetElement(0);\n\t * oParagraph.AddText(\"Align bottom\");\n\t * var nCellsCount = oTableRow.GetCellsCount();\n\t * oTableRow.GetCell(0).GetContent().GetElement(0).AddText(\"Row index: \" + oTableRow.GetIndex());\n\t * oTableRow = oTable.GetRow(1);\n\t * oTableRow.GetCell(0).GetContent().GetElement(0).AddText(\"Second row\");\n\t * oTableRow.GetNext().GetCell(0).GetContent().GetElement(0).AddText(\"Third row\");\n\t * oTableRow.GetPrevious().GetCell(1).GetContent().GetElement(0).SetBold(true);\n\t * oTableRow = oTable.GetRow(2);\n\t * oTableRow.MergeCells();\n\t * oTable.SetStyle(oTableStyle);\n\t * oDocument.Push(oTable);\n\t * oParagraph = Api.CreateParagraph();\n\t * oParagraph.AddText(\"Number of cells in the first row = \" + nCellsCount);\n\t * var sClassType = oTableRow.GetClassType();\n\t * oParagraph.AddLineBreak();\n\t * oParagraph.AddText(\"Class Type = \" + sClassType);\n\t * oDocument.Push(oParagraph);\n\t * builder.SaveFile(\"docx\", \"ApiTableRow.docx\");\n\t * builder.CloseFile();\n\t * \n\t * ```\n\t *\n\t * @constructor\n\t * @extends {ApiTableRowPr}\n\t */",
     "meta": {
       "range": [
-        101972,
-        102070
+        101973,
+        102071
       ],
       "lineno": 3456,
       "columnno": 1,
@@ -3507,8 +3507,8 @@
     "comment": "/**\n\t * Class representing the table cell properties.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oTableStyle = oDocument.CreateStyle(\"CustomTableStyle\", \"table\");\n\t * oTableStyle.SetBasedOn(oDocument.GetStyle(\"Bordered\"));\n\t * var oTable = Api.CreateTable(3, 3);\n\t * oTable.SetWidth(\"percent\", 100);\n\t * var oTableRow = oTable.GetRow(0);\n\t * oTableRow.SetHeight(\"atLeast\", 1440);\n\t * var oTableCellPr = oTableStyle.GetTableCellPr();\n\t * oTableCellPr.SetVerticalAlign(\"bottom\");\n\t * oTableCellPr.SetCellBorderRight(\"single\", 32, 0, 51, 51, 51);\n\t * oTableCellPr.SetCellBorderTop(\"single\", 32, 0, 51, 51, 51);\n\t * oTableCellPr.SetShd(\"clear\", 255, 111, 61, false);\n\t * var oCell = oTable.GetRow(0).GetCell(0);\n\t * var oParagraph = oCell.GetContent().GetElement(0);\n\t * oParagraph.AddText(\"Align bottom\");\n\t * oTable.SetStyle(oTableStyle);\n\t * oDocument.Push(oTable);\n\t * var sClassType = oTableCellPr.GetClassType();\n\t * oParagraph = oDocument.GetElement(0);\n\t * oParagraph.AddText(\"Class Type = \" + sClassType);\n\t * builder.SaveFile(\"docx\", \"ApiTableCellPr.docx\");\n\t * builder.CloseFile();\n\t * \n\t * ```\n\t *\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        102265,
-        102358
+        102266,
+        102359
       ],
       "lineno": 3468,
       "columnno": 1,
@@ -3524,8 +3524,8 @@
     "comment": "/**\n\t * Class representing a table cell.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oTableStyle = oDocument.CreateStyle(\"CustomTableStyle\", \"table\");\n\t * oTableStyle.SetBasedOn(oDocument.GetStyle(\"Bordered\"));\n\t * var oTable = Api.CreateTable(1, 1);\n\t * oTable.SetWidth(\"percent\", 100);\n\t * var oCell = oTable.GetCell(0, 0);\n\t * oCell.AddColumns(2, false);\n\t * oCell.AddRows(2, false);\n\t * var oParentRow = oCell.GetParentRow();\n\t * oParentRow.SetHeight(\"atLeast\", 1440);\n\t * var oParentTable = oCell.GetParentTable();\n\t * oParentTable.SetTableBorderBottom(\"single\", 4, 0, 255, 111, 61);\n\t * oCell.SetVerticalAlign(\"top\");\n\t * var oParagraph = oCell.GetContent().GetElement(0);\n\t * oParagraph.AddText(\"Align top\");\n\t * oCell = oTable.GetRow(0).GetCell(1);\n\t * oCell.SetVerticalAlign(\"center\");\n\t * oParagraph = oCell.GetContent().GetElement(0);\n\t * oParagraph.AddText(\"Align center\");\n\t * oCell = oTable.GetRow(0).GetCell(2);\n\t * oCell.SetVerticalAlign(\"bottom\");\n\t * oParagraph = oCell.GetContent().GetElement(0);\n\t * oParagraph.AddText(\"Align bottom\");\n\t * oTable.SetStyle(oTableStyle);\n\t * var oNextCell = oTable.GetCell(0, 1).GetNext();\n\t * oNextCell.GetContent().GetElement(0).SetBold(true);\n\t * var oPreviousCell = oTable.GetCell(0, 1).GetPrevious();\n\t * oPreviousCell.GetContent().GetElement(0).SetBold(true);\n\t * oCell = oTable.GetRow(0).GetCell(0);\n\t * oCell.SetCellBorderBottom(\"single\", 32, 0, 51, 51, 51);\n\t * oCell.SetCellBorderLeft(\"single\", 32, 0, 51, 51, 51);\n\t * oCell.SetCellBorderRight(\"single\", 32, 0, 51, 51, 51);\n\t * oCell.SetCellBorderTop(\"single\", 32, 0, 51, 51, 51);\n\t * oTable.GetCell(1, 0).GetContent().GetElement(0).AddText(\"Cell index: \" + oTable.GetCell(1, 0).GetIndex());\n\t * oDocument.Push(oTable);\n\t * var sClassType = oCell.GetClassType();\n\t * oParagraph = oDocument.GetElement(0);\n\t * oParagraph.AddText(\"Class Type = \" + sClassType);\n\t * builder.SaveFile(\"docx\", \"ApiTableCell.docx\");\n\t * builder.CloseFile();\n\t * \n\t * ```\n\t *\n\t * @constructor\n\t * @extends {ApiTableCellPr}\n\t */",
     "meta": {
       "range": [
-        102454,
-        102558
+        102455,
+        102559
       ],
       "lineno": 3478,
       "columnno": 1,
@@ -3544,8 +3544,8 @@
     "comment": "/**\n\t * Class representing the numbering properties.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oNumbering = oDocument.CreateNumbering(\"bullet\");\n\t * for (let nLvl = 0; nLvl < 8; ++nLvl) {\n\t *   var oNumLvl = oNumbering.GetLevel(nLvl);\n\t *   var oParagraph = Api.CreateParagraph();\n\t *   oParagraph.AddText(\"Default bullet lvl \" + (nLvl + 1));\n\t *   oParagraph.SetNumbering(oNumLvl);\n\t *   oParagraph.SetContextualSpacing(true);\n\t *   oDocument.Push(oParagraph);\n\t * }\n\t * builder.SaveFile(\"docx\", \"ApiNumbering.docx\");\n\t * builder.CloseFile();\n\t * \n\t * ```\n\t *\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        102756,
-        102806
+        102757,
+        102807
       ],
       "lineno": 3490,
       "columnno": 1,
@@ -3561,8 +3561,8 @@
     "comment": "/**\n\t * Class representing a reference to a specified level of the numbering.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oNumbering = oDocument.CreateNumbering(\"numbered\");\n\t * for (let nLvl = 0; nLvl < 8; ++nLvl) {\n\t *   var oNumLvl = oNumbering.GetLevel(nLvl);\n\t *   var sFormatString = \"\";\n\t *   for (let nTempLvl = 1; nTempLvl <= (nLvl + 1); ++nTempLvl) sFormatString += \"%\" + nTempLvl + \".\";\n\t *   oNumLvl.SetCustomType(\"lowerRoman\", sFormatString, \"left\");\n\t *   oNumLvl.SetStart(nLvl + 1);\n\t *   oNumLvl.SetSuff(\"space\");\n\t *   var oParagraph = Api.CreateParagraph();\n\t *   oParagraph.AddText(\"Custom numbered lvl \" + (nLvl + 1));\n\t *   oParagraph.SetNumbering(oNumLvl);\n\t *   oParagraph.SetContextualSpacing(true);\n\t *   oDocument.Push(oParagraph);\n\t * }\n\t * builder.SaveFile(\"docx\", \"ApiNumberingLevel.docx\");\n\t * builder.CloseFile();\n\t * \n\t * ```\n\t *\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        102910,
-        103014
+        102911,
+        103015
       ],
       "lineno": 3499,
       "columnno": 1,
@@ -3578,8 +3578,8 @@
     "comment": "/**\n\t * Class representing a set of formatting properties which shall be conditionally applied to the parts of a table\n\t * which match the requirement specified on the <code>Type</code>.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        103227,
-        103379
+        103228,
+        103380
       ],
       "lineno": 3510,
       "columnno": 1,
@@ -3595,8 +3595,8 @@
     "comment": "/**\n\t * Class representing an unsupported element.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        103456,
-        103487
+        103457,
+        103488
       ],
       "lineno": 3521,
       "columnno": 1,
@@ -3612,8 +3612,8 @@
     "comment": "/**\n\t * Class representing a graphical object.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oParagraph = oDocument.GetElement(0);\n\t * oParagraph.AddText(\"This is a paragraph with a shape. \");\n\t * oParagraph.AddText(\"The text wraps the rectangular box that bounds the object. \");\n\t * oParagraph.AddText(\"The distance between the shape and the text is half an inch (457200 English measure units).\");\n\t * var oGs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);\n\t * var oGs2 = Api.CreateGradientStop(Api.CreateRGBColor(255, 111, 61), 100000);\n\t * var oFill = Api.CreateRadialGradientFill([oGs1, oGs2]);\n\t * var oStroke = Api.CreateStroke(0, Api.CreateNoFill());\n\t * var oDrawing = Api.CreateShape(\"rect\", 1908000, 1404000, oFill, oStroke);\n\t * oDrawing.SetDistances(457200, 457200, 457200, 0);\n\t * oDrawing.SetWrappingStyle(\"square\");\n\t * oDrawing.SetHorAlign(\"page\", \"center\");\n\t * oParagraph.AddDrawing(oDrawing);\n\t * oParagraph = Api.CreateParagraph();\n\t * oParagraph.AddText(\"This is another paragraph.\");\n\t * oDocument.Push(oParagraph);\n\t * oParagraph = Api.CreateParagraph();\n\t * oParagraph.AddText(\"The shape is aligned at the center of the page horizontally.\");\n\t * oDocument.Push(oParagraph);\n\t * builder.SaveFile(\"docx\", \"ApiDrawing.docx\");\n\t * builder.CloseFile();\n\t * \n\t * ```\n\t *\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        103560,
-        103620
+        103561,
+        103621
       ],
       "lineno": 3529,
       "columnno": 1,
@@ -3629,8 +3629,8 @@
     "comment": "/**\n\t * Class representing an image.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oParagraph = oDocument.GetElement(0);\n\t * var oDrawing = Api.CreateImage(\"https://api.onlyoffice.com/content/img/docbuilder/examples/coordinate_aspects.png\", 60 * 36000, 35 * 36000);\n\t * oParagraph.AddDrawing(oDrawing);\n\t * var sClassType = oDrawing.GetClassType();\n\t * oParagraph = Api.CreateParagraph();\n\t * oParagraph.AddText(\"Class Type = \" + sClassType);\n\t * oDocument.Push(oParagraph);\n\t * builder.SaveFile(\"docx\", \"ApiImage.docx\");\n\t * builder.CloseFile();\n\t * \n\t * ```\n\t *\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        103683,
-        103766
+        103684,
+        103767
       ],
       "lineno": 3538,
       "columnno": 1,
@@ -3646,8 +3646,8 @@
     "comment": "/**\n\t * Class representing an Ole object.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oOleObject = Api.CreateOleObject(\"https://api.onlyoffice.com/content/img/docbuilder/examples/ole-object-image.png\", 130 * 36000, 90 * 36000, \"https://youtu.be/SKGz4pmnpgY\", \"asc.{38E022EA-AD92-45FC-B22B-49DF39746DB4}\");\n\t * var oParagraph = oDocument.GetElement(0);\n\t * oParagraph.AddDrawing(oOleObject);\n\t * oOleObject.SetApplicationId(\"asc.{E5773A43-F9B3-4E81-81D9-CE0A132470E7}\");\n\t * var sAppId = oOleObject.GetApplicationId();\n\t * oParagraph = Api.CreateParagraph();\n\t * oParagraph.AddText(\"The OLE object application ID: \" + sAppId);\n\t * oDocument.Push(oParagraph);\n\t * oOleObject.SetData(\"https://youtu.be/eJxpkjQG6Ew\");\n\t * var sData = oOleObject.GetData();\n\t * oParagraph = Api.CreateParagraph();\n\t * oParagraph.AddText(\"The OLE object data: \" + sData);\n\t * oDocument.Push(oParagraph);\n\t * var sType = oOleObject.GetClassType();\n\t * oParagraph = Api.CreateParagraph();\n\t * oParagraph.AddText(\"Class type: \" + sType);\n\t * oDocument.Push(oParagraph);\n\t * builder.SaveFile(\"docx\", \"ApiOleObject.docx\");\n\t * builder.CloseFile();\n\t * \n\t * ```\n\t *\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        103937,
-        104040
+        103938,
+        104041
       ],
       "lineno": 3550,
       "columnno": 1,
@@ -3663,8 +3663,8 @@
     "comment": "/**\n\t * Class representing a shape.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oParagraph = oDocument.GetElement(0);\n\t * var oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));\n\t * var oStroke = Api.CreateStroke(0, Api.CreateNoFill());\n\t * var oDrawing = Api.CreateShape(\"rect\", 3212465, 963295, oFill, oStroke);\n\t * oParagraph.AddDrawing(oDrawing);\n\t * var oDocContent = oDrawing.GetContent();\n\t * var sClassType = oDrawing.GetClassType();\n\t * oParagraph = Api.CreateParagraph();\n\t * oParagraph.AddText(\"Class Type = \" + sClassType);\n\t * oDocContent.AddElement(0, oParagraph);\n\t * oDrawing.SetVerticalTextAlign(\"top\");\n\t * builder.SaveFile(\"docx\", \"ApiShape.docx\");\n\t * builder.CloseFile();\n\t * \n\t * ```\n\t *\n\t * @constructor\n\t * */",
     "meta": {
       "range": [
-        104219,
-        104303
+        104220,
+        104304
       ],
       "lineno": 3562,
       "columnno": 1,
@@ -3680,8 +3680,8 @@
     "comment": "/**\n\t * Class representing a chart.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oParagraph = oDocument.GetElement(0);\n\t * var oChart = Api.CreateChart(\"bar3D\", [\n\t *   [200, 240, 280],\n\t *   [250, 260, 280]\n\t * ], [\"Projected Revenue\", \"Estimated Costs\"], [2014, 2015, 2016], 4051300, 2347595, 24);\n\t * var oFill = Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51));\n\t * oChart.SetSeriesFill(oFill, 0, false);\n\t * oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));\n\t * oChart.SetSeriesFill(oFill, 1, false);\n\t * oChart.SetVerAxisTitle(\"USD In Hundred Thousands\", 10);\n\t * oChart.SetHorAxisTitle(\"Year\", 11);\n\t * oChart.SetLegendPos(\"bottom\");\n\t * oChart.SetShowDataLabels(false, false, true, false);\n\t * oChart.SetTitle(\"Financial Overview\", 13);\n\t * oParagraph.AddDrawing(oChart);\n\t * builder.SaveFile(\"docx\", \"ApiChart.docx\");\n\t * builder.CloseFile();\n\t * \n\t * ```\n\t *\n\t * @constructor\n\t *\n\t */",
     "meta": {
       "range": [
-        104472,
-        104556
+        104473,
+        104557
       ],
       "lineno": 3575,
       "columnno": 1,
@@ -3697,8 +3697,8 @@
     "comment": "/**\n\t * Class representing a chart series.\n\t * @constructor\n\t *\n\t */",
     "meta": {
       "range": [
-        104732,
-        104832
+        104733,
+        104833
       ],
       "lineno": 3588,
       "columnno": 1,
@@ -3714,8 +3714,8 @@
     "comment": "/**\n\t * Class representing a base class for color types.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        104915,
-        104979
+        104916,
+        104980
       ],
       "lineno": 3598,
       "columnno": 1,
@@ -3731,8 +3731,8 @@
     "comment": "/**\n\t * Class representing an RGB Color.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oParagraph = oDocument.GetElement(0);\n\t * var oRGBColor = Api.CreateRGBColor(255, 111, 61);\n\t * var oGs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);\n\t * var oGs2 = Api.CreateGradientStop(oRGBColor, 100000);\n\t * var oFill = Api.CreateRadialGradientFill([oGs1, oGs2]);\n\t * var oStroke = Api.CreateStroke(0, Api.CreateNoFill());\n\t * var oDrawing = Api.CreateShape(\"rect\", 5930900, 395605, oFill, oStroke);\n\t * oParagraph.AddDrawing(oDrawing);\n\t * var sClassType = oRGBColor.GetClassType();\n\t * oParagraph = Api.CreateParagraph();\n\t * oParagraph.AddText(\"Class Type = \" + sClassType);\n\t * oDocument.Push(oParagraph);\n\t * builder.SaveFile(\"docx\", \"ApiRGBColor.docx\");\n\t * builder.CloseFile();\n\t * \n\t * ```\n\t *\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        105045,
-        105144
+        105046,
+        105145
       ],
       "lineno": 3606,
       "columnno": 1,
@@ -3748,8 +3748,8 @@
     "comment": "/**\n\t * Class representing a Scheme Color.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oParagraph = oDocument.GetElement(0);\n\t * var oSchemeColor = Api.CreateSchemeColor(\"dk1\");\n\t * var oFill = Api.CreateSolidFill(oSchemeColor);\n\t * var oStroke = Api.CreateStroke(0, Api.CreateNoFill());\n\t * var oDrawing = Api.CreateShape(\"curvedUpArrow\", 5930900, 595605, oFill, oStroke);\n\t * oParagraph.AddDrawing(oDrawing);\n\t * var sClassType = oSchemeColor.GetClassType();\n\t * oParagraph = Api.CreateParagraph();\n\t * oParagraph.AddText(\"Class Type = \" + sClassType);\n\t * oDocument.Push(oParagraph);\n\t * builder.SaveFile(\"docx\", \"ApiSchemeColor.docx\");\n\t * builder.CloseFile();\n\t * \n\t * ```\n\t *\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        105326,
-        106353
+        105327,
+        106354
       ],
       "lineno": 3617,
       "columnno": 1,
@@ -3765,8 +3765,8 @@
     "comment": "/**\n\t * Class representing a Preset Color.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oParagraph = oDocument.GetElement(0);\n\t * var oPresetColor = Api.CreatePresetColor(\"peachPuff\");\n\t * var oGs1 = Api.CreateGradientStop(oPresetColor, 0);\n\t * var oGs2 = Api.CreateGradientStop(Api.CreateRGBColor(255, 111, 61), 100000);\n\t * var oFill = Api.CreateRadialGradientFill([oGs1, oGs2]);\n\t * var oStroke = Api.CreateStroke(0, Api.CreateNoFill());\n\t * var oDrawing = Api.CreateShape(\"rect\", 5930900, 395605, oFill, oStroke);\n\t * oParagraph.AddDrawing(oDrawing);\n\t * var sClassType = oPresetColor.GetClassType();\n\t * oParagraph = Api.CreateParagraph();\n\t * oParagraph.AddText(\"Class Type = \" + sClassType);\n\t * oDocument.Push(oParagraph);\n\t * builder.SaveFile(\"docx\", \"ApiPresetColor.docx\");\n\t * builder.CloseFile();\n\t * \n\t * ```\n\t *\n\t * @constructor\n\t * */",
     "meta": {
       "range": [
-        106546,
-        106758
+        106547,
+        106759
       ],
       "lineno": 3648,
       "columnno": 1,
@@ -3782,8 +3782,8 @@
     "comment": "/**\n\t * Class representing a base class for fill.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oParagraph = oDocument.GetElement(0);\n\t * var oGs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);\n\t * var oGs2 = Api.CreateGradientStop(Api.CreateRGBColor(255, 111, 61), 100000);\n\t * var oFill = Api.CreateRadialGradientFill([oGs1, oGs2]);\n\t * var oStroke = Api.CreateStroke(0, Api.CreateNoFill());\n\t * var oDrawing = Api.CreateShape(\"rect\", 1908000, 1404000, oFill, oStroke);\n\t * oDrawing.SetDistances(914400, 0, 914400, 0);\n\t * oDrawing.SetWrappingStyle(\"square\");\n\t * oParagraph.AddDrawing(oDrawing);\n\t * var sClassType = oFill.GetClassType();\n\t * oParagraph.AddText(\"Class Type = \" + sClassType);\n\t * builder.SaveFile(\"docx\", \"ApiFill.docx\");\n\t * builder.CloseFile();\n\t * \n\t * ```\n\t *\n\t * @constructor\n\t * */",
     "meta": {
       "range": [
-        106958,
-        107015
+        106959,
+        107016
       ],
       "lineno": 3662,
       "columnno": 1,
@@ -3799,8 +3799,8 @@
     "comment": "/**\n\t * Class representing a stroke.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oParagraph = oDocument.GetElement(0);\n\t * var oRGBColor = Api.CreateRGBColor(255, 111, 61);\n\t * var oFill = Api.CreateSolidFill(oRGBColor);\n\t * var oStroke = Api.CreateStroke(5 * 36000, Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51)));\n\t * var oDrawing = Api.CreateShape(\"roundRect\", 5930900, 395605, oFill, oStroke);\n\t * oParagraph.AddDrawing(oDrawing);\n\t * var sClassType = oStroke.GetClassType();\n\t * oParagraph = Api.CreateParagraph();\n\t * oParagraph.AddText(\"Class Type = \" + sClassType);\n\t * oDocument.Push(oParagraph);\n\t * builder.SaveFile(\"docx\", \"ApiStroke.docx\");\n\t * builder.CloseFile();\n\t * \n\t * ```\n\t *\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        107079,
-        107125
+        107080,
+        107126
       ],
       "lineno": 3672,
       "columnno": 1,
@@ -3816,8 +3816,8 @@
     "comment": "/**\n\t * Class representing gradient stop.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oParagraph = oDocument.GetElement(0);\n\t * var oGs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);\n\t * var oGs2 = Api.CreateGradientStop(Api.CreateRGBColor(255, 111, 61), 100000);\n\t * var oFill = Api.CreateRadialGradientFill([oGs1, oGs2]);\n\t * var oStroke = Api.CreateStroke(0, Api.CreateNoFill());\n\t * var oDrawing = Api.CreateShape(\"rect\", 1908000, 1404000, oFill, oStroke);\n\t * oDrawing.SetDistances(914400, 0, 914400, 0);\n\t * oDrawing.SetWrappingStyle(\"square\");\n\t * oParagraph.AddDrawing(oDrawing);\n\t * var sClassType = oGs1.GetClassType();\n\t * oParagraph.AddText(\"Class Type = \" + sClassType);\n\t * builder.SaveFile(\"docx\", \"ApiGradientStop.docx\");\n\t * builder.CloseFile();\n\t * \n\t * ```\n\t *\n\t * @constructor\n\t * */",
     "meta": {
       "range": [
-        107196,
-        107340
+        107197,
+        107341
       ],
       "lineno": 3682,
       "columnno": 1,
@@ -3833,8 +3833,8 @@
     "comment": "/**\n\t * Class representing a container for the paragraph elements.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oParagraph = oDocument.GetElement(0);\n\t * var oInlineLvlSdt = Api.CreateInlineLvlSdt();\n\t * var oRun = Api.CreateRun();\n\t * oRun.AddText(\"This is an inline text content control.\");\n\t * oInlineLvlSdt.AddElement(oRun, 0);\n\t * var changeRun = oInlineLvlSdt.GetElement(0);\n\t * changeRun.SetBold(true);\n\t * oParagraph.AddInlineLvlSdt(oInlineLvlSdt);\n\t * oInlineLvlSdt.SetAlias(\"№1\");\n\t * var oAlias = oInlineLvlSdt.GetAlias();\n\t * oParagraph = Api.CreateParagraph();\n\t * oParagraph.AddText(\"Alias: \" + oAlias);\n\t * oDocument.Push(oParagraph);\n\t * oInlineLvlSdt.SetLabel(\"2147483647\");\n\t * var oLabel = oInlineLvlSdt.GetLabel();\n\t * oParagraph = Api.CreateParagraph();\n\t * oParagraph.AddText(\"Label: \" + oLabel);\n\t * oDocument.Push(oParagraph);\n\t * oInlineLvlSdt.SetTag(\"This is a tag\");\n\t * var oTag = oInlineLvlSdt.GetTag();\n\t * oParagraph = Api.CreateParagraph();\n\t * oParagraph.AddText(\"Tag: \" + oTag);\n\t * oDocument.Push(oParagraph);\n\t * oInlineLvlSdt.SetLock(\"contentLocked\");\n\t * var oLock = oInlineLvlSdt.GetLock();\n\t * oParagraph = Api.CreateParagraph();\n\t * oParagraph.AddText(\"Lock type: \" + oLock);\n\t * oDocument.Push(oParagraph);\n\t * var sClassType = oInlineLvlSdt.GetClassType();\n\t * oParagraph = Api.CreateParagraph();\n\t * oParagraph.AddText(\"Class Type = \" + sClassType);\n\t * oDocument.Push(oParagraph);\n\t * builder.SaveFile(\"docx\", \"ApiInlineLvlSdt.docx\");\n\t * builder.CloseFile();\n\t * \n\t * ```\n\t *\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        107433,
-        107486
+        107434,
+        107487
       ],
       "lineno": 3693,
       "columnno": 1,
@@ -3850,8 +3850,8 @@
     "comment": "/**\n\t * Class representing a list of values of the combo box / dropdown list content control.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * Api.pluginMethod_AddContentControlList(1, [{Display: \"Item1_D\", Value: \"Item1_V\"}, {Display: \"Item2_D\", Value: \"Item2_V\"}], {\"Id\": 100, \"Tag\": \"CC_Tag\", \"Lock\": 3});\n\t * var aContentControls = oDocument.GetAllContentControls();\n\t * var oContentControlList = aContentControls[0].GetDropdownList();\n\t * oContentControlList.Add(\"Item3_D\", \"Item3_V\", 2);\n\t * oDocument.AddElement(0, oContentControlList);\n\t * var sType = oContentControlList.GetClassType();\n\t * var oParagraph = Api.CreateParagraph();\n\t * oParagraph.AddText(\"Class type: \" + sType);\n\t * oDocument.Push(oParagraph);\n\t * var oContentControl = oContentControlList.GetParent();\n\t * oParagraph = Api.CreateParagraph();\n\t * sType = oContentControl.GetClassType();\n\t * oParagraph.AddText(\"The class type of the combo box parent element: \" + sType);\n\t * oDocument.Push(oParagraph);\n\t * var nItems = oContentControlList.GetElementsCount();\n\t * oParagraph = Api.CreateParagraph();\n\t * oParagraph.AddText(\"Number of elements in the combo box: \" + nItems);\n\t * oDocument.Push(oParagraph);\n\t * var oItem = oContentControlList.GetItem(0);\n\t * oParagraph = Api.CreateParagraph();\n\t * oParagraph.AddText(\"The first item from the combo box: \" + oItem.GetText());\n\t * oDocument.Push(oParagraph);\n\t * var aItems = oContentControlList.GetAllItems();\n\t * oParagraph = Api.CreateParagraph();\n\t * oParagraph.AddText(\"The second item from the combo box: \" + aItems[1].GetText());\n\t * oDocument.Push(oParagraph);\n\t * builder.SaveFile(\"docx\", \"ApiContentControlList.docx\");\n\t * builder.CloseFile();\n\t * ```\n\t *\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        107606,
-        107702
+        107607,
+        107703
       ],
       "lineno": 3702,
       "columnno": 1,
@@ -3867,8 +3867,8 @@
     "comment": "/**\n\t * Class representing an entry of the combo box / dropdown list content control.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * Api.pluginMethod_AddContentControlList(1, [{Display: \"Item1_D\", Value: \"Item1_V\"}, {Display: \"Item2_D\", Value: \"Item2_V\"}], {\"Id\": 100, \"Tag\": \"CC_Tag\", \"Lock\": 3});\n\t * var aContentControls = oDocument.GetAllContentControls();\n\t * var oContentControlList = aContentControls[0].GetDropdownList();\n\t * oDocument.AddElement(0, oContentControlList);\n\t * oContentControlList.Add(\"Item3_D\", \"Item3_V\", 2);\n\t * var oItem = oContentControlList.GetItem(1);\n\t * oItem.Delete();\n\t * oItem = oContentControlList.GetItem(0);\n\t * oItem.SetIndex(1);\n\t * oItem.Select();\n\t * oItem.SetText(\"Item1_D_new\");\n\t * oItem.SetValue(\"Item1_V_new\");\n\t * var oParagraph = Api.CreateParagraph();\n\t * oParagraph.AddText(\"The first item value: \" + oItem.GetValue());\n\t * oDocument.Push(oParagraph);\n\t * oParagraph = Api.CreateParagraph();\n\t * oParagraph.AddText(\"The first item from the combo box: \" + oItem.GetText());\n\t * oDocument.Push(oParagraph);\n\t * var sType = oItem.GetClassType();\n\t * oParagraph = Api.CreateParagraph();\n\t * oParagraph.AddText(\"The first item class type: \" + sType);\n\t * oDocument.Push(oParagraph);\n\t * var nIndex = oItem.GetIndex();\n\t * oParagraph = Api.CreateParagraph();\n\t * oParagraph.AddText(\"The oItem index: \" + nIndex);\n\t * oDocument.Push(oParagraph);\n\t * oContentControlList = oItem.GetParent();\n\t * oParagraph = Api.CreateParagraph();\n\t * sType = oContentControlList.GetClassType();\n\t * oParagraph.AddText(\"The class type of the item parent element: \" + sType);\n\t * oDocument.Push(oParagraph);\n\t * builder.SaveFile(\"docx\", \"ApiContentControlListEntry.docx\");\n\t * builder.CloseFile();\n\t * ```\n\t *\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        107814,
-        107971
+        107815,
+        107972
       ],
       "lineno": 3712,
       "columnno": 1,
@@ -3884,8 +3884,8 @@
     "comment": "/**\n\t * Class representing a container for the document content.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oBlockLvlSdt = Api.CreateBlockLvlSdt();\n\t * oBlockLvlSdt.GetContent().GetElement(0).AddText(\"This is the first paragraph of the content control.\");\n\t * var oContent = oBlockLvlSdt.GetContent();\n\t * var oParagraph = Api.CreateParagraph();\n\t * oParagraph.AddText(\"This is the second paragraph of the content control.\");\n\t * oContent.AddElement(oParagraph);\n\t * oContent.Push(oParagraph);\n\t * oDocument.AddElement(0, oBlockLvlSdt);\n\t * var aParagraphs = oBlockLvlSdt.GetAllParagraphs();\n\t * aParagraphs[0].SetBold(true);\n\t * oBlockLvlSdt.Search(\"paragraph\")[1].SetItalic(true);\n\t * oBlockLvlSdt.SetLabel(\"2147483647\");\n\t * oBlockLvlSdt.SetLock(\"sdtContentLocked\");\n\t * oBlockLvlSdt.SetAlias(\"№1\");\n\t * oBlockLvlSdt.SetTag(\"This is a tag.\");\n\t * var oLabel = oBlockLvlSdt.GetLabel();\n\t * var oLock = oBlockLvlSdt.GetLock();\n\t * var oAlias = oBlockLvlSdt.GetAlias();\n\t * var oTag = oBlockLvlSdt.GetTag();\n\t * var sClassType = oBlockLvlSdt.GetClassType();\n\t * oParagraph = Api.CreateParagraph();\n\t * oParagraph.AddText(\"Class type: \" + sClassType);\n\t * oParagraph.AddLineBreak();\n\t * oParagraph.AddText(\"Lock type: \" + oLock);\n\t * oParagraph.AddLineBreak();\n\t * oParagraph.AddText(\"Label: \" + oLabel);\n\t * oParagraph.AddLineBreak();\n\t * oParagraph.AddText(\"Alias: \" + oAlias);\n\t * oParagraph.AddLineBreak();\n\t * oParagraph.AddText(\"Tag: \" + oTag);\n\t * oDocument.Push(oParagraph);\n\t * builder.SaveFile(\"docx\", \"ApiBlockLvlSdt.docx\");\n\t * builder.CloseFile();\n\t * \n\t * ```\n\t *\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        108062,
-        108114
+        108063,
+        108115
       ],
       "lineno": 3724,
       "columnno": 1,
@@ -3901,8 +3901,8 @@
     "comment": "/**\n\t * Class representing the settings which are used to create a watermark.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        108218,
-        108293
+        108219,
+        108294
       ],
       "lineno": 3733,
       "columnno": 1,
@@ -9115,8 +9115,8 @@
     "comment": "/**\n\t * Returns the main document.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oParagraph = Api.CreateParagraph();\n\t * oParagraph.AddText(\"This is a new paragraph\");\n\t * oDocument.Push(oParagraph);\n\t * builder.SaveFile(\"docx\", \"GetDocument.docx\");\n\t * builder.CloseFile();\n\t * \n\t * ```\n\t *\n\t * @memberof Api\n\t * @returns {ApiDocument}\n\t */",
     "meta": {
       "range": [
-        134031,
-        134136
+        134032,
+        134137
       ],
       "lineno": 4188,
       "columnno": 1,
@@ -9146,8 +9146,8 @@
     "comment": "/**\n\t * Creates a new paragraph.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oParagraph = Api.CreateParagraph();\n\t * oParagraph.AddText(\"This is a new paragraph\");\n\t * oDocument.Push(oParagraph);\n\t * builder.SaveFile(\"docx\", \"CreateParagraph.docx\");\n\t * builder.CloseFile();\n\t * \n\t * ```\n\t *\n\t * @memberof Api\n\t * @returns {ApiParagraph}\n\t */",
     "meta": {
       "range": [
-        134258,
-        134384
+        134259,
+        134385
       ],
       "lineno": 4198,
       "columnno": 1,
@@ -9177,8 +9177,8 @@
     "comment": "/**\n\t * Creates an element range.\n\t * If you do not specify the start and end positions, the range will be taken from the entire element.\n\t * @memberof Api\n\t * @param oElement - The element from which the range will be taken.\n\t * @param nStart - Start range position.\n\t * @param nEnd - End range position.\n\t * @returns {ApiRange | null} - returns null if oElement isn't supported.\n\t */",
     "meta": {
       "range": [
-        134801,
-        135205
+        134802,
+        135206
       ],
       "lineno": 4212,
       "columnno": 1,
@@ -9232,8 +9232,8 @@
     "comment": "/**\n\t * Creates a new table with a specified number of rows and columns.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oTable = Api.CreateTable(3, 3);\n\t * oDocument.Push(oTable);\n\t * oTable.SetTableBorderTop(\"single\", 32, 0, 51, 51, 51);\n\t * oTable.SetTableBorderBottom(\"single\", 32, 0, 51, 51, 51);\n\t * oTable.SetTableBorderLeft(\"single\", 32, 0, 51, 51, 51);\n\t * oTable.SetTableBorderRight(\"single\", 32, 0, 51, 51, 51);\n\t * oTable.SetTableBorderInsideV(\"single\", 32, 0, 255, 111, 61);\n\t * oTable.SetTableBorderInsideH(\"single\", 32, 0, 255, 111, 61);\n\t * oTable.SetWidth(\"percent\", 100);\n\t * builder.SaveFile(\"docx\", \"CreateTable.docx\");\n\t * builder.CloseFile();\n\t * \n\t * ```\n\t *\n\t * @memberof Api\n\t * @param {number} nCols - Number of columns.\n\t * @param {number} nRows - Number of rows.\n\t * @returns {ApiTable}\n\t */",
     "meta": {
       "range": [
-        135447,
-        135815
+        135448,
+        135816
       ],
       "lineno": 4241,
       "columnno": 1,
@@ -9291,8 +9291,8 @@
     "comment": "/**\n\t * Creates a new smaller text block to be inserted to the current paragraph or table.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oParagraph = oDocument.GetElement(0);\n\t * var oRun = Api.CreateRun();\n\t * oRun.AddText(\"This is a text run\");\n\t * oParagraph.AddElement(oRun);\n\t * builder.SaveFile(\"docx\", \"CreateRun.docx\");\n\t * builder.CloseFile();\n\t * \n\t * ```\n\t *\n\t * @memberof Api\n\t * @returns {ApiRun}\n\t */",
     "meta": {
       "range": [
-        135996,
-        136085
+        135997,
+        136086
       ],
       "lineno": 4258,
       "columnno": 1,
@@ -9322,8 +9322,8 @@
     "comment": "/**\n\t * Creates a new hyperlink text block to be inserted to the current paragraph or table.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oHyperlink = Api.CreateHyperlink(\"https://api.onlyoffice.com/\", \"ONLYOFFICE Document Builder\", \"ONLYOFFICE for developers\");\n\t * var sType = oHyperlink.GetClassType();\n\t * var oParagraph = oDocument.GetElement(0);\n\t * oParagraph.AddElement(oHyperlink, 0);\n\t * oParagraph.AddLineBreak();\n\t * oParagraph.AddText(\"Class type of the created object: \" + sType);\n\t * builder.SaveFile(\"docx\", \"CreateHyperlink.docx\");\n\t * builder.CloseFile();\n\t * \n\t * ```\n\t *\n\t * @memberof Api\n\t * @param {string} sLink - The hyperlink address. \n\t * @param {string} sDisplay - The text to display the hyperlink.\n\t * @param {string} sScreenTipText - The screen tip text.\n\t * @returns {ApiHyperlink}\n\t */",
     "meta": {
       "range": [
-        136436,
-        136782
+        136437,
+        136783
       ],
       "lineno": 4271,
       "columnno": 1,
@@ -9394,8 +9394,8 @@
     "comment": "/**\n\t * Creates an image with the parameters specified.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oParagraph = oDocument.GetElement(0);\n\t * var oDrawing = Api.CreateImage(\"https://api.onlyoffice.com/content/img/docbuilder/examples/coordinate_aspects.png\", 60 * 36000, 35 * 36000);\n\t * oParagraph.AddDrawing(oDrawing);\n\t * builder.SaveFile(\"docx\", \"CreateImage.docx\");\n\t * builder.CloseFile();\n\t * \n\t * ```\n\t *\n\t * @memberof Api\n\t * @param {string} sImageSrc - The image source where the image to be inserted should be taken from (currently only internet URL or Base64 encoded images are supported).\n\t * @param {EMU} nWidth - The image width in English measure units.\n\t * @param {EMU} nHeight - The image height in English measure units.\n\t * @returns {ApiImage}\n\t */",
     "meta": {
       "range": [
-        137226,
-        137674
+        137227,
+        137675
       ],
       "lineno": 4293,
       "columnno": 1,
@@ -9466,8 +9466,8 @@
     "comment": "/**\n\t * Creates a shape with the parameters specified.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oParagraph = oDocument.GetElement(0);\n\t * var oGs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);\n\t * var oGs2 = Api.CreateGradientStop(Api.CreateRGBColor(255, 111, 61), 100000);\n\t * var oFill = Api.CreateLinearGradientFill([oGs1, oGs2], 5400000);\n\t * var oStroke = Api.CreateStroke(0, Api.CreateNoFill());\n\t * var oDrawing = Api.CreateShape(\"rect\", 5930900, 395605, oFill, oStroke);\n\t * oParagraph.AddDrawing(oDrawing);\n\t * builder.SaveFile(\"docx\", \"CreateShape.docx\");\n\t * builder.CloseFile();\n\t * \n\t * ```\n\t *\n\t * @memberof Api\n\t * @param {ShapeType} [sType=\"rect\"] - The shape type which specifies the preset shape geometry.\n\t * @param {EMU} [nWidth = 914400] - The shape width in English measure units.\n\t * @param {EMU} [nHeight = 914400] - The shape height in English measure units.\n\t * @param {ApiFill} [oFill = Api.CreateNoFill()] - The color or pattern used to fill the shape.\n\t * @param {ApiStroke} [oStroke = Api.CreateStroke(0, Api.CreateNoFill())] - The stroke used to create the element shadow.\n\t * @returns {ApiShape}\n\t * */",
     "meta": {
       "range": [
-        138288,
-        139261
+        138289,
+        139262
       ],
       "lineno": 4316,
       "columnno": 1,
@@ -9574,8 +9574,8 @@
     "comment": "/**\n\t * Creates a chart with the parameters specified.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oParagraph = oDocument.GetElement(0);\n\t * var oChart = Api.CreateChart(\"bar3D\", [\n\t *   [200, 240, 280],\n\t *   [250, 260, 280]\n\t * ], [\"Projected Revenue\", \"Estimated Costs\"], [2014, 2015, 2016], 4051300, 2347595, 24);\n\t * oParagraph.AddDrawing(oChart);\n\t * var oFill = Api.CreateSolidFill(Api.CreateRGBColor(51, 51, 51));\n\t * oChart.SetSeriesFill(oFill, 0, false);\n\t * oFill = Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61));\n\t * oChart.SetSeriesFill(oFill, 1, false);\n\t * builder.SaveFile(\"docx\", \"CreateChart.docx\");\n\t * builder.CloseFile();\n\t * ```\n\t *\n\t * @memberof Api\n\t * @param {ChartType} [sType=\"bar\"] - The chart type used for the chart display.\n\t * @param {Array} aSeries - The array of the data used to build the chart from.\n\t * @param {Array} aSeriesNames - The array of the names (the source table column names) used for the data which the chart will be build from.\n\t * @param {Array} aCatNames - The array of the names (the source table row names) used for the data which the chart will be build from.\n\t * @param {EMU} nWidth - The chart width in English measure units.\n\t * @param {EMU} nHeight - The chart height in English measure units.\n\t * @param {number} nStyleIndex - The chart color style index (can be 1 - 48, as described in OOXML specification).\n\t * @param {NumFormat[] | String[]} aNumFormats - Numeric formats which will be applied to the series (can be custom formats).\n     * The default numeric format is \"General\".\n\t * @returns {ApiChart}\n\t * */",
     "meta": {
       "range": [
-        140269,
-        140978
+        140270,
+        140979
       ],
       "lineno": 4354,
       "columnno": 1,
@@ -9741,8 +9741,8 @@
     "comment": "/**\n\t * Creates an OLE object with the parameters specified.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oOleObject = Api.CreateOleObject(\"https://api.onlyoffice.com/content/img/docbuilder/examples/ole-object-image.png\", 130 * 36000, 90 * 36000, \"https://youtu.be/SKGz4pmnpgY\", \"asc.{38E022EA-AD92-45FC-B22B-49DF39746DB4}\");\n\t * var oParagraph = oDocument.GetElement(0);\n\t * oParagraph.AddDrawing(oOleObject);\n\t * builder.SaveFile(\"docx\", \"CreateOleObject.docx\");\n\t * builder.CloseFile();\n\t * ```\n\t *\n\t * @memberof Api\n\t * @param {string} sImageSrc - The image source where the image to be inserted should be taken from (currently, only internet URL or Base64 encoded images are supported).\n\t * @param {EMU} nWidth - The OLE object width in English measure units.\n\t * @param {EMU} nHeight - The OLE object height in English measure units.\n\t * @param {string} sData - The OLE object string data.\n\t * @param {string} sAppId - The application ID associated with the current OLE object.\n\t * @returns {ApiOleObject}\n\t */",
     "meta": {
       "range": [
-        141586,
-        142296
+        141587,
+        142297
       ],
       "lineno": 4382,
       "columnno": 1,
@@ -9839,8 +9839,8 @@
     "comment": "/**\n\t * Creates an RGB color setting the appropriate values for the red, green and blue color components.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oParagraph = oDocument.GetElement(0);\n\t * var oGs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);\n\t * var oGs2 = Api.CreateGradientStop(Api.CreateRGBColor(255, 111, 61), 100000);\n\t * var oFill = Api.CreateLinearGradientFill([oGs1, oGs2], 5400000);\n\t * var oStroke = Api.CreateStroke(0, Api.CreateNoFill());\n\t * var oDrawing = Api.CreateShape(\"rect\", 5930900, 395605, oFill, oStroke);\n\t * oParagraph.AddDrawing(oDrawing);\n\t * builder.SaveFile(\"docx\", \"CreateRGBColor.docx\");\n\t * builder.CloseFile();\n\t * \n\t * ```\n\t *\n\t * @memberof Api\n\t * @param {byte} r - Red color component value.\n\t * @param {byte} g - Green color component value.\n\t * @param {byte} b - Blue color component value.\n\t * @returns {ApiRGBColor}\n\t */",
     "meta": {
       "range": [
-        142648,
-        142737
+        142649,
+        142738
       ],
       "lineno": 4408,
       "columnno": 1,
@@ -9911,8 +9911,8 @@
     "comment": "/**\n\t * Creates a complex color scheme selecting from one of the available schemes.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oParagraph = oDocument.GetElement(0);\n\t * var oSchemeColor = Api.CreateSchemeColor(\"dk1\");\n\t * var oFill = Api.CreateSolidFill(oSchemeColor);\n\t * var oStroke = Api.CreateStroke(0, Api.CreateNoFill());\n\t * var oDrawing = Api.CreateShape(\"curvedUpArrow\", 5930900, 595605, oFill, oStroke);\n\t * oParagraph.AddDrawing(oDrawing);\n\t * builder.SaveFile(\"docx\", \"CreateSchemeColor.docx\");\n\t * builder.CloseFile();\n\t * \n\t * ```\n\t *\n\t * @memberof Api\n\t * @param {SchemeColorId} sSchemeColorId - The color scheme identifier.\n\t * @returns {ApiSchemeColor}\n\t */",
     "meta": {
       "range": [
-        142993,
-        143102
+        142994,
+        143103
       ],
       "lineno": 4420,
       "columnno": 1,
@@ -9957,8 +9957,8 @@
     "comment": "/**\n\t * Creates a color selecting it from one of the available color presets.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oParagraph = oDocument.GetElement(0);\n\t * var oGs1 = Api.CreateGradientStop(Api.CreatePresetColor(\"peachPuff\"), 0);\n\t * var oGs2 = Api.CreateGradientStop(Api.CreateRGBColor(255, 111, 61), 100000);\n\t * var oFill = Api.CreateRadialGradientFill([oGs1, oGs2]);\n\t * var oStroke = Api.CreateStroke(0, Api.CreateNoFill());\n\t * var oDrawing = Api.CreateShape(\"rect\", 5930900, 395605, oFill, oStroke);\n\t * oParagraph.AddDrawing(oDrawing);\n\t * builder.SaveFile(\"docx\", \"CreatePresetColor.docx\");\n\t * builder.CloseFile();\n\t * \n\t * ```\n\t *\n\t * @memberof Api\n\t * @param {PresetColor} sPresetColor - A preset selected from the list of the available color preset names.\n\t * @returns {ApiPresetColor};\n\t * */",
     "meta": {
       "range": [
-        143391,
-        143496
+        143392,
+        143497
       ],
       "lineno": 4432,
       "columnno": 1,
@@ -10004,8 +10004,8 @@
     "comment": "/**\n\t * Creates a solid fill to apply to the object using a selected solid color as the object background.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oParagraph = oDocument.GetElement(0);\n\t * var oRGBColor = Api.CreateRGBColor(255, 111, 61);\n\t * var oFill = Api.CreateSolidFill(oRGBColor);\n\t * var oStroke = Api.CreateStroke(0, Api.CreateNoFill());\n\t * var oDrawing = Api.CreateShape(\"roundRect\", 5930900, 395605, oFill, oStroke);\n\t * oParagraph.AddDrawing(oDrawing);\n\t * builder.SaveFile(\"docx\", \"CreateSolidFill.docx\");\n\t * builder.CloseFile();\n\t * \n\t * ```\n\t *\n\t * @memberof Api\n\t * @param {ApiUniColor} oUniColor - The color used for the element fill.\n\t * @returns {ApiFill}\n\t * */",
     "meta": {
       "range": [
-        143771,
-        143909
+        143772,
+        143910
       ],
       "lineno": 4444,
       "columnno": 1,
@@ -10050,8 +10050,8 @@
     "comment": "/**\n\t * Creates a linear gradient fill to apply to the object using the selected linear gradient as the object background.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oParagraph = oDocument.GetElement(0);\n\t * var oGs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);\n\t * var oGs2 = Api.CreateGradientStop(Api.CreateRGBColor(255, 111, 61), 100000);\n\t * var oFill = Api.CreateLinearGradientFill([oGs1, oGs2], 5400000);\n\t * var oStroke = Api.CreateStroke(0, Api.CreateNoFill());\n\t * var oDrawing = Api.CreateShape(\"rect\", 5930900, 395605, oFill, oStroke);\n\t * oParagraph.AddDrawing(oDrawing);\n\t * builder.SaveFile(\"docx\", \"CreateLinearGradientFill.docx\");\n\t * builder.CloseFile();\n\t * \n\t * ```\n\t *\n\t * @memberof Api\n\t * @param {Array} aGradientStop - The array of gradient color stops measured in 1000th of percent.\n\t * @param {PositiveFixedAngle} Angle - The angle measured in 60000th of a degree that will define the gradient direction.\n\t * @returns {ApiFill}\n\t */",
     "meta": {
       "range": [
-        144347,
-        144508
+        144348,
+        144509
       ],
       "lineno": 4457,
       "columnno": 1,
@@ -10109,8 +10109,8 @@
     "comment": "/**\n\t * Creates a radial gradient fill to apply to the object using the selected radial gradient as the object background.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oParagraph = oDocument.GetElement(0);\n\t * var oGs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);\n\t * var oGs2 = Api.CreateGradientStop(Api.CreateRGBColor(255, 111, 61), 100000);\n\t * var oFill = Api.CreateRadialGradientFill([oGs1, oGs2]);\n\t * var oStroke = Api.CreateStroke(0, Api.CreateNoFill());\n\t * var oDrawing = Api.CreateShape(\"rect\", 5930900, 395605, oFill, oStroke);\n\t * oParagraph.AddDrawing(oDrawing);\n\t * builder.SaveFile(\"docx\", \"CreateRadialGradientFill.docx\");\n\t * builder.CloseFile();\n\t * \n\t * ```\n\t *\n\t * @memberof Api\n\t * @param {Array} aGradientStop - The array of gradient color stops measured in 1000th of percent.\n\t * @returns {ApiFill}\n\t */",
     "meta": {
       "range": [
-        144824,
-        144971
+        144825,
+        144972
       ],
       "lineno": 4470,
       "columnno": 1,
@@ -10155,8 +10155,8 @@
     "comment": "/**\n\t * Creates a pattern fill to apply to the object using the selected pattern as the object background.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oParagraph = oDocument.GetElement(0);\n\t * var oFill = Api.CreatePatternFill(\"dashDnDiag\", Api.CreateRGBColor(255, 111, 61), Api.CreateRGBColor(51, 51, 51));\n\t * var oStroke = Api.CreateStroke(0, Api.CreateNoFill());\n\t * var oDrawing = Api.CreateShape(\"rect\", 5930900, 395605, oFill, oStroke);\n\t * oParagraph.AddDrawing(oDrawing);\n\t * builder.SaveFile(\"docx\", \"CreatePatternFill.docx\");\n\t * builder.CloseFile();\n\t * \n\t * ```\n\t *\n\t * @memberof Api\n\t * @param {PatternType} sPatternType - The pattern type used for the fill selected from one of the available pattern types.\n\t * @param {ApiUniColor} BgColor - The background color used for the pattern creation.\n\t * @param {ApiUniColor} FgColor - The foreground color used for the pattern creation.\n\t * @returns {ApiFill}\n\t */",
     "meta": {
       "range": [
-        145468,
-        145639
+        145469,
+        145640
       ],
       "lineno": 4483,
       "columnno": 1,
@@ -10227,8 +10227,8 @@
     "comment": "/**\n\t * Creates a blip fill to apply to the object using the selected image as the object background.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oParagraph = oDocument.GetElement(0);\n\t * var oFill = Api.CreateBlipFill(\"https://api.onlyoffice.com/content/img/docbuilder/examples/icon_DocumentEditors.png\", \"tile\");\n\t * var oStroke = Api.CreateStroke(0, Api.CreateNoFill());\n\t * var oDrawing = Api.CreateShape(\"star10\", 5930900, 595605, oFill, oStroke);\n\t * oParagraph.AddDrawing(oDrawing);\n\t * builder.SaveFile(\"docx\", \"CreateBlipFill.docx\");\n\t * builder.CloseFile();\n\t * \n\t * ```\n\t *\n\t * @memberof Api\n\t * @param {string} sImageUrl - The path to the image used for the blip fill (currently only internet URL or Base64 encoded images are supported).\n\t * @param {BlipFillType} sBlipFillType - The type of the fill used for the blip fill (tile or stretch).\n\t * @returns {ApiFill}\n\t * */",
     "meta": {
       "range": [
-        146087,
-        146240
+        146088,
+        146241
       ],
       "lineno": 4496,
       "columnno": 1,
@@ -10286,8 +10286,8 @@
     "comment": "/**\n\t * Creates no fill and removes the fill from the element.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oParagraph = oDocument.GetElement(0);\n\t * var oGs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);\n\t * var oGs2 = Api.CreateGradientStop(Api.CreateRGBColor(255, 111, 61), 100000);\n\t * var oFill = Api.CreateLinearGradientFill([oGs1, oGs2], 5400000);\n\t * var oStroke = Api.CreateStroke(0, Api.CreateNoFill());\n\t * var oDrawing = Api.CreateShape(\"rect\", 5930900, 395605, oFill, oStroke);\n\t * oParagraph.AddDrawing(oDrawing);\n\t * builder.SaveFile(\"docx\", \"CreateNoFill.docx\");\n\t * builder.CloseFile();\n\t * \n\t * ```\n\t *\n\t * @memberof Api\n\t * @returns {ApiFill}\n\t * */",
     "meta": {
       "range": [
-        146397,
-        146497
+        146398,
+        146498
       ],
       "lineno": 4507,
       "columnno": 1,
@@ -10317,8 +10317,8 @@
     "comment": "/**\n\t * Creates a stroke adding shadows to the element.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oParagraph = oDocument.GetElement(0);\n\t * var oRGBColor = Api.CreateRGBColor(51, 51, 51);\n\t * var oFill = Api.CreateSolidFill(oRGBColor);\n\t * var oStroke = Api.CreateStroke(5 * 36000, Api.CreateSolidFill(Api.CreateRGBColor(255, 111, 61)));\n\t * var oDrawing = Api.CreateShape(\"roundRect\", 5930900, 395605, oFill, oStroke);\n\t * oParagraph.AddDrawing(oDrawing);\n\t * builder.SaveFile(\"docx\", \"CreateStroke.docx\");\n\t * builder.CloseFile();\n\t * \n\t * ```\n\t *\n\t * @memberof Api\n\t * @param {EMU} nWidth - The width of the shadow measured in English measure units.\n\t * @param {ApiFill} oFill - The fill type used to create the shadow.\n\t * @returns {ApiStroke}\n\t * */",
     "meta": {
       "range": [
-        146804,
-        146931
+        146805,
+        146932
       ],
       "lineno": 4520,
       "columnno": 1,
@@ -10376,8 +10376,8 @@
     "comment": "/**\n\t * Creates a gradient stop used for different types of gradients.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oParagraph = oDocument.GetElement(0);\n\t * var oGs1 = Api.CreateGradientStop(Api.CreateRGBColor(255, 213, 191), 0);\n\t * var oGs2 = Api.CreateGradientStop(Api.CreateRGBColor(255, 111, 61), 100000);\n\t * var oFill = Api.CreateLinearGradientFill([oGs1, oGs2], 5400000);\n\t * var oStroke = Api.CreateStroke(0, Api.CreateNoFill());\n\t * var oDrawing = Api.CreateShape(\"rect\", 5930900, 395605, oFill, oStroke);\n\t * oParagraph.AddDrawing(oDrawing);\n\t * builder.SaveFile(\"docx\", \"CreateGradientStop.docx\");\n\t * builder.CloseFile();\n\t * \n\t * ```\n\t *\n\t * @memberof Api\n\t * @param {ApiUniColor} oUniColor - The color used for the gradient stop.\n\t * @param {PositivePercentage} nPos - The position of the gradient stop measured in 1000th of percent.\n\t * @returns {ApiGradientStop}\n\t * */",
     "meta": {
       "range": [
-        147283,
-        147396
+        147284,
+        147397
       ],
       "lineno": 4533,
       "columnno": 1,
@@ -10435,8 +10435,8 @@
     "comment": "/**\n\t * Creates a bullet for a paragraph with the character or symbol specified with the sSymbol parameter.\n\t * @memberof Api\n\t * @param {string} sSymbol - The character or symbol which will be used to create the bullet for the paragraph.\n\t * @returns {ApiBullet}\n\t * */",
     "meta": {
       "range": [
-        147706,
-        148124
+        147707,
+        148125
       ],
       "lineno": 4545,
       "columnno": 1,
@@ -10481,8 +10481,8 @@
     "comment": "/**\n\t * Creates a bullet for a paragraph with the numbering character or symbol specified with the sType parameter.\n\t * @memberof Api\n\t * @param {BulletType} sType - The numbering type the paragraphs will be numbered with.\n\t * @param {number} nStartAt - The number the first numbered paragraph will start with.\n\t * @returns {ApiBullet}\n\t * */",
     "meta": {
       "range": [
-        148507,
-        149704
+        148508,
+        149705
       ],
       "lineno": 4567,
       "columnno": 1,
@@ -10540,8 +10540,8 @@
     "comment": "/**\n\t * Creates a new inline container.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oParagraph = oDocument.GetElement(0);\n\t * var oInlineLvlSdt = Api.CreateInlineLvlSdt();\n\t * oParagraph.AddInlineLvlSdt(oInlineLvlSdt);\n\t * var oRun = Api.CreateRun();\n\t * oRun.AddText(\"This is an inline text content control.\");\n\t * oInlineLvlSdt.AddElement(oRun, 0);\n\t * builder.SaveFile(\"docx\", \"CreateInlineLvlSdt.docx\");\n\t * builder.CloseFile();\n\t * \n\t * ```\n\t *\n\t * @memberof Api\n\t * @returns {ApiInlineLvlSdt}\n\t */",
     "meta": {
       "range": [
-        149830,
-        150004
+        149831,
+        150005
       ],
       "lineno": 4623,
       "columnno": 1,
@@ -10571,8 +10571,8 @@
     "comment": "/**\n\t * Creates a new block level container.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oBlockLvlSdt = Api.CreateBlockLvlSdt();\n\t * oBlockLvlSdt.GetContent().GetElement(0).AddText(\"This is a block text content control.\");\n\t * oDocument.AddElement(0, oBlockLvlSdt);\n\t * builder.SaveFile(\"docx\", \"CreateBlockLvlSdt.docx\");\n\t * builder.CloseFile();\n\t * \n\t * ```\n\t *\n\t * @memberof Api\n\t * @returns {ApiBlockLvlSdt}\n\t */",
     "meta": {
       "range": [
-        150134,
-        150296
+        150135,
+        150297
       ],
       "lineno": 4636,
       "columnno": 1,
@@ -10602,8 +10602,8 @@
     "comment": "/**\n\t * Saves changes to the specified document.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oParagraph = oDocument.GetElement(0);\n\t * oParagraph.AddText(\"This sample text is saved to the document.\");\n\t * Api.Save();\n\t * builder.SaveFile(\"docx\", \"Save.docx\");\n\t * builder.CloseFile();\n\t * \n\t * ```\n\t *\n\t * @memberof Api\n\t */",
     "meta": {
       "range": [
-        150400,
-        150468
+        150401,
+        150469
       ],
       "lineno": 4646,
       "columnno": 1,
@@ -10620,8 +10620,8 @@
     "comment": "/**\n\t * Loads data for the mail merge. \n\t * @memberof Api\n\t * @param {String[][]} aList - Mail merge data. The first element of the array is the array with names of the merge fields.\n\t * The rest of the array elements are arrays with values for the merge fields.\n\t * @typeofeditors [\"CDE\"]\n\t * @return {boolean}\n\t */",
     "meta": {
       "range": [
-        150817,
-        150984
+        150818,
+        150985
       ],
       "lineno": 4659,
       "columnno": 1,
@@ -10692,7 +10692,7 @@
     "comment": "/**\n\t * Returns the mail merge template document.\n\t *\n\t * ## Try it\n\t * \n\t * ```js use-document-builder\n\t * builder.CreateFile(\"docx\");\n\t * var oDocument = Api.GetDocument();\n\t * var oParagraph = oDocument.GetElement(0);\n\t * var arrField = [\"Greeting line\", \"First name\", \"Last name\"];\n\t * for (let i = 0; i < 3; i++) {\n\t *     var oRun = Api.CreateRun();\n\t *     oRun.AddText(arrField[i]);\n\t *     oParagraph.AddElement(oRun);\n\t *     oRun.WrapInMailMergeField();\n\t *     oParagraph.AddText(\" \");\n\t * }\n\t * oParagraph.AddText(\"!\");\n\t * Api.LoadMailMergeData([arrField, [\"Dear\", \"John\", \"Smith\"], [\"Hello\", \"Lara\", \"Davis\"]]);\n\t * var oTemplateDocContent = Api.GetMailMergeTemplateDocContent();\n\t * var nReceptionsCount     = Api.GetMailMergeReceptionsCount();\n\t * \n\t * var arrReceptions = [];\n\t * for (let nReception = 0; nReception < nReceptionsCount; nReception++) \n\t * {\n\t *     Api.MailMerge(nReception, nReception);\n\t *     var oElement1 = oDocument.GetElement(0);\n\t *     arrReceptions.push(oElement1);\n\t *     Api.ReplaceDocumentContent(oTemplateDocContent);\n\t * }\n\t * oParagraph = Api.CreateParagraph();\n\t * oParagraph.AddLineBreak();\n\t * oParagraph.AddText(\"Receptions\");\n\t * oParagraph.SetBold(true);\n\t * oDocument.Push(oParagraph);\n\t * oDocument.Push(arrReceptions[0]);\n\t * oDocument.Push(arrReceptions[1]);\n\t * oParagraph = Api.CreateParagraph();\n\t * oParagraph.AddLineBreak();\n\t * oParagraph.AddText(\"The mail merge process was run twice for each mail merge reception. But the results were replaced with the mail merge template document content. This template allows you to save each mail merge reception to the separate file.\");\n\t * oDocument.Push(oParagraph);\n\t * builder.SaveFile(\"docx\", \"GetMailMergeTemplateDocContent.docx\");\n\t * builder.CloseFile();\n\t * \n\t * ```\n\t *\n\t * @memberof Api\n\t * @return {ApiDocumentContent}  \n\t */",
     "meta": {
       "range": [
-        151124,
+        151125,
         153629
       ],
       "lineno": 4675,
