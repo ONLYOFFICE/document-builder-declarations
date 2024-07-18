@@ -3390,7 +3390,7 @@
         "name": "Object"
       }
     },
-    "description": "The context menu item.\n\n## Try it\n\n```js use-document-builder\nvar aContextMenuItems = function getContextMenuItems() {\n\tlet settings = {\n\t\tguid: window.Asc.plugin.guid,\n\t\titems: [\n\t\t\t{\n\t\t\t\tid : 'onConvert',\n\t\t\t\ttext : getMessage('Convert to Markdown or HTML')\n\t\t\t}\n\t\t]\n\t};\n\treturn settings;\n};\n\nwindow.Asc.plugin.attachEvent('onContextMenuShow', function(options) {\n\tif (!options) return;\n\n\tif (options.type === 'Selection' || options.type === 'Target')\n\t\tthis.executeMethod('AddContextMenuItem', [aContextMenuItems]);\n});\n```",
+    "description": "The context menu item.\n\n## Try it\n\n```js use-document-builder\nvar aContextMenuItems = function getContextMenuItems() {\n\tlet settings = {\n\t\tguid: window.Asc.plugin.guid,\n\t\titems: [\n\t\t\t{\n\t\t\t\tid : 'onConvert',\n\t\t\t\ttext : getMessage('Convert to Markdown or HTML')\n\t\t\t}\n\t\t]\n\t};\n\treturn settings;\n};\n\nwindow.Asc.plugin.attachEvent('onContextMenuShow', function(options) {\n\tif (!options) return;\n\n\tif (options.type === 'Selection' || options.type === 'Target')\n\t\tthis.executeMethod('AddContextMenuItem', [aContextMenuItems]);\n});\n```\n\n## Try it\n\n```js use-document-builder\nvar aContextMenuItems = function getContextMenuItems() {\n\tlet settings = {\n\t\tguid: window.Asc.plugin.guid,\n\t\titems: [\n\t\t\t{\n\t\t\t\tid : 'onConvert',\n\t\t\t\ttext : getMessage('Convert to Markdown or HTML')\n\t\t\t}\n\t\t]\n\t};\n\treturn settings;\n};\n\nwindow.Asc.plugin.attachEvent('onContextMenuShow', function(options) {\n\tif (!options) return;\n\n\tif (options.type === 'Selection' || options.type === 'Target')\n\t\tthis.executeMethod('AddContextMenuItem', [aContextMenuItems]);\n});\n```",
     "properties": [
       {
         "type": {
@@ -3563,7 +3563,7 @@
         "name": "Object"
       }
     },
-    "description": "The toolbar menu tab.\n\n## Try it\n\n```js use-document-builder\nvar oToolbarMenuTab = {\n    \"id\": \"ChatGPT\",\n    \"text\": \"AI Assistant\",\n    \"items\": [oToolbarMenuItem]\n};\n```",
+    "description": "The toolbar menu tab.\n\n## Try it\n\n```js use-document-builder\nvar oToolbarMenuTab = {\n    \"id\": \"ChatGPT\",\n    \"text\": \"AI Assistant\",\n    \"items\": [oToolbarMenuItem]\n};\n```\n\n## Try it\n\n```js use-document-builder\nvar oToolbarMenuTab = {\n    \"id\": \"ChatGPT\",\n    \"text\": \"AI Assistant\",\n    \"items\": [oToolbarMenuItem]\n};\n```",
     "properties": [
       {
         "type": {
@@ -3636,7 +3636,7 @@
         "name": "Object"
       }
     },
-    "description": "The toolbar menu item.\n\n## Try it\n\n```js use-document-builder\nvar oToolbarMenuItem = {\n    \"id\": \"MeaningItem\",\n    \"type\": \"button\",\n    \"text\": \"Meaning\",\n    \"hint\": \"Meaning\",\n    \"icons\": \"resources/light/icon.png\",\n    \"disabled\": false,\n    \"enableToggle\": false,\n    \"lockInViewMode\": false,\n    \"separator\": true,\n    \"split\": true,\n    \"items\": [\n        {\n            \"id\": \"onMeaningT\",\n            \"text\": \"Explain text in comment\"\n        },\n        {\n            \"id\": \"onFixSpelling\",\n            \"text\": \"Fix spelling & grammar\"\n        },\n        {\n            \"id\": \"onMakeLonger\",\n            \"text\": \"Make longer\"\n        },\n        {\n            \"id\": \"onMakeShorter\",\n            \"text\": \"Make shorter\"\n        }\n    ]\n};\n```\n\n## Try it\n\n```js use-document-builder\nvar oToolbarMenuItem = {\n    \"id\": \"MeaningItem\",\n    \"type\": \"button\",\n    \"text\": \"Meaning\",\n    \"hint\": \"Meaning\",\n    \"icons\": \"resources/light/icon.png\",\n    \"disabled\": false,\n    \"enableToggle\": false,\n    \"lockInViewMode\": false,\n    \"separator\": true,\n    \"split\": true,\n    \"items\": [\n        {\n            \"id\": \"onMeaningT\",\n            \"text\": \"Explain text in comment\"\n        },\n        {\n            \"id\": \"onFixSpelling\",\n            \"text\": \"Fix spelling & grammar\"\n        },\n        {\n            \"id\": \"onMakeLonger\",\n            \"text\": \"Make longer\"\n        },\n        {\n            \"id\": \"onMakeShorter\",\n            \"text\": \"Make shorter\"\n        }\n    ]\n};\n```",
+    "description": "The toolbar menu item.\n\n## Try it\n\n```js use-document-builder\nvar oToolbarMenuItem = {\n    \"id\": \"MeaningItem\",\n    \"type\": \"button\",\n    \"text\": \"Meaning\",\n    \"hint\": \"Meaning\",\n    \"icons\": \"resources/light/icon.png\",\n    \"disabled\": false,\n    \"enableToggle\": false,\n    \"lockInViewMode\": false,\n    \"separator\": true,\n    \"split\": true,\n    \"items\": [\n        {\n            \"id\": \"onMeaningT\",\n            \"text\": \"Explain text in comment\"\n        },\n        {\n            \"id\": \"onFixSpelling\",\n            \"text\": \"Fix spelling & grammar\"\n        },\n        {\n            \"id\": \"onMakeLonger\",\n            \"text\": \"Make longer\"\n        },\n        {\n            \"id\": \"onMakeShorter\",\n            \"text\": \"Make shorter\"\n        }\n    ]\n};\n```",
     "properties": [
       {
         "type": {

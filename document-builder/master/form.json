@@ -1038,8 +1038,8 @@
     "comment": "/**\n\t * Class representing a document form base.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        94293,
-        94344
+        94292,
+        94343
       ],
       "lineno": 3133,
       "columnno": 1,
@@ -1055,8 +1055,8 @@
     "comment": "/**\n\t * Class representing a document text field.\n\t * @constructor\n\t * @extends {ApiFormBase}\n\t */",
     "meta": {
       "range": [
-        94482,
-        94546
+        94481,
+        94545
       ],
       "lineno": 3144,
       "columnno": 1,
@@ -1075,8 +1075,8 @@
     "comment": "/**\n\t * Class representing a document combo box / dropdown list.\n\t * @constructor\n\t * @extends {ApiFormBase}\n\t */",
     "meta": {
       "range": [
-        94812,
-        94880
+        94811,
+        94879
       ],
       "lineno": 3158,
       "columnno": 1,
@@ -1095,8 +1095,8 @@
     "comment": "/**\n\t * Class representing a document checkbox / radio button.\n\t * @constructor\n\t * @extends {ApiFormBase}\n\t */",
     "meta": {
       "range": [
-        95156,
-        95224
+        95155,
+        95223
       ],
       "lineno": 3172,
       "columnno": 1,
@@ -1115,8 +1115,8 @@
     "comment": "/**\n\t * Class representing a document picture form.\n\t * @constructor\n\t * @extends {ApiFormBase}\n\t */",
     "meta": {
       "range": [
-        95489,
-        95556
+        95488,
+        95555
       ],
       "lineno": 3186,
       "columnno": 1,
@@ -1135,8 +1135,8 @@
     "comment": "/**\n\t * Class representing a document date field.\n\t * @constructor\n\t * @extends {ApiFormBase}\n\t */",
     "meta": {
       "range": [
-        95816,
-        95880
+        95815,
+        95879
       ],
       "lineno": 3200,
       "columnno": 1,
@@ -1155,8 +1155,8 @@
     "comment": "/**\n\t * Class representing a complex field.\n\t * @param oSdt\n\t * @constructor\n\t * @extends {ApiFormBase}\n\t */",
     "meta": {
       "range": [
-        96141,
-        96208
+        96140,
+        96207
       ],
       "lineno": 3215,
       "columnno": 1,
@@ -9024,8 +9024,8 @@
     "comment": "/**\n\t * Class representing a shape.\n\t * @constructor\n\t * */",
     "meta": {
       "range": [
-        104220,
-        104304
+        104219,
+        104303
       ],
       "lineno": 3562,
       "columnno": 1,
@@ -9041,8 +9041,8 @@
     "comment": "/**\n\t * Class representing the text properties.\n\t * @constructor\n\t */",
     "meta": {
       "range": [
-        93060,
-        93148
+        93059,
+        93147
       ],
       "lineno": 3069,
       "columnno": 1,
