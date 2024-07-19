@@ -1,6 +1,6 @@
 [
   {
-    "comment": "/**\n/**\n/** ## Try it\n/** \n/** ```js use-document-builder\n/** var oContentControl = {\n/**     \"Tag\": \"Document\",\n/**     \"Id\": 0,\n/**     \"Lock\": 0,\n/**     \"InternalId\": \"1_713\"\n/** };\n/** ```\n/**\n     * @typedef {Object} ContentControl\n\t * Content control object.\n     * @property {string} Tag - A tag assigned to the content control. The same tag can be assigned to several content controls so that it is possible to make reference to them in your code.\n     * @property {string} Id - A unique identifier of the content control. It can be used to search for a certain content control and make reference to it in the code.\n     * @property {ContentControlLock} Lock - A value that defines if it is possible to delete and/or edit the content control or not: 0 - only deleting, 1 - no deleting or editing, 2 - only editing, 3 - full access.\n     * @property {string} InternalId - A unique internal identifier of the content control. It is used for all operations with content controls.\n     */",
+    "comment": "/**\n/**\n/** ## Try it\n/** \n/** ```js document-builder\n/** var oContentControl = {\n/**     \"Tag\": \"Document\",\n/**     \"Id\": 0,\n/**     \"Lock\": 0,\n/**     \"InternalId\": \"1_713\"\n/** };\n/** ```\n/**\n     * @typedef {Object} ContentControl\n\t * Content control object.\n     * @property {string} Tag - A tag assigned to the content control. The same tag can be assigned to several content controls so that it is possible to make reference to them in your code.\n     * @property {string} Id - A unique identifier of the content control. It can be used to search for a certain content control and make reference to it in the code.\n     * @property {ContentControlLock} Lock - A value that defines if it is possible to delete and/or edit the content control or not: 0 - only deleting, 1 - no deleting or editing, 2 - only editing, 3 - full access.\n     * @property {string} InternalId - A unique internal identifier of the content control. It is used for all operations with content controls.\n     */",
     "meta": {
       "lineno": 37,
       "columnno": 1,
@@ -17,7 +17,7 @@
         "name": "Object"
       }
     },
-    "description": "Content control object.\n\n## Try it\n\n```js use-document-builder\nvar oContentControl = {\n    \"Tag\": \"Document\",\n    \"Id\": 0,\n    \"Lock\": 0,\n    \"InternalId\": \"1_713\"\n};\n```",
+    "description": "Content control object.\n\n## Try it\n\n```js document-builder\nvar oContentControl = {\n    \"Tag\": \"Document\",\n    \"Id\": 0,\n    \"Lock\": 0,\n    \"InternalId\": \"1_713\"\n};\n```",
     "properties": [
       {
         "type": {
@@ -76,7 +76,7 @@
     "scope": "global"
   },
   {
-    "comment": "/**\n/**\n/** ## Try it\n/** \n/** ```js use-document-builder\n/** var arrDocuments = [{\n/**     \"Props\": {\n/**         \"Id\": 100,\n/**         \"Tag\": \"CC_Tag\",\n/**         \"Lock\": 3\n/**     },\n/**     \"Script\": \"var oParagraph = Api.CreateParagraph();oParagraph.AddText('Hello world!');Api.GetDocument().InsertContent([oParagraph]);\"\n/** }];\n/** window.Asc.plugin.executeMethod(\"InsertAndReplaceContentControls\", [arrDocuments]);\n/** ```\n/**\n     * @typedef {(0 | 1 | 2 | 3)} ContentControlLock\n     * A value that defines if it is possible to delete and/or edit the content control or not:\n\t * * **0** - only deleting\n\t * * **1** - disable deleting or editing\n\t * * **2** - only editing\n\t * * **3** - full access\n     */",
+    "comment": "/**\n/**\n/** ## Try it\n/** \n/** ```js document-builder\n/** var arrDocuments = [{\n/**     \"Props\": {\n/**         \"Id\": 100,\n/**         \"Tag\": \"CC_Tag\",\n/**         \"Lock\": 3\n/**     },\n/**     \"Script\": \"var oParagraph = Api.CreateParagraph();oParagraph.AddText('Hello world!');Api.GetDocument().InsertContent([oParagraph]);\"\n/** }];\n/** window.Asc.plugin.executeMethod(\"InsertAndReplaceContentControls\", [arrDocuments]);\n/** ```\n/**\n     * @typedef {(0 | 1 | 2 | 3)} ContentControlLock\n     * A value that defines if it is possible to delete and/or edit the content control or not:\n\t * * **0** - only deleting\n\t * * **1** - disable deleting or editing\n\t * * **2** - only editing\n\t * * **3** - full access\n     */",
     "meta": {
       "lineno": 46,
       "columnno": 1,
@@ -113,7 +113,7 @@
         ]
       }
     },
-    "description": "A value that defines if it is possible to delete and/or edit the content control or not:\n* **0** - only deleting\n* **1** - disable deleting or editing\n* **2** - only editing\n* **3** - full access\n\n## Try it\n\n```js use-document-builder\nvar arrDocuments = [{\n    \"Props\": {\n        \"Id\": 100,\n        \"Tag\": \"CC_Tag\",\n        \"Lock\": 3\n    },\n    \"Script\": \"var oParagraph = Api.CreateParagraph();oParagraph.AddText('Hello world!');Api.GetDocument().InsertContent([oParagraph]);\"\n}];\nwindow.Asc.plugin.executeMethod(\"InsertAndReplaceContentControls\", [arrDocuments]);\n```",
+    "description": "A value that defines if it is possible to delete and/or edit the content control or not:\n* **0** - only deleting\n* **1** - disable deleting or editing\n* **2** - only editing\n* **3** - full access\n\n## Try it\n\n```js document-builder\nvar arrDocuments = [{\n    \"Props\": {\n        \"Id\": 100,\n        \"Tag\": \"CC_Tag\",\n        \"Lock\": 3\n    },\n    \"Script\": \"var oParagraph = Api.CreateParagraph();oParagraph.AddText('Hello world!');Api.GetDocument().InsertContent([oParagraph]);\"\n}];\nwindow.Asc.plugin.executeMethod(\"InsertAndReplaceContentControls\", [arrDocuments]);\n```",
     "longname": "ContentControlLock",
     "scope": "global"
   },

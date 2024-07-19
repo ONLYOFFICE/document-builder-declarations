@@ -1,10 +1,10 @@
 {
   "onlyoffice/sdkjs": {
-    "master": "b31e77471d8428952feae361f8943da110d2c6d1",
-    "develop": "105f9ab967f6fbfc8a5614a0755f4b629a646c2d"
+    "develop": "020cccdbe2a0b87162bf79bfda59fdfd7d1cb7a4",
+    "master": "b31e77471d8428952feae361f8943da110d2c6d1"
   },
   "onlyoffice/sdkjs-forms": {
-    "master": "e4b1254e7bbf919e7f237b5b161af0f22f51c7cb",
-    "develop": "24fbc65a0f4c16432a0f40409cfecc02479af294"
+    "develop": "24fbc65a0f4c16432a0f40409cfecc02479af294",
+    "master": "e4b1254e7bbf919e7f237b5b161af0f22f51c7cb"
   }
 }
