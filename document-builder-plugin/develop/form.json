@@ -4,7 +4,7 @@
     "meta": {
       "lineno": 37,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs-forms/contents/apiPlugins.js?ref=fed8a12cc8e05c607829e9746a3268d393236144"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs-forms/contents/apiPlugins.js?ref=b7159ab013fb091f11b32553aa941954f805836d"
     },
     "kind": "typedef",
     "name": "ContentControl",
@@ -80,7 +80,7 @@
     "meta": {
       "lineno": 46,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs-forms/contents/apiPlugins.js?ref=fed8a12cc8e05c607829e9746a3268d393236144"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs-forms/contents/apiPlugins.js?ref=b7159ab013fb091f11b32553aa941954f805836d"
     },
     "kind": "typedef",
     "name": "ContentControlLock",
@@ -126,7 +126,7 @@
       ],
       "lineno": 64,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs-forms/contents/apiPlugins.js?ref=fed8a12cc8e05c607829e9746a3268d393236144"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs-forms/contents/apiPlugins.js?ref=b7159ab013fb091f11b32553aa941954f805836d"
     },
     "description": "Returns information about all the forms that have been added to the document.",
     "memberof": "Api",
@@ -170,7 +170,7 @@
       ],
       "lineno": 88,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs-forms/contents/apiPlugins.js?ref=fed8a12cc8e05c607829e9746a3268d393236144"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs-forms/contents/apiPlugins.js?ref=b7159ab013fb091f11b32553aa941954f805836d"
     },
     "description": "Returns information about all the forms that have been added to the document with specified tag.",
     "memberof": "Api",
@@ -229,7 +229,7 @@
       ],
       "lineno": 115,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs-forms/contents/apiPlugins.js?ref=fed8a12cc8e05c607829e9746a3268d393236144"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs-forms/contents/apiPlugins.js?ref=b7159ab013fb091f11b32553aa941954f805836d"
     },
     "description": "Sets a value to the specified form.",
     "memberof": "Api",
@@ -288,7 +288,7 @@
       ],
       "lineno": 130,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs-forms/contents/apiPlugins.js?ref=fed8a12cc8e05c607829e9746a3268d393236144"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs-forms/contents/apiPlugins.js?ref=b7159ab013fb091f11b32553aa941954f805836d"
     },
     "description": "Returns a value of the specified form.",
     "memberof": "Api",
