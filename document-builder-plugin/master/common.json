@@ -2809,7 +2809,7 @@
       "columnno": 4,
       "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=b31e77471d8428952feae361f8943da110d2c6d1"
     },
-    "description": "The plugin object.\n\n## Try it\n\n```js document-builder\nvar oPlugin = {\n    \"url\": \"https://example.com/plugin/config.json\",\n    \"guid\": \"asc.{38E022EA-AD92-45FC-B22B-49DF39746DB4}\",\n    \"canRemoved\": true,\n    \"obj\": {\n        \"baseUrl\": \"\",\n        \"guid\": \"asc.{FFE1F462-1EA2-4391-990D-4CC84940B754}\",\n        \"version\": \"1.0\",\n        \"minVersion\": \"6.3.0\",\n        ...\n    }\n};\n```\n\n## Try it\n\n```js document-builder\nvar oPlugin = {\n    \"url\": \"https://example.com/plugin/config.json\",\n    \"guid\": \"asc.{38E022EA-AD92-45FC-B22B-49DF39746DB4}\",\n    \"canRemoved\": true,\n    \"obj\": {\n        \"baseUrl\": \"\",\n        \"guid\": \"asc.{FFE1F462-1EA2-4391-990D-4CC84940B754}\",\n        \"version\": \"1.0\",\n        \"minVersion\": \"6.3.0\",\n        ...\n    }\n};\n```",
+    "description": "The plugin object.\n\n## Try it\n\n```js document-builder\nvar oPlugin = {\n    \"url\": \"https://example.com/plugin/config.json\",\n    \"guid\": \"asc.{38E022EA-AD92-45FC-B22B-49DF39746DB4}\",\n    \"canRemoved\": true,\n    \"obj\": {\n        \"baseUrl\": \"\",\n        \"guid\": \"asc.{FFE1F462-1EA2-4391-990D-4CC84940B754}\",\n        \"version\": \"1.0\",\n        \"minVersion\": \"6.3.0\",\n        ...\n    }\n};\n```\n\n## Try it\n\n```js document-builder\nvar oPlugin = {\n    \"url\": \"https://example.com/plugin/config.json\",\n    \"guid\": \"asc.{38E022EA-AD92-45FC-B22B-49DF39746DB4}\",\n    \"canRemoved\": true,\n    \"obj\": {\n        \"baseUrl\": \"\",\n        \"guid\": \"asc.{FFE1F462-1EA2-4391-990D-4CC84940B754}\",\n        \"version\": \"1.0\",\n        \"minVersion\": \"6.3.0\",\n        ...\n    }\n};\n```\n\n## Try it\n\n```js document-builder\nvar oPlugin = {\n    \"url\": \"https://example.com/plugin/config.json\",\n    \"guid\": \"asc.{38E022EA-AD92-45FC-B22B-49DF39746DB4}\",\n    \"canRemoved\": true,\n    \"obj\": {\n        \"baseUrl\": \"\",\n        \"guid\": \"asc.{FFE1F462-1EA2-4391-990D-4CC84940B754}\",\n        \"version\": \"1.0\",\n        \"minVersion\": \"6.3.0\",\n        ...\n    }\n};\n```",
     "kind": "typedef",
     "name": "PluginData",
     "type": {
@@ -2883,7 +2883,7 @@
     "meta": {
       "range": [
         57182,
-        59834
+        59833
       ],
       "lineno": 1449,
       "columnno": 1,
@@ -2924,8 +2924,8 @@
     "comment": "/**\n    * Removes a plugin with the specified GUID.\n     * @memberof Api\n     * @param {string} guid - The plugin identifier. It must be of the *asc.{UUID}* type.\n\t * @param {string} backup - The plugin backup. This parameter is used when working with the desktop editors.\n     * @alias RemovePlugin\n     * @returns {object} - An object with the result information.\n     * @since 7.2.0\n     */",
     "meta": {
       "range": [
-        60276,
-        62248
+        60275,
+        62247
       ],
       "lineno": 1540,
       "columnno": 1,
@@ -2985,8 +2985,8 @@
     "comment": "/**\n    * Installs a plugin by the URL to the plugin config.\n     * @memberof Api\n     * @param {object} [config] - The plugin config for installing.\n     * @alias InstallPlugin\n     * @returns {object} - An object with the result information.\n     * @since 7.2.0\n     */",
     "meta": {
       "range": [
-        62568,
-        62681
+        62567,
+        62680
       ],
       "lineno": 1601,
       "columnno": 1,
@@ -3034,8 +3034,8 @@
     "comment": "/**\n    * Updates a plugin by the URL to the plugin config.\n     * @memberof Api\n     * @param {object} [config] - The plugin config for updating.\n     * @alias UpdatePlugin\n     * @returns {object} - An object with the result information.\n     * @since 7.3.0\n     */",
     "meta": {
       "range": [
-        62997,
-        63107
+        62996,
+        63106
       ],
       "lineno": 1614,
       "columnno": 1,
@@ -3083,8 +3083,8 @@
     "comment": "/**\n\t * Installs a plugin by the URL to the plugin config.\n\t * @memberof Api\n\t * @param {string} configUrl - The URL to the plugin *config.json* for installing.\n\t * @alias InstallDeveloperPlugin\n\t * @returns {boolean} - Returns true if the plugin is installed.\n\t * @since 7.4.0\n\t */",
     "meta": {
       "range": [
-        63436,
-        63874
+        63435,
+        63873
       ],
       "lineno": 1628,
       "columnno": 1,
@@ -3131,8 +3131,8 @@
     "comment": "/**\n\t* Shows or hides buttons in the header.\n\t * @memberof Api\n\t * @param {string} id - The button ID.\n\t * @param {boolean} bShow - The flag specifies whether the button is shown (**true**) or hidden (**false**).\n\t * @param {string} align - The parameter indicates whether the button will be displayed on the right side of the window or on the left. The default value is \"left\".\n\t * @alias ShowButton \n\t * @since 7.2.0\n\t */",
     "meta": {
       "range": [
-        64344,
-        64568
+        64343,
+        64567
       ],
       "lineno": 1659,
       "columnno": 1,
@@ -3191,8 +3191,8 @@
     "comment": "/**\n\t * Implements the external drag&drop emulation.\n\t * @memberof Api\n\t * @param {object} obj The drag&drop emulation properties.\n     * @param {string} obj.type - The drag&drop event type:\n     * * <b>onbeforedrop</b> - an event that is fired when the selected text or element is dragged;\n     * * <b>ondrop</b> - an event that is fired when the selected text or element is dropped on a valid drop target.\n     * @param {number} obj.x - The horizontal coordinate (in pixels) at which the mouse was clicked, relative to the left edge of the entire document.\n     * @param {number} obj.y - The vertical coordinate (in pixels) at which the mouse was clicked, relative to the top edge of the entire document.\n     * @param {string} obj.html - The dragged HTML element.\n     * @param {string} obj.text - The dragged text.\n\t * @alias OnDropEvent\n\t * @since 7.3.0\n\t */",
     "meta": {
       "range": [
-        66153,
-        66667
+        66152,
+        66666
       ],
       "lineno": 1707,
       "columnno": 1,
@@ -3290,8 +3290,8 @@
     "comment": "/**\n     * Returns the document language.\n     * @memberof Api\n     * @alias GetDocumentLang\n     * @returns {string} - Document language.\n\t * @since 7.4.0\n     */",
     "meta": {
       "range": [
-        66879,
-        67381
+        66878,
+        67380
       ],
       "lineno": 1748,
       "columnno": 4,
@@ -3337,7 +3337,7 @@
         "name": "Object"
       }
     },
-    "description": "The context menu item.\n\n## Try it\n\n```js document-builder\nvar aContextMenuItems = function getContextMenuItems() {\n\tlet settings = {\n\t\tguid: window.Asc.plugin.guid,\n\t\titems: [\n\t\t\t{\n\t\t\t\tid : 'onConvert',\n\t\t\t\ttext : getMessage('Convert to Markdown or HTML')\n\t\t\t}\n\t\t]\n\t};\n\treturn settings;\n};\n\nwindow.Asc.plugin.attachEvent('onContextMenuShow', function(options) {\n\tif (!options) return;\n\n\tif (options.type === 'Selection' || options.type === 'Target')\n\t\tthis.executeMethod('AddContextMenuItem', [aContextMenuItems]);\n});\n```\n\n## Try it\n\n```js document-builder\nvar aContextMenuItems = function getContextMenuItems() {\n\tlet settings = {\n\t\tguid: window.Asc.plugin.guid,\n\t\titems: [\n\t\t\t{\n\t\t\t\tid : 'onConvert',\n\t\t\t\ttext : getMessage('Convert to Markdown or HTML')\n\t\t\t}\n\t\t]\n\t};\n\treturn settings;\n};\n\nwindow.Asc.plugin.attachEvent('onContextMenuShow', function(options) {\n\tif (!options) return;\n\n\tif (options.type === 'Selection' || options.type === 'Target')\n\t\tthis.executeMethod('AddContextMenuItem', [aContextMenuItems]);\n});\n```",
+    "description": "The context menu item.\n\n## Try it\n\n```js document-builder\nvar aContextMenuItems = function getContextMenuItems() {\n\tlet settings = {\n\t\tguid: window.Asc.plugin.guid,\n\t\titems: [\n\t\t\t{\n\t\t\t\tid : 'onConvert',\n\t\t\t\ttext : getMessage('Convert to Markdown or HTML')\n\t\t\t}\n\t\t]\n\t};\n\treturn settings;\n};\n\nwindow.Asc.plugin.attachEvent('onContextMenuShow', function(options) {\n\tif (!options) return;\n\n\tif (options.type === 'Selection' || options.type === 'Target')\n\t\tthis.executeMethod('AddContextMenuItem', [aContextMenuItems]);\n});\n```\n\n## Try it\n\n```js document-builder\nvar aContextMenuItems = function getContextMenuItems() {\n\tlet settings = {\n\t\tguid: window.Asc.plugin.guid,\n\t\titems: [\n\t\t\t{\n\t\t\t\tid : 'onConvert',\n\t\t\t\ttext : getMessage('Convert to Markdown or HTML')\n\t\t\t}\n\t\t]\n\t};\n\treturn settings;\n};\n\nwindow.Asc.plugin.attachEvent('onContextMenuShow', function(options) {\n\tif (!options) return;\n\n\tif (options.type === 'Selection' || options.type === 'Target')\n\t\tthis.executeMethod('AddContextMenuItem', [aContextMenuItems]);\n});\n```\n\n## Try it\n\n```js document-builder\nvar aContextMenuItems = function getContextMenuItems() {\n\tlet settings = {\n\t\tguid: window.Asc.plugin.guid,\n\t\titems: [\n\t\t\t{\n\t\t\t\tid : 'onConvert',\n\t\t\t\ttext : getMessage('Convert to Markdown or HTML')\n\t\t\t}\n\t\t]\n\t};\n\treturn settings;\n};\n\nwindow.Asc.plugin.attachEvent('onContextMenuShow', function(options) {\n\tif (!options) return;\n\n\tif (options.type === 'Selection' || options.type === 'Target')\n\t\tthis.executeMethod('AddContextMenuItem', [aContextMenuItems]);\n});\n```",
     "properties": [
       {
         "type": {
@@ -3437,8 +3437,8 @@
     "comment": "/**\n\t * Adds an item to the context menu.\n\t * @memberof Api\n\t * @alias AddContextMenuItem\n\t * @param {ContextMenuItem[]} items - An array containing the context menu items.\n\t * @since 7.4.0\n\t */",
     "meta": {
       "range": [
-        69071,
-        69325
+        69070,
+        69324
       ],
       "lineno": 1817,
       "columnno": 1,
@@ -3480,8 +3480,8 @@
     "comment": "/**\n\t * Updates an item in the context menu with the specified items.\n\t * @memberof Api\n\t * @alias UpdateContextMenuItem\n\t * @param {ContextMenuItem[]} items - An array containing the context menu items for the current item.\n\t * @since 7.4.0\n\t */",
     "meta": {
       "range": [
-        69618,
-        69880
+        69617,
+        69879
       ],
       "lineno": 1832,
       "columnno": 1,
@@ -3752,7 +3752,7 @@
         "name": "Object"
       }
     },
-    "description": "The toolbar menu tab.\n\n## Try it\n\n```js document-builder\nvar oToolbarMenuTab = {\n    \"id\": \"ChatGPT\",\n    \"text\": \"AI Assistant\",\n    \"items\": [oToolbarMenuItem]\n};\n```\n\n## Try it\n\n```js document-builder\nvar oToolbarMenuTab = {\n    \"id\": \"ChatGPT\",\n    \"text\": \"AI Assistant\",\n    \"items\": [oToolbarMenuItem]\n};\n```\n\n## Try it\n\n```js document-builder\nvar oToolbarMenuTab = {\n    \"id\": \"ChatGPT\",\n    \"text\": \"AI Assistant\",\n    \"items\": [oToolbarMenuItem]\n};\n```",
+    "description": "The toolbar menu tab.\n\n## Try it\n\n```js document-builder\nvar oToolbarMenuTab = {\n    \"id\": \"ChatGPT\",\n    \"text\": \"AI Assistant\",\n    \"items\": [oToolbarMenuItem]\n};\n```\n\n## Try it\n\n```js document-builder\nvar oToolbarMenuTab = {\n    \"id\": \"ChatGPT\",\n    \"text\": \"AI Assistant\",\n    \"items\": [oToolbarMenuItem]\n};\n```",
     "properties": [
       {
         "type": {
@@ -3870,8 +3870,8 @@
     "comment": "/**\n\t * Adds an item to the toolbar menu.\n\t * @memberof Api\n\t * @alias AddToolbarMenuItem\n\t * @param {ToolbarMenuMainItem[]} items - An array containing the main toolbar menu items.\n\t * @since 8.1.0\n\t */",
     "meta": {
       "range": [
-        71786,
-        72144
+        71785,
+        72143
       ],
       "lineno": 1883,
       "columnno": 1,
@@ -3913,8 +3913,8 @@
     "comment": "/**\n\t * Shows the plugin modal window.\n\t * @memberof Api\n\t * @param {string} frameId - The frame ID.\n\t * @param {variation} variation - The plugin variation.\n\t * @alias ShowWindow \n\t * @since 7.4.0\n\t */",
     "meta": {
       "range": [
-        72393,
-        72733
+        72392,
+        72732
       ],
       "lineno": 1904,
       "columnno": 1,
@@ -3960,8 +3960,8 @@
     "comment": "/**\n\t * Activates (moves forward) the plugin window/panel.\n\t * @memberof Api\n\t * @param {string} frameId - The frame ID.\n\t * @alias ActivateWindow\n\t * @since 8.1.0\n\t */",
     "meta": {
       "range": [
-        72948,
-        73075
+        72947,
+        73074
       ],
       "lineno": 1923,
       "columnno": 1,
@@ -3994,8 +3994,8 @@
     "comment": "/**\n\t * Closes the plugin modal window.\n\t * @memberof Api\n\t * @param {string} frameId - The frame ID.\n\t * @alias CloseWindow\n\t * @since 7.4.0\n\t */",
     "meta": {
       "range": [
-        73268,
-        73389
+        73267,
+        73388
       ],
       "lineno": 1936,
       "columnno": 1,
@@ -4028,8 +4028,8 @@
     "comment": "/**\n\t * Sends a message to the plugin modal window.\n\t * @memberof Api\n\t * @param {string} windowID - The frame ID.\n\t * @param {string} name - The event name.\n\t * @param {object} data - The event data.\n\t * @alias SendToWindow\n\t * @since 7.4.0\n\t */",
     "meta": {
       "range": [
-        73682,
-        73829
+        73681,
+        73828
       ],
       "lineno": 1951,
       "columnno": 1,
@@ -4088,8 +4088,8 @@
     "comment": "/**\n\t * Resizes the plugin modal window.\n\t * @memberof Api\n\t * @param {string} frameId - The frame ID.\n\t * @param {number} size - The frame size.\n\t * @param {number} minSize - The frame minimum size.\n\t * @param {number} maxSize - The frame maximum size.\n\t * @alias ResizeWindow\n\t * @since 7.4.0\n\t */",
     "meta": {
       "range": [
-        74175,
-        74479
+        74174,
+        74478
       ],
       "lineno": 1967,
       "columnno": 1,
@@ -4161,8 +4161,8 @@
     "comment": "/**\n\t * Sends an event to the plugin when the mouse button is released inside the plugin iframe.\n\t * @memberof Api\n\t * @param {string} frameId - The frame ID.\n\t * @param {number} x - The X coordinate.\n\t * @param {number} y - The Y coordinate.\n\t * @alias MouseUpWindow\n\t * @since 7.4.0\n\t */",
     "meta": {
       "range": [
-        74815,
-        74952
+        74814,
+        74951
       ],
       "lineno": 1985,
       "columnno": 1,
@@ -4221,8 +4221,8 @@
     "comment": "/**\n\t * Sends an event to the plugin when the mouse button is moved inside the plugin iframe.\n\t * @memberof Api\n\t * @param {string} frameId - The frame ID.\n \t * @param {number} x - The X coordinate.\n\t * @param {number} y - The Y coordinate.\n\t * @alias MouseMoveWindow\n\t * @since 7.4.0\n\t */",
     "meta": {
       "range": [
-        75288,
-        75429
+        75287,
+        75428
       ],
       "lineno": 2000,
       "columnno": 1,
