@@ -8,7 +8,7 @@
       ],
       "lineno": 181,
       "columnno": 4,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "description": "Returns the editor version.",
     "memberof": "Api",
@@ -40,7 +40,7 @@
       ],
       "lineno": 191,
       "columnno": 4,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "description": "Adds an OLE object to the current document position.",
     "memberof": "Api",
@@ -74,7 +74,7 @@
       ],
       "lineno": 200,
       "columnno": 4,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "description": "Edits an OLE object in the document.",
     "memberof": "Api",
@@ -107,7 +107,7 @@
       ],
       "lineno": 210,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "description": "Returns an array of the selected OLE objects.",
     "memberof": "Api",
@@ -148,7 +148,7 @@
       ],
       "lineno": 258,
       "columnno": 4,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "description": "Returns the fonts list.",
     "memberof": "Api",
@@ -189,7 +189,7 @@
       ],
       "lineno": 271,
       "columnno": 4,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "description": "Inserts text into the document.",
     "memberof": "Api",
@@ -235,7 +235,7 @@
       ],
       "lineno": 293,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "description": "Pastes text in the HTML format into the document.",
     "memberof": "Api",
@@ -268,7 +268,7 @@
       ],
       "lineno": 366,
       "columnno": 4,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "description": "Pastes text into the document.",
     "memberof": "Api",
@@ -301,7 +301,7 @@
       ],
       "lineno": 388,
       "columnno": 4,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "description": "Returns the document macros.",
     "memberof": "Api",
@@ -333,7 +333,7 @@
       ],
       "lineno": 400,
       "columnno": 4,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "description": "Sets macros to the document.",
     "memberof": "Api",
@@ -366,7 +366,7 @@
       ],
       "lineno": 413,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "description": "Returns all VBA macros from the document.",
     "memberof": "Api",
@@ -408,7 +408,7 @@
       ],
       "lineno": 426,
       "columnno": 4,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "description": "Specifies the start action for long operations.",
     "memberof": "Api",
@@ -454,7 +454,7 @@
       ],
       "lineno": 440,
       "columnno": 4,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "description": "Specifies the end action for long operations.",
     "memberof": "Api",
@@ -513,7 +513,7 @@
       ],
       "lineno": 503,
       "columnno": 4,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "description": "Encrypts the document.",
     "memberof": "Api",
@@ -637,7 +637,7 @@
       ],
       "lineno": 613,
       "columnno": 4,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "description": "Sets the properties to the document.",
     "memberof": "Api",
@@ -745,7 +745,7 @@
       ],
       "lineno": 823,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "description": "Set options for all plugins. This method can be used only in connectors.",
     "memberof": "Api",
@@ -778,7 +778,7 @@
       ],
       "lineno": 842,
       "columnno": 4,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "description": "Shows the input helper.",
     "memberof": "Api",
@@ -850,7 +850,7 @@
       ],
       "lineno": 927,
       "columnno": 4,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "description": "Unshows the input helper.",
     "memberof": "Api",
@@ -896,7 +896,7 @@
       ],
       "lineno": 968,
       "columnno": 4,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "description": "Sends a message to the co-authoring chat.",
     "memberof": "Api",
@@ -929,7 +929,7 @@
       ],
       "lineno": 985,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "description": "Returns the type of the current selection.",
     "memberof": "Api",
@@ -961,7 +961,7 @@
       ],
       "lineno": 1102,
       "columnno": 4,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "description": "Returns the selected text from the document.",
     "memberof": "Api",
@@ -1129,7 +1129,7 @@
       ],
       "lineno": 1143,
       "columnno": 4,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "description": "Replaces each paragraph (or text in cell) in the select with the corresponding text from an array of strings.",
     "memberof": "Api",
@@ -1207,7 +1207,7 @@
       ],
       "lineno": 1185,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "description": "Returns the current file to download in the specified format.",
     "memberof": "Api",
@@ -1257,7 +1257,7 @@
       ],
       "lineno": 1223,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "description": "Returns the image data from the first of the selected drawings. If there are no drawings selected, the method returns a white rectangle.",
     "memberof": "Api",
@@ -1292,7 +1292,7 @@
       ],
       "lineno": 1236,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "description": "Replaces the first selected drawing with the image specified in the parameters.\nIf there are no drawings selected, the method inserts the image at the current position.",
     "memberof": "Api",
@@ -1326,7 +1326,7 @@
       ],
       "lineno": 1449,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "description": "Returns all the installed plugins.",
     "memberof": "Api",
@@ -1368,7 +1368,7 @@
       ],
       "lineno": 1540,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "description": "Removes a plugin with the specified GUID.",
     "memberof": "Api",
@@ -1429,7 +1429,7 @@
       ],
       "lineno": 1601,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "description": "Installs a plugin by the URL to the plugin config.",
     "memberof": "Api",
@@ -1478,7 +1478,7 @@
       ],
       "lineno": 1614,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "description": "Updates a plugin by the URL to the plugin config.",
     "memberof": "Api",
@@ -1527,7 +1527,7 @@
       ],
       "lineno": 1628,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "description": "Installs a plugin by the URL to the plugin config.",
     "memberof": "Api",
@@ -1575,7 +1575,7 @@
       ],
       "lineno": 1659,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "description": "Shows or hides buttons in the header.",
     "memberof": "Api",
@@ -1635,7 +1635,7 @@
       ],
       "lineno": 1707,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "description": "Implements the external drag&drop emulation.",
     "memberof": "Api",
@@ -1734,7 +1734,7 @@
       ],
       "lineno": 1748,
       "columnno": 4,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "description": "Returns the document language.",
     "memberof": "Api",
@@ -1767,7 +1767,7 @@
       ],
       "lineno": 1817,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "description": "Adds an item to the context menu.",
     "memberof": "Api",
@@ -1810,7 +1810,7 @@
       ],
       "lineno": 1832,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "description": "Updates an item in the context menu with the specified items.",
     "memberof": "Api",
@@ -1853,7 +1853,7 @@
       ],
       "lineno": 1883,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "description": "Adds an item to the toolbar menu.",
     "memberof": "Api",
@@ -1896,7 +1896,7 @@
       ],
       "lineno": 1904,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "description": "Shows the plugin modal window.",
     "memberof": "Api",
@@ -1943,7 +1943,7 @@
       ],
       "lineno": 1923,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "description": "Activates (moves forward) the plugin window/panel.",
     "memberof": "Api",
@@ -1977,7 +1977,7 @@
       ],
       "lineno": 1936,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "description": "Closes the plugin modal window.",
     "memberof": "Api",
@@ -2011,7 +2011,7 @@
       ],
       "lineno": 1951,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "description": "Sends a message to the plugin modal window.",
     "memberof": "Api",
@@ -2071,7 +2071,7 @@
       ],
       "lineno": 1967,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "description": "Resizes the plugin modal window.",
     "memberof": "Api",
@@ -2144,7 +2144,7 @@
       ],
       "lineno": 1985,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "description": "Sends an event to the plugin when the mouse button is released inside the plugin iframe.",
     "memberof": "Api",
@@ -2204,7 +2204,7 @@
       ],
       "lineno": 2000,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "description": "Sends an event to the plugin when the mouse button is moved inside the plugin iframe.",
     "memberof": "Api",
@@ -2260,7 +2260,7 @@
     "meta": {
       "lineno": 37,
       "columnno": 4,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/slide/api_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/slide/api_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "description": "Base class.",
     "scope": "global",
@@ -2273,7 +2273,7 @@
     "meta": {
       "lineno": 46,
       "columnno": 4,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/slide/api_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/slide/api_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "kind": "typedef",
     "name": "CommentData",
@@ -2388,7 +2388,7 @@
       ],
       "lineno": 66,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/slide/api_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/slide/api_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "description": "Adds a comment to the presentation.",
     "memberof": "Api",
@@ -2445,7 +2445,7 @@
       ],
       "lineno": 92,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/slide/api_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/slide/api_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "description": "Changes the specified comment.",
     "memberof": "Api",
@@ -2505,7 +2505,7 @@
       ],
       "lineno": 115,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/slide/api_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/slide/api_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "description": "Removes the specified comments.",
     "params": [
@@ -2548,7 +2548,7 @@
       ],
       "lineno": 134,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/slide/api_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/slide/api_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "description": "Returns all the comments from the document.",
     "memberof": "Api",
@@ -2590,7 +2590,7 @@
       ],
       "lineno": 159,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/slide/api_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/slide/api_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "description": "Starts the presentation slide show.",
     "memberof": "Api",
@@ -2609,7 +2609,7 @@
       ],
       "lineno": 171,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/slide/api_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/slide/api_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "description": "Pauses the current slide show.",
     "memberof": "Api",
@@ -2628,7 +2628,7 @@
       ],
       "lineno": 183,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/slide/api_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/slide/api_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "description": "Resumes the current slide show.",
     "memberof": "Api",
@@ -2647,7 +2647,7 @@
       ],
       "lineno": 197,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/slide/api_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/slide/api_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "description": "Ends the current slide show.",
     "memberof": "Api",
@@ -2666,7 +2666,7 @@
       ],
       "lineno": 209,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/slide/api_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/slide/api_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "description": "Displays the slide following the current slide in the slide show.",
     "memberof": "Api",
@@ -2685,7 +2685,7 @@
       ],
       "lineno": 221,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/slide/api_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/slide/api_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "description": "Displays the slide following the current slide in the slide show.",
     "memberof": "Api",
@@ -2704,7 +2704,7 @@
       ],
       "lineno": 234,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/slide/api_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/slide/api_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "description": "Displays the slide with the specific index.",
     "memberof": "Api",
@@ -2734,7 +2734,7 @@
     "meta": {
       "lineno": 165,
       "columnno": 4,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "description": "Base class",
     "scope": "global",
@@ -2747,7 +2747,7 @@
     "meta": {
       "lineno": 153,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "description": "The OLE object properties\n\n## Try it\n\n```js document-builder\nvar oOLEProperties = {\n    \"data\": \"{data}\",\n    \"imgSrc\": \"https://link-to-the-image.jpg\",\n    \"guid\": \"asc.{38E022EA-AD92-45FC-B22B-49DF39746DB4}\",\n    \"width\": 70,\n    \"height\": 70,\n    \"widthPix\": 60 * 36000,\n    \"heightPix\": 60 * 36000\n};\n```\n\n## Try it\n\n```js document-builder\nvar oOLEProperties = {\n    \"data\": \"{data}\",\n    \"imgSrc\": \"https://link-to-the-image.jpg\",\n    \"guid\": \"asc.{38E022EA-AD92-45FC-B22B-49DF39746DB4}\",\n    \"width\": 70,\n    \"height\": 70,\n    \"widthPix\": 60 * 36000,\n    \"heightPix\": 60 * 36000\n};\n```",
     "kind": "typedef",
@@ -2862,7 +2862,7 @@
     "meta": {
       "lineno": 223,
       "columnno": 4,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "description": "An object containing the font information.\n\n## Try it\n\n```js document-builder\nvar oFontInfo = {\n    \"m_wsFontName\": \"Open Sans\",\n    \"m_wsFontPath\": \"OpenSans-Bold.ttf\",\n    \"m_lIndex\": 0,\n    \"m_bBold\": true,\n    \"m_bItalic\": false,\n    \"m_bIsFixed\": false,\n    \"m_aPanose\": [2, 11, 8, 6, 3, 5, 4, 2, 2, 4],\n    \"m_ulUnicodeRange1\": 3758097135,\n    \"m_ulUnicodeRange2\": 1073750107,\n    \"m_ulUnicodeRange3\": 40,\n    \"m_ulUnicodeRange4\": 0,\n    \"m_ulCodePageRange1\": 536871327,\n    \"m_ulCodePageRange2\": 0,\n    \"m_usWeigth\": 700,\n    \"m_usWidth\": 5,\n    \"m_sFamilyClass\": 2050,\n    \"m_eFontFormat\": 1,\n    \"m_shAvgCharWidth\": 632,\n    \"m_shAscent\": 765,\n    \"m_shDescent\": -240,\n    \"m_shLineGap\": 64,\n    \"m_shXHeight\": 545,\n    \"m_shCapHeight\": 713\n};\n```\n\n## Try it\n\n```js document-builder\nvar oFontInfo = {\n    \"m_wsFontName\": \"Open Sans\",\n    \"m_wsFontPath\": \"OpenSans-Bold.ttf\",\n    \"m_lIndex\": 0,\n    \"m_bBold\": true,\n    \"m_bItalic\": false,\n    \"m_bIsFixed\": false,\n    \"m_aPanose\": [2, 11, 8, 6, 3, 5, 4, 2, 2, 4],\n    \"m_ulUnicodeRange1\": 3758097135,\n    \"m_ulUnicodeRange2\": 1073750107,\n    \"m_ulUnicodeRange3\": 40,\n    \"m_ulUnicodeRange4\": 0,\n    \"m_ulCodePageRange1\": 536871327,\n    \"m_ulCodePageRange2\": 0,\n    \"m_usWeigth\": 700,\n    \"m_usWidth\": 5,\n    \"m_sFamilyClass\": 2050,\n    \"m_eFontFormat\": 1,\n    \"m_shAvgCharWidth\": 632,\n    \"m_shAscent\": 765,\n    \"m_shDescent\": -240,\n    \"m_shLineGap\": 64,\n    \"m_shXHeight\": 545,\n    \"m_shCapHeight\": 713\n};\n```\n\n## Try it\n\n```js document-builder\nvar oFontInfo = {\n    \"m_wsFontName\": \"Open Sans\",\n    \"m_wsFontPath\": \"OpenSans-Bold.ttf\",\n    \"m_lIndex\": 0,\n    \"m_bBold\": true,\n    \"m_bItalic\": false,\n    \"m_bIsFixed\": false,\n    \"m_aPanose\": [2, 11, 8, 6, 3, 5, 4, 2, 2, 4],\n    \"m_ulUnicodeRange1\": 3758097135,\n    \"m_ulUnicodeRange2\": 1073750107,\n    \"m_ulUnicodeRange3\": 40,\n    \"m_ulUnicodeRange4\": 0,\n    \"m_ulCodePageRange1\": 536871327,\n    \"m_ulCodePageRange2\": 0,\n    \"m_usWeigth\": 700,\n    \"m_usWidth\": 5,\n    \"m_sFamilyClass\": 2050,\n    \"m_eFontFormat\": 1,\n    \"m_shAvgCharWidth\": 632,\n    \"m_shAscent\": 765,\n    \"m_shDescent\": -240,\n    \"m_shLineGap\": 64,\n    \"m_shXHeight\": 545,\n    \"m_shCapHeight\": 713\n};\n```",
     "kind": "typedef",
@@ -3194,7 +3194,7 @@
     "meta": {
       "lineno": 374,
       "columnno": 4,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "description": "An object containing the data about all the macros from the document.\n\n## Try it\n\n```js document-builder\nvar oMacros = {\n    \"macrosArray\": [\n        {\n            \"name\": \"Macros 1\",\n            \"value\": \"(function()\\n{oDocument = Api.GetDocument();\\noParagraph = Api.CreateParagraph();\\noParagraph.AddText(\\\"This is a new paragraph\\\");\\noDocument.Push(oParagraph);\\n})();\"\n        },\n        {\n            \"name\": \"Macros 2\",\n            \"value\": \"(function()\\n{oDocument = Api.GetDocument();\\noParagraph = oDocument.GetElement(0);\\noParagraph.AddText(\\\"ONLYOFFICE Document Builder\\\");\\noRange = oDocument.GetRange(0, 24);\\noRange.SetBold(true);\\n})();\"\n        }\n    ],\n    \"current\": 1\n};\nwindow.Asc.plugin.executeMethod(\"SetMacros\", [oMacros]);\n```\n\n## Try it\n\n```js document-builder\nvar oMacros = {\n    \"macrosArray\": [\n        {\n            \"name\": \"Macros 1\",\n            \"value\": \"(function()\\n{oDocument = Api.GetDocument();\\noParagraph = Api.CreateParagraph();\\noParagraph.AddText(\\\"This is a new paragraph\\\");\\noDocument.Push(oParagraph);\\n})();\"\n        },\n        {\n            \"name\": \"Macros 2\",\n            \"value\": \"(function()\\n{oDocument = Api.GetDocument();\\noParagraph = oDocument.GetElement(0);\\noParagraph.AddText(\\\"ONLYOFFICE Document Builder\\\");\\noRange = oDocument.GetRange(0, 24);\\noRange.SetBold(true);\\n})();\"\n        }\n    ],\n    \"current\": 1\n};\nwindow.Asc.plugin.executeMethod(\"SetMacros\", [oMacros]);\n```\n\n## Try it\n\n```js document-builder\nvar oMacros = {\n    \"macrosArray\": [\n        {\n            \"name\": \"Macros 1\",\n            \"value\": \"(function()\\n{oDocument = Api.GetDocument();\\noParagraph = Api.CreateParagraph();\\noParagraph.AddText(\\\"This is a new paragraph\\\");\\noDocument.Push(oParagraph);\\n})();\"\n        },\n        {\n            \"name\": \"Macros 2\",\n            \"value\": \"(function()\\n{oDocument = Api.GetDocument();\\noParagraph = oDocument.GetElement(0);\\noParagraph.AddText(\\\"ONLYOFFICE Document Builder\\\");\\noRange = oDocument.GetRange(0, 24);\\noRange.SetBold(true);\\n})();\"\n        }\n    ],\n    \"current\": 1\n};\nwindow.Asc.plugin.executeMethod(\"SetMacros\", [oMacros]);\n```",
     "kind": "typedef",
@@ -3253,7 +3253,7 @@
     "meta": {
       "lineno": 973,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "description": "The current selection type (\"none\", \"text\", \"drawing\", or \"slide\").\n\n## Try it\n\n```js document-builder\nwindow.Asc.plugin.executeMethod (\"GetSelectionType\", [], function(sType) {\n    switch (sType) {\n        case \"none\":\n        case \"drawing\":\n            window.Asc.plugin.executeMethod (\"PasteText\", [$(\"#txt_shower\")[0].innerText]);\n            break;\n        case \"text\":\n            window.Asc.plugin.callCommand (function() {\n                Api.ReplaceTextSmart (Asc.scope.arr);\n            });\n            break;\n    }\n});\n```\n\n## Try it\n\n```js document-builder\nwindow.Asc.plugin.executeMethod (\"GetSelectionType\", [], function(sType) {\n    switch (sType) {\n        case \"none\":\n        case \"drawing\":\n            window.Asc.plugin.executeMethod (\"PasteText\", [$(\"#txt_shower\")[0].innerText]);\n            break;\n        case \"text\":\n            window.Asc.plugin.callCommand (function() {\n                Api.ReplaceTextSmart (Asc.scope.arr);\n            });\n            break;\n    }\n});\n```",
     "kind": "typedef",
@@ -3295,7 +3295,7 @@
     "meta": {
       "lineno": 1206,
       "columnno": 4,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "description": "An object containing the information about the base64 encoded *png* image.\n\n## Try it\n\n```js document-builder\nwindow.saveImage = function () {\n    let sImageSrc = imageEditor.toDataURL();\n    let editorDimension = imageEditor.getCanvasSize();\n    let nWidth = editorDimension.width;\n    let nHeight = editorDimension.height;\n    let oImageData = {\n        \"src\": sImageSrc,\n        \"width\": nWidth,\n        \"height\": nHeight,\n        \"replaceMode\": \"original\"\n    };\n    window.Asc.plugin.executeMethod (\"PutImageDataToSelection\", [oImageData]);\n    window.Asc.plugin.callCommand(\"close\", \"\");\n};\n```\n\n## Try it\n\n```js document-builder\nwindow.saveImage = function () {\n    let sImageSrc = imageEditor.toDataURL();\n    let editorDimension = imageEditor.getCanvasSize();\n    let nWidth = editorDimension.width;\n    let nHeight = editorDimension.height;\n    let oImageData = {\n        \"src\": sImageSrc,\n        \"width\": nWidth,\n        \"height\": nHeight,\n        \"replaceMode\": \"original\"\n    };\n    window.Asc.plugin.executeMethod (\"PutImageDataToSelection\", [oImageData]);\n    window.Asc.plugin.callCommand(\"close\", \"\");\n};\n```",
     "kind": "typedef",
@@ -3373,7 +3373,7 @@
     "meta": {
       "lineno": 1201,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "description": "Specifies how to adjust the image object in case of replacing the selected image.\n\n## Try it\n\n```js document-builder\nwindow.saveImage = function () {\n    let sImageSrc = imageEditor.toDataURL();\n    let editorDimension = imageEditor.getCanvasSize();\n    let nWidth = editorDimension.width;\n    let nHeight = editorDimension.height;\n    let oImageData = {\n        \"src\": sImageSrc,\n        \"width\": nWidth,\n        \"height\": nHeight,\n        \"replaceMode\": \"original\"\n    };\n    window.Asc.plugin.executeMethod (\"PutImageDataToSelection\", [oImageData]);\n    window.Asc.plugin.executeCommand(\"close\", \"\");\n};\n```\n\n## Try it\n\n```js document-builder\nwindow.saveImage = function () {\n    let sImageSrc = imageEditor.toDataURL();\n    let editorDimension = imageEditor.getCanvasSize();\n    let nWidth = editorDimension.width;\n    let nHeight = editorDimension.height;\n    let oImageData = {\n        \"src\": sImageSrc,\n        \"width\": nWidth,\n        \"height\": nHeight,\n        \"replaceMode\": \"original\"\n    };\n    window.Asc.plugin.executeMethod (\"PutImageDataToSelection\", [oImageData]);\n    window.Asc.plugin.executeCommand(\"close\", \"\");\n};\n```\n\n## Try it\n\n```js document-builder\nwindow.saveImage = function () {\n    let sImageSrc = imageEditor.toDataURL();\n    let editorDimension = imageEditor.getCanvasSize();\n    let nWidth = editorDimension.width;\n    let nHeight = editorDimension.height;\n    let oImageData = {\n        \"src\": sImageSrc,\n        \"width\": nWidth,\n        \"height\": nHeight,\n        \"replaceMode\": \"original\"\n    };\n    window.Asc.plugin.executeMethod (\"PutImageDataToSelection\", [oImageData]);\n    window.Asc.plugin.executeCommand(\"close\", \"\");\n};\n```",
     "kind": "typedef",
@@ -3415,7 +3415,7 @@
     "meta": {
       "lineno": 1432,
       "columnno": 4,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "description": "The plugin object.\n\n## Try it\n\n```js document-builder\nvar oPlugin = {\n    \"url\": \"https://example.com/plugin/config.json\",\n    \"guid\": \"asc.{38E022EA-AD92-45FC-B22B-49DF39746DB4}\",\n    \"canRemoved\": true,\n    \"obj\": {\n        \"baseUrl\": \"\",\n        \"guid\": \"asc.{FFE1F462-1EA2-4391-990D-4CC84940B754}\",\n        \"version\": \"1.0\",\n        \"minVersion\": \"6.3.0\",\n        ...\n    }\n};\n```\n\n## Try it\n\n```js document-builder\nvar oPlugin = {\n    \"url\": \"https://example.com/plugin/config.json\",\n    \"guid\": \"asc.{38E022EA-AD92-45FC-B22B-49DF39746DB4}\",\n    \"canRemoved\": true,\n    \"obj\": {\n        \"baseUrl\": \"\",\n        \"guid\": \"asc.{FFE1F462-1EA2-4391-990D-4CC84940B754}\",\n        \"version\": \"1.0\",\n        \"minVersion\": \"6.3.0\",\n        ...\n    }\n};\n```\n\n## Try it\n\n```js document-builder\nvar oPlugin = {\n    \"url\": \"https://example.com/plugin/config.json\",\n    \"guid\": \"asc.{38E022EA-AD92-45FC-B22B-49DF39746DB4}\",\n    \"canRemoved\": true,\n    \"obj\": {\n        \"baseUrl\": \"\",\n        \"guid\": \"asc.{FFE1F462-1EA2-4391-990D-4CC84940B754}\",\n        \"version\": \"1.0\",\n        \"minVersion\": \"6.3.0\",\n        ...\n    }\n};\n```",
     "kind": "typedef",
@@ -3491,7 +3491,7 @@
     "meta": {
       "lineno": 1798,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "kind": "typedef",
     "name": "ContextMenuItem",
@@ -3605,7 +3605,7 @@
     "meta": {
       "lineno": 1868,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "kind": "typedef",
     "name": "ToolbarMenuMainItem",
@@ -3664,7 +3664,7 @@
     "meta": {
       "lineno": 1860,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "kind": "typedef",
     "name": "ToolbarMenuTab",
@@ -3737,7 +3737,7 @@
     "meta": {
       "lineno": 1844,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "kind": "typedef",
     "name": "ToolbarMenuItem",
@@ -3920,7 +3920,7 @@
     "meta": {
       "lineno": 1839,
       "columnno": 1,
-      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=0ae86a2c90fe4f0bd14d645676bf9a5b273e812f"
+      "file": "https://api.github.com/repos/onlyoffice/sdkjs/contents/common/apiBase_plugins.js?ref=e8e38baa2c25fdc40dcc9a5f5f968eb88d8e39a1"
     },
     "description": "The possible values of the base which the relative vertical position of the toolbar menu item will be calculated from.\n\n## Try it\n\n```js document-builder\nvar sToolbarMenuItemType = \"button\";\nvar oToolbarMenuItem = {\n    \"id\": \"MeaningItem\",\n    \"type\": sToolbarMenuItemType,\n    \"text\": \"Meaning\",\n    \"hint\": \"Meaning\",\n    \"icons\": \"resources/light/icon.png\",\n    \"disabled\": false,\n    \"enableToggle\": false,\n    \"lockInViewMode\": false,\n    \"separator\": true,\n    \"split\": true,\n    \"items\": [\n        {\n            \"id\": \"onMeaningT\",\n            \"text\": \"Explain text in comment\"\n        },\n        {\n            \"id\": \"onFixSpelling\",\n            \"text\": \"Fix spelling & grammar\"\n        },\n        {\n            \"id\": \"onMakeLonger\",\n            \"text\": \"Make longer\"\n        },\n        {\n            \"id\": \"onMakeShorter\",\n            \"text\": \"Make shorter\"\n        }\n    ]\n};\n```",
     "kind": "typedef",
