@@ -16,7 +16,7 @@
                 "name": "Object"
             }
         },
-        "description": "Content control object.\n\n## Try it\n\n ```js document-builder={\"documentType\": \"forms\"}\nvar oContentControl = {\n    \"Tag\": \"Document\",\n    \"Id\": 0,\n    \"Lock\": 0,\n    \"InternalId\": \"1_713\"\n};\n```",
+        "description": "Content control object.\n\n## Try it\n\n ```js document-builder={\"documentType\": \"pdf\"}\nvar oContentControl = {\n    \"Tag\": \"Document\",\n    \"Id\": 0,\n    \"Lock\": 0,\n    \"InternalId\": \"1_713\"\n};\n```",
         "properties": [
             {
                 "type": {
@@ -115,7 +115,7 @@
                 ]
             }
         },
-        "description": "A value that defines if it is possible to delete and/or edit the content control or not:\r* **0** - only deleting\r* **1** - disable deleting or editing\r* **2** - only editing\r* **3** - full access\n\n## Try it\n\n ```js document-builder={\"documentType\": \"forms\"}\nvar arrDocuments = [{\n    \"Props\": {\n        \"Id\": 100,\n        \"Tag\": \"CC_Tag\",\n        \"Lock\": 3\n    },\n    \"Script\": \"var oParagraph = Api.CreateParagraph();oParagraph.AddText('Hello world!');Api.GetDocument().InsertContent([oParagraph]);\"\n}];\nwindow.Asc.plugin.executeMethod(\"InsertAndReplaceContentControls\", [arrDocuments]);\n```",
+        "description": "A value that defines if it is possible to delete and/or edit the content control or not:\r* **0** - only deleting\r* **1** - disable deleting or editing\r* **2** - only editing\r* **3** - full access\n\n## Try it\n\n ```js document-builder={\"documentType\": \"pdf\"}\nvar arrDocuments = [{\n    \"Props\": {\n        \"Id\": 100,\n        \"Tag\": \"CC_Tag\",\n        \"Lock\": 3\n    },\n    \"Script\": \"var oParagraph = Api.CreateParagraph();oParagraph.AddText('Hello world!');Api.GetDocument().InsertContent([oParagraph]);\"\n}];\nwindow.Asc.plugin.executeMethod(\"InsertAndReplaceContentControls\", [arrDocuments]);\n```",
         "longname": "ContentControlLock",
         "scope": "global",
         "see": [
@@ -131,7 +131,7 @@
         },
         "kind": "function",
         "name": "GetAllForms",
-        "description": "Returns information about all the forms that have been added to the document.\n\n## Try it\n\n ```js document-builder={\"documentType\": \"forms\"}\nwindow.Asc.plugin.executeMethod (\"GetAllForms\", null, function (data) {\n    for (var i = 0; i < data.length; i++) {\n        if (data[i].Tag == 11) {\n            this.Asc.plugin.executeMethod (\"SelectContentControl\", [data[i].InternalId]);\n            break;\n        }\n    }\n});\n```",
+        "description": "Returns information about all the forms that have been added to the document.\n\n## Try it\n\n ```js document-builder={\"documentType\": \"pdf\"}\nwindow.Asc.plugin.executeMethod (\"GetAllForms\", null, function (data) {\n    for (var i = 0; i < data.length; i++) {\n        if (data[i].Tag == 11) {\n            this.Asc.plugin.executeMethod (\"SelectContentControl\", [data[i].InternalId]);\n            break;\n        }\n    }\n});\n```",
         "memberof": "Api",
         "longname": "GetAllForms",
         "alias": "GetAllForms",
@@ -170,7 +170,7 @@
         },
         "kind": "function",
         "name": "GetFormsByTag",
-        "description": "Returns information about all the forms that have been added to the document with specified tag.\n\n## Try it\n\n ```js document-builder={\"documentType\": \"forms\"}\nwindow.Asc.plugin.executeMethod (\"GetFormsByTag\", [\"{tag}\"], function (data) {\n    for (var i = 0; i < data.length; i++) {\n        if (data[i].InternalId == \"5_556\") {\n            this.Asc.plugin.executeMethod (\"SelectContentControl\", [data[i].InternalId]);\n            break;\n        }\n    }\n});\n```",
+        "description": "Returns information about all the forms that have been added to the document with specified tag.\n\n## Try it\n\n ```js document-builder={\"documentType\": \"pdf\"}\nwindow.Asc.plugin.executeMethod (\"GetFormsByTag\", [\"{tag}\"], function (data) {\n    for (var i = 0; i < data.length; i++) {\n        if (data[i].InternalId == \"5_556\") {\n            this.Asc.plugin.executeMethod (\"SelectContentControl\", [data[i].InternalId]);\n            break;\n        }\n    }\n});\n```",
         "memberof": "Api",
         "longname": "GetFormsByTag",
         "alias": "GetFormsByTag",
@@ -224,7 +224,7 @@
         },
         "kind": "function",
         "name": "SetFormValue",
-        "description": "Sets a value to the specified form.\n\n## Try it\n\n ```js document-builder={\"documentType\": \"forms\"}\nwindow.Asc.plugin.executeMethod (\"SetFormValue\", [\"1_713\", true]);\n```",
+        "description": "Sets a value to the specified form.\n\n## Try it\n\n ```js document-builder={\"documentType\": \"pdf\"}\nwindow.Asc.plugin.executeMethod (\"SetFormValue\", [\"1_713\", true]);\n```",
         "memberof": "Api",
         "longname": "SetFormValue",
         "alias": "SetFormValue",
@@ -279,7 +279,7 @@
         },
         "kind": "function",
         "name": "GetFormValue",
-        "description": "Returns a value of the specified form.\n\n## Try it\n\n ```js document-builder={\"documentType\": \"forms\"}\nwindow.Asc.plugin.executeMethod (\"GetFormValue\", [\"1_713\"], function (res) {\n    console.log (res)\n});\n```",
+        "description": "Returns a value of the specified form.\n\n## Try it\n\n ```js document-builder={\"documentType\": \"pdf\"}\nwindow.Asc.plugin.executeMethod (\"GetFormValue\", [\"1_713\"], function (res) {\n    console.log (res)\n});\n```",
         "memberof": "Api",
         "longname": "GetFormValue",
         "alias": "GetFormValue",
