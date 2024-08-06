@@ -1,0 +1,388 @@
+[
+    {
+        "comment": "/**\r\n\t * Base class.\r\n\t * @global\r\n\t * @class\r\n\t * @name Api\r\n\t */",
+        "meta": {
+            "lineno": 36,
+            "columnno": 1
+        },
+        "kind": "class",
+        "name": "Api",
+        "description": "Base class.",
+        "longname": "Api",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\r\n\t * @typedef {Object} CommentData\r\n\t * The comment data.\r\n\t * @property {string} UserName - The comment author.\r\n\t * @property {string} QuoteText - The quote comment text.\r\n\t * @property {string} Text - The comment text.\r\n\t * @property {string} Time - The time when the comment was posted (in milliseconds).\r\n\t * @property {boolean} Solved - Specifies if the comment is resolved (**true**) or not (**false**).\r\n\t * @property {CommentData[]} Replies - An array containing the comment replies represented as the *CommentData* object.\r\n\t * @see office-js-api/Examples/Plugins/{Editor}/Enumeration/CommentData.js\r\n\t */",
+        "meta": {
+            "lineno": 45,
+            "columnno": 1
+        },
+        "kind": "typedef",
+        "name": "CommentData",
+        "type": {
+            "names": [
+                "Object"
+            ],
+            "parsedType": {
+                "type": "NameExpression",
+                "name": "Object"
+            }
+        },
+        "description": "The comment data.\n\n## Try it\n\n ```js document-builder={\"documentType\": \"cell\"}\nvar oCommentData = {\n    \"UserName\": \"John Smith\",\n    \"Text\": \"comment\",\n    \"Time\": \"1662737941471\",\n    \"Solved\": true,\n    \"Replies\": [\n        {\n            \"UserName\": \"Mark Potato\",\n            \"Text\": \"reply 1\",\n            \"Time\": \"1662740895892\",\n            \"Solved\": false\n        }\n    ]\n};\nwindow.Asc.plugin.executeMethod (\"AddComment\", [oCommentData]);\n```",
+        "properties": [
+            {
+                "type": {
+                    "names": [
+                        "string"
+                    ],
+                    "parsedType": {
+                        "type": "NameExpression",
+                        "name": "string"
+                    }
+                },
+                "name": "UserName",
+                "description": "The comment author."
+            },
+            {
+                "type": {
+                    "names": [
+                        "string"
+                    ],
+                    "parsedType": {
+                        "type": "NameExpression",
+                        "name": "string"
+                    }
+                },
+                "name": "QuoteText",
+                "description": "The quote comment text."
+            },
+            {
+                "type": {
+                    "names": [
+                        "string"
+                    ],
+                    "parsedType": {
+                        "type": "NameExpression",
+                        "name": "string"
+                    }
+                },
+                "name": "Text",
+                "description": "The comment text."
+            },
+            {
+                "type": {
+                    "names": [
+                        "string"
+                    ],
+                    "parsedType": {
+                        "type": "NameExpression",
+                        "name": "string"
+                    }
+                },
+                "name": "Time",
+                "description": "The time when the comment was posted (in milliseconds)."
+            },
+            {
+                "type": {
+                    "names": [
+                        "boolean"
+                    ],
+                    "parsedType": {
+                        "type": "NameExpression",
+                        "name": "boolean"
+                    }
+                },
+                "name": "Solved",
+                "description": "Specifies if the comment is resolved (**true**) or not (**false**)."
+            },
+            {
+                "type": {
+                    "names": [
+                        "Array.<CommentData>"
+                    ],
+                    "parsedType": {
+                        "type": "TypeApplication",
+                        "expression": {
+                            "type": "NameExpression",
+                            "name": "Array"
+                        },
+                        "applications": [
+                            {
+                                "name": "CommentData",
+                                "type": "NameExpression"
+                            }
+                        ]
+                    }
+                },
+                "name": "Replies",
+                "description": "An array containing the comment replies represented as the *CommentData* object."
+            }
+        ],
+        "longname": "CommentData",
+        "scope": "global",
+        "see": [
+            "office-js-api/Examples/Plugins/Cell/Enumeration/CommentData.js"
+        ],
+        "example": "```js\nvar oCommentData = {\n    \"UserName\": \"John Smith\",\n    \"Text\": \"comment\",\n    \"Time\": \"1662737941471\",\n    \"Solved\": true,\n    \"Replies\": [\n        {\n            \"UserName\": \"Mark Potato\",\n            \"Text\": \"reply 1\",\n            \"Time\": \"1662740895892\",\n            \"Solved\": false\n        }\n    ]\n};\nwindow.Asc.plugin.executeMethod (\"AddComment\", [oCommentData]);\n```"
+    },
+    {
+        "comment": "/**\r\n\t * Adds a comment to the workbook.\r\n\t * @memberof Api\r\n\t * @typeofeditors [\"CSE\"]\r\n\t * @alias AddComment\r\n\t * @param {CommentData}  oCommentData - An object which contains the comment data.\r\n\t * @return {string | null} - The comment ID in the string format or null if the comment cannot be added.\r\n\t * @since 7.3.0\r\n\t * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/AddComment.js\r\n\t */",
+        "meta": {
+            "lineno": 67,
+            "columnno": 1
+        },
+        "kind": "function",
+        "since": "7.3.0",
+        "name": "AddComment",
+        "description": "Adds a comment to the workbook.\n\n## Try it\n\n ```js document-builder={\"documentType\": \"cell\"}\nwindow.Asc.plugin.executeMethod (\"AddComment\", [\n    {\n        \"UserName\": \"John Smith\",\n        \"QuoteText\": \"text\",\n        \"Text\": \"comment\",\n        \"Time\": \"1662737941471\",\n        \"Solved\": true,\n        \"Replies\": [\n            {\n                \"UserName\": \"Mark Potato\",\n                \"Text\": \"reply 1\",\n                \"Time\": \"1662740895892\",\n                \"Solved\": false\n            }\n        ]\n    }\n], function (comment) {\n    console.log (comment)\n});\n```",
+        "memberof": "Api",
+        "longname": "AddComment",
+        "alias": "AddComment",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "CommentData"
+                    ],
+                    "parsedType": {
+                        "type": "NameExpression",
+                        "name": "CommentData"
+                    }
+                },
+                "name": "oCommentData",
+                "description": "An object which contains the comment data."
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "string",
+                        "null"
+                    ],
+                    "parsedType": {
+                        "type": "TypeUnion",
+                        "elements": [
+                            {
+                                "type": "NameExpression",
+                                "name": "string"
+                            },
+                            {
+                                "type": "NullLiteral"
+                            }
+                        ]
+                    }
+                }
+            }
+        ],
+        "see": [
+            "office-js-api/Examples/Plugins/Cell/Api/Methods/AddComment.js"
+        ],
+        "example": "```js\nwindow.Asc.plugin.executeMethod (\"AddComment\", [\n    {\n        \"UserName\": \"John Smith\",\n        \"QuoteText\": \"text\",\n        \"Text\": \"comment\",\n        \"Time\": \"1662737941471\",\n        \"Solved\": true,\n        \"Replies\": [\n            {\n                \"UserName\": \"Mark Potato\",\n                \"Text\": \"reply 1\",\n                \"Time\": \"1662740895892\",\n                \"Solved\": false\n            }\n        ]\n    }\n], function (comment) {\n    console.log (comment)\n});\n```"
+    },
+    {
+        "comment": "/**\r\n\t * Changes the specified comment.\r\n\t * @memberof Api\r\n\t * @typeofeditors [\"CSE\"]\r\n\t * @alias ChangeComment\r\n\t * @param {string} sId - The comment ID.\r\n\t * @param {CommentData} oCommentData - An object which contains the new comment data.\r\n\t * @return {boolean}\r\n\t * @since 7.3.0\r\n\t * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/ChangeComment.js\r\n\t */",
+        "meta": {
+            "lineno": 93,
+            "columnno": 1
+        },
+        "kind": "function",
+        "since": "7.3.0",
+        "name": "ChangeComment",
+        "description": "Changes the specified comment.\n\n## Try it\n\n ```js document-builder={\"documentType\": \"cell\"}\nwindow.Asc.plugin.executeMethod (\"ChangeComment\", [\"1_631\",\n    {\n        \"UserName\": \"John Smith\",\n        \"QuoteText\": \"text\",\n        \"Text\": \"comment\",\n        \"Time\": \"1662737941471\",\n        \"Solved\": true,\n        \"Replies\": [\n            {\n                \"UserName\": \"Mark Potato\",\n                \"Text\": \"reply 1\",\n                \"Time\": \"1662740895892\",\n                \"Solved\": false\n            }\n        ]\n    }\n]);\n```",
+        "memberof": "Api",
+        "longname": "ChangeComment",
+        "alias": "ChangeComment",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "string"
+                    ],
+                    "parsedType": {
+                        "type": "NameExpression",
+                        "name": "string"
+                    }
+                },
+                "name": "sId",
+                "description": "The comment ID."
+            },
+            {
+                "type": {
+                    "names": [
+                        "CommentData"
+                    ],
+                    "parsedType": {
+                        "type": "NameExpression",
+                        "name": "CommentData"
+                    }
+                },
+                "name": "oCommentData",
+                "description": "An object which contains the new comment data."
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "boolean"
+                    ],
+                    "parsedType": {
+                        "type": "NameExpression",
+                        "name": "boolean"
+                    }
+                }
+            }
+        ],
+        "see": [
+            "office-js-api/Examples/Plugins/Cell/Api/Methods/ChangeComment.js"
+        ],
+        "example": "```js\nwindow.Asc.plugin.executeMethod (\"ChangeComment\", [\"1_631\",\n    {\n        \"UserName\": \"John Smith\",\n        \"QuoteText\": \"text\",\n        \"Text\": \"comment\",\n        \"Time\": \"1662737941471\",\n        \"Solved\": true,\n        \"Replies\": [\n            {\n                \"UserName\": \"Mark Potato\",\n                \"Text\": \"reply 1\",\n                \"Time\": \"1662740895892\",\n                \"Solved\": false\n            }\n        ]\n    }\n]);\n```"
+    },
+    {
+        "comment": "/**\r\n\t * Removes the specified comments.\r\n\t * @param {string[]} arrIds - An array which contains the IDs of the specified comments.\r\n\t * @memberof Api\r\n\t * @typeofeditors [\"CSE\"]\r\n\t * @alias RemoveComments\r\n\t * @since 7.3.0\r\n\t * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/RemoveComments.js\r\n\t */",
+        "meta": {
+            "lineno": 116,
+            "columnno": 1
+        },
+        "kind": "function",
+        "since": "7.3.0",
+        "name": "RemoveComments",
+        "description": "Removes the specified comments.\n\n## Try it\n\n ```js document-builder={\"documentType\": \"cell\"}\nwindow.Asc.plugin.executeMethod (\"RemoveComments\", [[\"1_631\", \"1_632\"]]);\n```",
+        "memberof": "Api",
+        "longname": "RemoveComments",
+        "alias": "RemoveComments",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "Array.<string>"
+                    ],
+                    "parsedType": {
+                        "type": "TypeApplication",
+                        "expression": {
+                            "type": "NameExpression",
+                            "name": "Array"
+                        },
+                        "applications": [
+                            {
+                                "name": "string",
+                                "type": "NameExpression"
+                            }
+                        ]
+                    }
+                },
+                "name": "arrIds",
+                "description": "An array which contains the IDs of the specified comments."
+            }
+        ],
+        "see": [
+            "office-js-api/Examples/Plugins/Cell/Api/Methods/RemoveComments.js"
+        ],
+        "example": "```js\nwindow.Asc.plugin.executeMethod (\"RemoveComments\", [[\"1_631\", \"1_632\"]]);\n```"
+    },
+    {
+        "comment": "/**\r\n\t * Returns all the comments from the document.\r\n\t * @memberof Api\r\n\t * @typeofeditors [\"CSE\"]\r\n\t * @alias GetAllComments\r\n\t * @returns {comment[]} - An array of comment objects containing the comment data.\r\n\t * @since 8.1.0\r\n\t * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/GetAllComments.js\r\n\t */",
+        "meta": {
+            "lineno": 134,
+            "columnno": 1
+        },
+        "kind": "function",
+        "since": "8.1.0",
+        "name": "GetAllComments",
+        "description": "Returns all the comments from the document.\n\n## Try it\n\n ```js document-builder={\"documentType\": \"cell\"}\nwindow.Asc.plugin.executeMethod (\"GetAllComments\", null, function (comments) {\n    Comments = comments;\n    addComments (comments);\n});\n```",
+        "memberof": "Api",
+        "longname": "GetAllComments",
+        "alias": "GetAllComments",
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Array.<comment>"
+                    ],
+                    "parsedType": {
+                        "type": "TypeApplication",
+                        "expression": {
+                            "type": "NameExpression",
+                            "name": "Array"
+                        },
+                        "applications": [
+                            {
+                                "name": "comment",
+                                "type": "NameExpression"
+                            }
+                        ]
+                    }
+                }
+            }
+        ],
+        "see": [
+            "office-js-api/Examples/Plugins/Cell/Api/Methods/GetAllComments.js"
+        ],
+        "example": "```js\nwindow.Asc.plugin.executeMethod (\"GetAllComments\", null, function (comments) {\n    Comments = comments;\n    addComments (comments);\n});\n```"
+    },
+    {
+        "comment": "/**\r\n\t * Returns a library of local custom functions.\r\n\t * @memberof Api\r\n\t * @typeofeditors [\"CSE\"]\r\n\t * @alias GetCustomFunctions\r\n\t * @return {string} A library of custom functions in JSON format.\r\n\t * @since 8.1.0\r\n\t * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/GetCustomFunctions.js\r\n\t */",
+        "meta": {
+            "lineno": 197,
+            "columnno": 1
+        },
+        "kind": "function",
+        "since": "8.1.0",
+        "name": "GetCustomFunctions",
+        "description": "Returns a library of local custom functions.\n\n## Try it\n\n ```js document-builder={\"documentType\": \"cell\"}\nwindow.Asc.plugin.executeMethod (\"GetCustomFunctions\", null, function (res) {\n    console.log (\"First custom function: \" + res[0])\n});\n```",
+        "memberof": "Api",
+        "longname": "GetCustomFunctions",
+        "alias": "GetCustomFunctions",
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "string"
+                    ],
+                    "parsedType": {
+                        "type": "NameExpression",
+                        "name": "string"
+                    }
+                }
+            }
+        ],
+        "see": [
+            "office-js-api/Examples/Plugins/Cell/Api/Methods/GetCustomFunctions.js"
+        ],
+        "example": "```js\nwindow.Asc.plugin.executeMethod (\"GetCustomFunctions\", null, function (res) {\n    console.log (\"First custom function: \" + res[0])\n});\n```"
+    },
+    {
+        "comment": "/**\r\n\t * Updates a library of local custom functions.\r\n\t * @memberof Api\r\n\t * @typeofeditors [\"CSE\"]\r\n\t * @alias SetCustomFunctions\r\n\t * @param {string} jsonString - A library of custom functions in JSON format.\r\n\t * @since 8.1.0\r\n\t * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/SetCustomFunctions.js\r\n\t */",
+        "meta": {
+            "lineno": 220,
+            "columnno": 1
+        },
+        "kind": "function",
+        "since": "8.1.0",
+        "name": "SetCustomFunctions",
+        "description": "Updates a library of local custom functions.\n\n## Try it\n\n ```js document-builder={\"documentType\": \"cell\"}\nwindow.Asc.plugin.executeMethod (\"SetCustomFunctions\", [JSON.stringify (Content)], function () {\n    window.Asc.plugin.executeCommand (\"close\", \"\");\n});\n```",
+        "memberof": "Api",
+        "longname": "SetCustomFunctions",
+        "alias": "SetCustomFunctions",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "string"
+                    ],
+                    "parsedType": {
+                        "type": "NameExpression",
+                        "name": "string"
+                    }
+                },
+                "name": "jsonString",
+                "description": "A library of custom functions in JSON format."
+            }
+        ],
+        "see": [
+            "office-js-api/Examples/Plugins/Cell/Api/Methods/SetCustomFunctions.js"
+        ],
+        "example": "```js\nwindow.Asc.plugin.executeMethod (\"SetCustomFunctions\", [JSON.stringify (Content)], function () {\n    window.Asc.plugin.executeCommand (\"close\", \"\");\n});\n```"
+    }
+]
