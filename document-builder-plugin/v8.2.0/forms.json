@@ -76,7 +76,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Forms/Enumeration/ContentControl.js"
         ],
-        "example": "```js\nvar oContentControl = {\n    \"Tag\": \"Document\",\n    \"Id\": 0,\n    \"Lock\": 0,\n    \"InternalId\": \"1_713\"\n};\n```"
+        "examples": [
+            "var oContentControl = {\n    \"Tag\": \"Document\",\n    \"Id\": 0,\n    \"Lock\": 0,\n    \"InternalId\": \"1_713\"\n};"
+        ]
     },
     {
         "comment": "/**\r\n     * @typedef {(0 | 1 | 2 | 3)} ContentControlLock\r\n     * A value that defines if it is possible to delete and/or edit the content control or not:\r\n\t * * **0** - only deleting\r\n\t * * **1** - disable deleting or editing\r\n\t * * **2** - only editing\r\n\t * * **3** - full access\r\n     * @see office-js-api/Examples/Plugins/Forms/Enumeration/ContentControlLock.js\r\n\t */",
@@ -121,7 +123,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Forms/Enumeration/ContentControlLock.js"
         ],
-        "example": "```js\nvar arrDocuments = [{\n    \"Props\": {\n        \"Id\": 100,\n        \"Tag\": \"CC_Tag\",\n        \"Lock\": 3\n    },\n    \"Script\": \"var oParagraph = Api.CreateParagraph();oParagraph.AddText('Hello world!');Api.GetDocument().InsertContent([oParagraph]);\"\n}];\nwindow.Asc.plugin.executeMethod(\"InsertAndReplaceContentControls\", [arrDocuments]);\n```"
+        "examples": [
+            "var arrDocuments = [{\n    \"Props\": {\n        \"Id\": 100,\n        \"Tag\": \"CC_Tag\",\n        \"Lock\": 3\n    },\n    \"Script\": \"var oParagraph = Api.CreateParagraph();oParagraph.AddText('Hello world!');Api.GetDocument().InsertContent([oParagraph]);\"\n}];\nwindow.Asc.plugin.executeMethod(\"InsertAndReplaceContentControls\", [arrDocuments]);"
+        ]
     },
     {
         "comment": "/**\r\n\t * Returns information about all the forms that have been added to the document.\r\n\t * @memberof Api\r\n\t * @typeofeditors [\"CDE\"]\r\n\t * @alias GetAllForms\r\n\t * @returns {ContentControl[]} - An array with all the forms from the document.\r\n\t * @see office-js-api/Examples/Plugins/Forms/Api/Methods/GetAllForms.js\r\n\t */",
@@ -160,7 +164,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Forms/Api/Methods/GetAllForms.js"
         ],
-        "example": "```js\nwindow.Asc.plugin.executeMethod (\"GetAllForms\", null, function (data) {\n    for (var i = 0; i < data.length; i++) {\n        if (data[i].Tag == 11) {\n            this.Asc.plugin.executeMethod (\"SelectContentControl\", [data[i].InternalId]);\n            break;\n        }\n    }\n});\n```"
+        "examples": [
+            "window.Asc.plugin.executeMethod (\"GetAllForms\", null, function (data) {\n    for (var i = 0; i < data.length; i++) {\n        if (data[i].Tag == 11) {\n            this.Asc.plugin.executeMethod (\"SelectContentControl\", [data[i].InternalId]);\n            break;\n        }\n    }\n});"
+        ]
     },
     {
         "comment": "/**\r\n\t * Returns information about all the forms that have been added to the document with specified tag.\r\n\t * @memberof Api\r\n\t * @typeofeditors [\"CDE\"]\r\n\t * @alias GetFormsByTag\r\n\t * @param {string} tag - The form tag.\r\n\t * @returns {ContentControl[]} - An array with all the forms from the document with the specified tag.\r\n\t * @see office-js-api/Examples/Plugins/Forms/Api/Methods/GetFormsByTag.js\r\n\t */",
@@ -214,7 +220,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Forms/Api/Methods/GetFormsByTag.js"
         ],
-        "example": "```js\nwindow.Asc.plugin.executeMethod (\"GetFormsByTag\", [\"{tag}\"], function (data) {\n    for (var i = 0; i < data.length; i++) {\n        if (data[i].InternalId == \"5_556\") {\n            this.Asc.plugin.executeMethod (\"SelectContentControl\", [data[i].InternalId]);\n            break;\n        }\n    }\n});\n```"
+        "examples": [
+            "window.Asc.plugin.executeMethod (\"GetFormsByTag\", [\"{tag}\"], function (data) {\n    for (var i = 0; i < data.length; i++) {\n        if (data[i].InternalId == \"5_556\") {\n            this.Asc.plugin.executeMethod (\"SelectContentControl\", [data[i].InternalId]);\n            break;\n        }\n    }\n});"
+        ]
     },
     {
         "comment": "/**\r\n\t * Sets a value to the specified form.\r\n\t * @memberof Api\r\n\t * @typeofeditors [\"CDE\"]\r\n\t * @alias SetFormValue\r\n\t * @param {string} internalId - A unique internal identifier of the form.\r\n\t * @param {string | boolean} value - Form value to be set. Its type depends on the form type.\r\n\t * @see office-js-api/Examples/Plugins/Forms/Api/Methods/SetFormValue.js\r\n\t */",
@@ -269,7 +277,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Forms/Api/Methods/SetFormValue.js"
         ],
-        "example": "```js\nwindow.Asc.plugin.executeMethod (\"SetFormValue\", [\"1_713\", true]);\n```"
+        "examples": [
+            "window.Asc.plugin.executeMethod (\"SetFormValue\", [\"1_713\", true]);"
+        ]
     },
     {
         "comment": "/**\r\n\t * Returns a value of the specified form.\r\n\t * @memberof Api\r\n\t * @typeofeditors [\"CDE\"]\r\n\t * @alias GetFormValue\r\n\t * @param {string} internalId - A unique internal identifier of the form.\r\n\t * @returns {null | string | boolean} The form value in the string or boolean format depending on the form type. The null value means that the form is filled with a placeholder.\r\n\t * @see office-js-api/Examples/Plugins/Forms/Api/Methods/GetFormValue.js\r\n\t */",
@@ -328,6 +338,8 @@
         "see": [
             "office-js-api/Examples/Plugins/Forms/Api/Methods/GetFormValue.js"
         ],
-        "example": "```js\nwindow.Asc.plugin.executeMethod (\"GetFormValue\", [\"1_713\"], function (res) {\n    console.log (res)\n});\n```"
+        "examples": [
+            "window.Asc.plugin.executeMethod (\"GetFormValue\", [\"1_713\"], function (res) {\n    console.log (res)\n});"
+        ]
     }
 ]

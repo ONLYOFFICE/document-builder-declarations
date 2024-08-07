@@ -123,7 +123,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Slide/Enumeration/CommentData.js"
         ],
-        "example": "```js\nvar oCommentData = {\n    \"UserName\": \"John Smith\",\n    \"Text\": \"comment\",\n    \"Time\": \"1662737941471\",\n    \"Solved\": true,\n    \"Replies\": [\n        {\n            \"UserName\": \"Mark Potato\",\n            \"Text\": \"reply 1\",\n            \"Time\": \"1662740895892\",\n            \"Solved\": false\n        }\n    ]\n};\nwindow.Asc.plugin.executeMethod (\"AddComment\", [oCommentData]);\n```"
+        "examples": [
+            "var oCommentData = {\n    \"UserName\": \"John Smith\",\n    \"Text\": \"comment\",\n    \"Time\": \"1662737941471\",\n    \"Solved\": true,\n    \"Replies\": [\n        {\n            \"UserName\": \"Mark Potato\",\n            \"Text\": \"reply 1\",\n            \"Time\": \"1662740895892\",\n            \"Solved\": false\n        }\n    ]\n};\nwindow.Asc.plugin.executeMethod (\"AddComment\", [oCommentData]);"
+        ]
     },
     {
         "comment": "/**\r\n\t * Adds a comment to the presentation.\r\n\t * @memberof Api\r\n\t * @typeofeditors [\"CPE\"]\r\n\t * @alias AddComment\r\n\t * @param {CommentData}  oCommentData - An object which contains the comment data.\r\n\t * @return {string | null} - The comment ID in the string format or null if the comment cannot be added.\r\n\t * @since 7.3.0\r\n\t * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/AddComment.js\r\n\t */",
@@ -178,7 +180,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Slide/Api/Methods/AddComment.js"
         ],
-        "example": "```js\nwindow.Asc.plugin.executeMethod (\"AddComment\", [\n    {\n        \"UserName\": \"John Smith\",\n        \"QuoteText\": \"text\",\n        \"Text\": \"comment\",\n        \"Time\": \"1662737941471\",\n        \"Solved\": true,\n        \"Replies\": [\n            {\n                \"UserName\": \"Mark Potato\",\n                \"Text\": \"reply 1\",\n                \"Time\": \"1662740895892\",\n                \"Solved\": false\n            }\n        ]\n    }\n], function (comment) {\n    console.log (comment)\n});\n```"
+        "examples": [
+            "window.Asc.plugin.executeMethod (\"AddComment\", [\n    {\n        \"UserName\": \"John Smith\",\n        \"QuoteText\": \"text\",\n        \"Text\": \"comment\",\n        \"Time\": \"1662737941471\",\n        \"Solved\": true,\n        \"Replies\": [\n            {\n                \"UserName\": \"Mark Potato\",\n                \"Text\": \"reply 1\",\n                \"Time\": \"1662740895892\",\n                \"Solved\": false\n            }\n        ]\n    }\n], function (comment) {\n    console.log (comment)\n});"
+        ]
     },
     {
         "comment": "/**\r\n\t * Changes the specified comment.\r\n\t * @memberof Api\r\n\t * @typeofeditors [\"CPE\"]\r\n\t * @alias ChangeComment\r\n\t * @param {string} sId - The comment ID.\r\n\t * @param {CommentData} oCommentData - An object which contains the new comment data.\r\n\t * @return {boolean}\r\n\t * @since 7.3.0\r\n\t * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/ChangeComment.js\r\n\t */",
@@ -237,7 +241,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Slide/Api/Methods/ChangeComment.js"
         ],
-        "example": "```js\nwindow.Asc.plugin.executeMethod (\"ChangeComment\", [\"1_631\",\n    {\n        \"UserName\": \"John Smith\",\n        \"QuoteText\": \"text\",\n        \"Text\": \"comment\",\n        \"Time\": \"1662737941471\",\n        \"Solved\": true,\n        \"Replies\": [\n            {\n                \"UserName\": \"Mark Potato\",\n                \"Text\": \"reply 1\",\n                \"Time\": \"1662740895892\",\n                \"Solved\": false\n            }\n        ]\n    }\n]);\n```"
+        "examples": [
+            "window.Asc.plugin.executeMethod (\"ChangeComment\", [\"1_631\",\n    {\n        \"UserName\": \"John Smith\",\n        \"QuoteText\": \"text\",\n        \"Text\": \"comment\",\n        \"Time\": \"1662737941471\",\n        \"Solved\": true,\n        \"Replies\": [\n            {\n                \"UserName\": \"Mark Potato\",\n                \"Text\": \"reply 1\",\n                \"Time\": \"1662740895892\",\n                \"Solved\": false\n            }\n        ]\n    }\n]);"
+        ]
     },
     {
         "comment": "/**\r\n\t * Removes the specified comments.\r\n\t * @param {string[]} arrIds - An array which contains the IDs of the specified comments.\r\n\t * @memberof Api\r\n\t * @typeofeditors [\"CPE\"]\r\n\t * @alias RemoveComments\r\n\t * @since 7.3.0\r\n\t * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/RemoveComments.js\r\n\t */",
@@ -279,7 +285,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Slide/Api/Methods/RemoveComments.js"
         ],
-        "example": "```js\nwindow.Asc.plugin.executeMethod (\"RemoveComments\", [[\"1_631\", \"1_632\"]]);\n```"
+        "examples": [
+            "window.Asc.plugin.executeMethod (\"RemoveComments\", [[\"1_631\", \"1_632\"]]);"
+        ]
     },
     {
         "comment": "/**\r\n\t * Returns all the comments from the document.\r\n\t * @memberof Api\r\n\t * @typeofeditors [\"CPE\"]\r\n\t * @alias GetAllComments\r\n\t * @returns {comment[]} - An array of comment objects containing the comment data.\r\n\t * @since 8.1.0\r\n\t * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/GetAllComments.js\r\n\t */",
@@ -319,7 +327,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Slide/Api/Methods/GetAllComments.js"
         ],
-        "example": "```js\nwindow.Asc.plugin.executeMethod (\"GetAllComments\", null, function (comments) {\n    Comments = comments;\n    addComments (comments);\n});\n```"
+        "examples": [
+            "window.Asc.plugin.executeMethod (\"GetAllComments\", null, function (comments) {\n    Comments = comments;\n    addComments (comments);\n});"
+        ]
     },
     {
         "comment": "/**\r\n\t * Starts the presentation slide show.\r\n\t * @memberof Api\r\n\t * @typeofeditors [\"CPE\"]\r\n\t * @alias StartSlideShow\r\n\t * @since 8.0.0\r\n\t * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/StartSlideShow.js\r\n\t */",
@@ -337,7 +347,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Slide/Api/Methods/StartSlideShow.js"
         ],
-        "example": "```js\nwindow.Asc.plugin.executeMethod (\"StartSlideShow\");\n```"
+        "examples": [
+            "window.Asc.plugin.executeMethod (\"StartSlideShow\");"
+        ]
     },
     {
         "comment": "/**\r\n\t * Pauses the current slide show.\r\n\t * @memberof Api\r\n\t * @typeofeditors [\"CPE\"]\r\n\t * @alias PauseSlideShow\r\n\t * @since 8.0.0\r\n\t * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/PauseSlideShow.js\r\n\t */",
@@ -355,7 +367,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Slide/Api/Methods/PauseSlideShow.js"
         ],
-        "example": "```js\nwindow.Asc.plugin.executeMethod (\"PauseSlideShow\");\n```"
+        "examples": [
+            "window.Asc.plugin.executeMethod (\"PauseSlideShow\");"
+        ]
     },
     {
         "comment": "/**\r\n\t * Resumes the current slide show.\r\n\t * @memberof Api\r\n\t * @typeofeditors [\"CPE\"]\r\n\t * @alias ResumeSlideShow\r\n\t * @since 8.0.0\r\n\t * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/ResumeSlideShow.js\r\n\t */",
@@ -373,7 +387,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Slide/Api/Methods/ResumeSlideShow.js"
         ],
-        "example": "```js\nwindow.Asc.plugin.executeMethod (\"ResumeSlideShow\");\n```"
+        "examples": [
+            "window.Asc.plugin.executeMethod (\"ResumeSlideShow\");"
+        ]
     },
     {
         "comment": "/**\r\n\t * Ends the current slide show.\r\n\t * @memberof Api\r\n\t * @typeofeditors [\"CPE\"]\r\n\t * @alias EndSlideShow\r\n\t * @since 8.0.0\r\n\t * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/EndSlideShow.js\r\n\t */",
@@ -391,7 +407,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Slide/Api/Methods/EndSlideShow.js"
         ],
-        "example": "```js\nwindow.Asc.plugin.executeMethod (\"EndSlideShow\");\n```"
+        "examples": [
+            "window.Asc.plugin.executeMethod (\"EndSlideShow\");"
+        ]
     },
     {
         "comment": "/**\r\n\t * Displays the slide following the current slide in the slide show.\r\n\t * @memberof Api\r\n\t * @typeofeditors [\"CPE\"]\r\n\t * @alias GoToNextSlideInSlideShow\r\n\t * @since 8.0.0\r\n\t * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/GoToNextSlideInSlideShow.js\r\n\t */",
@@ -409,7 +427,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Slide/Api/Methods/GoToNextSlideInSlideShow.js"
         ],
-        "example": "```js\nwindow.Asc.plugin.executeMethod (\"GoToNextSlideInSlideShow\");\n```"
+        "examples": [
+            "window.Asc.plugin.executeMethod (\"GoToNextSlideInSlideShow\");"
+        ]
     },
     {
         "comment": "/**\r\n\t * Displays the slide following the current slide in the slide show.\r\n\t * @memberof Api\r\n\t * @typeofeditors [\"CPE\"]\r\n\t * @alias GoToPreviousSlideInSlideShow\r\n\t * @since 8.0.0\r\n\t * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/GoToPreviousSlideInSlideShow.js\r\n\t */",
@@ -427,7 +447,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Slide/Api/Methods/GoToPreviousSlideInSlideShow.js"
         ],
-        "example": "```js\nwindow.Asc.plugin.executeMethod (\"GoToPreviousSlideInSlideShow\");\n```"
+        "examples": [
+            "window.Asc.plugin.executeMethod (\"GoToPreviousSlideInSlideShow\");"
+        ]
     },
     {
         "comment": "/**\r\n\t * Displays the slide with the specific index.\r\n\t * @memberof Api\r\n\t * @typeofeditors [\"CPE\"]\r\n\t * @alias GoToSlideInSlideShow\r\n\t * @param {number} nSlideIndex - The slide index.\r\n\t * @since 8.0.0\r\n\t * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/GoToSlideInSlideShow.js\r\n\t */",
@@ -460,6 +482,8 @@
         "see": [
             "office-js-api/Examples/Plugins/Slide/Api/Methods/GoToSlideInSlideShow.js"
         ],
-        "example": "```js\nwindow.Asc.plugin.executeMethod (\"GoToSlideInSlideShow\", [2]);\n```"
+        "examples": [
+            "window.Asc.plugin.executeMethod (\"GoToSlideInSlideShow\", [2]);"
+        ]
     }
 ]

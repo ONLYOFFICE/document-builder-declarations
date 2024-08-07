@@ -88,7 +88,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Word/Enumeration/ContentControl.js"
         ],
-        "example": "```js\nvar oContentControl = {\n    \"Tag\": \"Document\",\n    \"Id\": 0,\n    \"Lock\": 0,\n    \"InternalId\": \"1_713\"\n};\n```"
+        "examples": [
+            "var oContentControl = {\n    \"Tag\": \"Document\",\n    \"Id\": 0,\n    \"Lock\": 0,\n    \"InternalId\": \"1_713\"\n};"
+        ]
     },
     {
         "comment": "/**\r\n     * @typedef {(0 | 1 | 2 | 3)} ContentControlLock\r\n     * A value that defines if it is possible to delete and/or edit the content control or not:\r\n\t * * <b>0</b> - only deleting\r\n\t * * <b>1</b> - disable deleting or editing\r\n\t * * <b>2</b> - only editing\r\n\t * * <b>3</b> - full access\r\n     * @see office-js-api/Examples/Plugins/{Editor}/Enumeration/ContentControlLock.js\r\n\t */",
@@ -133,7 +135,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Word/Enumeration/ContentControlLock.js"
         ],
-        "example": "```js\nvar arrDocuments = [{\n    \"Props\": {\n        \"Id\": 100,\n        \"Tag\": \"CC_Tag\",\n        \"Lock\": 3\n    },\n    \"Script\": \"var oParagraph = Api.CreateParagraph();oParagraph.AddText('Hello world!');Api.GetDocument().InsertContent([oParagraph]);\"\n}];\nwindow.Asc.plugin.executeMethod(\"InsertAndReplaceContentControls\", [arrDocuments]);\n```"
+        "examples": [
+            "var arrDocuments = [{\n    \"Props\": {\n        \"Id\": 100,\n        \"Tag\": \"CC_Tag\",\n        \"Lock\": 3\n    },\n    \"Script\": \"var oParagraph = Api.CreateParagraph();oParagraph.AddText('Hello world!');Api.GetDocument().InsertContent([oParagraph]);\"\n}];\nwindow.Asc.plugin.executeMethod(\"InsertAndReplaceContentControls\", [arrDocuments]);"
+        ]
     },
     {
         "comment": "/**\r\n     * @typedef {(1 | 2 | 3 | 4)} ContentControlType\r\n     * A numeric value that specifies the content control type:\r\n\t * * <b>1</b> - block content control\r\n\t * * <b>2</b> - inline content control\r\n\t * * <b>3</b> - row content control\r\n\t * * <b>4</b> - cell content control\r\n     * @see office-js-api/Examples/Plugins/{Editor}/Enumeration/ContentControlType.js\r\n\t */",
@@ -178,7 +182,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Word/Enumeration/ContentControlType.js"
         ],
-        "example": "```js\nvar nContentControlType = 1;\nwindow.Asc.plugin.executeMethod (\"AddContentControl\", [nContentControlType, {\"Id\" : 7, \"Tag\" : \"{tag}\", \"Lock\" : 0}]);\n```"
+        "examples": [
+            "var nContentControlType = 1;\nwindow.Asc.plugin.executeMethod (\"AddContentControl\", [nContentControlType, {\"Id\" : 7, \"Tag\" : \"{tag}\", \"Lock\" : 0}]);"
+        ]
     },
     {
         "comment": "/**\r\n     * @typedef {Object} ContentControlPropertiesAndContent\r\n     * The content control properties and contents.\r\n     * @property  {ContentControlProperties} [ContentControlProperties = {}] - The content control properties.\r\n     * @property  {string} Script - A script that will be executed to generate the data within the content control (can be replaced with the *Url* parameter).\r\n     * @property  {string} Url - A link to the shared file (can be replaced with the *Script* parameter).\r\n     * @see office-js-api/Examples/Plugins/{Editor}/Enumeration/ContentControlPropertiesAndContent.js\r\n\t */",
@@ -246,7 +252,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Word/Enumeration/ContentControlPropertiesAndContent.js"
         ],
-        "example": "```js\nvar oControlPrContent = {\n    \"Props\": {\n        \"Id\": 100,\n        \"Tag\": \"CC_Tag\",\n        \"Lock\": 3\n    },\n    \"Script\": \"var oParagraph = Api.CreateParagraph();oParagraph.AddText('Hello world!');Api.GetDocument().InsertContent([oParagraph]);\"\n};\nvar arrDocuments = [oControlPrContent];\nwindow.Asc.plugin.executeMethod(\"InsertAndReplaceContentControls\", [arrDocuments]);\n```"
+        "examples": [
+            "var oControlPrContent = {\n    \"Props\": {\n        \"Id\": 100,\n        \"Tag\": \"CC_Tag\",\n        \"Lock\": 3\n    },\n    \"Script\": \"var oParagraph = Api.CreateParagraph();oParagraph.AddText('Hello world!');Api.GetDocument().InsertContent([oParagraph]);\"\n};\nvar arrDocuments = [oControlPrContent];\nwindow.Asc.plugin.executeMethod(\"InsertAndReplaceContentControls\", [arrDocuments]);"
+        ]
     },
     {
         "comment": "/**\r\n     * @typedef {Object} ContentControlProperties\r\n\t * The content control properties.\r\n     * @property {string} Id - A unique identifier of the content control. It can be used to search for a certain content control and make reference to it in the code.\r\n     * @property {string} Tag - A tag assigned to the content control. The same tag can be assigned to several content controls so that it is possible to make reference to them in the code.\r\n     * @property {ContentControlLock} Lock - A value that defines if it is possible to delete and/or edit the content control or not.\r\n     * @property {string} InternalId - A unique internal identifier of the content control.\r\n\t * @property {string} Alias - The alias attribute.\r\n\t * @property {string} PlaceHolderText - The content control placeholder text.\r\n     * @property {number} Appearance - Defines if the content control is shown as the bounding box (**1**) or not (**2**).\r\n     * @property {object} Color - The color for the current content control in the RGB format.\r\n     * @property {number} Color.R - Red color component value.\r\n     * @property {number} Color.G - Green color component value.\r\n     * @property {number} Color.B - Blue color component value.\r\n     * @see office-js-api/Examples/Plugins/{Editor}/Enumeration/ContentControlProperties.js\r\n\t */",
@@ -416,7 +424,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Word/Enumeration/ContentControlProperties.js"
         ],
-        "example": "```js\nvar oContentControlPr = {\n    \"Id\" : 7,\n    \"Tag\" : \"{tag}\",\n    \"Lock\" : 0\n};\nwindow.Asc.plugin.executeMethod (\"AddContentControl\", [1, oContentControlPr]);\n```"
+        "examples": [
+            "var oContentControlPr = {\n    \"Id\" : 7,\n    \"Tag\" : \"{tag}\",\n    \"Lock\" : 0\n};\nwindow.Asc.plugin.executeMethod (\"AddContentControl\", [1, oContentControlPr]);"
+        ]
     },
     {
         "comment": "/**\r\n\t * @typedef {('none' | 'comments' | 'forms' | 'readOnly')} DocumentEditingRestrictions\r\n\t * The document editing restrictions:\r\n\t * * <b>none</b> - no editing restrictions,\r\n\t * * <b>comments</b> - allows editing comments,\r\n\t * * <b>forms</b> - allows editing form fields,\r\n\t * * <b>readOnly</b> - does not allow editing.\r\n\t * @see office-js-api/Examples/Plugins/{Editor}/Enumeration/DocumentEditingRestrictions.js\r\n\t */",
@@ -461,7 +471,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Word/Enumeration/DocumentEditingRestrictions.js"
         ],
-        "example": "```js\nvar sDocumentEditingRestrictions = \"readOnly\";\nwindow.Asc.plugin.executeMethod(\"SetEditingRestrictions\", [sDocumentEditingRestrictions]);\n```"
+        "examples": [
+            "var sDocumentEditingRestrictions = \"readOnly\";\nwindow.Asc.plugin.executeMethod(\"SetEditingRestrictions\", [sDocumentEditingRestrictions]);"
+        ]
     },
     {
         "comment": "/**\r\n\t * @typedef {(\"entirely\" | \"beforeCursor\" | \"afterCursor\")} TextPartType\r\n\t * Specifies if the whole text or only its part will be returned or replaced:\r\n\t * * <b>entirely</b> - replaces/returns the whole text,\r\n\t * * <b>beforeCursor</b> - replaces/returns only the part of the text before the cursor,\r\n\t * * <b>afterCursor</b> - replaces/returns only the part of the text after the cursor.\r\n\t * @see office-js-api/Examples/Plugins/{Editor}/Enumeration/TextPartType.js\r\n\t */",
@@ -501,7 +513,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Word/Enumeration/TextPartType.js"
         ],
-        "example": "```js\nwindow.Asc.plugin.executeMethod (\"GetCurrentWord\", [\"entirely\"], function (res) {\n    console.log (res)\n});\n```"
+        "examples": [
+            "window.Asc.plugin.executeMethod (\"GetCurrentWord\", [\"entirely\"], function (res) {\n    console.log (res)\n});"
+        ]
     },
     {
         "comment": "/**\r\n     * Opens a file with fields.\r\n     * @memberof Api\r\n     * @typeofeditors [\"CDE\"]\r\n     * @alias OpenFile\r\n     * @param {Uint8Array} binaryFile - A file in the format of the 8-bit unsigned integer array.\r\n     * @param {string[]} fields - A list of field values.\r\n     * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/OpenFile.js\r\n\t */",
@@ -555,7 +569,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Word/Api/Methods/OpenFile.js"
         ],
-        "example": "```js\nwindow.Asc.plugin.executeMethod (\"OpenFile\", [[Uint8Array], [\"id\", \"name\"]]);\n```"
+        "examples": [
+            "window.Asc.plugin.executeMethod (\"OpenFile\", [[Uint8Array], [\"id\", \"name\"]]);"
+        ]
     },
     {
         "comment": "/**\r\n     * Returns all fields as a text.\r\n     * @memberof Api\r\n     * @typeofeditors [\"CDE\"]\r\n     * @alias GetFields\r\n     * @returns {string[]} - A list of field values.\r\n     * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/GetFields.js\r\n\t */",
@@ -594,7 +610,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Word/Api/Methods/GetFields.js"
         ],
-        "example": "```js\nwindow.Asc.plugin.executeMethod (\"GetFields\", null, function (res) {\n    console.log (\"First field: \" + res[0])\n});\n```"
+        "examples": [
+            "window.Asc.plugin.executeMethod (\"GetFields\", null, function (res) {\n    console.log (\"First field: \" + res[0])\n});"
+        ]
     },
     {
         "comment": "/**\r\n     * Inserts the content control containing data. The data is specified by the JS code for {@link /docbuilder/basic Document Builder}, or by a link to the shared document.\r\n     * @memberof Api\r\n     * @typeofeditors [\"CDE\"]\r\n     * @alias InsertAndReplaceContentControls\r\n     * @param {ContentControlPropertiesAndContent[]} arrDocuments - An array of properties and contents of the content control.\r\n     * @return {ContentControlProperties[]} - An array of created content control properties.\r\n     * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/InsertAndReplaceContentControls.js\r\n\t */",
@@ -657,7 +675,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Word/Api/Methods/InsertAndReplaceContentControls.js"
         ],
-        "example": "```js\nvar arrDocuments = [{\n    \"Props\": {\n        \"Id\": 100,\n        \"Tag\": \"CC_Tag\",\n        \"Lock\": 3\n    },\n    \"Script\": \"var oParagraph = Api.CreateParagraph();oParagraph.AddText('Hello world!');Api.GetDocument().InsertContent([oParagraph]);\"\n}];\nwindow.Asc.plugin.executeMethod (\"InsertAndReplaceContentControls\", [arrDocuments]);\n```"
+        "examples": [
+            "var arrDocuments = [{\n    \"Props\": {\n        \"Id\": 100,\n        \"Tag\": \"CC_Tag\",\n        \"Lock\": 3\n    },\n    \"Script\": \"var oParagraph = Api.CreateParagraph();oParagraph.AddText('Hello world!');Api.GetDocument().InsertContent([oParagraph]);\"\n}];\nwindow.Asc.plugin.executeMethod (\"InsertAndReplaceContentControls\", [arrDocuments]);"
+        ]
     },
     {
         "comment": "/**\r\n     * Removes several content controls.\r\n     * @memberof Api\r\n     * @typeofeditors [\"CDE\"]\r\n     * @alias RemoveContentControls\r\n     * @param {ContentControl[]} arrDocuments - An array of content control internal IDs. Example: [{\"InternalId\": \"5_556\"}].\r\n     * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/RemoveContentControls.js\r\n\t */",
@@ -698,7 +718,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Word/Api/Methods/RemoveContentControls.js"
         ],
-        "example": "```js\nwindow.Asc.plugin.executeMethod (\"RemoveContentControls\", [[{\"InternalId\": \"5_556\"}]]);\n```"
+        "examples": [
+            "window.Asc.plugin.executeMethod (\"RemoveContentControls\", [[{\"InternalId\": \"5_556\"}]]);"
+        ]
     },
     {
         "comment": "/**\r\n     * Returns information about all the content controls that have been added to the page.\r\n     * @memberof Api\r\n     * @typeofeditors [\"CDE\"]\r\n     * @alias GetAllContentControls\r\n     * @returns {ContentControl[]} - An array of content control objects.\r\n     * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/GetAllContentControls.js\r\n\t */",
@@ -737,7 +759,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Word/Api/Methods/GetAllContentControls.js"
         ],
-        "example": "```js\nvar flagInit = false;\nwindow.Asc.plugin.init = function (text) {\n    if (!flagInit) {\n        this.executeMethod (\"GetAllContentControls\", null, function (data) {\n            for (var i = 0; i < data.length; i++) {\n                if (data[i].Tag == 11) {\n                    this.Asc.plugin.executeMethod (\"SelectContentControl\", [data[i].InternalId]);\n                    break;\n                }\n            }\n        });\n        flagInit = true;\n        ...\n    }\n};\n```"
+        "examples": [
+            "var flagInit = false;\nwindow.Asc.plugin.init = function (text) {\n    if (!flagInit) {\n        this.executeMethod (\"GetAllContentControls\", null, function (data) {\n            for (var i = 0; i < data.length; i++) {\n                if (data[i].Tag == 11) {\n                    this.Asc.plugin.executeMethod (\"SelectContentControl\", [data[i].InternalId]);\n                    break;\n                }\n            }\n        });\n        flagInit = true;\n        ...\n    }\n};"
+        ]
     },
     {
         "comment": "/**\r\n     * @typedef {Object} ContentControlParentPr\r\n     * The content control parent properties.\r\n     * @property  {object} Parent - The content control parent. For example, oParagraph.\r\n     * @property  {number} Pos - The content control position within the parent object.\r\n     * @property  {number} Count - A number of elements in the parent object.\r\n     * @see office-js-api/Examples/Plugins/{Editor}/Enumeration/ContentControlParentPr.js\r\n\t */",
@@ -803,7 +827,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Word/Enumeration/ContentControlParentPr.js"
         ],
-        "example": "```js\nvar oContentControlParentPr = {\n    \"Parent\" : oParagraph,\n    \"Pos\" : 0,\n    \"Count\" : 1\n};\n```"
+        "examples": [
+            "var oContentControlParentPr = {\n    \"Parent\" : oParagraph,\n    \"Pos\" : 0,\n    \"Count\" : 1\n};"
+        ]
     },
     {
         "comment": "/**\r\n     * Removes the currently selected content control retaining all its contents. The content control where the mouse cursor is currently positioned will be removed.\r\n     * @memberof Api\r\n     * @typeofeditors [\"CDE\"]\r\n     * @alias RemoveContentControl\r\n     * @param {string} InternalId - A unique internal identifier of the content control.\r\n     * @returns {ContentControlParentPr} - An object which contains the following values: Parent - content control parent, Pos - content control position within the parent object, Count - a number of elements in the parent object.\r\n     * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/RemoveContentControl.js\r\n\t */",
@@ -848,7 +874,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Word/Api/Methods/RemoveContentControl.js"
         ],
-        "example": "```js\nwindow.buttonIDChangeState_click = undefined;\nif (null == returnValue) {\n    window.Asc.plugin.executeMethod (\"AddContentControl\", [1, {\"Id\" : 7, \"Lock\" : 0, \"Tag\" : \"{some text}\"}]);\n}\nelse {\n    window.Asc.plugin.executeMethod (\"RemoveContentControl\", [returnValue]);\n}\n```"
+        "examples": [
+            "window.buttonIDChangeState_click = undefined;\nif (null == returnValue) {\n    window.Asc.plugin.executeMethod (\"AddContentControl\", [1, {\"Id\" : 7, \"Lock\" : 0, \"Tag\" : \"{some text}\"}]);\n}\nelse {\n    window.Asc.plugin.executeMethod (\"RemoveContentControl\", [returnValue]);\n}"
+        ]
     },
     {
         "comment": "/**\r\n     * Returns an identifier of the selected content control (i.e. the content control where the mouse cursor is currently positioned).\r\n     * @memberof Api\r\n     * @typeofeditors [\"CDE\"]\r\n     * @alias GetCurrentContentControl\r\n     * @returns {string} - The content control internal ID.\r\n     * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/GetCurrentContentControl.js\r\n\t */",
@@ -878,7 +906,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Word/Api/Methods/GetCurrentContentControl.js"
         ],
-        "example": "```js\ndocument.getElementById (\"buttonIDChangeState\").onclick = function () {\n    var _Control = [];\n    window.buttonIDChangeState_click = true;\n    window.Asc.plugin.executeMethod(\"GetCurrentContentControl\");\n};\n```"
+        "examples": [
+            "document.getElementById (\"buttonIDChangeState\").onclick = function () {\n    var _Control = [];\n    window.buttonIDChangeState_click = true;\n    window.Asc.plugin.executeMethod(\"GetCurrentContentControl\");\n};"
+        ]
     },
     {
         "comment": "/**\r\n     * Returns the current content control properties.\r\n     * @memberof Api\r\n     * @typeofeditors [\"CDE\"]\r\n     * @alias GetCurrentContentControlPr\r\n\t * @param {string} contentFormat - The content format (\"none\", \"text\", \"html\", \"ole\" or \"desktop\").\r\n     * @returns {ContentControlProperties} - The content control properties.\r\n     * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/GetCurrentContentControlPr.js\r\n\t */",
@@ -923,7 +953,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Word/Api/Methods/GetCurrentContentControlPr.js"
         ],
-        "example": "```js\nwindow.Asc.plugin.event_onClick = function (isSelectionUse) {\n    window.Asc.plugin.executeMethod (\"GetCurrentContentControlPr\", [], function (obj) {\n        window.Asc.plugin.currentContentControl = obj;\n        var controlTag = obj ? obj.Tag : \"\";\n        if (isSelectionUse)\n            controlTag = \"\";\n        ... \n    }); \n}; \n```"
+        "examples": [
+            "window.Asc.plugin.event_onClick = function (isSelectionUse) {\n    window.Asc.plugin.executeMethod (\"GetCurrentContentControlPr\", [], function (obj) {\n        window.Asc.plugin.currentContentControl = obj;\n        var controlTag = obj ? obj.Tag : \"\";\n        if (isSelectionUse)\n            controlTag = \"\";\n        ... \n    }); \n}; "
+        ]
     },
     {
         "comment": "/**\r\n     * Selects the specified content control.\r\n     * @memberof Api\r\n     * @typeofeditors [\"CDE\"]\r\n     * @alias SelectContentControl\r\n     * @param {string} id - A unique internal identifier of the content control.\r\n     * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/SelectContentControl.js\r\n\t */",
@@ -955,7 +987,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Word/Api/Methods/SelectContentControl.js"
         ],
-        "example": "```js\nwindow.Asc.plugin.executeMethod (\"SelectContentControl\", [\"5_665\"]);\n```"
+        "examples": [
+            "window.Asc.plugin.executeMethod (\"SelectContentControl\", [\"5_665\"]);"
+        ]
     },
     {
         "comment": "/**\r\n     * Moves a cursor to the specified content control.\r\n     * @memberof Api\r\n     * @typeofeditors [\"CDE\"]\r\n     * @alias MoveCursorToContentControl\r\n     * @param {string} id - A unique internal identifier of the content control.\r\n     * @param {boolean} [isBegin = false] - Defines if the cursor position changes in the content control. By default, a cursor will be placed to the content control begin (**false**).\r\n     * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/MoveCursorToContentControl.js\r\n\t */",
@@ -1002,7 +1036,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Word/Api/Methods/MoveCursorToContentControl.js"
         ],
-        "example": "```js\nwindow.Asc.plugin.executeMethod (\"MoveCursorToContentControl\", [\"2_839\", false]);\n```"
+        "examples": [
+            "window.Asc.plugin.executeMethod (\"MoveCursorToContentControl\", [\"2_839\", false]);"
+        ]
     },
     {
         "comment": "/**\r\n     * Removes the selected content from the document.\r\n     * @memberof Api\r\n     * @typeofeditors [\"CDE\"]\r\n     * @alias RemoveSelectedContent\r\n     * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/RemoveSelectedContent.js\r\n\t */",
@@ -1019,7 +1055,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Word/Api/Methods/RemoveSelectedContent.js"
         ],
-        "example": "```js\nwindow.Asc.plugin.executeMethod (\"RemoveSelectedContent\");\n```"
+        "examples": [
+            "window.Asc.plugin.executeMethod (\"RemoveSelectedContent\");"
+        ]
     },
     {
         "comment": "/**\r\n\t * @typedef {Object} comment\r\n\t * Comment object.\r\n\t * @property {string} Id - The comment ID.\r\n\t * @property {CommentData} Data - An object which contains the comment data.\r\n\t * @see office-js-api/Examples/Plugins/{Editor}/Enumeration/comment.js\r\n\t */",
@@ -1072,7 +1110,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Word/Enumeration/comment.js"
         ],
-        "example": "```js\nvar comment = {\n    \"Id\": \"1_631\",\n    \"Data\": {\n        \"UserName\": \"John Smith\",\n        \"Text\": \"comment\",\n        \"Time\": \"1662737941471\",\n        \"Solved\": true,\n        \"Replies\": [\n            {\n                \"UserName\": \"Mark Potato\",\n                \"Text\": \"reply 1\",\n                \"Time\": \"1662740895892\",\n                \"Solved\": false\n            }\n        ]\n    }\n}\n```"
+        "examples": [
+            "var comment = {\n    \"Id\": \"1_631\",\n    \"Data\": {\n        \"UserName\": \"John Smith\",\n        \"Text\": \"comment\",\n        \"Time\": \"1662737941471\",\n        \"Solved\": true,\n        \"Replies\": [\n            {\n                \"UserName\": \"Mark Potato\",\n                \"Text\": \"reply 1\",\n                \"Time\": \"1662740895892\",\n                \"Solved\": false\n            }\n        ]\n    }\n}"
+        ]
     },
     {
         "comment": "/**\r\n\t * @typedef {Object} CommentData\r\n\t * The comment data.\r\n\t * @property {string} UserName - The comment author.\r\n\t * @property {string} QuoteText - The quote comment text.\r\n\t * @property {string} Text - The comment text.\r\n\t * @property {string} Time - The time when the comment was posted (in milliseconds).\r\n\t * @property {boolean} Solved - Specifies if the comment is resolved (**true**) or not (**false**).\r\n\t * @property {CommentData[]} Replies - An array containing the comment replies represented as the *CommentData* object.\r\n\t * @see office-js-api/Examples/Plugins/{Editor}/Enumeration/CommentData.js\r\n\t */",
@@ -1186,7 +1226,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Word/Enumeration/CommentData.js"
         ],
-        "example": "```js\nvar oCommentData = {\n    \"UserName\": \"John Smith\",\n    \"Text\": \"comment\",\n    \"Time\": \"1662737941471\",\n    \"Solved\": true,\n    \"Replies\": [\n        {\n            \"UserName\": \"Mark Potato\",\n            \"Text\": \"reply 1\",\n            \"Time\": \"1662740895892\",\n            \"Solved\": false\n        }\n    ]\n};\nwindow.Asc.plugin.executeMethod (\"AddComment\", [oCommentData]);\n```"
+        "examples": [
+            "var oCommentData = {\n    \"UserName\": \"John Smith\",\n    \"Text\": \"comment\",\n    \"Time\": \"1662737941471\",\n    \"Solved\": true,\n    \"Replies\": [\n        {\n            \"UserName\": \"Mark Potato\",\n            \"Text\": \"reply 1\",\n            \"Time\": \"1662740895892\",\n            \"Solved\": false\n        }\n    ]\n};\nwindow.Asc.plugin.executeMethod (\"AddComment\", [oCommentData]);"
+        ]
     },
     {
         "comment": "/**\r\n\t * Adds a comment to the document.\r\n\t * @memberof Api\r\n\t * @typeofeditors [\"CDE\"]\r\n\t * @alias AddComment\r\n\t * @param {CommentData}  oCommentData - An object which contains the comment data.\r\n\t * @return {string | null} - The comment ID in the string format or null if the comment cannot be added.\r\n\t * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/AddComment.js\r\n\t */",
@@ -1240,7 +1282,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Word/Api/Methods/AddComment.js"
         ],
-        "example": "```js\nwindow.Asc.plugin.executeMethod (\"AddComment\", [\n    {\n        \"UserName\": \"John Smith\",\n        \"QuoteText\": \"text\",\n        \"Text\": \"comment\",\n        \"Time\": \"1662737941471\",\n        \"Solved\": true,\n        \"Replies\": [\n            {\n                \"UserName\": \"Mark Potato\",\n                \"Text\": \"reply 1\",\n                \"Time\": \"1662740895892\",\n                \"Solved\": false\n            }\n        ]\n    }\n], function (comment) {\n    console.log (comment)\n});\n```"
+        "examples": [
+            "window.Asc.plugin.executeMethod (\"AddComment\", [\n    {\n        \"UserName\": \"John Smith\",\n        \"QuoteText\": \"text\",\n        \"Text\": \"comment\",\n        \"Time\": \"1662737941471\",\n        \"Solved\": true,\n        \"Replies\": [\n            {\n                \"UserName\": \"Mark Potato\",\n                \"Text\": \"reply 1\",\n                \"Time\": \"1662740895892\",\n                \"Solved\": false\n            }\n        ]\n    }\n], function (comment) {\n    console.log (comment)\n});"
+        ]
     },
     {
         "comment": "/**\r\n     * Moves a cursor to the beginning of the current editing area (document body, footer/header, footnote, or autoshape).\r\n\t * This method is similar to pressing the <b>Ctrl + Home</b> keyboard shortcut.\r\n     * @memberof Api\r\n     * @typeofeditors [\"CDE\"]\r\n     * @alias MoveCursorToStart\r\n     * @param {boolean} isMoveToMainContent - This flag ignores the current position and always moves a cursor to the beginning of the document body.\r\n     * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/MoveCursorToStart.js\r\n\t */",
@@ -1272,7 +1316,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Word/Api/Methods/MoveCursorToStart.js"
         ],
-        "example": "```js\nwindow.Asc.plugin.executeMethod (\"MoveCursorToStart\", [true]);\n```"
+        "examples": [
+            "window.Asc.plugin.executeMethod (\"MoveCursorToStart\", [true]);"
+        ]
     },
     {
         "comment": "/**\r\n     * Moves a cursor to the end of the current editing area (document body, footer/header, footnote, or autoshape).\r\n\t * This method is similar to pressing the <b>Ctrl + End</b> keyboard shortcut.\r\n     * @memberof Api\r\n     * @typeofeditors [\"CDE\"]\r\n     * @alias MoveCursorToEnd\r\n     * @param {boolean} isMoveToMainContent - This flag ignores the current position and always moves a cursor to the end of the document body.\r\n     * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/MoveCursorToEnd.js\r\n\t */",
@@ -1304,7 +1350,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Word/Api/Methods/MoveCursorToEnd.js"
         ],
-        "example": "```js\nwindow.Asc.plugin.executeMethod (\"MoveCursorToEnd\", [true]);\n```"
+        "examples": [
+            "window.Asc.plugin.executeMethod (\"MoveCursorToEnd\", [true]);"
+        ]
     },
     {
         "comment": "/**\r\n     * Finds and replaces the text.\r\n     * @memberof Api\r\n     * @typeofeditors [\"CDE\"]\r\n     * @alias SearchAndReplace\r\n     * @param {Object} oProperties - An object which contains the search and replacement strings.\r\n     * @param {string} oProperties.searchString - The search string.\r\n     * @param {string} oProperties.replaceString - The replacement string.\r\n     * @param {boolean} [oProperties.matchCase=true] - Case sensitive or not.\r\n     * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/SearchAndReplace.js\r\n\t */",
@@ -1377,7 +1425,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Word/Api/Methods/SearchAndReplace.js"
         ],
-        "example": "```js\nwindow.Asc.plugin.executeMethod (\"SearchAndReplace\", [\n    {\n        \"searchString\": \"text1\",\n        \"replaceString\": \"text2\",\n        \"matchCase\": true\n    }\n]);\n```"
+        "examples": [
+            "window.Asc.plugin.executeMethod (\"SearchAndReplace\", [\n    {\n        \"searchString\": \"text1\",\n        \"replaceString\": \"text2\",\n        \"matchCase\": true\n    }\n]);"
+        ]
     },
     {
         "comment": "/**\r\n\t * Finds and selects the next occurrence of the text starting at the current position.\r\n\t * @memberof Api\r\n\t * @typeofeditors [\"CDE\"]\r\n\t * @alias SearchNext\r\n\t * @param {Object} oProperties - An object which contains the search string.\r\n\t * @param {string} oProperties.searchString - The search string.\r\n\t * @param {boolean} [oProperties.matchCase=true] - Case sensitive or not.\r\n\t * @param {boolean} [isForward=true] - Search direction.\r\n\t * @returns {boolean} returns false if text was not found\r\n\t * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/SearchNext.js\r\n\t */",
@@ -1465,7 +1515,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Word/Api/Methods/SearchNext.js"
         ],
-        "example": "```js\nwindow.Asc.plugin.executeMethod (\"SearchNext\", [\n    {\n        \"searchString\": \"text\",\n        \"matchCase\": true\n    },\n    true\n]);\n```"
+        "examples": [
+            "window.Asc.plugin.executeMethod (\"SearchNext\", [\n    {\n        \"searchString\": \"text\",\n        \"matchCase\": true\n    },\n    true\n]);"
+        ]
     },
     {
         "comment": "/**\r\n     * Returns file content in the HTML format.\r\n     * @memberof Api\r\n     * @typeofeditors [\"CDE\"]\r\n     * @alias GetFileHTML\r\n     * @return {string} - The HTML file content in the string format.\r\n     * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/GetFileHTML.js\r\n\t */",
@@ -1495,7 +1547,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Word/Api/Methods/GetFileHTML.js"
         ],
-        "example": "```js\nwindow.Asc.plugin.executeMethod (\"GetFileHTML\", null, function (res) {\n    console.log (res)\n});\n```"
+        "examples": [
+            "window.Asc.plugin.executeMethod (\"GetFileHTML\", null, function (res) {\n    console.log (res)\n});"
+        ]
     },
     {
         "comment": "/**\r\n\t * Returns all the comments from the document.\r\n\t * @memberof Api\r\n\t * @typeofeditors [\"CDE\"]\r\n\t * @alias GetAllComments\r\n\t * @returns {comment[]} - An array of comment objects containing the comment data.\r\n\t * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/GetAllComments.js\r\n\t */",
@@ -1534,7 +1588,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Word/Api/Methods/GetAllComments.js"
         ],
-        "example": "```js\nwindow.Asc.plugin.executeMethod (\"GetAllComments\", null, function (comments) {\n    Comments = comments;\n    addComments (comments);\n});\n```"
+        "examples": [
+            "window.Asc.plugin.executeMethod (\"GetAllComments\", null, function (comments) {\n    Comments = comments;\n    addComments (comments);\n});"
+        ]
     },
     {
         "comment": "/**\r\n\t * Removes the specified comments.\r\n\t * @param {string[]} arrIds - An array which contains the IDs of the specified comments.\r\n\t * @memberof Api\r\n\t * @typeofeditors [\"CDE\"]\r\n\t * @alias RemoveComments\r\n\t * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/RemoveComments.js\r\n\t */",
@@ -1575,7 +1631,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Word/Api/Methods/RemoveComments.js"
         ],
-        "example": "```js\nwindow.Asc.plugin.executeMethod (\"RemoveComments\", [[\"1_631\", \"1_632\"]]);\n```"
+        "examples": [
+            "window.Asc.plugin.executeMethod (\"RemoveComments\", [[\"1_631\", \"1_632\"]]);"
+        ]
     },
     {
         "comment": "/**\r\n\t * Changes the specified comment.\r\n\t * @memberof Api\r\n\t * @typeofeditors [\"CDE\"]\r\n\t * @alias ChangeComment\r\n\t * @param {string} sId - The comment ID.\r\n\t * @param {CommentData} oCommentData - An object which contains the new comment data.\r\n\t * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/ChangeComment.js\r\n\t */",
@@ -1620,7 +1678,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Word/Api/Methods/ChangeComment.js"
         ],
-        "example": "```js\nwindow.Asc.plugin.executeMethod (\"ChangeComment\", [\"1_631\",\n    {\n        \"UserName\": \"John Smith\",\n        \"QuoteText\": \"text\",\n        \"Text\": \"comment\",\n        \"Time\": \"1662737941471\",\n        \"Solved\": true,\n        \"Replies\": [\n            {\n                \"UserName\": \"Mark Potato\",\n                \"Text\": \"reply 1\",\n                \"Time\": \"1662740895892\",\n                \"Solved\": false\n            }\n        ]\n    }\n]);\n```"
+        "examples": [
+            "window.Asc.plugin.executeMethod (\"ChangeComment\", [\"1_631\",\n    {\n        \"UserName\": \"John Smith\",\n        \"QuoteText\": \"text\",\n        \"Text\": \"comment\",\n        \"Time\": \"1662737941471\",\n        \"Solved\": true,\n        \"Replies\": [\n            {\n                \"UserName\": \"Mark Potato\",\n                \"Text\": \"reply 1\",\n                \"Time\": \"1662740895892\",\n                \"Solved\": false\n            }\n        ]\n    }\n]);"
+        ]
     },
     {
         "comment": "/**\r\n\t * Moves a cursor to the specified comment.\r\n\t * @memberof Api\r\n\t * @typeofeditors [\"CDE\"]\r\n\t * @alias MoveToComment\r\n\t * @param {string} sId - The comment ID.\r\n\t * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/MoveToComment.js\r\n\t */",
@@ -1652,7 +1712,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Word/Api/Methods/MoveToComment.js"
         ],
-        "example": "```js\nwindow.Asc.plugin.executeMethod (\"MoveToComment\", [\"1_631\"]);\n```"
+        "examples": [
+            "window.Asc.plugin.executeMethod (\"MoveToComment\", [\"1_631\"]);"
+        ]
     },
     {
         "comment": "/**\r\n\t * Sets the display mode for track changes.\r\n\t * @memberof Api\r\n\t * @typeofeditors [\"CDE\"]\r\n\t * @alias SetDisplayModeInReview\r\n\t * @param {string} [sMode=\"edit\"] - The display mode:\r\n\t * * <b>edit</b> - all changes are displayed,\r\n\t * * <b>simple</b> - all changes are displayed but the balloons are turned off,\r\n\t * * <b>final</b> - all accepted changes are displayed,\r\n\t * * <b>original</b> - all rejected changes are displayed.\r\n\t * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/SetDisplayModeInReview.js\r\n\t */",
@@ -1686,7 +1748,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Word/Api/Methods/SetDisplayModeInReview.js"
         ],
-        "example": "```js\nwindow.Asc.plugin.executeMethod (\"SetDisplayModeInReview\", [\"edit\"]);\n```"
+        "examples": [
+            "window.Asc.plugin.executeMethod (\"SetDisplayModeInReview\", [\"edit\"]);"
+        ]
     },
     {
         "comment": "/**\r\n\t * Adds an empty content control to the document.\r\n\t * @memberof Api\r\n\t * @typeofeditors [\"CDE\"]\r\n\t * @alias AddContentControl\r\n\t * @param {ContentControlType} type - A numeric value that specifies the content control type. It can have one of the following values: <b>1</b> (block), <b>2</b> (inline), <b>3</b> (row), or <b>4</b> (cell).\r\n\t * @param {ContentControlProperties}  [commonPr = {}] - The common content control properties.\r\n\t * @returns {ContentControl} - A JSON object containing the data about the created content control.\r\n\t * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/AddContentControl.js\r\n\t */",
@@ -1746,7 +1810,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Word/Api/Methods/AddContentControl.js"
         ],
-        "example": "```js\nwindow.Asc.plugin.executeMethod (\"AddContentControl\", [1, {\"Id\" : 7, \"Tag\" : \"{tag}\", \"Lock\" : 0}]);\n```"
+        "examples": [
+            "window.Asc.plugin.executeMethod (\"AddContentControl\", [1, {\"Id\" : 7, \"Tag\" : \"{tag}\", \"Lock\" : 0}]);"
+        ]
     },
     {
         "comment": "/**\r\n\t * @typedef {Object} ContentControlCheckBoxProperties\r\n\t * The content control checkbox properties.\r\n\t * @property {boolean} Checked - Defines if the content control checkbox is checked or not.\r\n\t * @property {number} CheckedSymbol - A symbol in the HTML code format that is used when the checkbox is checked.\r\n\t * @property {number} UncheckedSymbol - A symbol in the HTML code format that is used when the checkbox is not checked.\r\n\t * @see office-js-api/Examples/Plugins/{Editor}/Enumeration/ContentControlCheckBoxProperties.js\r\n\t */",
@@ -1812,7 +1878,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Word/Enumeration/ContentControlCheckBoxProperties.js"
         ],
-        "example": "```js\nvar oControlCkeckBoxPr = {\n    \"Checked\" : false,\n    \"CheckedSymbol\" : 9756,\n    \"UncheckedSymbol\" : 9744\n};\nwindow.Asc.plugin.executeMethod (\"AddContentControlCheckBox\", [oControlCkeckBoxPr, {\"Id\" : 7, \"Tag\" : \"{tag}\", \"Lock\" : 0}]);\n```"
+        "examples": [
+            "var oControlCkeckBoxPr = {\n    \"Checked\" : false,\n    \"CheckedSymbol\" : 9756,\n    \"UncheckedSymbol\" : 9744\n};\nwindow.Asc.plugin.executeMethod (\"AddContentControlCheckBox\", [oControlCkeckBoxPr, {\"Id\" : 7, \"Tag\" : \"{tag}\", \"Lock\" : 0}]);"
+        ]
     },
     {
         "comment": "/**\r\n\t * Adds an empty content control checkbox to the document.\r\n\t * @memberof Api\r\n\t * @typeofeditors [\"CDE\"]\r\n\t * @alias AddContentControlCheckBox\r\n\t * @param {ContentControlCheckBoxProperties}  [checkBoxPr = {}] - The content control checkbox properties.\r\n\t * @param {ContentControlProperties}  [commonPr = {}] - The common content control properties.\r\n\t * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/AddContentControlCheckBox.js\r\n\t */",
@@ -1861,7 +1929,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Word/Api/Methods/AddContentControlCheckBox.js"
         ],
-        "example": "```js\nwindow.Asc.plugin.executeMethod (\"AddContentControlCheckBox\", [\n    {\n        \"Checked\" : false,\n        \"CheckedSymbol\" : 9756,\n        \"UncheckedSymbol\" : 9744\n    },\n    {\n        \"Id\" : 7,\n        \"Tag\" : \"{tag}\",\n        \"Lock\" : 0\n    }\n]);\n```"
+        "examples": [
+            "window.Asc.plugin.executeMethod (\"AddContentControlCheckBox\", [\n    {\n        \"Checked\" : false,\n        \"CheckedSymbol\" : 9756,\n        \"UncheckedSymbol\" : 9744\n    },\n    {\n        \"Id\" : 7,\n        \"Tag\" : \"{tag}\",\n        \"Lock\" : 0\n    }\n]);"
+        ]
     },
     {
         "comment": "/**\r\n\t * Adds an empty content control picture to the document.\r\n\t * @memberof Api\r\n\t * @typeofeditors [\"CDE\"]\r\n\t * @alias AddContentControlPicture\r\n\t * @param {ContentControlProperties}  [commonPr = {}] - The common content control properties.\r\n\t * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/AddContentControlPicture.js\r\n\t */",
@@ -1895,7 +1965,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Word/Api/Methods/AddContentControlPicture.js"
         ],
-        "example": "```js\nwindow.Asc.plugin.executeMethod (\"AddContentControlPicture\", [{\"Id\" : 7, \"Tag\" : \"{tag}\", \"Lock\" : 0}]);\n```"
+        "examples": [
+            "window.Asc.plugin.executeMethod (\"AddContentControlPicture\", [{\"Id\" : 7, \"Tag\" : \"{tag}\", \"Lock\" : 0}]);"
+        ]
     },
     {
         "comment": "/**\r\n\t * Adds an empty content control list to the document.\r\n\t * @memberof Api\r\n\t * @typeofeditors [\"CDE\"]\r\n\t * @alias AddContentControlList\r\n\t * @param {ContentControlType} type - A numeric value that specifies the content control type. It can have one of the following values: <b>1</b> (combo box), <b>0</b> (dropdown list).\r\n\t * @param {Array<String, String>}  [List = [{Display, Value}]] - A list of the content control elements that consists of two items: <b>Display</b> - an item that will be displayed to the user in the content control list, <b>Value</b> - a value of each item from the content control list.\r\n\t * @param {ContentControlProperties}  [commonPr = {}] - The common content control properties.\r\n\t * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/AddContentControlList.js\r\n\t */",
@@ -1970,7 +2042,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Word/Api/Methods/AddContentControlList.js"
         ],
-        "example": "```js\nwindow.Asc.plugin.executeMethod (\"AddContentControlList\", [0,\n    [\n        {\n            \"Display\": \"Item1_D\",\n            \"Value\": \"Item1_V\"\n        },\n        {\n            \"Display\": \"Item2_D\",\n            \"Value\": \"Item2_V\"\n        }\n    ], \n    {\n        \"Id\" : 7,\n        \"Tag\" : \"{tag}\",\n        \"Lock\" : 0\n    }\n]);\n```"
+        "examples": [
+            "window.Asc.plugin.executeMethod (\"AddContentControlList\", [0,\n    [\n        {\n            \"Display\": \"Item1_D\",\n            \"Value\": \"Item1_V\"\n        },\n        {\n            \"Display\": \"Item2_D\",\n            \"Value\": \"Item2_V\"\n        }\n    ], \n    {\n        \"Id\" : 7,\n        \"Tag\" : \"{tag}\",\n        \"Lock\" : 0\n    }\n]);"
+        ]
     },
     {
         "comment": "/**\r\n\t * @typedef {Object} ContentControlDatePickerProperties\r\n\t * The content control datepicker properties.\r\n\t * @property {string} DateFormat - A format in which the date will be displayed.\r\n\t * For example: *\"MM/DD/YYYY\", \"dddd\\,\\ mmmm\\ dd\\,\\ yyyy\", \"DD\\ MMMM\\ YYYY\", \"MMMM\\ DD\\,\\ YYYY\", \"DD-MMM-YY\", \"MMMM\\ YY\", \"MMM-YY\", \"MM/DD/YYYY\\ hh:mm\\ AM/PM\", \"MM/DD/YYYY\\ hh:mm:ss\\ AM/PM\", \"hh:mm\", \"hh:mm:ss\", \"hh:mm\\ AM/PM\", \"hh:mm:ss:\\ AM/PM\"*.\r\n\t * @property {object} Date - The current date and time.\r\n\t * @see office-js-api/Examples/Plugins/{Editor}/Enumeration/ContentControlDatePickerProperties.js\r\n\t */",
@@ -2023,7 +2097,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Word/Enumeration/ContentControlDatePickerProperties.js"
         ],
-        "example": "```js\nvar Date = new window.Date();\nvar oControlDatePickerPr = {\n    \"DateFormat\" : \"DD\\ MMMM\\ YYYY\",\n    \"Date\" : Date\n};\nwindow.Asc.plugin.executeMethod (\"AddContentControlDatePicker\", [oControlDatePickerPr, {\"Id\" : 7, \"Tag\" : \"{tag}\", \"Lock\" : 0}]);\n```"
+        "examples": [
+            "var Date = new window.Date();\nvar oControlDatePickerPr = {\n    \"DateFormat\" : \"DD\\ MMMM\\ YYYY\",\n    \"Date\" : Date\n};\nwindow.Asc.plugin.executeMethod (\"AddContentControlDatePicker\", [oControlDatePickerPr, {\"Id\" : 7, \"Tag\" : \"{tag}\", \"Lock\" : 0}]);"
+        ]
     },
     {
         "comment": "/**\r\n\t * Adds an empty content control datepicker to the document.\r\n\t * @memberof Api\r\n\t * @typeofeditors [\"CDE\"]\r\n\t * @alias AddContentControlDatePicker\r\n\t * @param {ContentControlDatePickerProperties}  [datePickerPr = {}] - The content control datepicker properties.\r\n\t * @param {ContentControlProperties}  [commonPr = {}] - The common content control properties.\r\n\t * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/AddContentControlDatePicker.js\r\n\t */",
@@ -2072,7 +2148,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Word/Api/Methods/AddContentControlDatePicker.js"
         ],
-        "example": "```js\nvar Date = new window.Date();\nwindow.Asc.plugin.executeMethod (\"AddContentControlDatePicker\", [\n    {\n        \"DateFormat\" : \"DD\\ MMMM\\ YYYY\",\n        \"Date\" : Date\n    },\n    {\n        \"Id\" : 7,\n        \"Tag\" : \"{tag}\",\n        \"Lock\" : 0\n    }\n]);\n```"
+        "examples": [
+            "var Date = new window.Date();\nwindow.Asc.plugin.executeMethod (\"AddContentControlDatePicker\", [\n    {\n        \"DateFormat\" : \"DD\\ MMMM\\ YYYY\",\n        \"Date\" : Date\n    },\n    {\n        \"Id\" : 7,\n        \"Tag\" : \"{tag}\",\n        \"Lock\" : 0\n    }\n]);"
+        ]
     },
     {
         "comment": "/**\r\n\t * @typedef {Object} OLEObjectData\r\n\t * The OLE object data.\r\n\t * @property {string} Data - OLE object data (internal format).\r\n\t * @property {string} ImageData - An image in the base64 format stored in the OLE object and used by the plugin.\r\n\t * @property {string} ApplicationId - An identifier of the plugin which can edit the current OLE object and must be of the *asc.{UUID}* type.\r\n\t * @property {string} InternalId - The OLE object identifier which is used to work with OLE object added to the document.\r\n\t * @property {string} ParaDrawingId - An identifier of the drawing object containing the current OLE object.\r\n\t * @property {number} Width - The OLE object width measured in millimeters.\r\n\t * @property {number} Height - The OLE object height measured in millimeters.\r\n\t * @property {?number} WidthPix - The OLE object image width in pixels.\r\n\t * @property {?number} HeightPix - The OLE object image height in pixels.\r\n\t * @see office-js-api/Examples/Plugins/{Editor}/Enumeration/OLEObjectData.js\r\n\t */",
@@ -2218,7 +2296,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Word/Enumeration/OLEObjectData.js"
         ],
-        "example": "```js\nvar oOLEObjectData = {\n    \"Data\": \"{data}\",\n    \"ImageData\": \"data:image/png;base64,image-in-the-base64-format\",\n    \"ApplicationId\": \"asc.{38E022EA-AD92-45FC-B22B-49DF39746DB4}\",\n    \"Width\": 70,\n    \"Height\": 70,\n    \"WidthPix\": 60 * 36000,\n    \"HeightPix\": 60 * 36000\n};\nwindow.Asc.plugin.executeMethod(\"InsertOleObject\", [oOLEObjectData, true]);\n```"
+        "examples": [
+            "var oOLEObjectData = {\n    \"Data\": \"{data}\",\n    \"ImageData\": \"data:image/png;base64,image-in-the-base64-format\",\n    \"ApplicationId\": \"asc.{38E022EA-AD92-45FC-B22B-49DF39746DB4}\",\n    \"Width\": 70,\n    \"Height\": 70,\n    \"WidthPix\": 60 * 36000,\n    \"HeightPix\": 60 * 36000\n};\nwindow.Asc.plugin.executeMethod(\"InsertOleObject\", [oOLEObjectData, true]);"
+        ]
     },
     {
         "comment": "/**\r\n\t * @typedef {Object} AddinFieldData\r\n\t * The addin field data.\r\n\t * @property {string} FieldId - Field identifier.\r\n\t * @property {string} Value - Field value.\r\n\t * @property {string} Content - Field text content.\r\n\t * @see office-js-api/Examples/Plugins/{Editor}/Enumeration/AddinFieldData.js\r\n\t */",
@@ -2284,7 +2364,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Word/Enumeration/AddinFieldData.js"
         ],
-        "example": "```js\nvar oAddinFieldData = {\"FieldId\": \"1\", \"Value\": \"Addin №1\", \"Content\": \"This is the first addin field\"};\nwindow.Asc.plugin.executeMethod(\"AddAddinField\", [oAddinFieldData]);\n```"
+        "examples": [
+            "var oAddinFieldData = {\"FieldId\": \"1\", \"Value\": \"Addin №1\", \"Content\": \"This is the first addin field\"};\nwindow.Asc.plugin.executeMethod(\"AddAddinField\", [oAddinFieldData]);"
+        ]
     },
     {
         "comment": "/**\r\n\t * Returns all OLE object data for objects which can be opened by the specified plugin.\r\n\t * If *sPluginId* is not defined, this method returns all OLE objects contained in the currrent document.\r\n\t * @memberof Api\r\n\t * @typeofeditors [\"CDE\"]\r\n\t * @alias GetAllOleObjects\r\n\t * @param {?string} sPluginId - Plugin identifier. It must be of the *asc.{UUID}* type.\r\n\t * @returns {OLEObjectData[]} - An array of the OLEObjectData objects containing the data about the OLE object parameters.\r\n\t * @since 7.1.0\r\n\t * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/GetAllOleObjects.js\r\n\t */",
@@ -2340,7 +2422,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Word/Api/Methods/GetAllOleObjects.js"
         ],
-        "example": "```js\nwindow.Asc.plugin.executeMethod (\"GetAllOleObjects\", [\"asc.{38E022EA-AD92-45FC-B22B-49DF39746DB4}\"], function (data) {\n    for (var i = 0; i < data.length; i++) {\n        if (data[i].InternalId == \"5_665\") {\n            this.Asc.plugin.executeMethod (\"SelectOleObject\", [data[i].InternalId]);\n            break;\n        }\n    }\n});\n```"
+        "examples": [
+            "window.Asc.plugin.executeMethod (\"GetAllOleObjects\", [\"asc.{38E022EA-AD92-45FC-B22B-49DF39746DB4}\"], function (data) {\n    for (var i = 0; i < data.length; i++) {\n        if (data[i].InternalId == \"5_665\") {\n            this.Asc.plugin.executeMethod (\"SelectOleObject\", [data[i].InternalId]);\n            break;\n        }\n    }\n});"
+        ]
     },
     {
         "comment": "/**\r\n\t * Removes the OLE object from the document by its internal ID.\r\n\t * @memberof Api\r\n\t * @typeofeditors [\"CDE\"]\r\n\t * @alias RemoveOleObject\r\n\t * @param {string} sInternalId - The OLE object identifier which is used to work with OLE object added to the document.\r\n\t * @since 7.1.0\r\n\t * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/RemoveOleObject.js\r\n\t */",
@@ -2373,7 +2457,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Word/Api/Methods/RemoveOleObject.js"
         ],
-        "example": "```js\nwindow.Asc.plugin.executeMethod (\"RemoveOleObject\", [\"5_556\"]);\n```"
+        "examples": [
+            "window.Asc.plugin.executeMethod (\"RemoveOleObject\", [\"5_556\"]);"
+        ]
     },
     {
         "comment": "/**\r\n\t * Removes several OLE objects from the document by their internal IDs.\r\n\t * @memberof Api\r\n\t * @typeofeditors [\"CDE\"]\r\n\t * @alias RemoveOleObjects\r\n\t * @param {OLEObjectData[]} arrObjects An array of the identifiers which are used to work with OLE objects added to the document. Example: [{\"InternalId\": \"5_556\"}].\r\n\t * @since 7.1.0\r\n\t * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/RemoveOleObjects.js\r\n\t */",
@@ -2415,7 +2501,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Word/Api/Methods/RemoveOleObjects.js"
         ],
-        "example": "```js\nwindow.Asc.plugin.executeMethod (\"RemoveOleObjects\", [[{\"InternalId\": \"5_556\"}]]);\n```"
+        "examples": [
+            "window.Asc.plugin.executeMethod (\"RemoveOleObjects\", [[{\"InternalId\": \"5_556\"}]]);"
+        ]
     },
     {
         "comment": "/**\r\n\t * Selects the specified OLE object.\r\n\t * @memberof Api\r\n\t * @typeofeditors [\"CDE\"]\r\n\t * @alias SelectOleObject\r\n\t * @param {string} id - The OLE object identifier which is used to work with OLE object added to the document.\r\n\t * @since 7.1.0\r\n\t * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/SelectOleObject.js\r\n\t */",
@@ -2448,7 +2536,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Word/Api/Methods/SelectOleObject.js"
         ],
-        "example": "```js\nwindow.Asc.plugin.executeMethod (\"SelectOleObject\", [\"5_665\"]);\n```"
+        "examples": [
+            "window.Asc.plugin.executeMethod (\"SelectOleObject\", [\"5_665\"]);"
+        ]
     },
     {
         "comment": "/**\r\n\t * Inserts the OLE object at the current document position.\r\n\t * @memberof Api\r\n\t * @typeofeditors [\"CDE\"]\r\n\t * @alias InsertOleObject\r\n\t * @param {OLEObjectData} NewObject - The OLEObjectData object.\r\n\t * @param {?boolean} bSelect - Defines if the OLE object will be selected after inserting into the document (**true**) or not (**false**).\r\n\t * @since 7.1.0\r\n\t * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/InsertOleObject.js\r\n\t */",
@@ -2495,7 +2585,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Word/Api/Methods/InsertOleObject.js"
         ],
-        "example": "```js\nwindow.Asc.plugin.executeMethod (\"InsertOleObject\", [\n    {\n        \"Data\": \"{data}\",\n        \"ImageData\": \"data:image/png;base64,image-in-the-base64-format\",\n        \"ApplicationId\": \"asc.{38E022EA-AD92-45FC-B22B-49DF39746DB4}\",\n        \"Width\": 70,\n        \"Height\": 70,\n        \"WidthPix\": 60 * 36000,\n        \"HeightPix\": 60 * 36000\n    },\ntrue]);\n```"
+        "examples": [
+            "window.Asc.plugin.executeMethod (\"InsertOleObject\", [\n    {\n        \"Data\": \"{data}\",\n        \"ImageData\": \"data:image/png;base64,image-in-the-base64-format\",\n        \"ApplicationId\": \"asc.{38E022EA-AD92-45FC-B22B-49DF39746DB4}\",\n        \"Width\": 70,\n        \"Height\": 70,\n        \"WidthPix\": 60 * 36000,\n        \"HeightPix\": 60 * 36000\n    },\ntrue]);"
+        ]
     },
     {
         "comment": "/**\r\n\t * Changes the OLE object with the *InternalId* specified in OLE object data.\r\n\t * @memberof Api\r\n\t * @typeofeditors [\"CDE\"]\r\n\t * @alias ChangeOleObject\r\n\t * @param {OLEObjectData} ObjectData - The OLEObjectData object.\r\n\t * @since 7.1.0\r\n\t * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/ChangeOleObject.js\r\n\t */",
@@ -2528,7 +2620,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Word/Api/Methods/ChangeOleObject.js"
         ],
-        "example": "```js\nwindow.Asc.plugin.executeMethod (\"ChangeOleObject\", [\n    {\n        \"Data\": \"{data}\",\n        \"ImageData\": \"data:image/png;base64,image-in-the-base64-format\",\n        \"ApplicationId\": \"asc.{38E022EA-AD92-45FC-B22B-49DF39746DB4}\",\n        \"InternalId\": \"5_556\",\n        \"ParaDrawingId\": \"1_713\",\n        \"Width\": 70,\n        \"Height\": 70,\n        \"WidthPix\": 60 * 36000,\n        \"HeightPix\": 60 * 36000\n    }\n]);\n```"
+        "examples": [
+            "window.Asc.plugin.executeMethod (\"ChangeOleObject\", [\n    {\n        \"Data\": \"{data}\",\n        \"ImageData\": \"data:image/png;base64,image-in-the-base64-format\",\n        \"ApplicationId\": \"asc.{38E022EA-AD92-45FC-B22B-49DF39746DB4}\",\n        \"InternalId\": \"5_556\",\n        \"ParaDrawingId\": \"1_713\",\n        \"Width\": 70,\n        \"Height\": 70,\n        \"WidthPix\": 60 * 36000,\n        \"HeightPix\": 60 * 36000\n    }\n]);"
+        ]
     },
     {
         "comment": "/**\r\n\t * Changes multiple OLE objects with the *InternalIds* specified in OLE object data.\r\n\t * @memberof Api\r\n\t * @typeofeditors [\"CDE\"]\r\n\t * @alias ChangeOleObjects\r\n\t * @param {OLEObjectData[]} arrObjectData - An array of OLE object data.\r\n\t * @since 7.1.0\r\n\t * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/ChangeOleObjects.js\r\n\t */",
@@ -2570,7 +2664,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Word/Api/Methods/ChangeOleObjects.js"
         ],
-        "example": "```js\nwindow.Asc.plugin.executeMethod (\"ChangeOleObjects\", [\n    [\n        {\n            \"Data\": \"{data}\",\n            \"ImageData\": \"data:image/png;base64,image-in-the-base64-format\",\n            \"ApplicationId\": \"asc.{38E022EA-AD92-45FC-B22B-49DF39746DB4}\",\n            \"InternalId\": \"5_556\",\n            \"ParaDrawingId\": \"1_713\",\n            \"Width\": 70,\n            \"Height\": 70,\n            \"WidthPix\": 60 * 36000,\n            \"HeightPix\": 60 * 36000\n        }\n    ]\n]);\n```"
+        "examples": [
+            "window.Asc.plugin.executeMethod (\"ChangeOleObjects\", [\n    [\n        {\n            \"Data\": \"{data}\",\n            \"ImageData\": \"data:image/png;base64,image-in-the-base64-format\",\n            \"ApplicationId\": \"asc.{38E022EA-AD92-45FC-B22B-49DF39746DB4}\",\n            \"InternalId\": \"5_556\",\n            \"ParaDrawingId\": \"1_713\",\n            \"Width\": 70,\n            \"Height\": 70,\n            \"WidthPix\": 60 * 36000,\n            \"HeightPix\": 60 * 36000\n        }\n    ]\n]);"
+        ]
     },
     {
         "comment": "/**\r\n\t * Accepts review changes.\r\n\t * @memberof Api\r\n\t * @typeofeditors [\"CDE\"]\r\n\t * @alias AcceptReviewChanges\r\n\t * @param {boolean} [isAll=false] Specifies if all changes will be accepted (**true**) or only changes from the current selection (**false**).\r\n\t * @since 7.2.1\r\n\t * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/AcceptReviewChanges.js\r\n\t */",
@@ -2605,7 +2701,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Word/Api/Methods/AcceptReviewChanges.js"
         ],
-        "example": "```js\nwindow.Asc.plugin.executeMethod (\"AcceptReviewChanges\", [true]);\n```"
+        "examples": [
+            "window.Asc.plugin.executeMethod (\"AcceptReviewChanges\", [true]);"
+        ]
     },
     {
         "comment": "/**\r\n\t * Rejects review changes.\r\n\t * @memberof Api\r\n\t * @typeofeditors [\"CDE\"]\r\n\t * @alias RejectReviewChanges\r\n\t * @param {boolean} [isAll=false] Specifies if all changes will be rejected (**true**) or only changes from the current selection (**false**).\r\n\t * @since 7.2.1\r\n\t * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/RejectReviewChanges.js\r\n\t */",
@@ -2640,7 +2738,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Word/Api/Methods/RejectReviewChanges.js"
         ],
-        "example": "```js\nwindow.Asc.plugin.executeMethod (\"RejectReviewChanges\", [true]);\n```"
+        "examples": [
+            "window.Asc.plugin.executeMethod (\"RejectReviewChanges\", [true]);"
+        ]
     },
     {
         "comment": "/**\r\n\t * Navigates through the review changes.\r\n\t * @memberof Api\r\n\t * @typeofeditors [\"CDE\"]\r\n\t * @alias MoveToNextReviewChange\r\n\t * @param {boolean} [isForward=true] Specifies whether to navigate to the next (**true**) or previous (**false**) review change.\r\n\t * @since 7.2.1\r\n\t * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/MoveToNextReviewChange.js\r\n\t */",
@@ -2675,7 +2775,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Word/Api/Methods/MoveToNextReviewChange.js"
         ],
-        "example": "```js\nwindow.Asc.plugin.executeMethod (\"MoveToNextReviewChange\", [true]);\n```"
+        "examples": [
+            "window.Asc.plugin.executeMethod (\"MoveToNextReviewChange\", [true]);"
+        ]
     },
     {
         "comment": "/**\r\n\t * Returns all addin fields from the current document.\r\n\t * @memberof Api\r\n\t * @typeofeditors [\"CDE\"]\r\n\t * @alias GetAllAddinFields\r\n\t * @returns {AddinFieldData[]} - An array of the AddinFieldData objects containing the data about the addin fields.\r\n\t * @since 7.3.3\r\n\t * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/GetAllAddinFields.js\r\n\t */",
@@ -2715,7 +2817,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Word/Api/Methods/GetAllAddinFields.js"
         ],
-        "example": "```js\nwindow.Asc.plugin.executeMethod(\"GetAllAddinFields\", null, function(arrFields) {\n\tlet count = 0;\n\tarrFields.forEach(function(field) {\n\t\tif (field.Value.includes(bibPrefix) || field.Value.includes(citPrefix)) {\n\t\t\tcount++;\n\t\t\twindow.Asc.plugin.executeMethod(\"RemoveFieldWrapper\", [field.FieldId], function() {\n\t\t\t\tcount--;\n\t\t\t\tif (!count)\n\t\t\t\t\twindow.Asc.plugin.executeCommand(\"close\", \"\");\n\t\t\t});\n\t\t}\n\t});\n\n\tif (!arrFields.length)\n\t\twindow.Asc.plugin.executeCommand(\"close\", \"\");\n});\n```"
+        "examples": [
+            "window.Asc.plugin.executeMethod(\"GetAllAddinFields\", null, function(arrFields) {\n\tlet count = 0;\n\tarrFields.forEach(function(field) {\n\t\tif (field.Value.includes(bibPrefix) || field.Value.includes(citPrefix)) {\n\t\t\tcount++;\n\t\t\twindow.Asc.plugin.executeMethod(\"RemoveFieldWrapper\", [field.FieldId], function() {\n\t\t\t\tcount--;\n\t\t\t\tif (!count)\n\t\t\t\t\twindow.Asc.plugin.executeCommand(\"close\", \"\");\n\t\t\t});\n\t\t}\n\t});\n\n\tif (!arrFields.length)\n\t\twindow.Asc.plugin.executeCommand(\"close\", \"\");\n});"
+        ]
     },
     {
         "comment": "/**\r\n\t * Updates the addin fields with the specified data.\r\n\t * @memberof Api\r\n\t * @typeofeditors [\"CDE\"]\r\n\t * @alias UpdateAddinFields\r\n\t * @param {AddinFieldData[]} arrData - An array of addin field data.\r\n\t * @since 7.3.3\r\n\t * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/UpdateAddinFields.js\r\n\t */",
@@ -2757,7 +2861,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Word/Api/Methods/UpdateAddinFields.js"
         ],
-        "example": "```js\nvar aAddinFieldData = [{\"FieldId\": \"1\", \"Value\": \"Addin №1\", \"Content\": \"This is the first addin field\"}];\nwindow.Asc.plugin.executeMethod(\"UpdateAddinFields\", [aAddinFieldData]);\n```"
+        "examples": [
+            "var aAddinFieldData = [{\"FieldId\": \"1\", \"Value\": \"Addin №1\", \"Content\": \"This is the first addin field\"}];\nwindow.Asc.plugin.executeMethod(\"UpdateAddinFields\", [aAddinFieldData]);"
+        ]
     },
     {
         "comment": "/**\r\n\t * Creates a new addin field with the data specified in the request.\r\n\t * @memberof Api\r\n\t * @typeofeditors [\"CDE\"]\r\n\t * @alias AddAddinField\r\n\t * @param {AddinFieldData} data - Addin field data.\r\n\t * @since 7.3.3\r\n\t * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/AddAddinField.js\r\n\t */",
@@ -2790,7 +2896,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Word/Api/Methods/AddAddinField.js"
         ],
-        "example": "```js\nvar oAddinFieldData = {\"FieldId\": \"1\", \"Value\": \"Addin №1\", \"Content\": \"This is the first addin field\"};\nwindow.Asc.plugin.executeMethod(\"AddAddinField\", [oAddinFieldData]);\n```"
+        "examples": [
+            "var oAddinFieldData = {\"FieldId\": \"1\", \"Value\": \"Addin №1\", \"Content\": \"This is the first addin field\"};\nwindow.Asc.plugin.executeMethod(\"AddAddinField\", [oAddinFieldData]);"
+        ]
     },
     {
         "comment": "/**\r\n\t * Removes a field wrapper, leaving only the field content.\r\n\t * @memberof Api\r\n\t * @typeofeditors [\"CDE\"]\r\n\t * @alias RemoveFieldWrapper\r\n\t * @param {string} [fieldId=undefined] - Field ID. If it is not specified, then the wrapper of the current field is removed.\r\n\t * @since 7.3.3\r\n\t * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/RemoveFieldWrapper.js\r\n\t */",
@@ -2824,7 +2932,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Word/Api/Methods/RemoveFieldWrapper.js"
         ],
-        "example": "```js\nwindow.Asc.plugin.executeMethod(\"GetAllAddinFields\", null, function(arrFields) {\n\tlet count = 0;\n\tarrFields.forEach(function(field) {\n\t\tif (field.Value.includes(bibPrefix) || field.Value.includes(citPrefix)) {\n\t\t\tcount++;\n\t\t\twindow.Asc.plugin.executeMethod(\"RemoveFieldWrapper\", [field.FieldId], function() {\n\t\t\t\tcount--;\n\t\t\t\tif (!count)\n\t\t\t\t\twindow.Asc.plugin.executeCommand(\"close\", \"\");\n\t\t\t});\n\t\t}\n\t});\n\n\tif (!arrFields.length)\n\t\twindow.Asc.plugin.executeCommand(\"close\", \"\");\n});\n```"
+        "examples": [
+            "window.Asc.plugin.executeMethod(\"GetAllAddinFields\", null, function(arrFields) {\n\tlet count = 0;\n\tarrFields.forEach(function(field) {\n\t\tif (field.Value.includes(bibPrefix) || field.Value.includes(citPrefix)) {\n\t\t\tcount++;\n\t\t\twindow.Asc.plugin.executeMethod(\"RemoveFieldWrapper\", [field.FieldId], function() {\n\t\t\t\tcount--;\n\t\t\t\tif (!count)\n\t\t\t\t\twindow.Asc.plugin.executeCommand(\"close\", \"\");\n\t\t\t});\n\t\t}\n\t});\n\n\tif (!arrFields.length)\n\t\twindow.Asc.plugin.executeCommand(\"close\", \"\");\n});"
+        ]
     },
     {
         "comment": "/**\r\n\t * Sets the document editing restrictions.\r\n\t * @memberof Api\r\n\t * @typeofeditors [\"CDE\"]\r\n\t * @alias SetEditingRestrictions\r\n\t * @param {DocumentEditingRestrictions} restrictions - The document editing restrictions.\r\n\t * @since 7.3.3\r\n\t * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/SetEditingRestrictions.js\r\n\t */",
@@ -2857,7 +2967,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Word/Api/Methods/SetEditingRestrictions.js"
         ],
-        "example": "```js\nwindow.Asc.plugin.executeMethod(\"SetEditingRestrictions\", [\"readOnly\"]);\n```"
+        "examples": [
+            "window.Asc.plugin.executeMethod(\"SetEditingRestrictions\", [\"readOnly\"]);"
+        ]
     },
     {
         "comment": "/**\r\n\t * Returns the current word.\r\n\t * @memberof Api\r\n\t * @typeofeditors [\"CDE\"]\r\n\t * @alias GetCurrentWord\r\n\t * @param {TextPartType} [type=\"entirely\"] - Specifies if the whole word or only its part will be returned.\r\n\t * @returns {string} - A word or its part.\r\n\t * @since 7.4.0\r\n\t * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/GetCurrentWord.js\r\n\t */",
@@ -2905,7 +3017,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Word/Api/Methods/GetCurrentWord.js"
         ],
-        "example": "```js\nwindow.Asc.plugin.executeMethod (\"GetCurrentWord\", [\"entirely\"], function (res) {\n    console.log (res)\n});\n```"
+        "examples": [
+            "window.Asc.plugin.executeMethod (\"GetCurrentWord\", [\"entirely\"], function (res) {\n    console.log (res)\n});"
+        ]
     },
     {
         "comment": "/**\r\n\t * Replaces the current word with the specified string.\r\n\t * @memberof Api\r\n\t * @typeofeditors [\"CDE\"]\r\n\t * @alias ReplaceCurrentWord\r\n\t * @param {string} replaceString - Replacement string.\r\n\t * @param {TextPartType} [type=\"entirely\"] - Specifies if the whole word or only its part will be replaced.\r\n\t * @since 7.4.0\r\n\t * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/ReplaceCurrentWord.js\r\n\t */",
@@ -2953,7 +3067,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Word/Api/Methods/ReplaceCurrentWord.js"
         ],
-        "example": "```js\nwindow.Asc.plugin.executeMethod (\"ReplaceCurrentWord\", [\"ONLYOFFICE\", \"entirely\"]);\n```"
+        "examples": [
+            "window.Asc.plugin.executeMethod (\"ReplaceCurrentWord\", [\"ONLYOFFICE\", \"entirely\"]);"
+        ]
     },
     {
         "comment": "/**\r\n\t * Returns the current sentence.\r\n\t * @memberof Api\r\n\t * @typeofeditors [\"CDE\"]\r\n\t * @alias GetCurrentSentence\r\n\t * @param {TextPartType} [type=\"entirely\"] - Specifies if the whole sentence or only its part will be returned.\r\n\t * @returns {string} - A sentence or its part.\r\n\t * @since 7.4.0\r\n\t * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/GetCurrentSentence.js\r\n\t */",
@@ -3001,7 +3117,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Word/Api/Methods/GetCurrentSentence.js"
         ],
-        "example": "```js\nwindow.Asc.plugin.executeMethod (\"GetCurrentSentence\", [\"entirely\"], function (res) {\n    console.log (res)\n});\n```"
+        "examples": [
+            "window.Asc.plugin.executeMethod (\"GetCurrentSentence\", [\"entirely\"], function (res) {\n    console.log (res)\n});"
+        ]
     },
     {
         "comment": "/**\r\n\t * Replaces the current sentence with the specified string.\r\n\t * @memberof Api\r\n\t * @typeofeditors [\"CDE\"]\r\n\t * @alias ReplaceCurrentSentence\r\n\t * @param {string} replaceString - Replacement string.\r\n\t * @param {TextPartType} [type=\"entirely\"] - Specifies if the whole sentence or only its part will be replaced.\r\n\t * @since 7.4.0\r\n\t * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/ReplaceCurrentSentence.js\r\n\t */",
@@ -3049,7 +3167,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Word/Api/Methods/ReplaceCurrentSentence.js"
         ],
-        "example": "```js\nwindow.Asc.plugin.executeMethod (\"ReplaceCurrentSentence\", [\"ONLYOFFICE\", \"entirely\"]);\n```"
+        "examples": [
+            "window.Asc.plugin.executeMethod (\"ReplaceCurrentSentence\", [\"ONLYOFFICE\", \"entirely\"]);"
+        ]
     },
     {
         "comment": "/**\r\n\t * Undo the user's last action.\r\n\t * @memberof Api\r\n\t * @typeofeditors [\"CDE\"]\r\n\t * @alias Undo\r\n\t * @since 8.2.0\r\n\t */",
@@ -3184,7 +3304,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Forms/Enumeration/ContentControl.js"
         ],
-        "example": "```js\nvar oContentControl = {\n    \"Tag\": \"Document\",\n    \"Id\": 0,\n    \"Lock\": 0,\n    \"InternalId\": \"1_713\"\n};\n```"
+        "examples": [
+            "var oContentControl = {\n    \"Tag\": \"Document\",\n    \"Id\": 0,\n    \"Lock\": 0,\n    \"InternalId\": \"1_713\"\n};"
+        ]
     },
     {
         "comment": "/**\r\n     * @typedef {(0 | 1 | 2 | 3)} ContentControlLock\r\n     * A value that defines if it is possible to delete and/or edit the content control or not:\r\n\t * * **0** - only deleting\r\n\t * * **1** - disable deleting or editing\r\n\t * * **2** - only editing\r\n\t * * **3** - full access\r\n     * @see office-js-api/Examples/Plugins/Forms/Enumeration/ContentControlLock.js\r\n\t */",
@@ -3229,7 +3351,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Forms/Enumeration/ContentControlLock.js"
         ],
-        "example": "```js\nvar arrDocuments = [{\n    \"Props\": {\n        \"Id\": 100,\n        \"Tag\": \"CC_Tag\",\n        \"Lock\": 3\n    },\n    \"Script\": \"var oParagraph = Api.CreateParagraph();oParagraph.AddText('Hello world!');Api.GetDocument().InsertContent([oParagraph]);\"\n}];\nwindow.Asc.plugin.executeMethod(\"InsertAndReplaceContentControls\", [arrDocuments]);\n```"
+        "examples": [
+            "var arrDocuments = [{\n    \"Props\": {\n        \"Id\": 100,\n        \"Tag\": \"CC_Tag\",\n        \"Lock\": 3\n    },\n    \"Script\": \"var oParagraph = Api.CreateParagraph();oParagraph.AddText('Hello world!');Api.GetDocument().InsertContent([oParagraph]);\"\n}];\nwindow.Asc.plugin.executeMethod(\"InsertAndReplaceContentControls\", [arrDocuments]);"
+        ]
     },
     {
         "comment": "/**\r\n\t * Returns information about all the forms that have been added to the document.\r\n\t * @memberof Api\r\n\t * @typeofeditors [\"CDE\"]\r\n\t * @alias GetAllForms\r\n\t * @returns {ContentControl[]} - An array with all the forms from the document.\r\n\t * @see office-js-api/Examples/Plugins/Forms/Api/Methods/GetAllForms.js\r\n\t */",
@@ -3268,7 +3392,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Forms/Api/Methods/GetAllForms.js"
         ],
-        "example": "```js\nwindow.Asc.plugin.executeMethod (\"GetAllForms\", null, function (data) {\n    for (var i = 0; i < data.length; i++) {\n        if (data[i].Tag == 11) {\n            this.Asc.plugin.executeMethod (\"SelectContentControl\", [data[i].InternalId]);\n            break;\n        }\n    }\n});\n```"
+        "examples": [
+            "window.Asc.plugin.executeMethod (\"GetAllForms\", null, function (data) {\n    for (var i = 0; i < data.length; i++) {\n        if (data[i].Tag == 11) {\n            this.Asc.plugin.executeMethod (\"SelectContentControl\", [data[i].InternalId]);\n            break;\n        }\n    }\n});"
+        ]
     },
     {
         "comment": "/**\r\n\t * Returns information about all the forms that have been added to the document with specified tag.\r\n\t * @memberof Api\r\n\t * @typeofeditors [\"CDE\"]\r\n\t * @alias GetFormsByTag\r\n\t * @param {string} tag - The form tag.\r\n\t * @returns {ContentControl[]} - An array with all the forms from the document with the specified tag.\r\n\t * @see office-js-api/Examples/Plugins/Forms/Api/Methods/GetFormsByTag.js\r\n\t */",
@@ -3322,7 +3448,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Forms/Api/Methods/GetFormsByTag.js"
         ],
-        "example": "```js\nwindow.Asc.plugin.executeMethod (\"GetFormsByTag\", [\"{tag}\"], function (data) {\n    for (var i = 0; i < data.length; i++) {\n        if (data[i].InternalId == \"5_556\") {\n            this.Asc.plugin.executeMethod (\"SelectContentControl\", [data[i].InternalId]);\n            break;\n        }\n    }\n});\n```"
+        "examples": [
+            "window.Asc.plugin.executeMethod (\"GetFormsByTag\", [\"{tag}\"], function (data) {\n    for (var i = 0; i < data.length; i++) {\n        if (data[i].InternalId == \"5_556\") {\n            this.Asc.plugin.executeMethod (\"SelectContentControl\", [data[i].InternalId]);\n            break;\n        }\n    }\n});"
+        ]
     },
     {
         "comment": "/**\r\n\t * Sets a value to the specified form.\r\n\t * @memberof Api\r\n\t * @typeofeditors [\"CDE\"]\r\n\t * @alias SetFormValue\r\n\t * @param {string} internalId - A unique internal identifier of the form.\r\n\t * @param {string | boolean} value - Form value to be set. Its type depends on the form type.\r\n\t * @see office-js-api/Examples/Plugins/Forms/Api/Methods/SetFormValue.js\r\n\t */",
@@ -3377,7 +3505,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Forms/Api/Methods/SetFormValue.js"
         ],
-        "example": "```js\nwindow.Asc.plugin.executeMethod (\"SetFormValue\", [\"1_713\", true]);\n```"
+        "examples": [
+            "window.Asc.plugin.executeMethod (\"SetFormValue\", [\"1_713\", true]);"
+        ]
     },
     {
         "comment": "/**\r\n\t * Returns a value of the specified form.\r\n\t * @memberof Api\r\n\t * @typeofeditors [\"CDE\"]\r\n\t * @alias GetFormValue\r\n\t * @param {string} internalId - A unique internal identifier of the form.\r\n\t * @returns {null | string | boolean} The form value in the string or boolean format depending on the form type. The null value means that the form is filled with a placeholder.\r\n\t * @see office-js-api/Examples/Plugins/Forms/Api/Methods/GetFormValue.js\r\n\t */",
@@ -3436,6 +3566,8 @@
         "see": [
             "office-js-api/Examples/Plugins/Forms/Api/Methods/GetFormValue.js"
         ],
-        "example": "```js\nwindow.Asc.plugin.executeMethod (\"GetFormValue\", [\"1_713\"], function (res) {\n    console.log (res)\n});\n```"
+        "examples": [
+            "window.Asc.plugin.executeMethod (\"GetFormValue\", [\"1_713\"], function (res) {\n    console.log (res)\n});"
+        ]
     }
 ]

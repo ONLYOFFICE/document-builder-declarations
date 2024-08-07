@@ -123,7 +123,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Cell/Enumeration/CommentData.js"
         ],
-        "example": "```js\nvar oCommentData = {\n    \"UserName\": \"John Smith\",\n    \"Text\": \"comment\",\n    \"Time\": \"1662737941471\",\n    \"Solved\": true,\n    \"Replies\": [\n        {\n            \"UserName\": \"Mark Potato\",\n            \"Text\": \"reply 1\",\n            \"Time\": \"1662740895892\",\n            \"Solved\": false\n        }\n    ]\n};\nwindow.Asc.plugin.executeMethod (\"AddComment\", [oCommentData]);\n```"
+        "examples": [
+            "var oCommentData = {\n    \"UserName\": \"John Smith\",\n    \"Text\": \"comment\",\n    \"Time\": \"1662737941471\",\n    \"Solved\": true,\n    \"Replies\": [\n        {\n            \"UserName\": \"Mark Potato\",\n            \"Text\": \"reply 1\",\n            \"Time\": \"1662740895892\",\n            \"Solved\": false\n        }\n    ]\n};\nwindow.Asc.plugin.executeMethod (\"AddComment\", [oCommentData]);"
+        ]
     },
     {
         "comment": "/**\r\n\t * Adds a comment to the workbook.\r\n\t * @memberof Api\r\n\t * @typeofeditors [\"CSE\"]\r\n\t * @alias AddComment\r\n\t * @param {CommentData}  oCommentData - An object which contains the comment data.\r\n\t * @return {string | null} - The comment ID in the string format or null if the comment cannot be added.\r\n\t * @since 7.3.0\r\n\t * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/AddComment.js\r\n\t */",
@@ -178,7 +180,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Cell/Api/Methods/AddComment.js"
         ],
-        "example": "```js\nwindow.Asc.plugin.executeMethod (\"AddComment\", [\n    {\n        \"UserName\": \"John Smith\",\n        \"QuoteText\": \"text\",\n        \"Text\": \"comment\",\n        \"Time\": \"1662737941471\",\n        \"Solved\": true,\n        \"Replies\": [\n            {\n                \"UserName\": \"Mark Potato\",\n                \"Text\": \"reply 1\",\n                \"Time\": \"1662740895892\",\n                \"Solved\": false\n            }\n        ]\n    }\n], function (comment) {\n    console.log (comment)\n});\n```"
+        "examples": [
+            "window.Asc.plugin.executeMethod (\"AddComment\", [\n    {\n        \"UserName\": \"John Smith\",\n        \"QuoteText\": \"text\",\n        \"Text\": \"comment\",\n        \"Time\": \"1662737941471\",\n        \"Solved\": true,\n        \"Replies\": [\n            {\n                \"UserName\": \"Mark Potato\",\n                \"Text\": \"reply 1\",\n                \"Time\": \"1662740895892\",\n                \"Solved\": false\n            }\n        ]\n    }\n], function (comment) {\n    console.log (comment)\n});"
+        ]
     },
     {
         "comment": "/**\r\n\t * Changes the specified comment.\r\n\t * @memberof Api\r\n\t * @typeofeditors [\"CSE\"]\r\n\t * @alias ChangeComment\r\n\t * @param {string} sId - The comment ID.\r\n\t * @param {CommentData} oCommentData - An object which contains the new comment data.\r\n\t * @return {boolean}\r\n\t * @since 7.3.0\r\n\t * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/ChangeComment.js\r\n\t */",
@@ -237,7 +241,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Cell/Api/Methods/ChangeComment.js"
         ],
-        "example": "```js\nwindow.Asc.plugin.executeMethod (\"ChangeComment\", [\"1_631\",\n    {\n        \"UserName\": \"John Smith\",\n        \"QuoteText\": \"text\",\n        \"Text\": \"comment\",\n        \"Time\": \"1662737941471\",\n        \"Solved\": true,\n        \"Replies\": [\n            {\n                \"UserName\": \"Mark Potato\",\n                \"Text\": \"reply 1\",\n                \"Time\": \"1662740895892\",\n                \"Solved\": false\n            }\n        ]\n    }\n]);\n```"
+        "examples": [
+            "window.Asc.plugin.executeMethod (\"ChangeComment\", [\"1_631\",\n    {\n        \"UserName\": \"John Smith\",\n        \"QuoteText\": \"text\",\n        \"Text\": \"comment\",\n        \"Time\": \"1662737941471\",\n        \"Solved\": true,\n        \"Replies\": [\n            {\n                \"UserName\": \"Mark Potato\",\n                \"Text\": \"reply 1\",\n                \"Time\": \"1662740895892\",\n                \"Solved\": false\n            }\n        ]\n    }\n]);"
+        ]
     },
     {
         "comment": "/**\r\n\t * Removes the specified comments.\r\n\t * @param {string[]} arrIds - An array which contains the IDs of the specified comments.\r\n\t * @memberof Api\r\n\t * @typeofeditors [\"CSE\"]\r\n\t * @alias RemoveComments\r\n\t * @since 7.3.0\r\n\t * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/RemoveComments.js\r\n\t */",
@@ -279,7 +285,9 @@
         "see": [
             "office-js-api/Examples/Plugins/Cell/Api/Methods/RemoveComments.js"
         ],
-        "example": "```js\nwindow.Asc.plugin.executeMethod (\"RemoveComments\", [[\"1_631\", \"1_632\"]]);\n```"
+        "examples": [
+            "window.Asc.plugin.executeMethod (\"RemoveComments\", [[\"1_631\", \"1_632\"]]);"
+        ]
     },
     {
         "comment": "/**\r\n\t * Returns all the comments from the document.\r\n\t * @memberof Api\r\n\t * @typeofeditors [\"CSE\"]\r\n\t * @alias GetAllComments\r\n\t * @returns {comment[]} - An array of comment objects containing the comment data.\r\n\t * @since 8.1.0\r\n\t * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/GetAllComments.js\r\n\t */",
@@ -319,12 +327,14 @@
         "see": [
             "office-js-api/Examples/Plugins/Cell/Api/Methods/GetAllComments.js"
         ],
-        "example": "```js\nwindow.Asc.plugin.executeMethod (\"GetAllComments\", null, function (comments) {\n    Comments = comments;\n    addComments (comments);\n});\n```"
+        "examples": [
+            "window.Asc.plugin.executeMethod (\"GetAllComments\", null, function (comments) {\n    Comments = comments;\n    addComments (comments);\n});"
+        ]
     },
     {
         "comment": "/**\r\n\t * Returns a library of local custom functions.\r\n\t * @memberof Api\r\n\t * @typeofeditors [\"CSE\"]\r\n\t * @alias GetCustomFunctions\r\n\t * @return {string} A library of custom functions in JSON format.\r\n\t * @since 8.1.0\r\n\t * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/GetCustomFunctions.js\r\n\t */",
         "meta": {
-            "lineno": 197,
+            "lineno": 256,
             "columnno": 1
         },
         "kind": "function",
@@ -350,12 +360,14 @@
         "see": [
             "office-js-api/Examples/Plugins/Cell/Api/Methods/GetCustomFunctions.js"
         ],
-        "example": "```js\nwindow.Asc.plugin.executeMethod (\"GetCustomFunctions\", null, function (res) {\n    console.log (\"First custom function: \" + res[0])\n});\n```"
+        "examples": [
+            "window.Asc.plugin.executeMethod (\"GetCustomFunctions\", null, function (res) {\n    console.log (\"First custom function: \" + res[0])\n});"
+        ]
     },
     {
         "comment": "/**\r\n\t * Updates a library of local custom functions.\r\n\t * @memberof Api\r\n\t * @typeofeditors [\"CSE\"]\r\n\t * @alias SetCustomFunctions\r\n\t * @param {string} jsonString - A library of custom functions in JSON format.\r\n\t * @since 8.1.0\r\n\t * @see office-js-api/Examples/Plugins/{Editor}/Api/Methods/SetCustomFunctions.js\r\n\t */",
         "meta": {
-            "lineno": 220,
+            "lineno": 279,
             "columnno": 1
         },
         "kind": "function",
@@ -383,6 +395,8 @@
         "see": [
             "office-js-api/Examples/Plugins/Cell/Api/Methods/SetCustomFunctions.js"
         ],
-        "example": "```js\nwindow.Asc.plugin.executeMethod (\"SetCustomFunctions\", [JSON.stringify (Content)], function () {\n    window.Asc.plugin.executeCommand (\"close\", \"\");\n});\n```"
+        "examples": [
+            "window.Asc.plugin.executeMethod (\"SetCustomFunctions\", [JSON.stringify (Content)], function () {\n    window.Asc.plugin.executeCommand (\"close\", \"\");\n});"
+        ]
     }
 ]
